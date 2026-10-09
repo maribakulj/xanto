@@ -1,0 +1,44 @@
+DINOv2 — paramètres exécutés et portée du contrôle
+
+Ce document décrit le calcul déjà exécuté le 7 octobre 2026. Il est rédigé après les premiers résultats : ce n’est pas une prérégistration formelle. cv/inputs.json n’a pas été modifié après les résultats. Les paramètres supplémentaires ont été fixés dans le code avant le premier calcul des scores ; aucun réglage n’a ensuite été fait sur les cibles. Le dossier et ses figures étaient déjà connus des assistants qui ont conçu le prototype : il ne s’agit pas d’une conception en aveugle.
+
+Entrées et séparation
+- Seules entrées documentaires consommées par run_cv.py : cv/inputs.json et les trois images qu’il désigne. Les fichiers observations.json, comparisons.json, references.json, les notices et les bundles ne sont pas lus.
+- La région-source est fournie : bbox normalisée [0.441, 0.385, 0.145, 0.267] dans parnassus. Elle n’est pas détectée par le moteur.
+- Les caches autorisés contiennent uniquement les cartes de patches normalisées. Leur clé dépend de l’empreinte de l’image, du modèle, de sa révision, des dimensions traitées, de la version de l’algorithme, de la précision et du périphérique.
+
+Modèle et traitement
+- facebook/dinov2-base, révision f9e44c814b77203eaa57a6bdbbd535f21ede1415 ; chargement local_files_only=True.
+- Inférence initiale sur MPS, float32, mode eval et inference_mode, graine 0. Versions Python, torch et transformers enregistrées dans results.json.
+- Images converties en RGB et redimensionnées avec Pillow bicubic : plus grand côté 728 ; chaque dimension arrondie au multiple de 14 le plus proche. L’arrondi peut légèrement changer le rapport de forme ; aucune correction de perspective ou de courbure n’est appliquée.
+- Dimensions effectives : source 728×560, Apollon 560×728, Pâris 728×700 ; cartes de patches respectivement 52×40, 40×52, 52×50.
+- Processeur du modèle en cache : rescale 1/255, moyenne RGB (0.485,0.456,0.406), écart-type (0.229,0.224,0.225). Redimensionnement et crop central automatiques désactivés.
+- Dernière couche last_hidden_state, tokens de patches seulement ; le token CLS est exclu. Chaque vecteur de patch est normalisé L2. Les patches ont un contexte issu de l’image entière ; ce ne sont pas des inférences séparées de crops.
+
+Descripteur et score
+- La requête est extraite de la carte de la source à partir de sa bbox fournie.
+- Pyramide spatiale 1×1, 2×2 et 3×3. Moyenne des patches dans chaque cellule, calculée par carte intégrale interpolée pour respecter les limites fractionnaires ; normalisation L2 de chaque moyenne.
+- Score : pour chacun des trois niveaux, moyenne des cosinus de ses cellules homologues ; moyenne des trois niveaux. Cela équivaut au cosinus de la concaténation des descripteurs de cellules normalisés, avec une pondération équilibrant les niveaux.
+- Les scores ne sont ni des probabilités, ni une mesure de transmission historique. Aucune calibration de score et aucun seuil de décision ne sont appliqués.
+
+Recherche fixée
+- Fractions de hauteur de fenêtre : 0.18, 0.24, 0.32, 0.42, 0.55, 0.72.
+- Rapport largeur/hauteur tiré de la bbox-source en pixels ; dimensions de fenêtres arrondies à des nombres entiers de patches, minimum 2 patches (28 pixels). Les fenêtres impossibles ou les tailles dupliquées sont ignorées.
+- Pas horizontal et vertical : un patch, soit 14 pixels de l’image traitée. Aucun miroir, rotation, déformation articulée ou raffinement local.
+- Classement par score décroissant, puis suppression des chevauchements IoU > 0.35 ; conservation de cinq propositions. Coordonnées converties en fractions de l’image entière d’origine.
+- 6392 fenêtres source, 5487 Apollon, 7518 Pâris. La bbox exacte de la requête n’est pas injectée comme candidat du contrôle source.
+- Toutes les propositions, y compris les mauvaises correspondances, sont conservées. L’évaluation sur références est exécutée par un autre programme, après localisation.
+
+Limites de comparaison et de provenance
+- Le contrôle dans la source vérifie le fonctionnement de la recherche ; il ne teste pas la généralisation.
+- Les trois images diffèrent par support, couleur, résolution et composition. Une mauvaise localisation reste un résultat du moteur, pas une absence du motif dans l’œuvre.
+- La baseline conserve le rapport d’image avant arrondi au pixel, tandis que DINOv2 arrondit les deux dimensions aux multiples de 14. Les six fractions, le pas nominal et le seuil NMS ont été partagés, mais leurs grilles ne sont pas rigoureusement identiques.
+- Après le premier calcul, seule la provenance script_sha256 a été ajoutée au moteur ; la recherche a été relancée avec les mêmes paramètres et les mêmes cartes en cache. Les propositions n’ont pas changé. duration_seconds décrit le dernier calcul enregistré, avec cache hits signalés.
+- Le contrôle isolation-check.json réexécute le même script dans un dossier temporaire contenant seulement inputs, images et copies des caches. Il compare boîtes, rangs, scores et nombres de candidats aux résultats conservés. Il ne constitue pas un bac à sable système, ne réextrait pas les patches et ne transforme pas la conception préalable en procédure aveugle.
+
+Complément de revue statique — baseline, miroir et portée des scores
+- scripts/cv_baseline.py a été relu intégralement. Hors imports des bibliothèques, ses lectures explicites portent sur cv/inputs.json, les images listées dans ce fichier (octets pour empreintes puis ouverture Pillow), et son propre script pour calculer script_sha256. Il ne lit ni annotations, ni références cibles, ni notices, ni résultats DINO, ni caches. Il écrit cv/baseline_results.json. Ce constat est une revue statique ; la baseline n’a PAS été rejouée en dossier isolé. Le contrôle isolation-check.json concerne uniquement DINOv2.
+- L’absence de recherche en miroir est un choix de périmètre informé par ce dossier, où le relevé assisté suggérait une orientation conservée. Même fixé avant le calcul des scores, ce choix n’est pas celui d’une procédure conçue en aveugle. Aucune conclusion sur les reprises inversées ne peut être tirée ici.
+- Réserve sur reviews/cv/04-claude-resultats.txt : des scores NCC faibles et rapprochés ne démontrent pas, à eux seuls, que le classement est aléatoire, arbitraire ou « non informatif ». Les chiffres arrondis ne prouvent pas des ex æquo dans les valeurs complètes. La marge dépend de l’échelle du score ; une transformation monotone peut changer cette marge sans changer le classement. Sans calibration, réplication ou analyse de stabilité, on décrit seulement des scores rapprochés, dont la fiabilité n’est pas établie.
+- L’IoU maximal parmi les cinq candidats reste un diagnostic de couverture du top 5 choisi à l’aide de la référence ; il ne signifie pas que le moteur a sélectionné cette bonne zone au premier rang. Il doit être distingué du résultat top 1 et ne doit pas être comparé directement à un contrôle composé d’une seule boîte aléatoire. Cela ne suffit pas non plus à démontrer que sa valeur élevée serait due au hasard.
+- Cette réserve interprétative n’a entraîné aucune modification du moteur, de ses paramètres, des entrées ou des propositions conservées, et aucune nouvelle expérience.

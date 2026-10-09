@@ -1,0 +1,75 @@
+[
+  {
+    "id": "parnassus",
+    "title": "Apollon au Parnasse, entouré des Muses et des poètes",
+    "institution": "The Metropolitan Museum of Art, New York",
+    "inventory": "17.37.150 — objet Met 345269",
+    "date": "Vers 1517–1520",
+    "medium": "Gravure au burin ; deuxième état sur cinq",
+    "image": "assets/parnasse-high.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/original/DP854160.jpg",
+    "source_url": "https://www.metmuseum.org/art/collection/search/345269",
+    "image_width": 3658,
+    "image_height": 2832,
+    "physical_dimensions": "Feuille : 35,6 × 46,9 cm (hauteur × largeur), selon la notice du Met.",
+    "image_status": "Image institutionnelle publique, domaine public / Open Access Met. Fichier original téléchargé le 7 octobre 2026, sans édition locale. Le fichier de repli parnasse.jpg est conservé.",
+    "license": "Domaine public — Open Access Met, selon la notice de l’objet.",
+    "attribution_note": "Marcantonio Raimondi d’après Raphaël, selon le Met. Cet exemplaire conservé sert de témoin de comparaison ; il n’est pas identifié comme l’exemplaire consulté par Xanto.",
+    "limitations": [
+      "Les dimensions matérielles décrivent l’objet ; elles ne calibrent pas les pixels de cette photographie.",
+      "Cadrage, angle et agrandissement diffèrent entre témoins. Une ressemblance en pixels ne prouve ni une échelle identique ni un patron de report.",
+      "Deuxième état sur cinq : distinguer l’exemplaire conservé, l’état de l’estampe et la source matériellement employée par Xanto.",
+      "Le pourtour de la feuille et le fond photographique sont inclus ; les repères concernent l’image entière."
+    ]
+  },
+  {
+    "id": "apollo",
+    "title": "Le concours d’Apollon et Pan",
+    "institution": "The Fitzwilliam Museum, Cambridge",
+    "inventory": "C.88-1961 — objet Fitzwilliam 76280",
+    "date": "1531 (daté)",
+    "medium": "Majolique peinte en polychromie, plat sur pied bas",
+    "image": "assets/apollo-pan.jpg",
+    "image_url": "https://data.fitzmuseum.cam.ac.uk/imagestore/aa/aa9/C_88_1961_281_29.jpg",
+    "source_url": "https://data.fitzmuseum.cam.ac.uk/id/object/76280",
+    "image_width": 570,
+    "image_height": 740,
+    "physical_dimensions": "Diamètre : 26,7 cm ; hauteur : 5,6 cm, selon la notice du Fitzwilliam.",
+    "image_status": "© The Fitzwilliam Museum, CC BY-NC-ND ; image institutionnelle de faible résolution. Original du dossier de référence copié sans édition locale le 7 octobre 2026. Aucune image de plus haute résolution n’a été trouvée dans notre accès ciblé à la notice et à son image liée.",
+    "license": "CC BY-NC-ND — version non précisée dans la notice ; © The Fitzwilliam Museum.",
+    "attribution_note": "Francesco Xanto Avelli. La notice rattache Apollon au Parnasse de Marcantonio d’après Raphaël et cite Julia Poole, pp. 336–338. Il s’agit d’une attribution de catalogue.",
+    "limitations": [
+      "Les dimensions matérielles décrivent l’objet ; elles ne calibrent pas les pixels de cette photographie.",
+      "Cadrage, angle et agrandissement diffèrent entre témoins. Une ressemblance en pixels ne prouve ni une échelle identique ni un patron de report.",
+      "Faible résolution : aucun constat précis de doigts ou de contacts fins ne peut être garanti.",
+      "Photographie du recto avec fond ; perspective et surface courbe non corrigées. Le revers inscrit n’est pas visible.",
+      "Les deux notices Fitzwilliam citent le même catalogue de Poole : elles ne constituent pas deux expertises indépendantes du motif."
+    ]
+  },
+  {
+    "id": "paris",
+    "title": "Le jugement de Pâris",
+    "institution": "The Fitzwilliam Museum, Cambridge",
+    "inventory": "C.86-1961 — objet Fitzwilliam 76242",
+    "date": "Vers 1531 (daté 1531)",
+    "medium": "Majolique peinte en polychromie, plat peu profond sur pied bas",
+    "image": "assets/paris-front-high.jpg",
+    "image_url": "https://api.fitz.ms/data-distributor/iiif/image/portfolio-media-4097299176/full/full/0/native.jpg",
+    "source_url": "https://data.fitzmuseum.cam.ac.uk/id/object/76242",
+    "image_width": 4851,
+    "image_height": 4704,
+    "physical_dimensions": "Diamètre : 26,0 cm ; hauteur : 5,0 cm, selon la notice du Fitzwilliam.",
+    "image_status": "© The Fitzwilliam Museum, CC BY-NC-ND 4.0. Recto téléchargé sans édition locale le 7 octobre 2026 depuis le manifeste public https://api.fitz.ms/data-distributor/iiif/object-76242/manifest . Le fichier de repli paris.jpg et l’autre vue publique paris-multiple-high.jpg sont conservés.",
+    "license": "CC BY-NC-ND 4.0 — © The Fitzwilliam Museum, selon le manifeste IIIF.",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "attribution_note": "Francesco Xanto Avelli. La notice rattache Pâris à l’Apollon du Parnasse de Marcantonio d’après Raphaël et cite notamment Julia Poole, pp. 331–332. Il s’agit d’une attribution de catalogue.",
+    "limitations": [
+      "Les dimensions matérielles décrivent l’objet ; elles ne calibrent pas les pixels de cette photographie.",
+      "Cadrage, angle et agrandissement diffèrent entre témoins. Une ressemblance en pixels ne prouve ni une échelle identique ni un patron de report.",
+      "Cadrage différent du repli paris.jpg : les repères concernent exclusivement paris-front-high.jpg.",
+      "Photographie avec fond et ombre portée ; perspective et surface courbe non corrigées. Le revers inscrit n’est pas visible dans l’image comparée.",
+      "La résolution améliore l’inspection mais ne vaut pas expertise des contacts fins.",
+      "Les deux notices Fitzwilliam citent le même catalogue de Poole : elles ne constituent pas deux expertises indépendantes du motif."
+    ]
+  }
+]

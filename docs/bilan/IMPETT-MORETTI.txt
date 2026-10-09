@@ -1,0 +1,64 @@
+IMPETT, MORETTI ET LE CHOIX D'UN CORPS MESURABLE
+Note de lecture critique, 7 octobre 2026
+
+Accès et périmètre
+
+Le PDF Stanford de Totentanz a été téléchargé intégralement, extrait avec pdftotext et lu en entier. Les pages indiquées sont les dix pages imprimées ; ajouter une unité pour la page du PDF. Les figures des pages 6, 7, 8 et 10 ont aussi été examinées visuellement. Le PDF et l'extraction sont conservés dans tmp/pdfs/. Cette note distingue un résumé bref des sources et notre analyse ; elle ne constitue pas une revue exhaustive de Warburg.
+
+Pour 2016, l'accès direct EPFL a échoué avec HTTP 429. La comparaison repose sur la transcription intégrale d'une prépublication portant l'en-tête « ECCV-16 submission ID 24 », accessible chez Paperzz, et sur l'indexation du dépôt EPFL. Sa pagination interne de seize pages ne doit pas être confondue avec les quinze pages de l'édition Springer. Aucune figure de 2016 n'a été contrôlée sur le PDF original.
+
+1. Noyau factuel : Totentanz, 2017
+
+Les auteurs excluent visage et mains : leur lecture de Warburg distingue le pathos qui saisit le corps de l'expression subtile et maîtrisée ; Darwin fournit un contraste, non une simple caution (pp. 2–3). Ils contestent expressément le rapprochement Agamben/Michaud avec De Iorio (p. 3, n. 18). Douze segments deviennent onze angles, après normalisation du tronc et du miroir (p. 4). Le programme distingue forme organisatrice et formule répétée historiquement (p. 5). Il traite 1665 corps de 21 panneaux sur 63 ; k=16 est un compromis pragmatique (p. 6). Les corps agenouillés, assis ou couchés contredisent une lecture immédiate de l'agitation ; les poses les plus extrêmes n'impliquent pas le pathos (p. 7). Les groupes 1, 7, 13 rassemblent des figures diverses ; les formules attendues ne se séparent pas (p. 8). La conclusion propose une désunion des mouvements supérieurs et inférieurs, plutôt qu'une intensité maximale ; l'oxymore corporel devient une interprétation esthétique (p. 10).
+
+Source primaire : https://litlab.stanford.edu/assets/pdf/LiteraryLabPamphlet16.pdf
+Justification : https://litlab.stanford.edu/assets/pdf/LiteraryLabPamphlet16.pdf#page=3
+Exclusion des mains : https://litlab.stanford.edu/assets/pdf/LiteraryLabPamphlet16.pdf#page=4
+Résultats : https://litlab.stanford.edu/assets/pdf/LiteraryLabPamphlet16.pdf#page=8
+Diversité des figures : https://litlab.stanford.edu/assets/pdf/LiteraryLabPamphlet16.pdf#page=9
+Conclusion : https://litlab.stanford.edu/assets/pdf/LiteraryLabPamphlet16.pdf#page=11
+
+2. Comparaison limitée avec la prépublication de 2016
+
+L'exclusion des accessoires, gestes manuels et expressions faciales figure déjà aux pp. 2–3, avec des arguments psychophysiques. Les pp. 4–6 détaillent l'annotation participative, 318 images et 1665 poses retenues. Les angles du bas du corps sont amplifiés pour égaliser les sommes de variances haut/bas : les contraintes anatomiques rendent les jambes moins variables (p. 6). k=16 suit l'examen de valeurs 2–50 et cinquante répétitions (p. 9). Les pp. 12–14 signalent des affects différents sous des poses proches et l'absence du Nachleben attendu pour la Ninfa dans ce sous-corpus. Les conclusions envisagent les indices de mouvement, dont drapés et cheveux, pour préciser l'émotion (p. 14).
+
+Dépôt officiel : https://infoscience.epfl.ch/bitstreams/992326fa-16bd-49a7-b7dc-603f92ad5a1b/download
+Transcription consultée : https://paperzz.com/doc/8815114/pose-and-pathosformel-in-aby-warburg-s-bilderatlas
+Édition publiée : https://doi.org/10.1007/978-3-319-46604-0_61
+
+3. Controverse extérieure attestée, lecture incomplète
+
+Guido Boffi, « Operationalizing Warburg ». Some Methodological Notes and an Issue, Estetica 13, 2023, pp. 153–172, interroge l'articulation du quantitatif et de l'enquête historico-philologique et la cohérence de l'exemple iconographique de Moretti. C'est une critique publiée directement pertinente. Seul le résumé de l'auteur sur le site de l'éditeur a été lu ; le développement est payant. Nous ne savons donc pas, par cette lecture, quels détails fondent son objection. Elle ne sert pas à attribuer une autorité extérieure à nos propres critiques.
+
+Résumé primaire : https://rivisteweb.it/doi/10.14648/106264
+Notice institutionnelle : https://publires.unicatt.it/en/publications/operationalizing-warburg-some-methodological-notes-and-an-issue/
+
+Le désaccord sur De Iorio, indiqué au §1, est une prise de position explicite des auteurs de 2017 ; il ne faut pas le présenter comme une réponse ultérieure d'Agamben ou de Michaud. Les textes de ces derniers ne sont pas relus ici.
+
+4. Notre analyse : défendre le geste intellectuel
+
+Le reproche d'avoir simplement choisi ce que l'ordinateur sait compter serait injuste. Une réduction peut constituer une décision de pensée : isoler un trait jugé décisif et observer ce qu'il rend intelligible. L'exhaustivité descriptive n'est pas toujours le meilleur service rendu à une intuition. Ajouter visage, costume, partenaires et contexte peut augmenter l'information disponible tout en rendant indiscernable la contribution de chaque proposition. Nous devrions défendre le droit à une abstraction risquée, plutôt que traiter toute omission comme une faute préalable.
+
+La bonne objection porte sur le passage de cette abstraction à son pouvoir explicatif. Le succès d'un code pour rapprocher des figures ne prouve pas que ses variables sont les seules porteuses d'expression. Des informations écartées peuvent être redondantes pour une tâche et décisives pour une autre. Il faut distinguer reconnaître un type, comprendre son effet et établir sa transmission. Cette distinction ne condamne pas le code ; elle évite de transformer une suffisance locale en nécessité esthétique générale.
+
+L'alternative maîtrise/dépossession mérite d'être prise au sérieux comme hypothèse interprétative. Mais une expression localisée est-elle nécessairement maîtrisée ? Une petite variation peut-elle porter une violence disproportionnée ? Ce sont nos questions critiques, non des résultats psychologiques établis ici. Il serait tout aussi abusif de répondre par une supposée universalité naturelle du visage que de déduire son insignifiance de la seule amplitude du mouvement. La lecture doit porter sur ce que signifie l'expression, sans assimiler le nombre de pixels déplacés à sa force.
+
+Nous ne faisons pas de l'animalité une justification supplémentaire : elle demanderait une lecture propre. De même, une polarité affective ne se réduit ni à une inversion géométrique ni au signe d'une coordonnée. Invoquer Darwin ou Warburg ne dispense pas de montrer quel passage conceptuel autorise précisément l'opération retenue.
+
+5. Notre analyse : où l'instrument intervient dans le résultat
+
+L'algorithme peut être impersonnel dans son exécution sans être indépendant du regard qui a constitué ses objets. Sélection des témoins, unité corporelle, repérage, normalisation et métrique sont des décisions substantives. Cela n'enlève rien à la possibilité d'une surprise calculée : une conséquence non anticipée peut surgir de choix explicites. Ce serait cependant confondre deux objectivités que de prendre la détermination numérique d'un axe pour la neutralité de toute la représentation.
+
+Équilibrer deux familles de variables leur attribue une importance comparative. Ce choix peut être défendable : sans lui, une famille très mobile peut dominer une distance. Mais il ne démontre pas que les deux familles possèdent une importance esthétique égale. La géométrie retenue construit un espace où certaines proximités deviennent visibles. Notre critique ne consiste pas à exiger une mesure sans choix, impossible ici ; elle consiste à reconnaître le choix comme une partie de l'interprétation.
+
+Un regroupement ne tranche pas, à lui seul, entre parenté, convention partagée et coïncidence de codage. De même, la séparation ou la fusion de catégories attendues peut signaler une limite de l'instrument ou une découverte sur ces catégories. L'intérêt intellectuel commence précisément à cette bifurcation. S'en tenir à un classement de performances manquerait cette capacité du calcul à déplacer une question. À l'inverse, baptiser chaque échec découverte rendrait la proposition impossible à contester.
+
+La désunion corporelle est, pour notre réflexion, plus exigeante que la seule différence entre deux angles. Un écart géométrique ne porte pas intrinsèquement une contradiction entre actions. Il faut expliquer pourquoi les parties paraissent poursuivre des directions incompatibles, et sur quoi repose cette lecture. Ce retour à l'œuvre peut soutenir une interprétation née du calcul ; il ne doit pas être confondu avec une propriété déjà mesurée. La distinction permet d'admirer une invention critique tout en discutant l'étendue de sa preuve.
+
+6. Notre analyse : ce que cela change pour Mnemosyne et Xanto
+
+Notre ancien impératif de conserver les mains ne répondait pas nécessairement à la même question que leur exclusion. Dans Xanto, une prise, un attribut ou un partenaire peuvent intervenir dans la description d'une action et dans l'histoire d'un emprunt. Les demander ne réfute donc pas automatiquement une abstraction construite pour une autre hypothèse expressive. Inversement, reprendre cette abstraction telle quelle ferait disparaître des différences que notre propre question veut comprendre. La fidélité scientifique n'exige ni imitation intégrale ni supériorité proclamée par enrichissement.
+
+La portée pour la délégation est précise. Déléguer une extraction exige d'expliciter ce qui compte comme élément ; déléguer une recherche créative demande aussi que l'instrument puisse contester cette décomposition. Si nous lui demandons seulement de retrouver nos catégories, toute surprise devient erreur. Si nous acceptons toute proposition nouvelle, nous abandonnons le problème au modèle. Le travail consiste à maintenir la relation entre intuition, opération et conséquence inattendue, sans confondre un accord entre agents avec une confirmation.
+
+Le précédent interdit donc deux raccourcis opposés : déclarer la pose trop pauvre avant d'avoir compris ce qu'on lui demande, ou croire qu'un regroupement de poses établit déjà une génétique des images. Notre question peut garder ensemble hérédité, recombinaison, identité et expression. Elle doit cependant reconnaître leurs différences, pour que l'instrument conserve la capacité de surprendre l'auteur sans remplacer silencieusement son projet. Cette conclusion est notre appréciation critique ; elle ne prétend pas être une thèse de Moretti, d'Impett, de Warburg ou de Marcel.

@@ -1,0 +1,24 @@
+DIDI-HUBERMAN, GINZBURG : IDENTIFICATION ET SINGULARITÉ
+7 octobre 2026
+
+Source : Georges Didi-Huberman, « Pour une anthropologie des singularités formelles. Remarque sur l'invention warburgienne », Genèses 24, 1996, pp. 145–163. DOI : https://doi.org/10.3406/genes.1996.1408
+
+Accès : texte intégral OCR des dix-neuf pages lu sur Persée via les adresses pageId ; copie de travail dans tmp/Didi-Huberman-1996-ocr.txt. Les illustrations masquées pour raisons de droits n'ont pas été consultées ni recherchées sous une autre forme. L'OCR comporte des défauts ; aucune citation longue n'en est tirée. Le texte de Ginzburg visé n'est pas relu ici : le résumé attribue donc la critique à Didi-Huberman.
+
+LE DÉSACCORD PUBLIÉ
+
+Didi-Huberman distingue l'indice-signalement, qui identifie et réduit l'équivoque, de l'indice-symptôme, qui manifeste une structure tout en la déstabilisant (p. 157). Il reproche à Ginzburg de rabattre le second sur le premier, notamment en réunissant Morelli, Sherlock Holmes et Freud sous un même paradigme ; sa lecture du symptôme freudien privilégie relations et déformations, irréductibles à un fait ou à un nom (pp. 158–159). L'identification documentaire demeure nécessaire mais n'épuise pas la singularité formelle, matérielle et anthropologique de l'œuvre (pp. 153, 159). Enfin, la structure ne serait pas une généralité obtenue par synthèse d'exemples moyens : elle devient saisissable dans les singularités et leurs contradictions (p. 163). C'est une contestation de la clôture identificatrice, non une critique de la computer vision ni une invitation à négliger les archives.
+
+Passages :
+https://www.persee.fr/doc/genes_1155-3219_1996_num_24_1_1408?pageId=T1_157
+https://www.persee.fr/doc/genes_1155-3219_1996_num_24_1_1408?pageId=T1_158
+https://www.persee.fr/doc/genes_1155-3219_1996_num_24_1_1408?pageId=T1_159
+https://www.persee.fr/doc/genes_1155-3219_1996_num_24_1_1408?pageId=T1_163
+
+NOTRE USAGE CRITIQUE POUR XANTO
+
+Reconnaître un modèle de Pâris n'épuise pas la question de ce que sa reprise fait à l'image. Cette distinction protège notre enquête contre sa réduction à une attribution, même correcte. Elle n'affaiblit pas l'exigence documentaire : l'incertitude sur la filiation et l'ouverture de l'interprétation sont deux problèmes différents.
+
+L'intérêt possible de Xanto n'est donc pas seulement d'ajouter un exemple à une classe de poses. Une singularité pourrait obliger à revoir ce que nous appelons corps, action ou identité. Mais une différence locale n'est pas automatiquement un symptôme : la nommer ainsi sans argument transformerait une difficulté descriptive en profondeur philosophique présumée.
+
+Le même garde-fou vaut pour le calcul. Une classe d'équivalence peut résoudre une tâche de reconnaissance sans devenir le dernier mot sur l'objet. Inversement, une erreur du modèle ne prouve aucune désidentification au sens de Didi-Huberman. Notre responsabilité serait de distinguer ce que la classification établit de ce qu'elle laisse ouvert, et d'accepter qu'une œuvre déplace les catégories initiales. Ce texte donne un interlocuteur à cette ambition ; il ne fournit ni sa validation historique, ni sa formalisation mathématique, ni une condamnation de la mesure.

@@ -1,0 +1,17 @@
+{
+  "name": "mnemosyne-prototype",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Localisation automatique de motifs et dossier visuel des réemplois de Xanto",
+  "scripts": {
+    "build": "python3 scripts/build_bundle.py && python3 scripts/build_cv_bundle.py",
+    "compute": "python3 scripts/run_experiment.py",
+    "start": "python3 scripts/serve.py",
+    "test": "python3 -m unittest discover -s tests -v",
+    "test:browser": "node tests/browser.mjs",
+    "test:cv-browser": "node tests/cv_browser.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0"
+  }
+}

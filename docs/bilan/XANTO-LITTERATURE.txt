@@ -1,0 +1,66 @@
+XANTO : EMPRUNTER, INVENTER, FAIRE LIRE
+Lecture critique pour Mnemosyne — 7 octobre 2026
+
+Le corpus Xanto peut soutenir une enquête ambitieuse sur ce qui se conserve et ce qui change lorsqu’une figure passe entre images. Sa justification ne peut cependant être la découverte que Xanto réemploie, adapte et transforme ses modèles : les textes consultés en font déjà un problème artistique. L’enjeu propre à Mnemosyne serait de rendre discutables les critères qui nous font reconnaître une continuité, qualifier une invention ou attribuer une signification à un emprunt. Cette proposition est notre reconstruction intellectuelle, confrontée à LECTURES-et-CAS.txt et DECISIONS-et-RESERVES.txt ; elle n’est pas un résultat des auteurs examinés.
+
+1. Ce qui a effectivement été lu
+
+Hess, Maiolica in the Making (1999) : PDF institutionnel disponible intégralement, mais lecture ciblée des pages imprimées 13–19 et 31–35, notamment notes 34–35 et 43–53 ; légendes des figures 13–16 lues. Ce n’est pas une lecture intégrale du livre. Source : https://www.getty.edu/publications/resources/virtuallibrary/0892365005.pdf
+
+Boutin Vitela, « Inscriptions and the dynamic reception of Italian Renaissance maiolica », Word & Image 30/2 (2014), p. 168–176 : texte entier, conclusion et notes lus dans l’extraction publique du dépôt auteur. Le PDF de mise en page n’a pas été obtenu ; les figures ne sont donc pas ici expertisées. DOI : https://doi.org/10.1080/02666286.2014.912907 ; dépôt : https://www.academia.edu/7658596/Inscriptions_and_the_dynamic_reception_of_Italian_Renaissance_maiolica
+
+Talvacchia, « Professional Advancement and the Use of the Erotic in the Art of Francesco Xanto » (1994), p. 121–153 : résumé éditorial seulement, plus passages rapportés par Hess. Les recherches auprès de l’éditeur, de JSTOR et du profil auteur n’ont pas fourni d’accès intégral licite utilisable. https://www.journals.uchicago.edu/doi/10.2307/2542556
+
+Mallet : le catalogue Xanto (2007) demeure non lu intégralement. En revanche, son article distinct « Attributing Sixteenth Century Italian Istoriato Maiolica: A Personal Inquiry », International Ceramics Fair and Seminar Handbook (2007), p. 38–46, est lu intégralement ; la double page 44–45 a aussi été vérifiée visuellement. PDF : https://static1.squarespace.com/static/58dbc83f893fc01cfcc43356/t/58ed0965ebbd1a18bd07e5eb/1491929448094/icfs2007-italian-istoriato-maiolica.pdf
+
+Ekserdjian, « Xanto and his sources », Faenza 93, IV–VI (millésime 2007, paru en 2008), p. 136–151 : existence et référence vérifiées dans son CV institutionnel, article non obtenu. Aucun argument précis ne lui est attribué ici. https://fondazionezeri.unibo.it/it/allegati/cv_ekserdjian/%40%40download/file/CV%20David%20Ekserdjian.pdf
+
+2. Bricolage et invention : un problème déjà posé
+
+Hess, p. 13 et notes 34–35, rapporte la critique par Jestaz de la localisation géographique comme fin de l’enquête : retrouver les modèles peut éclairer la création. Elle associe Xanto à la recomposition virtuose, tout en citant les « istoriati aberrants » de Jestaz, notamment Jupiter transformé en Perdix (p. 14–16). Elle infère des cartons de report à partir des correspondances de pose et d’échelle, en reconnaissant la rareté des preuves matérielles (p. 14–19). Sa note 51 rapporte l’argument de Talvacchia : la difficulté à séparer les corps des Modi plaide pour un choix délibéré. Pour Rome humiliée, elle propose une continuité sexuelle, éventuellement renforcée par le jeu chiavi/chiavare, mais réserve l’intention (p. 16–19 ; notes 51–53, p. 34–35). Ces propositions relèvent de degrés de preuve différents.
+
+Notre question ne doit donc pas demander si Xanto « copie ou invente ». Il faut préciser où se situe l’invention : choix du fragment, attribution d’un rôle, ajustement local, disposition collective, couleur, rapport au récipient. Qualifier une composition de maladroite n’annule pas son intelligence narrative ; retrouver ses ingrédients ne suffit pas davantage à établir sa réussite. Le classement des transformations devrait conserver cette dissociation entre opération observable et jugement esthétique.
+
+3. Un contraste esthétique réel, sans fausse querelle
+
+Mallet distingue explicitement les éléments hérités d’une estampe des choix du peintre, notamment dans le paysage et l’adaptation au format circulaire (p. 40). Il juge que Xanto ne maîtrise pas pleinement certains effets spatiaux de Nicola da Urbino (p. 44–45). Pour attribuer les œuvres, il préfère l’analyse formelle aux messages iconographiques ou sociaux, tout en reconnaissant leur valeur pour comprendre l’art (p. 46). Il admet la subjectivité du jugement stylistique et la possibilité de collaborations d’atelier ; une signature ne garantit pas toujours une seule main (p. 42–44). Ce texte offre une position explicite, mais pas une réfutation de Talvacchia ou de Boutin Vitela.
+
+Le contraste pertinent porte sur la question posée. Reconnaître une main, reconnaître un modèle et comprendre ce qu’un spectateur fait de l’objet demandent des preuves différentes. Une même proximité visuelle peut être décisive pour identifier un emprunt et peu probante pour attribuer le plat. Mnemosyne gagnerait à exposer ces désaccords de critères au lieu de les absorber dans une ressemblance unique. L’ambition consiste à décrire comment plusieurs jugements s’articulent, sans transformer le goût du connaisseur en vérité métrique.
+
+4. Les Modi : intention de choisir, sens de la citation, destinataire
+
+Le résumé de Talvacchia situe sa recherche dans l’ascension professionnelle de Xanto : poésie au duc, emblèmes et références savantes participent d’une revendication de statut, avant l’étude des appropriations érotiques. C’est plus large qu’une opposition commodité/intention. Mais le résumé ne donne ni tout le raisonnement ni ses restrictions. La formule de Hess renvoyant à sa page 135 ne nous autorise pas à soutenir que Talvacchia confond difficulté technique, prestige et adaptation narrative.
+
+Notre distinction critique est la suivante : choisir intentionnellement une source n’établit pas que chaque destination réactive son sens sexuel. Cette réactivation, même plausible, n’identifie pas automatiquement un public, une commande ou un effet politique. Les armoiries peuvent documenter une association familiale ; elles ne prouvent seules ni contrat, ni usage effectif, ni réaction d’un lecteur.
+
+Un contraste fécond porterait sur des réemplois dont la référence est identifiée avec une solidité comparable, mais où l’ajustement narratif et les indices de réception diffèrent. Il éviterait de qualifier d’avance une source savante de « neutre ». Nous pourrions alors demander si certains emprunts demandent une lecture à deux niveaux, et lesquels fonctionnent indépendamment de leur provenance. Ce serait une précision apportée à l’argument historique, pas sa réfutation présumée.
+
+Le contexte chrétien demande une prudence particulière : reconnaître une origine sexuelle ne démontre pas un programme antichrétien. Dans Apollon et Pan, la notice Fitzwilliam identifie également des figures tirées du Christ chez Simon et du Martyre de saint Laurent. Ce passage inverse, du chrétien au mythologique, oblige à distinguer mobilité des figures et position religieuse de l’artiste. Il n’est pas, à lui seul, un cas de réemploi des Modi. https://data.fitzmuseum.cam.ac.uk/id/object/76280
+
+5. Lire le revers transforme l’objet de recherche
+
+Boutin Vitela défend l’inscription dans les pratiques de repas et de manipulation, contre l’objection que les plats sans rayures n’auraient pas servi à table (p. 168–169). Le désaccord sur l’usage est explicitement signalé ; ce passage ne nomme pas ses contradicteurs. Son exemple de Ninus et Sémiramis montre comment le revers réoriente une image apparentée au mariage d’Alexandre et Roxane (p. 174). L’attribution textuelle erronée à Trogue Pompée peut relever de confusion ou d’affichage érudit. Elle associe les inscriptions à l’honneur du propriétaire et aux ambitions du peintre ; la signature masquée par le lustre rend sensible une concurrence de crédit (p. 170–171). Elle distingue ainsi plusieurs fonctions du texte, sans établir la réaction de chaque spectateur historique.
+
+Pour nous, l’unité intéressante n’est donc pas seulement une silhouette. C’est éventuellement une séquence : voir, reconnaître, retourner, lire, réinterpréter. Une identité narrative peut changer sans déplacement significatif des membres. Inversement, une retouche importante peut laisser intact le rôle du personnage. Le projet manquerait ce phénomène s’il faisait du changement géométrique la mesure commune de toutes les transformations.
+
+Cette perspective ne devient pas nouvelle parce qu’elle est numérisée. Une contribution propre consisterait à distinguer, pour chaque proposition, ce que l’image seule permet, ce que l’inscription ajoute et ce que nos connaissances importent. L’outil pourrait rendre cette dépendance visible et contestable ; il ne restituerait pas automatiquement l’expérience du banquet.
+
+6. Ce que nos cas permettent de demander
+
+Les notices Fitzwilliam rattachent Apollon et Pâris au même Apollon du Parnasse. Pâris tient une pomme et une houlette ; l’autre conserve sa lyre. Leur intérêt dépasse donc la répétition d’une posture : des modifications localisées contribuent à réassigner un personnage. https://data.fitzmuseum.cam.ac.uk/id/object/76242
+
+Le tondino Cerruti donne un contraste précieux : trois figures proviennent du Parnasse et leurs accessoires sont modifiés, mais le sujet demeure hypothétique faute de légende narrative. La notice de Cristina Maritano maintient cette incertitude. Identifier les sources ne résout donc pas nécessairement l’histoire représentée. https://fondazionecerruti.org/opere/piatto-tondino-con-scena-allegorica-o-mitologica
+
+Ces observations rendent pensable une enquête sur les transformations minimales qui changent une lecture. Elles ne prouvent aucune loi générale. Un patron conservé puis retouché et une copie directe adaptée peuvent produire des ressemblances voisines : il faut des indices supplémentaires pour choisir une chaîne matérielle. De même, nos rapprochements documentaires ne permettent pas de mesurer les échelles physiques à partir de photographies recadrées. La reconstruction doit maintenir plusieurs explications lorsque les vestiges ne les départagent pas.
+
+7. Rome, versions et limites de restitution
+
+Correction bibliographique : Turner 2004 est « Marcantonio’s Lost Modi and their Copies », Print Quarterly 21/4, p. 363–384, et non « I Modi and Aretino ». L’article intégral n’a pas été obtenu ; sa notice ne fonde ici aucune conclusion. https://www.jstor.org/stable/41826241
+
+L’essai primaire accessible de Turner, « Love and the Gods », a été lu en entier. Dans « Herms and terms », il attribue prudemment à Agostino Veneziano une reprise des Modi vers 1530. Ce conditionnel interdit de traiter toute image conservée comme l’original assuré de Xanto. https://speculum.lib.uchicago.edu/itinerary/turner.html
+
+Il faut distinguer le témoin matériel, la composition transmise et l’exemplaire historiquement employé. Une copie tardive peut documenter une tradition sans être disponible au peintre ; une céramique peut conserver une information sans restituer tout le couple perdu. L’échec d’une reconstruction ne rend pas toute restitution impossible ; sa réussite apparente ne garantit pas son unicité. L’intérêt intellectuel de Rome serait précisément de montrer quelles interprétations résistent aux variantes des témoins et lesquelles dépendent d’une restitution particulière.
+
+La littérature consultée soutient donc un programme de comparaison des transformations et des lectures. Elle ne soutient ni une opposition générale entre mécanique et invention, ni notre supériorité sur des études encore non lues. La priorité documentaire restante est l’accès à Talvacchia, au catalogue Mallet et à Ekserdjian ; la priorité intellectuelle est de formuler ce qui ferait changer notre jugement sur un emprunt donné.
+
+Conservation : Hess est déjà disponible dans /private/tmp/mnemosyne-xanto-sources/tmp/pdfs/ (PDF et texte). Les nouveaux PDF/texte/rendu de Mallet et la capture d’extraction de Boutin Vitela sont conservés dans le dossier sources/ voisin. Aucune modification des projets ou du dialogue.

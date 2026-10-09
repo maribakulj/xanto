@@ -1,0 +1,49 @@
+PREMIER OBJET DE TRAVAIL — DEUX DESCRIPTIONS DES MÊMES TÉMOINS
+7 octobre 2026. Réemploi du dossier existant ; aucune nouvelle mesure ni détection annoncée.
+
+BUT
+
+Passer de « retrouver Apollon » à une question sur l'organisation transmise : quelles différences une identité corporelle autorise-t-elle, et lesquelles deviennent visibles lorsque les rapports aux objets et aux partenaires entrent dans la description ? Les deux descriptions doivent employer les mêmes détails lisibles. Le corps comprend les mains et la tête ; les retirer fabriquerait l'avantage attendu des relations.
+
+TÉMOINS
+
+Source comparée : Parnasse de Raimondi, Met 17.37.150, deuxième état sur cinq. Destinations : Xanto, Concours d'Apollon et Pan, Fitzwilliam C.88-1961, et Jugement de Pâris, C.86-1961. Les notices attribuent les figures au même modèle ; elles n'identifient pas l'exemplaire matériel effectivement utilisé. Le témoin Met n'est donc pas posé comme parent matériel direct.
+
+DESCRIPTION C — ORGANISATION CORPORELLE
+
+- Source : figure assise, un genou relevé et l'autre jambe allongée ; avant-bras devant le corps ; main haute probable ; tête inclinée proche du trois-quarts. Références : obs-source-pose, obs-source-hands, obs-source-raised-hand, obs-source-head.
+- Apollon/Pan : une jambe allongée et l'autre fléchie ; avant-bras vers l'objet devant le corps ; tête probablement penchée en bas à gauche ; prise de la main haute indéterminée. Références : obs-apollo-pose, obs-apollo-hands, obs-apollo-head, obs-apollo-raised-hand.
+- Pâris : position assise, un genou relevé et l'autre jambe allongée ; un bras étendu vers la figure voisine ; autre main levée ; tête de profil vers la gauche. Références : obs-paris-pose, obs-paris-hands, obs-paris-raised-hand, obs-paris-head.
+
+Il existe une parenté descriptive de la configuration des jambes, mais aucun alignement métrique ne démontre encore son invariance. Le bras et la tête changent déjà dans cette description corporelle. On ne peut donc conclure par construction à un corps identique que seul le contexte ferait changer d'action.
+
+DESCRIPTION R — MÊME CORPS, OBJETS ET PARTENAIRES AJOUTÉS
+
+- Source : objet à montants courbes contre le buste ; mains associées à ses zones haute et basse, avec incertitude ; autres figures immédiatement voisines. Références : obs-source-object, obs-source-hands, obs-source-context. Le trait diagonal fin reste non identifié : obs-source-diagonal-line.
+- Apollon/Pan : objet à montants devant le buste ; avant-bras rejoignant sa zone basse ; prise supérieure illisible. Références : obs-apollo-object, obs-apollo-hands, obs-apollo-raised-hand. « Lyre » vient de la notice ; jouer effectivement reste indéterminé dans le relevé.
+- Pâris : bras relié à un objet rond dans la zone de la main d'une partenaire ; autre main tenant une longue tige. Références : obs-paris-hands, obs-paris-staff. L'offre de la pomme et son destinataire viennent de la notice et du récit ; le contact observé ne suffit pas à établir une direction de transfert.
+
+R conserve C et ajoute les rapports entre parties, objets et partenaires. Elle permet de formuler une recomposition relationnelle. Cela ne démontre pas encore que cette recomposition est indispensable pour reconnaître l'emprunt, ni qu'elle explique à elle seule le changement d'action.
+
+LES HYPOTHÈSES À CONSTRUIRE À PARTIR DE CE MATÉRIAU
+
+H1. Une organisation partielle est conservée à travers les reprises malgré des retouches du corps et une recomposition des relations. Il faut préciser cette organisation et les transformations admises ; elle ne se réduit pas d'avance à une boîte ou à une pose entière.
+H2. Certaines différences déterminantes pour décrire la nouvelle action sont relationnelles ; d'autres sont déjà corporelles. L'apport de R doit être établi sur ce que C laisse réellement indéterminé, sans prendre les titres des œuvres pour une démonstration.
+H3. Les traces d'orientation, d'échelle et de support peuvent avoir une valeur différente selon qu'on reconnaît une forme ou qu'on étudie son transfert matériel. Elles doivent rester accessibles même lorsqu'un critère d'identité les néglige.
+
+CE QUE LE PREMIER CALCUL PERTINENT DEVRAIT PRODUIRE
+
+Des correspondances de parties et des transformations candidates, avec incertitudes ; un relevé des propriétés conservées/perdues sous C puis R ; les différences de conclusions qui en résultent. L'échec d'une extraction automatique doit rester distinct d'un contre-exemple conceptuel.
+
+Les observations disponibles permettent de préparer ce calcul, mais pas de prétendre qu'il est déjà effectué. Leur provenance est assistée et informée. Certaines mesures nécessitent de meilleurs détails ; leur absence ne devient pas une disparition historique du caractère.
+
+Les scripts DINO/gradients actuels fournissent seulement des fenêtres candidates. Les propositions restent archivées avec leur évaluation ; aucune sélection manuelle d'un meilleur rang ne sert de résultat de la nouvelle expérience. La définition d'une correspondance structurelle n'est pas déléguée à leur score.
+
+FICHIERS RÉUTILISÉS
+
+~/mnemosyne-prototype/data/observations.json
+~/mnemosyne-prototype/data/comparisons.json
+~/mnemosyne-prototype/data/corpus.json
+~/mnemosyne-prototype/cv/evaluation.json
+
+Cette fiche rend le premier travail concret sans faire de Xanto la frontière du programme. Des familles distinctes et des transmissions vérifiées restent nécessaires pour éprouver sa portée.

@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "diagnostic_status": "post_hoc_evaluation_only",
+  "reference_status": "Boîtes approximatives préexistantes du relevé assisté, non validées par un annotateur humain indépendant.",
+  "run": {
+    "generated_at": "2026-10-07T10:21:31.815952+00:00",
+    "input_sha256": "5647efbe6b7edd28a9242a17028c419db37ca5b0dae89d567a1a32fe8c499902",
+    "reference_sha256": "33e30329fcd54c9234b03f520282fb206505d5bcdfb955301bfe9699ba980ddf",
+    "script_sha256": "4ad8c5d23d82d3feef8d921d22f537af38d0ffcadf529d9e88d6ce3db95c45a4",
+    "numpy_version": "2.5.3",
+    "seed": 0,
+    "random_generator": "numpy.default_rng / PCG64",
+    "random_draw_count_per_target": 10000,
+    "sampling": "Top-left coordinates uniform over [0, 1-width] x [0, 1-height]; same normalized draws reused for every target.",
+    "size_policy": "Width and height equal the supplied primary query bbox fractions in each target image; no size fitting to references.",
+    "percentile_method": "numpy.percentile, linear"
+  },
+  "query_id": "apollo-body",
+  "source_id": "parnassus",
+  "query_bbox": [
+    0.441,
+    0.385,
+    0.145,
+    0.267
+  ],
+  "results": [
+    {
+      "query_id": "apollo-body",
+      "target_id": "parnassus",
+      "box": [
+        0.4275,
+        0.3665,
+        0.145,
+        0.267
+      ],
+      "center_iou": 0.7301923366981545,
+      "normalized_box_size": [
+        0.145,
+        0.267
+      ],
+      "random_draw_count": 10000,
+      "random_iou": {
+        "p50": 0.0,
+        "p90": 0.14720516491396293,
+        "p95": 0.28581880930905534,
+        "p99": 0.560714822196264,
+        "max": 0.9251914447307429
+      }
+    },
+    {
+      "query_id": "apollo-body",
+      "target_id": "apollo",
+      "box": [
+        0.4275,
+        0.3665,
+        0.145,
+        0.267
+      ],
+      "center_iou": 0.4886696194108349,
+      "normalized_box_size": [
+        0.145,
+        0.267
+      ],
+      "random_draw_count": 10000,
+      "random_iou": {
+        "p50": 0.0,
+        "p90": 0.19419046967373504,
+        "p95": 0.31521044799170606,
+        "p99": 0.5211668810080916,
+        "max": 0.592779164306166
+      }
+    },
+    {
+      "query_id": "apollo-body",
+      "target_id": "paris",
+      "box": [
+        0.4275,
+        0.3665,
+        0.145,
+        0.267
+      ],
+      "center_iou": 0.09682857396018162,
+      "normalized_box_size": [
+        0.145,
+        0.267
+      ],
+      "random_draw_count": 10000,
+      "random_iou": {
+        "p50": 0.0,
+        "p90": 0.20730233747672638,
+        "p95": 0.31969164088508123,
+        "p99": 0.47226661136660275,
+        "max": 0.47226661136660303
+      }
+    }
+  ],
+  "limitations": [
+    "Post-hoc descriptive diagnostic using the existing approximate reference boxes; no localization program or prediction is changed.",
+    "This is not a p-value or a calibrated significance test.",
+    "A single uniform random box is not comparable to selecting the highest-scoring proposal from thousands of searched windows.",
+    "The random boxes have one fixed relative size; the localization algorithms search multiple scales and have different image preprocessing.",
+    "The empirical maximum is only the largest overlap among these 10000 draws, not a theoretical maximum.",
+    "The source reference repeats the query. Two target works and approximate assisted references do not form an independent benchmark."
+  ]
+}

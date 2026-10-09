@@ -1,0 +1,46 @@
+IDENTITÉS, OPÉRATIONS ET PARTITIONS — NOTE DE TRAVAIL
+7 octobre 2026. Proposition de Codex, discutée et corrigée avec Claude ; ce n'est pas la formalisation originale de Marcel.
+
+1. LES OBJETS À NE PAS CONFONDRE
+
+X désigne un espace de représentations défini : configurations géométriques, structures relationnelles ou descriptions symboliques. Une occurrence matérielle et sa représentation sont reliées, mais distinctes. Une même occurrence peut avoir plusieurs descriptions incertaines.
+
+Un choix θ peut définir une relation d'équivalence ~θ sur X et une projection qθ vers ses classes. Si un groupe G agit sur X, l'appartenance à la même orbite définit une telle équivalence. Cela ne fait pas de G le mécanisme historique qui aurait produit une copie.
+
+Sur des observations bruitées, une faible distance est une compatibilité empirique. Même avec un seuil calibré, elle n'est pas nécessairement transitive. Les équivalences théoriques, leurs approximations mesurées et les incertitudes d'extraction doivent donc rester distinctes.
+
+2. QUAND UNE OPÉRATION PEUT-ELLE ÊTRE DÉCRITE AU NIVEAU DES CLASSES ?
+
+Soit une opération déterminée T : D → Y, avec D inclus dans X, et une équivalence ~φ sur Y. Nous voulons définir une opération entre classes, par [x]θ → [T(x)]φ.
+
+Deux conditions suffisent pour une opération partielle dont le domaine est défini au niveau des classes :
+- D est une union de classes de ~θ : deux représentants équivalents ont le même statut d'applicabilité ;
+- pour x,y dans D, x ~θ y implique T(x) ~φ T(y).
+
+La seconde condition garantit que changer le représentant ne change pas la classe de sortie. Réciproquement, une application sur les classes compatible avec T impose cette condition. Le domaine et le contexte de T font partie de sa définition. Pour une opération à plusieurs entrées, il faut considérer les classes des tuples et fixer les autres entrées/contexte pertinents.
+
+INTERPRÉTATION PROPOSÉE. Si nous prétendons qu'une opération se décrit à un certain niveau d'identité et trouvons deux représentants de même classe donnant des sorties distinctes, alors ce niveau a perdu une distinction nécessaire à CETTE description de CETTE opération. Ce constat ne réfute pas toute utilité de l'identité choisie.
+
+LIMITES. Il ne s'agit pas d'une loi déterministe de descendance : une image peut donner lieu à de nombreuses opérations, dans plusieurs contextes. Douze paires historiques, chacune avec sa transformation décrite après coup, ne vérifient pas la condition. Il faut une opération réellement commune et définie, ou une analyse théorique de ses propriétés. Une paire source/destination ne suffit généralement pas à identifier cette opération.
+
+Cette condition ne constitue pas non plus un critère universel de « bonne identité ». Des lignées indépendantes peuvent appartenir à une même classe formelle. Une histoire d'occurrences reste enregistrée même lorsque la représentation les réunit.
+
+3. ÉVITER LES SOLUTIONS VIDES
+
+Réunir toutes les occurrences dans une classe rendrait beaucoup de conditions triviales ; les séparer toutes ferait disparaître l'intérêt de l'invariance. Les distinctions que l'enquête veut conserver doivent donc être explicitées et confrontées à des questions et traces indépendantes. Elles ne sont pas choisies seulement pour faire fonctionner l'algèbre.
+
+Faire agir toutes les rotations indépendantes des articulations sur l'espace complet de leurs angles peut rendre l'action transitive : les différences de pose disparaissent alors dans une seule orbite. Restreindre les rotations à un intervalle plausible ne donne pas automatiquement un groupe, car la composition peut sortir de l'intervalle. Les deux observations empêchent d'introduire un « groupe articulé » sans examiner ce qu'il conserve réellement.
+
+4. LE TREILLIS COMME INSTRUMENT DE COMPARAISON
+
+Sur un même ensemble fini E d'occurrences, une partition P raffine Q si chaque bloc de P est inclus dans un bloc de Q. P conserve alors au moins les distinctions de Q. Toutes les partitions de E forment un treillis : le raffinement commun le moins fin s'obtient par les intersections non vides des blocs, et le regroupement commun le moins grossier par clôture transitive des identifications.
+
+Une sélection de descriptions n'est pas automatiquement fermée par ces opérations. Le regroupement commun peut réunir des occurrences par chaînage ; cela n'établit aucune ascendance commune. Une fermeture calculée doit rester identifiée comme telle, sans être confondue avec une catégorie historique découverte.
+
+L'analyse formelle de concepts part d'un contexte objets × attributs et construit un autre treillis par fermeture. Elle peut servir à examiner les propriétés partagées et leurs implications, mais ne remplace pas le choix des caractères. Une valeur illisible ne peut être codée comme absente simplement pour remplir une matrice binaire.
+
+5. CE QUI EST CALCULABLE ET CE QUI RESTE À ÉTABLIR
+
+On peut calculer les partitions induites par des descriptions effectivement définies, leurs raffinements, les distinctions perdues et des contre-exemples à une compatibilité annoncée. On peut conserver en parallèle les transformations, leurs résidus, leurs sources et les événements matériels.
+
+On ne peut pas déduire de ces seules structures que deux œuvres sont historiquement parentes, qu'une forme est une Pathosformel ou qu'un support a causé sa transformation. L'intérêt de cette note est de rendre quelques conséquences de l'intuition manipulables tout en maintenant leur rapport à l'enquête historique.

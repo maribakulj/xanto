@@ -1,0 +1,165 @@
+[
+  {
+    "id": "cmp-source-apollo",
+    "from_id": "parnassus",
+    "to_id": "apollo",
+    "subject": "Attribution de la figure source",
+    "observation_ids": [
+      "obs-source-name",
+      "obs-apollo-source"
+    ],
+    "difference": "La notice Fitzwilliam rattache l’Apollon de l’assiette au Parnasse de Raimondi ; cette relation est reprise comme attribution documentaire.",
+    "operation_status": "catalogue_attribution",
+    "interpretation": "Le corpus propose une correspondance à inspecter ; il ne démontre pas un transfert direct depuis l’exemplaire du Met.",
+    "limitations": [
+      "Exemplaire utilisé par Xanto inconnu.",
+      "La notice source et la notice de reprise n’établissent pas l’absence d’intermédiaire.",
+      "Une seule occurrence du motif sur cette assiette."
+    ],
+    "from_entity": "E1",
+    "to_entity": "E1",
+    "correspondence_basis": "catalogue"
+  },
+  {
+    "id": "cmp-source-paris",
+    "from_id": "parnassus",
+    "to_id": "paris",
+    "subject": "Attribution d’Apollon à Pâris",
+    "observation_ids": [
+      "obs-source-name",
+      "obs-paris-source"
+    ],
+    "difference": "Le catalogue identifie Pâris comme une adaptation de l’Apollon du Parnasse : l’identité narrative de la figure change.",
+    "operation_status": "catalogue_attribution",
+    "interpretation": "Le changement de nom et de rôle relève de la lecture documentaire ; sa traduction corporelle doit être examinée séparément.",
+    "limitations": [
+      "Attribution savante, sans document d’atelier présenté ici.",
+      "État et exemplaire directement employés inconnus.",
+      "Auteur et réception ne sont pas inférés de la ressemblance."
+    ],
+    "from_entity": "E1",
+    "to_entity": "E1",
+    "correspondence_basis": "catalogue"
+  },
+  {
+    "id": "cmp-musical-configuration",
+    "from_id": "parnassus",
+    "to_id": "apollo",
+    "subject": "Pose générale et objet devant le corps",
+    "observation_ids": [
+      "obs-source-pose",
+      "obs-source-object",
+      "obs-source-hands",
+      "obs-source-context",
+      "obs-apollo-pose",
+      "obs-apollo-object",
+      "obs-apollo-hands",
+      "obs-source-head",
+      "obs-apollo-head",
+      "obs-source-raised-hand",
+      "obs-apollo-raised-hand"
+    ],
+    "difference": "Les deux témoins montrent une jambe allongée, l’autre fléchie, et un objet à montants courbes devant le corps ; l’entourage serré du Parnasse fait place à une figure devant un rocher dans l’assiette.",
+    "operation_status": "observed_difference",
+    "interpretation": "Conservation apparente d’une configuration générale dans une autre composition. L’appui et la position assise de la reprise restent moins lisibles ; l’identité du geste ou de l’action musicale n’est pas établie.",
+    "limitations": [
+      "Pas d’alignement métrique réalisé.",
+      "Image de l’assiette limitée à 570 × 740 pixels.",
+      "Mains et détails de contour non validés.",
+      "Une différence entre témoins n’est pas automatiquement une opération de Xanto.",
+      "Résolutions inégales : les comparaisons portent sur les configurations générales ; aucun détail non lisible dans une image n’est traité comme absent de la figure.",
+      "Les orientations des visages et la prise de la main haute ne sont pas assimilées sous une même description générique."
+    ],
+    "from_entity": "E1",
+    "to_entity": "E1",
+    "correspondence_basis": "image"
+  },
+  {
+    "id": "cmp-source-paris-object",
+    "from_id": "parnassus",
+    "to_id": "paris",
+    "subject": "De l’objet contre le buste à l’objet entre deux figures",
+    "observation_ids": [
+      "obs-source-object",
+      "obs-source-hands",
+      "obs-source-raised-hand",
+      "obs-paris-raised-hand",
+      "obs-paris-hands",
+      "obs-paris-staff",
+      "obs-source-diagonal-line"
+    ],
+    "difference": "Une main levée du côté droit de l’image est associée au haut de l’objet à montants dans la source et à la longue tige chez Pâris. L’autre bras traverse le devant du corps vers l’objet dans la source ; chez Pâris il s’étend vers l’objet rond et la partenaire.",
+    "operation_status": "observed_difference",
+    "interpretation": "Correspondance probable : conservation de la main levée avec changement d’objet tenu, et réorientation de l’autre bras. Cette lecture ne démontre ni des positions exactement identiques ni la succession matérielle des opérations. Le trait diagonal de la source n’est pas identifié à la tige de Pâris.",
+    "limitations": [
+      "Descriptions préliminaires par une IA informée des notices.",
+      "Aucun degré de transformation ni coût de fabrication n’est mesuré.",
+      "La chronologie des gestes n’est pas observable.",
+      "Cette paire ne teste ni un invariant mathématique ni une intention.",
+      "Résolutions inégales : les comparaisons portent sur les configurations générales ; aucun détail non lisible dans une image n’est traité comme absent de la figure.",
+      "Correspondance des mains probable, sans alignement géométrique. Le nom « lyre » et celui de « houlette » restent rattachés aux notices."
+    ],
+    "from_entity": "E1",
+    "to_entity": "E1",
+    "correspondence_basis": "image"
+  },
+  {
+    "id": "cmp-apollo-paris",
+    "from_id": "apollo",
+    "to_id": "paris",
+    "subject": "Deux destinations d’un motif attribué au même Apollon",
+    "observation_ids": [
+      "obs-apollo-pose",
+      "obs-apollo-object",
+      "obs-apollo-hands",
+      "obs-apollo-action",
+      "obs-paris-pose",
+      "obs-paris-hands",
+      "obs-paris-source",
+      "obs-paris-direction",
+      "obs-apollo-head",
+      "obs-paris-head",
+      "obs-apollo-raised-hand",
+      "obs-paris-raised-hand"
+    ],
+    "difference": "L’une des reprises maintient l’objet devant le corps ; l’autre étend le bras jusqu’à un objet relié à la main d’une partenaire. Les deux figures ont un genou relevé ; l’appui du bassin dans l’image d’Apollon reste moins distinct. La tête d’Apollon paraît inclinée vers le bas ; Pâris présente un profil vers la partenaire. La main haute d’Apollon n’est pas assez lisible pour un contraste de détail.",
+    "operation_status": "observed_difference",
+    "interpretation": "Contraste candidat entre destination musicale et offre de la pomme. Adaptation narrative, contraintes de composition et citation peuvent coexister ; aucune n’est départagée ici.",
+    "limitations": [
+      "Un motif source, deux objets, une paire : aucune réplication indépendante.",
+      "Les compositions diffèrent ; proximité de date et de diamètre ne rend pas les contextes équivalents.",
+      "Les deux notices Fitzwilliam s’appuient sur le même catalogue de Poole.",
+      "Intention du peintre et réception historique indéterminées.",
+      "Résolutions inégales : les comparaisons portent sur les configurations générales ; aucun détail non lisible dans une image n’est traité comme absent de la figure."
+    ],
+    "from_entity": "E1",
+    "to_entity": "E1",
+    "correspondence_basis": "image"
+  },
+  {
+    "id": "cmp-source-paris-orientation",
+    "from_id": "parnassus",
+    "to_id": "paris",
+    "from_entity": "E1",
+    "to_entity": "E1",
+    "correspondence_basis": "image",
+    "subject": "Orientation relative des membres : absence de miroir probable",
+    "observation_ids": [
+      "obs-source-pose",
+      "obs-paris-pose",
+      "obs-source-raised-hand",
+      "obs-paris-raised-hand",
+      "obs-source-head",
+      "obs-paris-head"
+    ],
+    "difference": "La jambe allongée demeure du côté gauche de l’image, le genou relevé et la main levée du côté droit. Ces repères concordent avec une reprise sans inversion globale ; les têtes ont cependant des orientations différentes.",
+    "operation_status": "hypothesis",
+    "interpretation": "Orientation non inversée probable, établie comme comparaison entre ces deux témoins ; aucune identité géométrique ni transformation rigide globale n’est démontrée.",
+    "limitations": [
+      "Relecture par une IA informée, à vérifier.",
+      "Pas d’alignement géométrique ni de mesure d’angles.",
+      "La correspondance de motif est donnée par le catalogue ; les indices d’orientation sont visuels.",
+      "Le mode miroir de la visionneuse ne constitue jamais une opération historique."
+    ]
+  }
+]

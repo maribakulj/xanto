@@ -1,0 +1,303 @@
+{
+  "schema_version": "1.0",
+  "run": {
+    "method": "dinov2_spatial_pyramid",
+    "method_label": "DINOv2 — recherche spatiale multi-échelle",
+    "model_id": "facebook/dinov2-base",
+    "model_revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+    "device": "mps",
+    "generated_at": "2026-10-07T10:17:26.214666+00:00",
+    "duration_seconds": 3.878,
+    "input_sha256": "5647efbe6b7edd28a9242a17028c419db37ca5b0dae89d567a1a32fe8c499902",
+    "script_sha256": "19aae9afadb5c036a103872713a685f2155795fc981814175596081a55a78532",
+    "parameters": {
+      "model_id": "facebook/dinov2-base",
+      "model_revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+      "max_image_side": 728,
+      "top_k": 5,
+      "seed": 0,
+      "selection_policy": "Paramètres fixés avant inspection des résultats sur les reprises ; pas de réglage sur les boîtes cibles.",
+      "algorithm_version": "1.0",
+      "height_fractions": [
+        0.18,
+        0.24,
+        0.32,
+        0.42,
+        0.55,
+        0.72
+      ],
+      "template_levels": [
+        1,
+        2,
+        3
+      ],
+      "level_weight": "equal; each level averages its cell cosine similarities",
+      "scoring": "cosine of concatenated cell descriptors normalized and weighted per level",
+      "patch_size": 14,
+      "stride_pixels": 14,
+      "min_window_pixels": 28,
+      "nms_iou": 0.35,
+      "window_aspect": "query bbox pixel aspect ratio, rounded to whole patches",
+      "mirror_search": false,
+      "crop_query_forward": false,
+      "feature_layer": "last_hidden_state patch tokens excluding CLS",
+      "pixel_normalization": "cached model processor, no automatic resizing or center crop",
+      "resize": "PIL bicubic; max side 728 then each side rounded to 14 pixels",
+      "precision": "float32",
+      "images": {
+        "parnassus": {
+          "resized_width": 728,
+          "resized_height": 560,
+          "patch_grid": [
+            52,
+            40
+          ],
+          "cache_status": "cache hit",
+          "cache_key": "58ff878137fbb069853292d95234c77015336bff21005af890b9d79a394939c7"
+        },
+        "apollo": {
+          "resized_width": 560,
+          "resized_height": 728,
+          "patch_grid": [
+            40,
+            52
+          ],
+          "cache_status": "cache hit",
+          "cache_key": "3cc1c6384b43e96e6e61b94377ef73fc50b4be0cb1810c383bbffa3113933d95"
+        },
+        "paris": {
+          "resized_width": 728,
+          "resized_height": 700,
+          "patch_grid": [
+            52,
+            50
+          ],
+          "cache_status": "cache hit",
+          "cache_key": "670b2536d6ee9c38fe1fbc8713325f435634ab57dd33c89e4f2c9feb0015f37f"
+        }
+      },
+      "python": "3.12.13",
+      "torch": "2.14.0",
+      "transformers": "5.17.0"
+    },
+    "limitations": [
+      "Région source fournie par un relevé assisté, pas détectée automatiquement.",
+      "Aucune boîte cible, annotation, comparaison ou notice lue par le programme.",
+      "Aucun réglage effectué après examen des résultats sur les reprises.",
+      "Scores cosinus de descripteurs : ni probabilités ni preuves de filiation historique.",
+      "Recherche sur six tailles et une grille de 14 pixels ; régions manquées possibles.",
+      "Rapport de forme conservé approximativement ; ni miroir ni déformation articulée recherchés.",
+      "Modèle générique ; contexte, couleurs, support et résolution peuvent influer sur les correspondances.",
+      "Trois images dont un contrôle source ; aucun benchmark indépendant.",
+      "Après le premier calcul, ajout de la seule empreinte du script aux métadonnées, puis réexécution avec les mêmes paramètres et cartes en cache ; aucun réglage des résultats."
+    ]
+  },
+  "queries": [
+    {
+      "id": "apollo-body",
+      "source_id": "parnassus",
+      "bbox": [
+        0.441,
+        0.385,
+        0.145,
+        0.267
+      ],
+      "provenance": "Région de requête fournie depuis le relevé assisté préexistant obs-source-pose ; cette région n’est pas détectée automatiquement."
+    }
+  ],
+  "results": [
+    {
+      "query_id": "apollo-body",
+      "target_id": "parnassus",
+      "method": "dinov2_spatial_pyramid",
+      "proposals": [
+        {
+          "rank": 1,
+          "bbox": [
+            0.4423076808452606,
+            0.4000000059604645,
+            0.13461539149284363,
+            0.25
+          ],
+          "score": 0.992074728012085
+        },
+        {
+          "rank": 2,
+          "bbox": [
+            0.38461539149284363,
+            0.30000001192092896,
+            0.23076923191547394,
+            0.42500001192092896
+          ],
+          "score": 0.9205498695373535
+        },
+        {
+          "rank": 3,
+          "bbox": [
+            0.5,
+            0.375,
+            0.13461539149284363,
+            0.25
+          ],
+          "score": 0.8940215706825256
+        },
+        {
+          "rank": 4,
+          "bbox": [
+            0.38461539149284363,
+            0.42500001192092896,
+            0.13461539149284363,
+            0.25
+          ],
+          "score": 0.8936010003089905
+        },
+        {
+          "rank": 5,
+          "bbox": [
+            0.4038461446762085,
+            0.32499998807907104,
+            0.13461539149284363,
+            0.25
+          ],
+          "score": 0.8168971538543701
+        }
+      ],
+      "candidate_count": 6392,
+      "heatmap": null,
+      "notes": [
+        "Carte de patches spatiaux DINOv2 ; token CLS exclu.",
+        "Image entière redimensionnée, sans découpage central ; côtés arrondis aux multiples de 14.",
+        "La carte conserve le contexte global de chaque image : ce ne sont pas des descripteurs de crops isolés.",
+        "Contrôle dans l’image source : la requête fournie sert à construire le gabarit, mais sa boîte exacte n’est pas injectée dans les candidats."
+      ]
+    },
+    {
+      "query_id": "apollo-body",
+      "target_id": "apollo",
+      "method": "dinov2_spatial_pyramid",
+      "proposals": [
+        {
+          "rank": 1,
+          "bbox": [
+            0.42500001192092896,
+            0.36538460850715637,
+            0.20000000298023224,
+            0.23076923191547394
+          ],
+          "score": 0.7683719396591187
+        },
+        {
+          "rank": 2,
+          "bbox": [
+            0.2750000059604645,
+            0.32692307233810425,
+            0.375,
+            0.42307692766189575
+          ],
+          "score": 0.6804711818695068
+        },
+        {
+          "rank": 3,
+          "bbox": [
+            0.4000000059604645,
+            0.4615384638309479,
+            0.15000000596046448,
+            0.17307692766189575
+          ],
+          "score": 0.6649157404899597
+        },
+        {
+          "rank": 4,
+          "bbox": [
+            0.44999998807907104,
+            0.38461539149284363,
+            0.30000001192092896,
+            0.32692307233810425
+          ],
+          "score": 0.6601108908653259
+        },
+        {
+          "rank": 5,
+          "bbox": [
+            0.44999998807907104,
+            0.5,
+            0.15000000596046448,
+            0.17307692766189575
+          ],
+          "score": 0.618490993976593
+        }
+      ],
+      "candidate_count": 5487,
+      "heatmap": null,
+      "notes": [
+        "Carte de patches spatiaux DINOv2 ; token CLS exclu.",
+        "Image entière redimensionnée, sans découpage central ; côtés arrondis aux multiples de 14.",
+        "La carte conserve le contexte global de chaque image : ce ne sont pas des descripteurs de crops isolés."
+      ]
+    },
+    {
+      "query_id": "apollo-body",
+      "target_id": "paris",
+      "method": "dinov2_spatial_pyramid",
+      "proposals": [
+        {
+          "rank": 1,
+          "bbox": [
+            0.3461538553237915,
+            0.36000001430511475,
+            0.2884615361690521,
+            0.41999998688697815
+          ],
+          "score": 0.6844222545623779
+        },
+        {
+          "rank": 2,
+          "bbox": [
+            0.36538460850715637,
+            0.4399999976158142,
+            0.1538461595773697,
+            0.23999999463558197
+          ],
+          "score": 0.6531528830528259
+        },
+        {
+          "rank": 3,
+          "bbox": [
+            0.5961538553237915,
+            0.47999998927116394,
+            0.1538461595773697,
+            0.23999999463558197
+          ],
+          "score": 0.626111626625061
+        },
+        {
+          "rank": 4,
+          "bbox": [
+            0.42307692766189575,
+            0.5,
+            0.1538461595773697,
+            0.23999999463558197
+          ],
+          "score": 0.6232500076293945
+        },
+        {
+          "rank": 5,
+          "bbox": [
+            0.21153846383094788,
+            0.3799999952316284,
+            0.2884615361690521,
+            0.41999998688697815
+          ],
+          "score": 0.5991687774658203
+        }
+      ],
+      "candidate_count": 7518,
+      "heatmap": null,
+      "notes": [
+        "Carte de patches spatiaux DINOv2 ; token CLS exclu.",
+        "Image entière redimensionnée, sans découpage central ; côtés arrondis aux multiples de 14.",
+        "La carte conserve le contexte global de chaque image : ce ne sont pas des descripteurs de crops isolés."
+      ]
+    }
+  ]
+}

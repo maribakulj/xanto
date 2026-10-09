@@ -1,0 +1,46 @@
+{
+  "images": [
+    {
+      "id": "parnassus",
+      "image": "assets/parnasse-high.jpg",
+      "width": 3658,
+      "height": 2832,
+      "sha256": "96f427403d318234aa7155099940147a83e3395667fefa11196fc99f22e345e8"
+    },
+    {
+      "id": "apollo",
+      "image": "assets/apollo-pan.jpg",
+      "width": 570,
+      "height": 740,
+      "sha256": "f8c272079c4438ec108ec1604ce73645844b07edb5d2dfee07d9a8f830fef9bf"
+    },
+    {
+      "id": "paris",
+      "image": "assets/paris-front-high.jpg",
+      "width": 4851,
+      "height": 4704,
+      "sha256": "a4a9cdcabf506a362dcbec9ae15bdfcc598ec75c23a6e9e15de946a68fa2132b"
+    }
+  ],
+  "queries": [
+    {
+      "id": "apollo-body",
+      "source_id": "parnassus",
+      "bbox": [
+        0.441,
+        0.385,
+        0.145,
+        0.267
+      ],
+      "provenance": "Région de requête fournie depuis le relevé assisté préexistant obs-source-pose ; cette région n’est pas détectée automatiquement."
+    }
+  ],
+  "parameters": {
+    "model_id": "facebook/dinov2-base",
+    "model_revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+    "max_image_side": 728,
+    "top_k": 5,
+    "seed": 0,
+    "selection_policy": "Paramètres fixés avant inspection des résultats sur les reprises ; pas de réglage sur les boîtes cibles."
+  }
+}

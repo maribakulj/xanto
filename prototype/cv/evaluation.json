@@ -1,0 +1,110 @@
+{
+  "reference_status": "Boîtes approximatives préexistantes du relevé assisté, non validées par un annotateur humain indépendant.",
+  "metrics_definition": {
+    "top1_iou": "Area of intersection divided by area of union for the highest-similarity proposal and approximate reference; range 0 to 1.",
+    "best_top5_iou": "Maximum IoU among the first five proposals already saved after NMS; evaluation does not reorder predictions.",
+    "best_top5_rank": "Original similarity rank of maximum-IoU proposal; first rank wins ties. It does not select a new prediction.",
+    "top1_center_inside": "Whether the center of the top similarity proposal lies in the reference rectangle, including its boundary.",
+    "input_sha256_verified": "5647efbe6b7edd28a9242a17028c419db37ca5b0dae89d567a1a32fe8c499902",
+    "prediction_file_sha256": {
+      "baseline_results.json": "467b06f94f1abf29d3ea2dc66421ef3a998b1bb4a3ff3bd23d647127a9975865",
+      "results.json": "2430b4f943375ad0c07a113490fa8c31b3e866cad5fdb4309742069c8c64f5ee"
+    },
+    "reference_file_sha256": "33e30329fcd54c9234b03f520282fb206505d5bcdfb955301bfe9699ba980ddf",
+    "evaluation_script_sha256": "50a220d93abf7f87d7d1de6783a15b71cccb3456613c5977f773c98d920b80b8"
+  },
+  "results": [
+    {
+      "target_id": "parnassus",
+      "method": "gradient_ncc",
+      "reference_bbox": [
+        0.441,
+        0.385,
+        0.145,
+        0.267
+      ],
+      "top1_iou": 0.8631064547046308,
+      "best_top5_iou": 0.8631064547046308,
+      "best_top5_rank": 1,
+      "top1_center_inside": true
+    },
+    {
+      "target_id": "apollo",
+      "method": "gradient_ncc",
+      "reference_bbox": [
+        0.395,
+        0.331,
+        0.241,
+        0.271
+      ],
+      "top1_iou": 0.17960678742038166,
+      "best_top5_iou": 0.6671052142857147,
+      "best_top5_rank": 2,
+      "top1_center_inside": true
+    },
+    {
+      "target_id": "paris",
+      "method": "gradient_ncc",
+      "reference_bbox": [
+        0.518,
+        0.438,
+        0.239,
+        0.343
+      ],
+      "top1_iou": 0.0,
+      "best_top5_iou": 0.7365270719625289,
+      "best_top5_rank": 3,
+      "top1_center_inside": false
+    },
+    {
+      "target_id": "parnassus",
+      "method": "dinov2_spatial_pyramid",
+      "reference_bbox": [
+        0.441,
+        0.385,
+        0.145,
+        0.267
+      ],
+      "top1_iou": 0.8692715452204807,
+      "best_top5_iou": 0.8692715452204807,
+      "best_top5_rank": 1,
+      "top1_center_inside": true
+    },
+    {
+      "target_id": "apollo",
+      "method": "dinov2_spatial_pyramid",
+      "reference_bbox": [
+        0.395,
+        0.331,
+        0.241,
+        0.271
+      ],
+      "top1_iou": 0.7066780032588796,
+      "best_top5_iou": 0.7066780032588796,
+      "best_top5_rank": 1,
+      "top1_center_inside": true
+    },
+    {
+      "target_id": "paris",
+      "method": "dinov2_spatial_pyramid",
+      "reference_bbox": [
+        0.518,
+        0.438,
+        0.239,
+        0.343
+      ],
+      "top1_iou": 0.24430542385740553,
+      "best_top5_iou": 0.4504077664866195,
+      "best_top5_rank": 3,
+      "top1_center_inside": false
+    }
+  ],
+  "limitations": [
+    "Approximate references come from pre-existing assistant-assisted annotation, not an independent human benchmark.",
+    "The source control reuses the supplied query; it tests implementation, not generalization.",
+    "Only two target works are evaluated. No aggregate accuracy, historical conclusion or model ranking is justified.",
+    "Box overlap does not evaluate identity, hand contacts, narrative action or historical transmission.",
+    "Similarity scores are not probabilities and are not calibrated across methods.",
+    "Both methods use the same six height fractions, 14-pixel window grid and NMS 0.35; image and query preprocessing differ."
+  ]
+}

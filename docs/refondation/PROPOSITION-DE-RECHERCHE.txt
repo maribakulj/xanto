@@ -1,0 +1,104 @@
+GÉNÉTIQUE DES IMAGES — ORGANISATIONS, TRANSFORMATIONS ET TRANSMISSIONS
+Reprise du 7 octobre 2026, après trois confrontations avec Claude.
+
+STATUT ET POINT DE DÉPART
+
+Cette proposition reprend le programme discuté avec Marcel. Elle n'est ni sa formalisation mathématique retrouvée, ni une théorie validée, ni un protocole définitivement arrêté. Marcel fait référence à une formalisation personnelle ; les échanges disponibles en attestent la revendication sans en donner les définitions complètes. Nous ne devons ni effacer cette existence ni inventer son contenu. Les développements ci-dessous sont des propositions de travail à confronter à sa pensée. Le rôle exact des treillis, rappelé par Marcel, n'est pas explicité dans les archives retrouvées.
+
+La demande initiale concernait la génétique des images, la computer vision et l'histoire de l'art : hérédité, transformations, recombinaison, identité structurelle, invariants. Les modèles avaient déjà ajouté des analogies biologiques et des affirmations non établies. Renouer avec le départ ne signifie donc pas rétablir toutes leurs propositions comme des acquis. Cela signifie reprendre le problème intellectuel que le pilote documentaire puis la localisation DINO avaient laissé de côté.
+
+QUESTION ET HYPOTHÈSE SUBSTANTIELLE
+
+Quelles organisations visuelles se transmettent à travers les transformations d'une image, comment se recombinent-elles, et que font les supports à cette transmission ?
+
+Hypothèse proposée : certaines reprises transportent une organisation de parties et de relations, qui peut persister alors que la silhouette, les attributs ou l'action changent. Cette organisation n'est pas nécessairement une figure entière ni une liste d'objets. Sa transmissibilité dépendrait à la fois des opérations de reprise, des possibilités du support et des relations dans lesquelles elle est réinsérée. Une même organisation pourrait avoir plusieurs histoires ; une même histoire de reprise pourrait transporter plusieurs organisations aux trajectoires différentes.
+
+L'enjeu est d'établir quelles organisations ont effectivement ce pouvoir explicatif. Nous ne présupposons ni qu'une description relationnelle battra toujours une description corporelle, ni qu'une invariance formelle prouve une filiation. L'hypothèse doit pouvoir échouer : si elle exige une définition particulière pour chaque cas, si ses opérations ne se transfèrent pas, ou si elle n'explique rien au-delà d'une ressemblance plus simple, elle perd de sa portée.
+
+Un second problème traverse cette enquête : le regard qui définit ses unités. Choisir les différences pertinentes, puis faire appliquer ces choix à un corpus par une machine, modifie les histoires que l'instrument permet de reconstruire. Cette dimension répond à l'intuition formulée par Marcel sur la délégation. Elle ne remplace pas l'étude des images par une théorie générale des biais. Elle permet d'interroger l'instrument au moment même où il sert à étudier la transmission.
+
+CE QUE « GÉNÉTIQUE » ENGAGE ICI
+
+L'unité de transmission devient une question à résoudre. Un contour, un rapport entre membres, une organisation figure/objet/partenaire, une manière de nouer plusieurs sources peuvent suivre des trajectoires différentes. La recherche porterait sur leur conservation, leurs substitutions, leurs pertes et leurs recombinaisons, au lieu de donner d'avance une généalogie à chaque image entière.
+
+L'emprunt aux méthodes de l'hérédité peut être précis : aligner des caractères et leurs transformations ; comparer des transmissions à parent unique et à sources multiples ; estimer les histoires compatibles avec les données ; examiner le couplage de plusieurs caractères. Il ne suffit pas d'appeler un motif un gène. La réapparition peut venir d'une transmission, d'une source commune non observée, de contraintes comparables ou d'une ressemblance produite par le codage. L'absence de source connue ne départage pas ces possibilités.
+
+Un réseau de similitudes, un treillis de descriptions et un graphe de transmission répondent à trois questions différentes. Le premier situe des ressemblances ; le deuxième organise des distinctions ; le troisième propose des événements et des relations historiques. Leur confrontation constitue un programme. Les confondre produirait une généalogie artificielle.
+
+UNE ARCHITECTURE QUI DONNE UN RÔLE AUX CONCEPTS
+
+1. Les occurrences et leurs traces.
+
+Conserver séparément œuvre, exemplaire, état, reproduction, fragment et description. Deux photographies ne sont pas deux descendants. Une modification du cadrage n'est pas une modification de l'œuvre. Les dates, attributions, inscriptions et indices matériels portent une provenance et un degré d'incertitude ; ils ne sont pas remplacés par un score visuel.
+
+2. Les organisations et leurs transformations.
+
+Le calcul proposerait des correspondances partielles entre corps, objets, contacts et configurations. Il conserverait les points visibles, les absences étayées et les détails illisibles comme états distincts. Les opérations candidates incluraient déplacement, réflexion, déformation, substitution, découpe et insertion dans une autre configuration. Une recombinaison peut associer plusieurs sources à différentes parties d'une destination.
+
+Une correspondance géométrique est une observation ou une hypothèse de calcul. Elle ne décrit pas automatiquement le geste d'atelier qui l'a produite. Plusieurs opérations ou intermédiaires peuvent expliquer les mêmes traces. Les transformations proposées doivent donc rester accompagnées de leurs alternatives et de ce qui permettrait de les départager.
+
+3. Orbites et invariants : rendre explicite ce qui reste identique.
+
+Pour certaines descriptions, une action de groupe peut définir une équivalence : deux configurations appartiennent à une même orbite si une transformation admise relie leurs représentations. Il faut alors dire quelles différences ont été rendues négligeables et conserver les transformations effectivement proposées. Ignorer l'échelle ou le miroir dans un critère d'identité n'autorise pas à effacer leur valeur matérielle ou historique.
+
+Les groupes agissent sur des représentations ; les événements historiques, eux, peuvent être irréversibles. Ces deux niveaux peuvent coexister. Toute opération de réemploi n'a pas à devenir un élément de groupe. Des rotations bornées ne forment pas généralement un groupe ; une famille de déformations plausible et une structure algébrique sont deux objets distincts.
+
+Les organisations expressives demeurent au cœur de la question. Nous n'assimilons pas une Pathosformel à une pose récurrente, ni le pli ou un point mort cinématique à un angle extrême sur une image 2D. Ces propositions demandent un développement propre ; les exclure de la recherche parce qu'elles ne sont pas immédiatement mesurables répéterait la dérive. Les mesurer avec un substitut inadéquat la répéterait aussi.
+
+4. Treillis : comparer les distinctions, sans les transformer en ascendance.
+
+Plusieurs descriptions peuvent réunir ou séparer les mêmes occurrences de manières différentes. Une description plus fine distingue des occurrences que l'autre confondait. L'ordre de raffinement des partitions permet de situer ces pertes et gains de distinction. Le treillis complet des partitions offre un cadre de comparaison ; les quelques descriptions retenues ne forment pas nécessairement elles-mêmes un treillis fermé.
+
+L'analyse formelle de concepts offre une autre construction à partir d'occurrences, de caractères et de leur incidence. Elle peut révéler des ensembles de propriétés partagées et des implications dans ce contexte. Elle dépend du codage, notamment de la différence entre absent et inconnu. Elle ne découvre pas directement des ancêtres.
+
+Le rôle de ces outils serait concret : montrer à quel choix d'identité deux reprises sont réunies, à quel ajout de distinction elles se séparent, et quelle conséquence cela a pour une hypothèse de transformation. La note formelle jointe donne une condition précise de compatibilité, sans en faire une définition universelle de l'identité.
+
+5. Le support : une variable historique et matérielle.
+
+Le support ne serait plus seulement ce qu'on neutralise pour retrouver un motif. Nous examinerions ce qu'il conserve, transforme ou rend possible dans une reprise. Il faut distinguer la prise de vue, la technique de reproduction et la recomposition de l'image. Une correction de perspective photographique n'explique pas une adaptation à une surface courbe. Une copie inversée ne démontre pas, à elle seule, le procédé matériel de son inversion.
+
+L'enquête chercherait des transformations récurrentes lors de passages entre supports, en les confrontant à des reprises sur un même support et à des motifs différents. Si atelier, époque, motif et support restent confondus, leur effet ne pourra pas être isolé. Cette difficulté définit ce qu'il faut chercher dans les corpus ; elle ne justifie pas de supprimer la question.
+
+6. La machine et le regard.
+
+La machine servirait à extraire des configurations, proposer et comparer des transformations, rechercher des récurrences et calculer les conséquences de plusieurs descriptions à une échelle inaccessible à l'examen exhaustif. Les résultats attendus sont des correspondances et des histoires argumentées, avec désaccords localisés, et non une unique note de similarité.
+
+Le regard de recherche ne sera pas traité comme une contamination à supprimer. Ses critères doivent pouvoir être développés, explicités et confrontés. Une erreur d'extraction, une réponse reprise d'une notice et un choix théorique d'identité ont cependant des statuts différents. Étudier la délégation suppose de les distinguer.
+
+Une possibilité expérimentale consiste à appliquer des descriptions explicites aux mêmes témoins, d'abord sur des relevés contrôlables, puis par extraction automatique. On peut alors séparer ce que change le choix des caractères de ce que change leur reconnaissance par le modèle. Une différence entre consignes ne prouve ni une propriété de l'œuvre ni un biais incarné au sens philosophique. L'enquête peut documenter une traduction, un déplacement ou un appauvrissement du regard ; leur interprétation ne se réduit pas à une métrique.
+
+UNE PREMIÈRE ÉPREUVE, ET SON PROLONGEMENT À L'ÉCHELLE
+
+Le premier objet manipulable est déjà disponible : le Parnasse et les deux reprises de Xanto. Il faut en tirer deux descriptions emboîtées, avec les mêmes détails visibles et les mêmes incertitudes : l'une portant sur l'organisation corporelle entière, mains et tête comprises ; l'autre ajoutant les rapports aux objets et aux partenaires. On ne mutilera pas la première pour faire gagner la seconde. Leur comparaison montre les distinctions ajoutées ; elle ne suffit pas à établir leur nécessité ou leur pouvoir explicatif.
+
+La comparaison consisterait à identifier quelles opérations chaque description permet d'énoncer, quelles correspondances elles conservent et ce qui change lorsqu'on passe de l'une à l'autre. Les observations existantes signalent déjà une réorientation d'un bras, des orientations de tête différentes et une modification du rapport à l'objet. Elles interdisent de partir du résultat attendu « corps identique, sens transformé ». Une invariance intéressante pourrait exister à un autre niveau ; il faut la construire et l'éprouver, pas la déclarer.
+
+Ce travail constitue l'élaboration d'une hypothèse sur un cas, pas sa validation générale. La fiche DEUX-DESCRIPTIONS-XANTO.txt indique les observations réutilisables et les opérations encore à établir. Il n'est pas demandé à Marcel de réaliser le repérage de remplacement à la main.
+
+L'étape suivante serait de confronter les organisations et opérations proposées à des familles distinctes de reprises, avec des sources historiques vérifiées et une partie des exemples réservée à cette confrontation. La matrice d'etude-02 peut aider à sélectionner ces familles, mais son préremplissage par machine ne vaut pas référence indépendante. Les passages entre supports demandent un échantillonnage où les facteurs pertinents puissent être comparés.
+
+À cette échelle, le système devrait rechercher les organisations, proposer leurs alignements partiels et comparer plusieurs histoires compatibles avec les contraintes documentaires. Les arêtes non observées resteraient des inférences. Les cas de filiation inconnue ne deviendraient pas des négatifs certains. Des différences entre modèles de transmission seraient examinées avec leur sensibilité aux caractères, à la sélection des témoins et aux données manquantes.
+
+Des expériences sur transformations contrôlées aideraient à vérifier qu'un calcul respecte les invariances annoncées et conserve les différences déclarées pertinentes. Elles testeraient le comportement de l'instrument. Des cas historiques distincts testeraient ensuite sa prise sur les transmissions. Une simulation ne fournirait pas les preuves historiques qui lui manquent.
+
+CE QUI COMPTERAIT COMME RÉSULTAT
+
+Un résultat positif possible serait de montrer qu'une organisation, spécifiée autrement que par une ressemblance globale, permet de décrire des reprises et des recombinaisons sur des familles nouvelles, en expliquant les traces qu'une description plus simple laisse indéterminées. Un autre serait de montrer précisément qu'une invariance utile pour reconnaître une forme efface une information nécessaire à l'étude de sa transmission, et comment la conserver sans renoncer à cette reconnaissance.
+
+Un résultat négatif substantiel serait de constater que les invariants proposés ne résistent pas aux reprises documentées, que leur intérêt provient d'un codage ajusté aux exemples, ou que les opérations ne se transfèrent pas. Ce résultat porterait sur une hypothèse définie ; l'échec de DINO sur Pâris ne joue pas ce rôle.
+
+Un résultat sur la délégation serait de localiser quels choix du regard sont effectivement maintenus à grande échelle, et où les catégories du modèle prennent leur place. La stabilité entre représentations ne prouve pas une vérité ; l'instabilité n'invalide pas toute interprétation. Dans les deux cas, on revient aux œuvres, aux traces et à la question poursuivie.
+
+LE TRAVAIL EXISTANT CHANGE DE RÔLE
+
+Le dossier Xanto devient un terrain d'élaboration et de contre-exemples. Les observations, sources et limites restent consultables. L'interface conserve sa fonction d'examen et de traçabilité. DINO et les gradients deviennent des comparaisons élémentaires pour la localisation, avec leurs résultats effectivement mesurés. Les archives documentent aussi une délégation réelle de l'enquête. Rien de cela ne prouve déjà la proposition ci-dessus ; rien n'a besoin d'être effacé pour qu'elle soit développée.
+
+Le document REEMPLOI-DU-TRAVAIL.txt détaille les adaptations et les usages distincts possibles. Un outil d'atelier peut être utile sans constituer un article. Une étude de la délégation demanderait un apport et un dispositif propres ; une seule conversation ne démontre pas le comportement général des machines. Rome et les Modi peuvent rester des cas de réflexion sur une source lacunaire et un changement de sens, sans être automatiquement exclus ou érigés en second projet.
+
+ORIGINE ET RÉSERVES
+
+Archives du programme : ../reprise-mnemosyne/session-codex-retrouvee.txt et echanges-codex-claude.txt. La première contient aussi des propositions de modèles collées par Marcel : elles ne deviennent pas pour autant ses thèses adoptées.
+Dialogue de reprise : 01 à 06 dans ce dossier. Les propositions corrigées y restent présentes ; lire CONSTAT-ET-ARBITRAGES.txt pour leur statut final.
+Sources primaires consultées : SOURCES-ET-POSITIONNEMENT.txt. Cette lecture ciblée ne démontre pas la nouveauté du programme et ne transforme pas la reprise en commentaire d'Impett.
+
+Cette proposition remet en travail les problèmes initiaux. Elle ne prétend pas les avoir résolus par la rédaction d'une architecture.

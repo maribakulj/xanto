@@ -1,0 +1,23 @@
+Prototype Mnemosyne, v0.1 — 7 octobre 2026
+
+Périmètre immédiat : trois images du dossier A (Parnasse source / Apollon / Pâris), premières observations localisées et comparaisons inspectables. Dossier Rome présent uniquement comme suite documentaire, sans données visuelles inventées. Aucune inférence de réception, métrique scientifique ou test de G.
+
+Contrat commun pour le travail parallèle
+
+data/corpus.json : tableau de 3 objets.
+{id:"parnassus"|"apollo"|"paris", title, institution, inventory, date, medium, image:"assets/nom.jpg", image_url, source_url, image_width, image_height, physical_dimensions, image_status, attribution_note, limitations:[...]}
+Toutes les valeurs sont des chaînes sauf image_width/image_height nombres. physical_dimensions est une chaîne descriptive, pas une calibration de l'image. Les états et l'exemplaire directement employé doivent être distingués.
+
+data/observations.json : tableau d'observations.
+{id:"obs-...", object_id, entity_id:"E1", type:"POSE"|"ATTRIBUTE"|"RELATION"|"ACTION"|"INSCRIPTION", statement, certainty:"clear"|"probable"|"indeterminate", evidence_kind:"image"|"catalogue"|"interpretation", source_url, bbox:[x,y,w,h]|null, note}
+bbox en proportions de l'image entière, 0..1. Une localisation approximative est indiquée comme telle. Les constatations visuelles sont préliminaires, attribuées à un assistant informé des sujets. Les doigts/contacts illisibles restent indéterminés. Un nom d'objet ou de personnage fourni par la notice ne devient pas automatiquement un constat visuel. Les observations issues de notices peuvent rester sans bbox.
+
+data/comparisons.json : tableau de propositions comparées.
+{id:"cmp-...", from_id, to_id, subject, observation_ids:[...], difference, operation_status:"observed_difference"|"catalogue_attribution"|"hypothesis"|"indeterminate", interpretation, limitations:[...]}
+Une différence entre témoins n'est pas automatiquement une opération de Xanto.
+
+UI sans dépendances : index.html, styles.css, app.js. Les données sont embarquées dans data/bundle.js par scripts/build_bundle.py, sous window.MNEMOSYNE_DATA={corpus,observations,comparisons,meta}; ne pas charger les JSON par fetch (doit fonctionner en fichier local autant que via serveur).
+UI : français ; trois images avec choix de paire, zoom/repères ; niveaux observation/notice/interprétation et confiance affichés ; sélectionner une observation met son repère en évidence ; édition des notes/confiance et ajout d'observation, sauvegarde locale et export JSON des annotations ; remise à zéro avec confirmation. Aucun envoi réseau, mesure en pixels présentée comme échelle physique, score scientifique ou demande de validation dans le flux utilisateur.
+Export versionné avec annotations et corpus d'origine identifiable. Aucune modification automatique des JSON source par le navigateur.
+
+Chaque agent travaille uniquement dans les fichiers qui lui sont attribués. Claude est reviewer, sans édition des fichiers pendant la construction. Les réponses, décisions et corrections seront archivées dans reviews/.

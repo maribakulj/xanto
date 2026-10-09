@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-07T10:21:33.875380+00:00",
+  "script": "scripts/run_cv.py",
+  "script_sha256": "19aae9afadb5c036a103872713a685f2155795fc981814175596081a55a78532",
+  "input_sha256": "5647efbe6b7edd28a9242a17028c419db37ca5b0dae89d567a1a32fe8c499902",
+  "reference_results": "cv/results.json",
+  "reference_results_sha256": "2430b4f943375ad0c07a113490fa8c31b3e866cad5fdb4309742069c8c64f5ee",
+  "command": [
+    "~/caypollard/.venv/bin/python",
+    "~/mnemosyne-prototype/scripts/run_cv.py",
+    "--root",
+    "/var/folders/vv/rl23nqvj4wx8mxpmvtj_gjfh0000gn/T/mnemosyne-cv-isolation-fgkkh6hc"
+  ],
+  "isolated_input_files": [
+    {
+      "path": "cv/inputs.json",
+      "sha256": "5647efbe6b7edd28a9242a17028c419db37ca5b0dae89d567a1a32fe8c499902",
+      "bytes": 1293
+    },
+    {
+      "path": "assets/parnasse-high.jpg",
+      "sha256": "96f427403d318234aa7155099940147a83e3395667fefa11196fc99f22e345e8",
+      "bytes": 3778377
+    },
+    {
+      "path": "assets/apollo-pan.jpg",
+      "sha256": "f8c272079c4438ec108ec1604ce73645844b07edb5d2dfee07d9a8f830fef9bf",
+      "bytes": 51208
+    },
+    {
+      "path": "assets/paris-front-high.jpg",
+      "sha256": "a4a9cdcabf506a362dcbec9ae15bdfcc598ec75c23a6e9e15de946a68fa2132b",
+      "bytes": 2125617
+    },
+    {
+      "path": "cv/cache/58ff878137fbb069853292d95234c77015336bff21005af890b9d79a394939c7.npz",
+      "sha256": "1f43ccb2658c057c9ada11672b39bb4f27c55dadeb0bd09da758ef606a958430",
+      "bytes": 5942813
+    },
+    {
+      "path": "cv/cache/3cc1c6384b43e96e6e61b94377ef73fc50b4be0cb1810c383bbffa3113933d95.npz",
+      "sha256": "0117f909eca7bd2a611e1649b51e7b42ddcaf6f22c3ce2896a5602e7bd9d108c",
+      "bytes": 5943150
+    },
+    {
+      "path": "cv/cache/670b2536d6ee9c38fe1fbc8713325f435634ab57dd33c89e4f2c9feb0015f37f.npz",
+      "sha256": "1075b318957d4d05ffa4b889bebd5199f7abe64756b8a13720958e06e962988e",
+      "bytes": 7429666
+    }
+  ],
+  "isolated_input_file_count": 7,
+  "dataset_annotation_files_present": false,
+  "same_parameters": true,
+  "same_queries": true,
+  "device": "mps",
+  "cache_policy": "Copies des trois caches de patches déjà calculés, sans modification. Recherche et classement exécutés de nouveau.",
+  "tolerance": 1e-06,
+  "all_proposals_match": true,
+  "comparisons": [
+    {
+      "query_id": "apollo-body",
+      "target_id": "parnassus",
+      "method": "dinov2_spatial_pyramid",
+      "proposal_count": 5,
+      "candidate_count": 6392,
+      "ranks_identical": true,
+      "max_abs_score_difference": 0.0,
+      "max_abs_bbox_difference": 0.0,
+      "matches_reference": true
+    },
+    {
+      "query_id": "apollo-body",
+      "target_id": "apollo",
+      "method": "dinov2_spatial_pyramid",
+      "proposal_count": 5,
+      "candidate_count": 5487,
+      "ranks_identical": true,
+      "max_abs_score_difference": 0.0,
+      "max_abs_bbox_difference": 0.0,
+      "matches_reference": true
+    },
+    {
+      "query_id": "apollo-body",
+      "target_id": "paris",
+      "method": "dinov2_spatial_pyramid",
+      "proposal_count": 5,
+      "candidate_count": 7518,
+      "ranks_identical": true,
+      "max_abs_score_difference": 0.0,
+      "max_abs_bbox_difference": 0.0,
+      "matches_reference": true
+    }
+  ],
+  "isolated_run_duration_seconds": 4.927,
+  "check_duration_seconds": 11.517,
+  "temporary_directory_removed": true,
+  "limitations": [
+    "Contrôle d’exécution avec un dossier de données isolé ; aucune observation, référence cible, notice ou bundle présent dans ce dossier.",
+    "Ce n’est pas un bac à sable système : interpréteur, bibliothèques et script restent accessibles hors du dossier temporaire.",
+    "Les caches contiennent les cartes de patches calculées auparavant ; leur production n’est pas réexécutée dans ce contrôle.",
+    "Les paramètres et la requête ont été conçus par des assistants déjà informés du dossier ; ce contrôle ne constitue pas une conception en aveugle ni une prérégistration.",
+    "Identité des sorties ne valide ni la qualité des correspondances ni une transmission historique."
+  ]
+}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mnemosyne — Atelier des transformations</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="cv.css">
+  <script src="data/bundle.js" defer></script>
+  <script src="data/cv_bundle.js" defer></script>
+  <script src="app.js" defer></script>
+  <script src="cv.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#main">mnemosyne<span>Atelier des transformations</span></a>
+    <div class="header-actions"><span class="local-badge"><i></i>Dossier local<span class="local-scope">Notes propres à ce navigateur et à cette adresse</span></span><button id="exportButton" class="button button-dark">Exporter les annotations <span aria-hidden="true">↗</span></button></div>
+  </header>
+  <main id="main">
+    <section class="intro">
+      <div><p class="eyebrow">Xanto et ses modèles / Recherche visuelle</p><h1>Rechercher les reprises d’un motif.</h1><p class="lede">À partir d’une région-source fournie, comparer les candidats calculés par DINOv2 et par un gabarit de gradients.</p></div>
+      <div class="intro-aside"><span class="small-label">Un pilote, deux reprises</span><p>Parnasse · Apollon · Pâris</p><span class="quiet">Localisation de régions similaires ; aucune compréhension des gestes ni preuve de transmission déduite.</span></div>
+    </section>
+    <section id="cvSection" class="cv-section" aria-labelledby="cvHeading">
+      <div class="cv-topline"><div><p class="eyebrow">01 / Résultats automatiques</p><h2 id="cvHeading">Du motif fourni aux régions calculées</h2></div><span id="cvRunStatus" class="cv-run-status" role="status">Chargement du dossier de calcul…</span></div>
+      <div class="cv-controls"><fieldset class="cv-methods"><legend>Méthode de recherche</legend><label><input type="radio" name="cvMethod" id="cvMethodDino" value="dino" checked><span>DINOv2 <small>descripteurs visuels</small></span></label><label><input type="radio" name="cvMethod" id="cvMethodBaseline" value="baseline"><span>Gabarit de gradients <small>comparaison simple</small></span></label></fieldset><div class="cv-target-control"><label for="cvTarget">Image recherchée</label><select id="cvTarget"></select></div></div>
+      <div class="cv-grid">
+        <article class="cv-query-panel"><div class="cv-panel-label"><span class="cv-label-number">1</span><h3>Requête fournie</h3></div><div id="cvQueryCrop" class="cv-query-crop"><img id="cvQueryImage" alt="Région-source fournie pour la recherche" hidden></div><p id="cvQueryTitle" class="cv-image-title"></p><p id="cvQueryProvenance" class="cv-small"></p><details class="cv-source-context"><summary>Situer la requête dans la source</summary><div class="cv-source-thumbnail"><img id="cvSourceImage" alt="Image-source entière, avec la région fournie" hidden><span id="cvSourceBox" hidden></span></div></details></article>
+        <article class="cv-target-panel"><div class="cv-panel-label"><span class="cv-label-number">2</span><h3>Régions candidates calculées</h3><span id="cvTargetRole" class="cv-role"></span></div><div id="cvTargetViewport" class="cv-target-viewport"><div id="cvTargetWrap" class="cv-target-wrap"><div id="cvTargetStage" class="cv-target-stage"><img id="cvTargetImage" alt="" hidden><div id="cvCandidateMarkers" class="cv-candidate-markers"></div><div id="cvReferenceBox" class="cv-reference-box" hidden><span>Référence provisoire</span></div></div></div><p id="cvImageEmpty" class="cv-image-empty" hidden>Image indisponible.</p></div><div class="cv-image-tools"><span id="cvZoomStatus">Image entière</span><div><button id="cvFit" type="button" class="text-button">Image entière</button><button id="cvFocusCandidate" type="button" class="text-button">Cadrer le candidat</button></div></div><p id="cvTargetCaption" class="cv-small"></p></article>
+        <aside class="cv-candidates-panel" aria-label="Classement des propositions"><div class="cv-panel-label"><span class="cv-label-number">3</span><h3>Les propositions</h3></div><p id="cvScoreDefinition" class="cv-score-definition">Similarité cosinus · pas une probabilité</p><div id="cvCandidates"></div><p id="cvCandidateCount" class="cv-small"></p><p id="cvScoreSpread" class="cv-small cv-score-spread"></p><p class="cv-small cv-interaction-note">Un clic sur une proposition cadre sa région dans l’image. Les erreurs de localisation restent affichées.</p></aside>
+      </div>
+      <section id="cvEvaluationSummary" class="cv-evaluation-summary" aria-label="Bilan du premier candidat calculé" aria-live="polite"></section>
+      <div class="cv-bottomline"><p>Ces résultats proviennent d’un calcul enregistré. Les notices et annotations du carnet ne servent pas à localiser les régions cibles.</p><label class="toggle"><input id="cvShowReference" type="checkbox"> Afficher les références provisoires</label></div>
+      <section id="cvEvaluation" class="cv-evaluation" hidden aria-labelledby="cvEvaluationTitle"><div><p class="eyebrow">Évaluation séparée / après le calcul</p><h3 id="cvEvaluationTitle">Comparer aux repères préexistants</h3><p>Références approximatives issues du relevé assisté, sans validation humaine indépendante. Leur recouvrement ne constitue pas un benchmark scientifique.</p></div><div id="cvEvaluationContent"></div></section>
+      <details class="cv-run-details"><summary>Exécution, paramètres et limites</summary><div id="cvRunDetails"></div></details>
+    </section>
+    <div class="cv-documentation-heading"><p class="eyebrow">02 / Documentation et examen critique</p><h2>Le carnet préexistant</h2><p>Les repères ci-dessous sont des annotations de travail, pas les détections du modèle. Les modifier ne relance aucun calcul.</p></div>
+    <div id="storageStatus" class="storage-status" role="status" aria-live="polite"></div>
+    <aside id="draftNotice" class="draft-notice" hidden aria-label="Ancien brouillon conservé"><p id="draftNoticeText"></p><button id="exportPreviousDraft" class="button">Exporter l’ancien brouillon</button></aside>
+    <section class="workspace" aria-label="Comparaison et observations">
+      <div class="comparison-workbench">
+        <div class="section-toolbar"><div><span class="section-number">A</span><h2>Comparer les témoins</h2></div><label class="toggle"><input id="showMarkers" type="checkbox" checked> Repères</label></div>
+        <div class="image-pair">
+          <article class="image-panel" data-side="left">
+            <div class="panel-heading"><label for="leftChoice"><span class="small-label">Témoin de gauche</span><select id="leftChoice"></select></label><span class="panel-letter">I</span></div>
+            <div class="viewport" id="leftViewport"><div class="stage-wrap"><div class="image-stage" id="leftStage"><img id="leftImage" alt=""><div class="markers" id="leftMarkers"></div></div></div><div class="image-empty" hidden>Image indisponible pour ce témoin.</div></div>
+            <div class="image-tools"><span id="leftZoomLabel">Vue entière</span><div><button class="icon-button" data-zoom="out" data-side="left" aria-label="Réduire l’image de gauche">−</button><button class="icon-button" data-zoom="in" data-side="left" aria-label="Agrandir l’image de gauche">+</button><button class="text-button" data-zoom="fit" data-side="left">Ajuster</button></div></div>
+            <div class="image-caption" id="leftCaption"></div>
+          </article>
+          <article class="image-panel" data-side="right">
+            <div class="panel-heading"><label for="rightChoice"><span class="small-label">Témoin de droite</span><select id="rightChoice"></select></label><span class="panel-letter">II</span></div>
+            <div class="viewport" id="rightViewport"><div class="stage-wrap"><div class="image-stage" id="rightStage"><img id="rightImage" alt=""><div class="markers" id="rightMarkers"></div></div></div><div class="image-empty" hidden>Image indisponible pour ce témoin.</div></div>
+            <div class="image-tools"><span id="rightZoomLabel">Vue entière</span><div><button class="icon-button" data-zoom="out" data-side="right" aria-label="Réduire l’image de droite">−</button><button class="icon-button" data-zoom="in" data-side="right" aria-label="Agrandir l’image de droite">+</button><button class="text-button" data-zoom="fit" data-side="right">Ajuster</button></div></div>
+            <div class="image-caption" id="rightCaption"></div>
+          </article>
+        </div>
+        <p class="image-footnote">Les repères situent approximativement une observation. Les dimensions des objets ne calibrent pas les images affichées. Le fichier d’Apollon (570 pixels de large) limite la lecture des mains et contacts ; le zoom n’ajoute pas de détail.</p>
+        <section class="relations-section"><div class="section-toolbar"><div><span class="section-number">B</span><h2>Mettre en regard</h2></div><span id="comparisonCount" class="count"></span></div><div id="comparisonsList"></div></section>
+      </div>
+      <aside class="observations-panel" aria-label="Carnet d’observations">
+        <div class="section-toolbar"><div><span class="section-number">C</span><h2>Le carnet</h2><span id="observationCount" class="count"></span></div><button id="addButton" class="add-button" aria-label="Ajouter une observation">+</button></div>
+        <p class="aside-intro">Distinguer le visible, la notice et l’interprétation.</p>
+        <div class="evidence-filters" role="group" aria-label="Filtrer le niveau de preuve"><button data-evidence="all" class="active" aria-pressed="true">Tout</button><button data-evidence="image" aria-pressed="false">Image</button><button data-evidence="catalogue" aria-pressed="false">Notice</button><button data-evidence="interpretation" aria-pressed="false">Interprétation</button></div>
+        <div class="secondary-filters"><label for="certaintyFilter" class="sr-only">Degré de confiance</label><select id="certaintyFilter"><option value="all">Toute confiance</option><option value="clear">Claire</option><option value="probable">Probable</option><option value="indeterminate">Indéterminée</option></select><label><input id="pairOnly" type="checkbox" checked> Paire affichée</label></div>
+        <div id="observationsList" class="observations-list"></div>
+        <section id="observationEditor" class="observation-editor" hidden aria-label="Éditer l’observation sélectionnée"></section>
+        <p class="aside-note">Les premières observations sont celles d’un assistant informé des sujets. Ce carnet ne constitue pas une annotation en aveugle.</p>
+      </aside>
+    </section>
+    <section class="provenance-section"><div class="section-toolbar"><div><span class="section-number">D</span><h2>Les objets et leurs sources</h2></div><span class="quiet">Exemplaires, attributions, limites</span></div><div id="provenanceList" class="provenance-grid"></div></section>
+    <section class="next-dossier"><span class="eyebrow">Dossier suivant / Rome et le Modo 9</span><p>La configuration reprise et le sens réactivé demandent des preuves distinctes.</p><span class="quiet">Hess propose une lecture de l’allusion politique avec des réserves sur l’intention. Cette question reste documentaire : aucune mesure ni comparaison visuelle de Rome n’est renseignée ici.</span></section>
+    <footer><p>Mnemosyne · Un atelier d’examen, pas un verdict.<span>Les modifications restent dans ce navigateur. L’export conserve une copie transportable.</span></p><button id="resetButton" class="text-button">Réinitialiser mes annotations</button></footer>
+  </main>
+  <dialog id="addDialog"><form id="addForm"><div class="dialog-heading"><div><p class="eyebrow">Le carnet</p><h2>Ajouter une observation</h2></div><button type="button" id="closeDialog" class="icon-button" aria-label="Fermer">×</button></div><label>Témoin<select id="newObject" name="object_id" required></select></label><div class="form-grid"><label>Type<select name="type"><option value="POSE">Configuration corporelle</option><option value="ATTRIBUTE">Attribut</option><option value="RELATION">Rapport visible</option><option value="ACTION">Action interprétée</option><option value="INSCRIPTION">Inscription</option></select></label><label>Niveau de preuve<select name="evidence_kind"><option value="image">Image</option><option value="catalogue">Notice</option><option value="interpretation">Interprétation</option></select></label></div><label>Observation<textarea name="statement" rows="3" required maxlength="5000" placeholder="Décrire précisément ce qui est observable ou attribué."></textarea></label><div class="form-grid"><label>Confiance<select name="certainty"><option value="clear">Claire</option><option value="probable" selected>Probable</option><option value="indeterminate">Indéterminée</option></select></label><label>Entité repérée<input name="entity_id" value="E1" maxlength="100"></label></div><label>Source <span class="optional">facultative</span><input name="source_url" type="url" placeholder="https://…"></label><details class="bbox-details"><summary>Localisation approximative, facultative</summary><p>Pourcentages de l’image entière, depuis son coin supérieur gauche. Laisser les quatre champs vides pour une observation sans repère.</p><div class="bbox-inputs"><label>Gauche %<input name="bbox_x" type="number" min="0" max="100" step="0.1"></label><label>Haut %<input name="bbox_y" type="number" min="0" max="100" step="0.1"></label><label>Largeur %<input name="bbox_w" type="number" min="0.1" max="100" step="0.1"></label><label>Hauteur %<input name="bbox_h" type="number" min="0.1" max="100" step="0.1"></label></div></details><label>Note de travail<textarea name="note" rows="2" maxlength="10000"></textarea></label><p id="formError" class="form-error" role="alert"></p><div class="dialog-actions"><button type="button" id="cancelDialog" class="button">Annuler</button><button type="submit" class="button button-dark">Ajouter au carnet</button></div></form></dialog>
+</body>
+</html>

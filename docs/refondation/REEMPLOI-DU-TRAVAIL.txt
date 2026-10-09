@@ -1,0 +1,65 @@
+RÉEMPLOI DU TRAVAIL — MNEMOSYNE
+7 octobre 2026
+Statut : document préparatoire. Usages proposés, sans validation scientifique supplémentaire.
+
+Le programme peut reprendre l’identité des formes, leur transmission et leur reconnaissance sans dépendre de l’architecture du prototype. Conservons preuves, résultats et modules utiles ; reprendre une interface entière ou une hypothèse abandonnée doit répondre à un besoin démontré.
+
+1. DOSSIER XANTO ET SOURCES DOCUMENTAIRES
+
+Usage immédiat. L’Apollon du Parnasse et ses reprises en Apollon et Pâris permettent de distinguer identité attribuée, correspondance visible, transformation et interprétation. Les lectures de Hess et les pièces repérées pour Rome/Modo 9 ouvrent sur la réactivation du sens et le rôle d’un regard informé.
+
+Adaptation. Séparer les objets, leurs états, leurs reproductions et les affirmations des notices ; relier chaque rapprochement à ses preuves et alternatives. Compléter les lectures spécialisées manquantes avant de revendiquer une contribution nouvelle.
+
+Limite. Un rapprochement de catalogue ne documente pas l’exemplaire effectivement copié. Notre reconnaissance actuelle ne démontre pas la réception historique. Xanto fournit un cas de travail, pas un modèle universel de l’hérédité des images.
+
+2. LES 22 OBSERVATIONS ET 6 COMPARAISONS
+
+Usage immédiat. Un petit ensemble de propositions inspectables pour éprouver les unités choisies : corps entier, partie corporelle, attribut, contact ou relation. Les corrections sur les mains et l’orientation des têtes montrent comment un vocabulaire trop grossier peut effacer une différence pertinente.
+
+Adaptation. Conserver révisions, auteurs et sources ; distinguer constat, attribution et interprétation. Rattacher les hypothèses d’identité aux observations nécessaires, sans transformer les identifiants locaux en classes universelles. Prévoir désaccords et indécidables.
+
+Limite. Ces annotations assistées, informées des sujets et localisées approximativement, ne sont ni une vérité terrain indépendante ni une définition des Pathosformeln. Leur nombre ne représente pas autant de témoins indépendants.
+
+3. INTERFACE, EXPORTS ET PROVENANCE
+
+Usage immédiat. Les fonctions de comparaison, cadrage, sélection des repères et export rendent contestables les propositions associées aux images. Les empreintes des fichiers, versions du dossier et historiques avant/après permettent de retrouver sur quelle image une annotation a été faite.
+
+Adaptation. Réutiliser ces fonctions et leurs vérifications. Distinguer relations observées, transmissions proposées et interprétations des lecteurs, sans laisser l’écran à deux images imposer l’architecture. Les notes restent propres au navigateur et à l’adresse ; leur transport demande un export.
+
+Limite. La traçabilité documente une décision ; elle ne garantit pas sa justesse. Le miroir d’affichage n’est pas une opération historique, et le zoom n’ajoute aucun détail.
+
+4. CODE ET RÉSULTATS DE VISION
+
+Usage immédiat. Une brique réelle de proposition de correspondances : DINOv2 et un gabarit de gradients recherchent des régions à partir d’une région-source fournie. La séparation entre entrées du calcul, prédictions et évaluation est réutilisable dans une architecture plus ambitieuse. Les échecs conservés constituent des cas de non-régression utiles.
+
+Adaptation. Générer des candidats, puis examiner séparément transformations et indices historiques. Conserver paramètres et sorties ; chaque nouvelle méthode ou requête doit produire une exécution identifiable. Comparer les représentations sur des questions explicites, pas seulement un score global.
+
+Limite. Le premier résultat DINOv2 donne une IoU d’environ 0,707 sur Apollon et 0,244 sur Pâris, dont le centre proposé est hors référence. La boîte centrée atteint déjà 0,489 sur Apollon. Deux reprises et des références assistées ne valident ni généralisation, ni compréhension des gestes, ni transmission. Les scores ne sont pas des probabilités.
+
+5. ARCHIVES DU DIALOGUE
+
+Usage immédiat. Retrouver auteurs, objections, corrections et déplacements du projet. Distinguer le mandat de Marcel des extrapolations des modèles sur G ou sur les intentions historiques.
+
+Adaptation. Constituer un registre de décisions relié aux passages publics et aux pièces examinées. Conserver les positions rejetées comme historique, sans les maintenir artificiellement dans le programme.
+
+Limite. L’accord entre agents n’est pas une validation. Les archives publiques ne livrent ni une formalisation absente ni un accès aux raisonnements internes.
+
+6. LIENS AVEC CAYPOLLARD ET ÉTUDE 02
+
+Usage immédiat. Caypollard fournit le problème de la représentation entre supports et du langage visuel compositional ; étude 02 interroge les rapports entre images, textes, reprises et descriptions. Mnemosyne peut s’appuyer sur ces distinctions au lieu de recréer leurs questions.
+
+Adaptation. Mutualiser schémas de provenance, distinctions de preuves et composants utiles, en maintenant des objectifs et évaluations distincts. L’« héritage » d’une notice de catalogue ne doit pas devenir, par glissement de vocabulaire, une preuve de filiation des images.
+
+Limite. Les résultats d’un projet ne valident pas automatiquement les hypothèses de l’autre.
+
+DEUX DÉBOUCHÉS COMPLÉMENTAIRES, CONDITIONNELS
+
+A. Un atelier comparatif pour enseignement, examen collectif ou préparation de corpus. Le prototype est déjà une base pratique ; accessibilité, droits des images, transport des annotations et usages réels restent à vérifier. Son intérêt serait un service rendu, sans promesse d’article.
+
+B. Un cas documentaire sur la délégation d’une enquête à plusieurs assistants. Les archives peuvent montrer comment une ambition se resserre, comment des erreurs sont corrigées et comment les preuves sont négociées. Ce serait un dossier rétrospectif unique ; une étude générale de la délégation demanderait d’autres cas et une méthode explicite.
+
+PROVENANCE
+
+Motifs et sources : mnemosyne-prototype/data/corpus.json, observations.json, comparisons.json ; sources détaillées dans dialogue-mnemosyne/LECTURES-et-CAS.txt. Les images sont rattachées à leurs notices et empreintes.
+Calculs : mnemosyne-prototype/cv/inputs.json, results.json, baseline_results.json, evaluation.json et trivial_controls.json ; versions, paramètres et empreintes sont enregistrés dans ces pièces.
+Archives publiques : reprise-mnemosyne/ et dialogue-mnemosyne/, sous Documents/Codex/2026-10-07/. Les comptages 22/6 ont été vérifiés pour ce document. Aucun autre fichier n’a été modifié.

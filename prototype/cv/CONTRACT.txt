@@ -1,0 +1,21 @@
+CORRECTION DU PROTOTYPE — CALCUL AUTOMATIQUE DE CORRESPONDANCES
+7 octobre 2026
+
+La visionneuse précédente ne calculait pas de correspondances. v0.2 ajoute une recherche de régions à partir d'un motif-source fourni. Ce n'est ni une détection sans requête ni une preuve de transmission.
+
+Entrées du calcul : cv/inputs.json, qui contient seulement des images (id, image, width, height, sha256), une requête (id, source_id, bbox normalisée, provenance) et des paramètres fixés avant exécution. Les programmes de localisation ne lisent NI observations.json, NI comparisons.json, NI cv/references.json. Les titres et notices n'entrent pas dans les descripteurs. Aucun réglage d'après les résultats sur les deux reprises ; corriger un bug reste permis et doit être noté.
+
+Le modèle DINOv2-base et torch/transformers/Pillow/numpy sont disponibles via ~/caypollard/.venv/bin/python. Poids publics déjà en cache : facebook/dinov2-base, révision f9e44c814b77203eaa57a6bdbbd535f21ede1415. Utilisation en lecture, pas de modification de l'environnement caypollard.
+
+Sorties de localisation : cv/results.json (DINOv2) et cv/baseline_results.json (gabarit de gradients). Même schéma :
+{
+ schema_version:"1.0",
+ run:{method,method_label,model_id,model_revision,device,generated_at,duration_seconds,input_sha256,parameters,limitations:[...]},
+ queries:[{id,source_id,bbox,provenance}],
+ results:[{query_id,target_id,method,proposals:[{rank,bbox:[x,y,w,h],score}],candidate_count,heatmap:null|{width,height,values:[...]},notes:[...]}]
+}
+La source elle-même est un contrôle technique, les deux plats sont les essais. proposals triées par score décroissant, top5 après suppression de chevauchements si pertinente. Toutes les coordonnées dans l'image d'origine. Les scores sont des similarités, jamais des probabilités. Garder aussi les échecs.
+
+Évaluation séparée : scripts/evaluate_cv.py lit les sorties et cv/references.json seulement APRÈS calcul. Produit cv/evaluation.json : {reference_status,metrics_definition,results:[{target_id,method,reference_bbox,top1_iou,best_top5_iou,best_top5_rank,top1_center_inside}],limitations:[...]}. Références préexistantes approximatives issues du relevé assisté, pas un benchmark humain indépendant. Le contrôle source réutilise la requête ; il teste le fonctionnement, pas la généralisation.
+
+UI : nouvelle section de résultats automatiques dans index.html + cv.js/cv.css ; données dans data/cv_bundle.js sous window.MNEMOSYNE_CV={inputs,dino,baseline,evaluation}. Afficher clairement région-source FOURNIE, candidats CALCULÉS, baseline, limites et évaluation provisoire. Les sorties automatiques ne remplacent pas les annotations préexistantes et restent consultables même si erronées. Comparaison visuelle de requête et propositions sans demander au lecteur de faire la détection. Le calcul est exécuté par scripts, l'interface consulte le résultat enregistré ; pas de faux bouton Recalculer.

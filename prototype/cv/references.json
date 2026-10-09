@@ -1,0 +1,38 @@
+{
+  "reference_status": "Boîtes approximatives préexistantes du relevé assisté, non validées par un annotateur humain indépendant.",
+  "boxes": [
+    {
+      "target_id": "parnassus",
+      "bbox": [
+        0.441,
+        0.385,
+        0.145,
+        0.267
+      ],
+      "reference_id": "obs-source-pose",
+      "role": "technical_self_control"
+    },
+    {
+      "target_id": "apollo",
+      "bbox": [
+        0.395,
+        0.331,
+        0.241,
+        0.271
+      ],
+      "reference_id": "obs-apollo-pose",
+      "role": "provisional_target_reference"
+    },
+    {
+      "target_id": "paris",
+      "bbox": [
+        0.518,
+        0.438,
+        0.239,
+        0.343
+      ],
+      "reference_id": "obs-paris-pose",
+      "role": "provisional_target_reference"
+    }
+  ]
+}

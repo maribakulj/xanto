@@ -1,0 +1,75 @@
+MNEMOSYNE — IDENTITÉ FORMELLE ET TRANSFORMATIONS DU RÉEMPLOI CHEZ XANTO
+Version de travail du 7 octobre 2026, rédigée par Codex après cinq échanges avec Claude, intégrant sa dernière lecture critique et les réserves conservées ci-dessous.
+
+QUESTION ET STATUT
+
+Quand une figure est réemployée dans une autre scène, comment décrire ce qui reste reconnaissable tout en conservant les changements de relations nécessaires à l'interprétation de sa nouvelle action ?
+
+Il s'agit d'un petit pilote documentaire et théorique. Il ne valide pas une théorie de la Pathosformel et ne démontre pas encore une contribution historique nouvelle. Son objet est de produire des cas précisément décrits auxquels une formalisation de l'identité devra pouvoir répondre.
+
+Il n'est pas nécessaire de choisir une seule identité universelle : une figure peut être tenue pour la même quant à sa provenance ou à une partie de sa configuration, et transformée quant à son rôle dans une scène. L'enjeu est d'expliciter ces critères et leurs relations. Décrire le changement d'action n'est pas la même tâche que reconnaître un emprunt.
+
+La question historique associée porte sur Rome, dans une allégorie de la ruine des villes italiennes de Xanto : quels indices soutiennent le rapprochement avec une figure du neuvième Modo et l'hypothèse, avancée prudemment par Hess, d'une réactivation érotique et politique ? Le contexte de production, les inscriptions et les usages comptent ; ils ne se déduisent pas de la ressemblance seule.
+
+LES DEUX DOSSIERS RETENUS
+
+A — Un motif source conservé, deux reprises attribuées.
+Raimondi, Parnasse, témoin Met17.37.150, deuxième état sur cinq, vers1517–1520 ; puis Xanto, Concours d'Apollon et Pan, Fitzwilliam C.88-1961,1531, et Jugement de Pâris, C.86-1961,1531. Les notices attribuent les deux figures au même Apollon. Dans la première destination, la figure tient une lyre ; dans la seconde, la notice décrit une pomme offerte et une houlette.
+Cette paire permet de relever les correspondances corporelles et les transformations de leurs rapports aux objets et partenaires. Les mains font partie du corps : on ne les exclura pas artificiellement pour rendre nécessaire le contexte. La géométrie exacte n'est pas déjà connue, ni l'exemplaire employé par Xanto identifié. Les deux notices dépendent du même catalogue de Poole. Une paire d'un motif ne constitue pas deux expertises indépendantes ni un échantillon statistique.
+
+Claude propose un appui historique supplémentaire : confronter les relevés à la formulation de Hess p19, qui invoque le maintien d'échelle et de pose dans les combinaisons de Xanto pour inférer l'usage de patrons de report. Codex a relu le passage et retient cette question, sans en faire une affirmation universelle à réfuter. Localiser une retouche préciserait la portée de la formulation ; cela resterait compatible avec un patron suivi de modifications. L'échelle doit être examinée en dimensions physiques avec l'incertitude des reproductions et de la surface courbe, pas par la taille des pixels de deux photographies ni après une normalisation qui supprimerait la différence recherchée.
+
+B — Une source lacunaire, une lecture historique publiée.
+Le plat de la ruine des villes italiennes, Milan, Castello Sforzesco, daté1530–1540 chez Hess, est rapproché de la femme du Modo9. Hess reproduit un bois donné vers1527 comme témoin de la composition. Ce bois n'est pas établi comme modèle matériel directement utilisé. Sa date, son statut et les autres témoins devront rester séparés.
+On examinera successivement le rapprochement de forme, les relations recomposées, la reconnaissance possible de la scène sexuelle et l'allusion politique. Les clés peuvent être un attribut conventionnel et participer à un double sens ; leur présence ailleurs ne suffirait pas à réfuter cette lecture. Une scène sexuelle peut être reconnue sans sonnet. Un lecteur contemporain informé et un spectateur historique attesté ne sont pas interchangeables.
+
+Les notices et reproductions principales ont été consultées ; les détails nécessaires à un relevé exhaustif, la notice complète et le revers du plat de Milan restent à obtenir. Aucun corpus supplémentaire n'est annoncé. Circé, Scylla, Séleucus et Pavie restent des pistes documentaires, pas des cas ajoutés automatiquement en cas de difficulté.
+
+OBSERVATIONS À PRODUIRE
+
+Chaque fiche indiquera l'objet, le témoin, l'état, la date proposée, la reproduction et la source de l'attribution. Elle séparera :
+1. Constat localisé : configuration corporelle, orientation, main, objet présent, proximité ou contact visible ; confiance et détail illisible.
+2. Correspondance et différence entre images : partie conservée ou modifiée, réorientation, substitution, ajout ou retrait de relation. Si l'intermédiaire est inconnu, ne pas attribuer automatiquement chaque différence à une opération de Xanto.
+3. Lecture de l'action ou du récit : proposition distincte, avec son appui dans l'image, l'inscription, une notice ou un argument publié.
+4. Reconnaissance de la source, allusion proposée et réception historique : trois assertions documentées séparément.
+
+L'inventaire d'etude-02 fournit déjà ENTITY, ATTRIBUTE, ACTION, RELATION, INSCRIPTION et POSE, des identifiants d'entités, des degrés de confiance et une reconnaissance déclarée à part. Ces principes seront réutilisés. Ses codes de présence ou de contradiction comparent des unités textuelles à des images : ils ne seront pas transférés tels quels à des opérations entre images. Un petit tableau de correspondance explicitera l'adaptation. Aucun fichier d'etude-02 n'est modifié.
+
+« Offrir » ne sera pas codé comme un contact géométrique. L'absence d'un élément sera distinguée de son illisibilité. Les relevés futurs faits après lecture des notices ne seront pas dits aveugles. L'accord de Codex et Claude ne constitue ni un accord entre annotateurs humains ni une preuve de réception.
+
+CE QUE LE PILOTE POURRAIT APPRENDRE — ET CE QUI CONTREDIRAIT NOTRE ATTENTE
+
+Issue relationnelle : une configuration corporelle reste assez proche pour fonder le rapprochement, alors que des contacts, objets ou partenaires sont réorganisés de manière pertinente pour décrire la nouvelle action. Il faudrait localiser les changements et montrer ce qu'une description du corps entier, à granularité fixée, laisse effectivement indéterminé. La simple adjonction de champs ou le changement de titre ne suffirait pas.
+
+Issue corporelle : les différences pertinentes se trouvent déjà dans les retouches du corps — bras, main, tête, torsion — et les relations ajoutées n'apportent pas la distinction attendue. Cela limiterait, pour ce dossier, notre hypothèse de la nécessité d'élargir l'unité aux partenaires et objets. Ce résultat doit rester possible.
+
+Une issue différente selon les cas conduirait à une conclusion locale. Des détails illisibles ou une filiation insuffisamment étayée conduiraient à un résultat indécis. Aucun de ces résultats ne prouve à lui seul une intention, la reconnaissance d'un public ou la supériorité générale d'une représentation. Le volet A ne valide pas la lecture érotique du volet B et ne fournit aucune fréquence transférable.
+
+Réserve finale de Claude : nous connaissons déjà les sujets et pouvons donc sélectionner après coup les différences qui les servent. Cette objection limite particulièrement toute prétention à montrer ce qu'un lecteur peut reconnaître grâce à une description. Un relevé documenté peut établir des différences matérielles et expliciter une interprétation ; il ne mesure pas leur effet sur des lecteurs. Une éventuelle épreuve de discrimination avec des lecteurs non informés serait une étude distincte, à concevoir seulement si cette efficacité de lecture devenait une question retenue. Elle n'a pas été menée. Les deux issues ci-dessus sont donc des possibilités à examiner, pas les résultats d'un test déjà discriminant.
+
+LIEN AU PROGRAMME INITIAL ET AU RESTE DU TRAVAIL
+
+Ce pilote prépare la distinction entre continuité de forme, transmission historique et transformation expressive. Il conserve ainsi une question centrale de la « génétique des images », sans promettre de reconstruire une généalogie à partir de ressemblances ni de trancher arbre contre réseau sur quelques objets.
+
+La définition du groupe G, de son domaine et de son invariant n'est pas disponible dans les pièces examinées. Le pilote peut préciser les exigences auxquelles une formalisation devrait répondre ; il ne teste pas celle de Marcel. Suppression d'un partenaire ou remplacement d'un objet ne sont pas automatiquement des actions inversibles d'un groupe. Une copie reconnue ne suffit pas à établir une Pathosformel ; sa dimension expressive demande une justification propre.
+
+Avec etude-02, le lien porte sur la séparation entre observation, verbalisation et interprétation. Avec caypollard, il porte sur une représentation compositionnelle, inspectable, utilisable entre supports. Les questions, corpus et résultats restent distincts. Un gain de description de ces cas ne vaut pas gain de recherche automatique dans les corpus existants.
+
+LIVRABLE ET CRITÈRE DE POURSUITE
+
+Le prochain livrable utile est un dossier comparatif illustré : témoins identifiés, relevés localisés, arguments publiés correctement attribués, alternatives et informations manquantes. Il doit rendre contestable chaque passage de l'observation à l'interprétation. Aucune collecte massive, entraînement ou métrique de performance n'est justifié à ce stade.
+
+Le pilote progresse s'il produit une distinction utile entre critères d'identité, documentée sur des détails contrôlables, ou s'il montre précisément pourquoi les cas choisis ne permettent pas cette distinction. Cela ne suffit pas à annoncer un article : une contribution historique demanderait un résultat allant au-delà des analyses déjà publiées ; une contribution de formalisation demanderait une proposition et une évaluation explicites. Si les antécédents couvrent les conclusions historiques et qu'aucun problème nouveau de représentation n'apparaît, le dossier reste préparatoire. L'inaccessibilité des témoins réduit les conclusions ; elle ne déclenche pas automatiquement une extension à un nouveau corpus.
+
+TROIS ACTES DOCUMENTAIRES PRIORITAIRES
+
+1. Réunir des détails comparables du Parnasse et des deux plats Fitzwilliam, en nommant l'état de l'estampe ; produire le premier relevé de pose, d'échelle et de relations, puis le confronter à Hess p19. Les images actuellement consultées suffisent à repérer les cas, pas à garantir tous les contacts ou positions des doigts. Consigner ce qui ne peut être mesuré correctement avant de chercher à conclure.
+2. Obtenir la notice de référence du plat de Milan, son inventaire, la datation argumentée, le revers et des détails de sa reproduction ; vérifier Petruzzellis Scherer, référencée par Hess. Ne pas fonder une chronologie précise sur la seule fourchette1530–1540.
+3. Lire les passages pertinents de Talvacchia1994 et Syson/Thornton2001, puis Turner2004 pour les seules inférences dépendant des versions des Modi. Distinguer ce qui est déjà établi, ce qui reste discuté et ce qui serait notre apport. Les accès manquants sont signalés dans LECTURES-et-CAS.txt.
+
+SOURCES ET TRACES
+
+Fitzwilliam : https://data.fitzmuseum.cam.ac.uk/id/object/76280 ; https://data.fitzmuseum.cam.ac.uk/id/object/76242
+Metropolitan Museum : https://www.metmuseum.org/art/collection/search/345269
+Hess1999, pp14–19 et notes : https://d2aohiyo3d3idm.cloudfront.net/publications/virtuallibrary/0892365005.pdf
+Le fichier LECTURES-et-CAS.txt indique précisément les sources lues, les images vues et les références seulement repérées. Les fichiers numérotés conservent les échanges, y compris les propositions ensuite corrigées ; leur contenu ne doit pas être lu comme une liste de résultats acquis.
