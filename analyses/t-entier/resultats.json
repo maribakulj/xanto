@@ -407,19 +407,827 @@
  "test_caraglio_vs_marcantonio": {
   "groupe_1": "Marcantonio",
   "groupe_2": "Caraglio",
-  "difference_g2_moins_g1": 0.0313,
-  "p_permutation_bilateral": 0.2241,
-  "n_permutations": 10000,
-  "n_pieces": 227
+  "unite": "référence (grappes = pièces)",
+  "positifs_g1": 10,
+  "references_g1": 247,
+  "part_g1": 0.0405,
+  "positifs_g2": 8,
+  "references_g2": 114,
+  "part_g2": 0.0702,
+  "difference_g2_moins_g1": 0.0297,
+  "ic95_bootstrap": [
+   -0.0217,
+   0.0859
+  ],
+  "p_bootstrap_bilateral": 0.2726,
+  "n_bootstrap": 10000,
+  "n_grappes": 227,
+  "n_pieces": 227,
+  "n_pieces_avec_les_deux_groupes": 60,
+  "note": "corrigé le 10/10/2026 (voir README) ; ancienne valeur erronée : +3,13 points, p = 0,22"
  },
  "test_groupe_ou_entier_caraglio_vs_marcantonio": {
   "groupe_1": "Marcantonio",
   "groupe_2": "Caraglio",
-  "difference_g2_moins_g1": 0.1006,
-  "p_permutation_bilateral": 0.0595,
-  "n_permutations": 10000,
-  "n_pieces": 227
+  "unite": "référence (grappes = pièces)",
+  "positifs_g1": 68,
+  "references_g1": 247,
+  "part_g1": 0.2753,
+  "positifs_g2": 52,
+  "references_g2": 114,
+  "part_g2": 0.4561,
+  "difference_g2_moins_g1": 0.1808,
+  "ic95_bootstrap": [
+   0.0721,
+   0.2872
+  ],
+  "p_bootstrap_bilateral": 0.0014,
+  "n_bootstrap": 10000,
+  "n_grappes": 227,
+  "n_pieces": 227,
+  "n_pieces_avec_les_deux_groupes": 60,
+  "note": "corrigé le 10/10/2026 ; ancienne valeur erronée : +10,1 points, p = 0,06"
  },
+ "test_caraglio_vs_marcantonio_grappes_estampes": {
+  "groupe_1": "Marcantonio",
+  "groupe_2": "Caraglio",
+  "unite": "référence (grappes = estampe)",
+  "positifs_g1": 10,
+  "references_g1": 247,
+  "part_g1": 0.0405,
+  "positifs_g2": 8,
+  "references_g2": 114,
+  "part_g2": 0.0702,
+  "difference_g2_moins_g1": 0.0297,
+  "ic95_bootstrap": [
+   -0.0495,
+   0.2367
+  ],
+  "p_bootstrap_bilateral": 0.6028,
+  "n_bootstrap": 10000,
+  "n_grappes": 31,
+  "n_pieces": null,
+  "n_pieces_avec_les_deux_groupes": null
+ },
+ "test_groupe_ou_entier_grappes_estampes": {
+  "groupe_1": "Marcantonio",
+  "groupe_2": "Caraglio",
+  "unite": "référence (grappes = estampe)",
+  "positifs_g1": 68,
+  "references_g1": 247,
+  "part_g1": 0.2753,
+  "positifs_g2": 52,
+  "references_g2": 114,
+  "part_g2": 0.4561,
+  "difference_g2_moins_g1": 0.1808,
+  "ic95_bootstrap": [
+   -0.0798,
+   0.3171
+  ],
+  "p_bootstrap_bilateral": 0.1068,
+  "n_bootstrap": 10000,
+  "n_grappes": 31,
+  "n_pieces": null,
+  "n_pieces_avec_les_deux_groupes": null
+ },
+ "test_groupe_ou_entier_sans_contesa_B28.53": {
+  "groupe_1": "Marcantonio",
+  "groupe_2": "Caraglio",
+  "unite": "référence (grappes = pièces)",
+  "positifs_g1": 68,
+  "references_g1": 247,
+  "part_g1": 0.2753,
+  "positifs_g2": 17,
+  "references_g2": 52,
+  "part_g2": 0.3269,
+  "difference_g2_moins_g1": 0.0516,
+  "ic95_bootstrap": [
+   -0.0859,
+   0.1937
+  ],
+  "p_bootstrap_bilateral": 0.4702,
+  "n_bootstrap": 10000,
+  "n_grappes": 209,
+  "n_pieces": 209,
+  "n_pieces_avec_les_deux_groupes": 23
+ },
+ "test_caraglio_vs_marcantonio_par_estampe": {
+  "groupe_1": "Marcantonio",
+  "groupe_2": "Caraglio",
+  "unite": "estampe",
+  "n_min_references": 1,
+  "estampes_g1": 22,
+  "estampes_g2": 9,
+  "estampes_g1_avec_au_moins_un_positif": 9,
+  "estampes_g2_avec_au_moins_un_positif": 3,
+  "moyenne_par_estampe_g1": 0.1554,
+  "moyenne_par_estampe_g2": 0.1435,
+  "difference_g2_moins_g1": -0.0119,
+  "p_permutation_bilateral": 0.9648,
+  "n_permutations": 10000,
+  "detail": [
+   {
+    "estampe": "B28.53",
+    "graveur": "Caraglio",
+    "positifs": 0,
+    "classees": 62
+   },
+   {
+    "estampe": "B28.62",
+    "graveur": "Caraglio",
+    "positifs": 3,
+    "classees": 24
+   },
+   {
+    "estampe": "B28.60",
+    "graveur": "Caraglio",
+    "positifs": 3,
+    "classees": 6
+   },
+   {
+    "estampe": "B28.48",
+    "graveur": "Caraglio",
+    "positifs": 0,
+    "classees": 4
+   },
+   {
+    "estampe": "B28.57",
+    "graveur": "Caraglio",
+    "positifs": 0,
+    "classees": 4
+   },
+   {
+    "estampe": "B28.49",
+    "graveur": "Caraglio",
+    "positifs": 0,
+    "classees": 4
+   },
+   {
+    "estampe": "B28.50",
+    "graveur": "Caraglio",
+    "positifs": 0,
+    "classees": 4
+   },
+   {
+    "estampe": "B28.44",
+    "graveur": "Caraglio",
+    "positifs": 0,
+    "classees": 3
+   },
+   {
+    "estampe": "B28.4",
+    "graveur": "Caraglio",
+    "positifs": 2,
+    "classees": 3
+   },
+   {
+    "estampe": "B26.247",
+    "graveur": "Marcantonio",
+    "positifs": 1,
+    "classees": 64
+   },
+   {
+    "estampe": "B26.104",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 44
+   },
+   {
+    "estampe": "B27.352",
+    "graveur": "Marcantonio",
+    "positifs": 1,
+    "classees": 25
+   },
+   {
+    "estampe": "B26.217",
+    "graveur": "Marcantonio",
+    "positifs": 1,
+    "classees": 18
+   },
+   {
+    "estampe": "B26.209",
+    "graveur": "Marcantonio",
+    "positifs": 2,
+    "classees": 17
+   },
+   {
+    "estampe": "B26.117",
+    "graveur": "Marcantonio",
+    "positifs": 1,
+    "classees": 11
+   },
+   {
+    "estampe": "B26.23",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 11
+   },
+   {
+    "estampe": "B26.6",
+    "graveur": "Marcantonio",
+    "positifs": 1,
+    "classees": 10
+   },
+   {
+    "estampe": "B26.10",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 10
+   },
+   {
+    "estampe": "B26.245",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 10
+   },
+   {
+    "estampe": "B26.226",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 7
+   },
+   {
+    "estampe": "B27.373",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 5
+   },
+   {
+    "estampe": "B27.442",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 3
+   },
+   {
+    "estampe": "B26.313",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 3
+   },
+   {
+    "estampe": "B26.294",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 2
+   },
+   {
+    "estampe": "B27.340",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 1
+   },
+   {
+    "estampe": "B27.384",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 1
+   },
+   {
+    "estampe": "B27.386",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 1
+   },
+   {
+    "estampe": "B26.185",
+    "graveur": "Marcantonio",
+    "positifs": 1,
+    "classees": 1
+   },
+   {
+    "estampe": "B26.28",
+    "graveur": "Marcantonio",
+    "positifs": 1,
+    "classees": 1
+   },
+   {
+    "estampe": "B26.227",
+    "graveur": "Marcantonio",
+    "positifs": 1,
+    "classees": 1
+   },
+   {
+    "estampe": "B26.47",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 1
+   }
+  ]
+ },
+ "test_caraglio_vs_marcantonio_par_estampe_3_refs_ou_plus": {
+  "groupe_1": "Marcantonio",
+  "groupe_2": "Caraglio",
+  "unite": "estampe",
+  "n_min_references": 3,
+  "estampes_g1": 14,
+  "estampes_g2": 9,
+  "estampes_g1_avec_au_moins_un_positif": 6,
+  "estampes_g2_avec_au_moins_un_positif": 3,
+  "moyenne_par_estampe_g1": 0.03,
+  "moyenne_par_estampe_g2": 0.1435,
+  "difference_g2_moins_g1": 0.1135,
+  "p_permutation_bilateral": 0.1118,
+  "n_permutations": 10000,
+  "detail": [
+   {
+    "estampe": "B28.53",
+    "graveur": "Caraglio",
+    "positifs": 0,
+    "classees": 62
+   },
+   {
+    "estampe": "B28.62",
+    "graveur": "Caraglio",
+    "positifs": 3,
+    "classees": 24
+   },
+   {
+    "estampe": "B28.60",
+    "graveur": "Caraglio",
+    "positifs": 3,
+    "classees": 6
+   },
+   {
+    "estampe": "B28.48",
+    "graveur": "Caraglio",
+    "positifs": 0,
+    "classees": 4
+   },
+   {
+    "estampe": "B28.57",
+    "graveur": "Caraglio",
+    "positifs": 0,
+    "classees": 4
+   },
+   {
+    "estampe": "B28.49",
+    "graveur": "Caraglio",
+    "positifs": 0,
+    "classees": 4
+   },
+   {
+    "estampe": "B28.50",
+    "graveur": "Caraglio",
+    "positifs": 0,
+    "classees": 4
+   },
+   {
+    "estampe": "B28.44",
+    "graveur": "Caraglio",
+    "positifs": 0,
+    "classees": 3
+   },
+   {
+    "estampe": "B28.4",
+    "graveur": "Caraglio",
+    "positifs": 2,
+    "classees": 3
+   },
+   {
+    "estampe": "B26.247",
+    "graveur": "Marcantonio",
+    "positifs": 1,
+    "classees": 64
+   },
+   {
+    "estampe": "B26.104",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 44
+   },
+   {
+    "estampe": "B27.352",
+    "graveur": "Marcantonio",
+    "positifs": 1,
+    "classees": 25
+   },
+   {
+    "estampe": "B26.217",
+    "graveur": "Marcantonio",
+    "positifs": 1,
+    "classees": 18
+   },
+   {
+    "estampe": "B26.209",
+    "graveur": "Marcantonio",
+    "positifs": 2,
+    "classees": 17
+   },
+   {
+    "estampe": "B26.117",
+    "graveur": "Marcantonio",
+    "positifs": 1,
+    "classees": 11
+   },
+   {
+    "estampe": "B26.23",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 11
+   },
+   {
+    "estampe": "B26.6",
+    "graveur": "Marcantonio",
+    "positifs": 1,
+    "classees": 10
+   },
+   {
+    "estampe": "B26.10",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 10
+   },
+   {
+    "estampe": "B26.245",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 10
+   },
+   {
+    "estampe": "B26.226",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 7
+   },
+   {
+    "estampe": "B27.373",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 5
+   },
+   {
+    "estampe": "B27.442",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 3
+   },
+   {
+    "estampe": "B26.313",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 3
+   }
+  ]
+ },
+ "test_groupe_ou_entier_par_estampe": {
+  "groupe_1": "Marcantonio",
+  "groupe_2": "Caraglio",
+  "unite": "estampe",
+  "n_min_references": 1,
+  "estampes_g1": 22,
+  "estampes_g2": 9,
+  "estampes_g1_avec_au_moins_un_positif": 15,
+  "estampes_g2_avec_au_moins_un_positif": 6,
+  "moyenne_par_estampe_g1": 0.3133,
+  "moyenne_par_estampe_g2": 0.3451,
+  "difference_g2_moins_g1": 0.0319,
+  "p_permutation_bilateral": 0.8215,
+  "n_permutations": 10000,
+  "detail": [
+   {
+    "estampe": "B28.53",
+    "graveur": "Caraglio",
+    "positifs": 35,
+    "classees": 62
+   },
+   {
+    "estampe": "B28.62",
+    "graveur": "Caraglio",
+    "positifs": 7,
+    "classees": 24
+   },
+   {
+    "estampe": "B28.60",
+    "graveur": "Caraglio",
+    "positifs": 5,
+    "classees": 6
+   },
+   {
+    "estampe": "B28.48",
+    "graveur": "Caraglio",
+    "positifs": 2,
+    "classees": 4
+   },
+   {
+    "estampe": "B28.57",
+    "graveur": "Caraglio",
+    "positifs": 0,
+    "classees": 4
+   },
+   {
+    "estampe": "B28.49",
+    "graveur": "Caraglio",
+    "positifs": 0,
+    "classees": 4
+   },
+   {
+    "estampe": "B28.50",
+    "graveur": "Caraglio",
+    "positifs": 1,
+    "classees": 4
+   },
+   {
+    "estampe": "B28.44",
+    "graveur": "Caraglio",
+    "positifs": 0,
+    "classees": 3
+   },
+   {
+    "estampe": "B28.4",
+    "graveur": "Caraglio",
+    "positifs": 2,
+    "classees": 3
+   },
+   {
+    "estampe": "B26.247",
+    "graveur": "Marcantonio",
+    "positifs": 21,
+    "classees": 64
+   },
+   {
+    "estampe": "B26.104",
+    "graveur": "Marcantonio",
+    "positifs": 10,
+    "classees": 44
+   },
+   {
+    "estampe": "B27.352",
+    "graveur": "Marcantonio",
+    "positifs": 12,
+    "classees": 25
+   },
+   {
+    "estampe": "B26.217",
+    "graveur": "Marcantonio",
+    "positifs": 6,
+    "classees": 18
+   },
+   {
+    "estampe": "B26.209",
+    "graveur": "Marcantonio",
+    "positifs": 4,
+    "classees": 17
+   },
+   {
+    "estampe": "B26.117",
+    "graveur": "Marcantonio",
+    "positifs": 4,
+    "classees": 11
+   },
+   {
+    "estampe": "B26.23",
+    "graveur": "Marcantonio",
+    "positifs": 1,
+    "classees": 11
+   },
+   {
+    "estampe": "B26.6",
+    "graveur": "Marcantonio",
+    "positifs": 3,
+    "classees": 10
+   },
+   {
+    "estampe": "B26.10",
+    "graveur": "Marcantonio",
+    "positifs": 1,
+    "classees": 10
+   },
+   {
+    "estampe": "B26.245",
+    "graveur": "Marcantonio",
+    "positifs": 1,
+    "classees": 10
+   },
+   {
+    "estampe": "B26.226",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 7
+   },
+   {
+    "estampe": "B27.373",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 5
+   },
+   {
+    "estampe": "B27.442",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 3
+   },
+   {
+    "estampe": "B26.313",
+    "graveur": "Marcantonio",
+    "positifs": 1,
+    "classees": 3
+   },
+   {
+    "estampe": "B26.294",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 2
+   },
+   {
+    "estampe": "B27.340",
+    "graveur": "Marcantonio",
+    "positifs": 1,
+    "classees": 1
+   },
+   {
+    "estampe": "B27.384",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 1
+   },
+   {
+    "estampe": "B27.386",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 1
+   },
+   {
+    "estampe": "B26.185",
+    "graveur": "Marcantonio",
+    "positifs": 1,
+    "classees": 1
+   },
+   {
+    "estampe": "B26.28",
+    "graveur": "Marcantonio",
+    "positifs": 1,
+    "classees": 1
+   },
+   {
+    "estampe": "B26.227",
+    "graveur": "Marcantonio",
+    "positifs": 1,
+    "classees": 1
+   },
+   {
+    "estampe": "B26.47",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 1
+   }
+  ]
+ },
+ "test_groupe_ou_entier_par_estampe_3_refs_ou_plus": {
+  "groupe_1": "Marcantonio",
+  "groupe_2": "Caraglio",
+  "unite": "estampe",
+  "n_min_references": 3,
+  "estampes_g1": 14,
+  "estampes_g2": 9,
+  "estampes_g1_avec_au_moins_un_positif": 11,
+  "estampes_g2_avec_au_moins_un_positif": 6,
+  "moyenne_par_estampe_g1": 0.2066,
+  "moyenne_par_estampe_g2": 0.3451,
+  "difference_g2_moins_g1": 0.1386,
+  "p_permutation_bilateral": 0.1704,
+  "n_permutations": 10000,
+  "detail": [
+   {
+    "estampe": "B28.53",
+    "graveur": "Caraglio",
+    "positifs": 35,
+    "classees": 62
+   },
+   {
+    "estampe": "B28.62",
+    "graveur": "Caraglio",
+    "positifs": 7,
+    "classees": 24
+   },
+   {
+    "estampe": "B28.60",
+    "graveur": "Caraglio",
+    "positifs": 5,
+    "classees": 6
+   },
+   {
+    "estampe": "B28.48",
+    "graveur": "Caraglio",
+    "positifs": 2,
+    "classees": 4
+   },
+   {
+    "estampe": "B28.57",
+    "graveur": "Caraglio",
+    "positifs": 0,
+    "classees": 4
+   },
+   {
+    "estampe": "B28.49",
+    "graveur": "Caraglio",
+    "positifs": 0,
+    "classees": 4
+   },
+   {
+    "estampe": "B28.50",
+    "graveur": "Caraglio",
+    "positifs": 1,
+    "classees": 4
+   },
+   {
+    "estampe": "B28.44",
+    "graveur": "Caraglio",
+    "positifs": 0,
+    "classees": 3
+   },
+   {
+    "estampe": "B28.4",
+    "graveur": "Caraglio",
+    "positifs": 2,
+    "classees": 3
+   },
+   {
+    "estampe": "B26.247",
+    "graveur": "Marcantonio",
+    "positifs": 21,
+    "classees": 64
+   },
+   {
+    "estampe": "B26.104",
+    "graveur": "Marcantonio",
+    "positifs": 10,
+    "classees": 44
+   },
+   {
+    "estampe": "B27.352",
+    "graveur": "Marcantonio",
+    "positifs": 12,
+    "classees": 25
+   },
+   {
+    "estampe": "B26.217",
+    "graveur": "Marcantonio",
+    "positifs": 6,
+    "classees": 18
+   },
+   {
+    "estampe": "B26.209",
+    "graveur": "Marcantonio",
+    "positifs": 4,
+    "classees": 17
+   },
+   {
+    "estampe": "B26.117",
+    "graveur": "Marcantonio",
+    "positifs": 4,
+    "classees": 11
+   },
+   {
+    "estampe": "B26.23",
+    "graveur": "Marcantonio",
+    "positifs": 1,
+    "classees": 11
+   },
+   {
+    "estampe": "B26.6",
+    "graveur": "Marcantonio",
+    "positifs": 3,
+    "classees": 10
+   },
+   {
+    "estampe": "B26.10",
+    "graveur": "Marcantonio",
+    "positifs": 1,
+    "classees": 10
+   },
+   {
+    "estampe": "B26.245",
+    "graveur": "Marcantonio",
+    "positifs": 1,
+    "classees": 10
+   },
+   {
+    "estampe": "B26.226",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 7
+   },
+   {
+    "estampe": "B27.373",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 5
+   },
+   {
+    "estampe": "B27.442",
+    "graveur": "Marcantonio",
+    "positifs": 0,
+    "classees": 3
+   },
+   {
+    "estampe": "B26.313",
+    "graveur": "Marcantonio",
+    "positifs": 1,
+    "classees": 3
+   }
+  ]
+ },
+ "pieces_citant_caraglio_et_marcantonio": 78,
  "caraglio_sans_contesa_B28.53": {
   "n": 61,
   "composition entière": 8,
@@ -431,10 +1239,6 @@
   "part_groupe_ou_entiere_parmi_classees": 0.327
  },
  "pieces_a_source_unique_par_graveur": {
-  "Marcantonio": {
-   "pieces_source_unique": 53,
-   "pieces_citant_le_graveur": 302
-  },
   "Marco Dente": {
    "pieces_source_unique": 15,
    "pieces_citant_le_graveur": 90
@@ -442,6 +1246,10 @@
   "Maestro I.B.": {
    "pieces_source_unique": 0,
    "pieces_citant_le_graveur": 15
+  },
+  "Marcantonio": {
+   "pieces_source_unique": 53,
+   "pieces_citant_le_graveur": 302
   },
   "Caraglio": {
    "pieces_source_unique": 28,

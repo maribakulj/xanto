@@ -1264,7 +1264,7 @@
     {
      "id": 194,
      "annee": 1522,
-     "source_date": "inscription",
+     "source_date": "catalogue (date peinte dans la scène, 1522, non retenue)",
      "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/07/ercole-e-onfale/"
     },
     {
@@ -3436,7 +3436,7 @@
     {
      "id": 194,
      "annee": 1522,
-     "source_date": "inscription",
+     "source_date": "catalogue (date peinte dans la scène, 1522, non retenue)",
      "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/07/ercole-e-onfale/"
     },
     {
@@ -3727,7 +3727,7 @@
     {
      "id": 194,
      "annee": 1522,
-     "source_date": "inscription",
+     "source_date": "catalogue (date peinte dans la scène, 1522, non retenue)",
      "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/07/ercole-e-onfale/"
     },
     {
@@ -4767,16 +4767,6 @@
  "variante_inscrites": {
   "par_annee": [
    {
-    "annee": 1522,
-    "pieces": 1,
-    "pieces_avec_ref": 1,
-    "references": 3,
-    "estampes_distinctes": 3,
-    "estampes_nouvelles": 3,
-    "part_nouvelles": 1.0,
-    "liste_nouvelles": "B27.352 B27.442 B27.464"
-   },
-   {
     "annee": 1524,
     "pieces": 3,
     "pieces_avec_ref": 2,
@@ -4802,9 +4792,9 @@
     "pieces_avec_ref": 2,
     "references": 4,
     "estampes_distinctes": 4,
-    "estampes_nouvelles": 1,
-    "part_nouvelles": 0.25,
-    "liste_nouvelles": "B26.247"
+    "estampes_nouvelles": 4,
+    "part_nouvelles": 1.0,
+    "liste_nouvelles": "B26.247 B27.352 B27.442 B27.464"
    },
    {
     "annee": 1529,
@@ -4949,26 +4939,26 @@
   ],
   "par_periode": {
    "<=1530": {
-    "references": 18,
+    "references": 15,
     "estampes_distinctes": 10,
-    "distinctes_par_reference": 0.556,
+    "distinctes_par_reference": 0.667,
     "part_top5": 0.667,
-    "herfindahl": 0.1173,
+    "herfindahl": 0.12,
     "top5": [
-     "B27.352",
      "B26.245",
      "B26.211",
      "B26.247",
-     "B27.442"
+     "B27.352",
+     "B26.6"
     ],
-    "pieces": 22,
-    "pieces_avec_ref": 13,
-    "part_pieces_avec_ref": 0.591,
-    "refs_par_piece_avec_ref": 1.38,
+    "pieces": 21,
+    "pieces_avec_ref": 12,
+    "part_pieces_avec_ref": 0.571,
+    "refs_par_piece_avec_ref": 1.25,
     "estampes_nouvelles": 10,
     "part_estampes_nouvelles": 1.0,
-    "pieces_a_2_estampes_ou_plus": 3,
-    "combinaisons_deja_vues": 1
+    "pieces_a_2_estampes_ou_plus": 2,
+    "combinaisons_deja_vues": 0
    },
    "1531-1535": {
     "references": 291,
@@ -5018,33 +5008,33 @@
   "controle_permutation": {
    "estampes_introduites_des_1536": {
     "observe": 4,
-    "moyenne_permutations": 4.465,
+    "moyenne_permutations": 4.884,
     "intervalle_95": [
      1,
-     8
+     9
     ],
-    "p_inferieur_ou_egal": 0.5303,
-    "p_superieur_ou_egal": 0.6931
+    "p_inferieur_ou_egal": 0.437,
+    "p_superieur_ou_egal": 0.7599
    },
    "part_refs_tardives_vers_estampes_nouvelles": {
     "observe": 0.074,
-    "moyenne_permutations": 0.042,
+    "moyenne_permutations": 0.043,
     "intervalle_95": [
-     0.008,
-     0.087
+     0.013,
+     0.085
     ],
-    "p_inferieur_ou_egal": 0.9329,
-    "p_superieur_ou_egal": 0.0687
+    "p_inferieur_ou_egal": 0.9373,
+    "p_superieur_ou_egal": 0.0647
    },
    "part_pieces_tardives_a_combinaison_deja_vue": {
     "observe": 0.375,
-    "moyenne_permutations": 0.272,
+    "moyenne_permutations": 0.262,
     "intervalle_95": [
-     0.174,
-     0.372
+     0.167,
+     0.357
     ],
-    "p_inferieur_ou_egal": 0.9799,
-    "p_superieur_ou_egal": 0.0224
+    "p_inferieur_ou_egal": 0.9907,
+    "p_superieur_ou_egal": 0.0118
    }
   }
  }

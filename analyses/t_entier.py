@@ -89,13 +89,37 @@ def main():
         par_piece.setdefault(r["id"], set()).add((r["estampe"], r["graveur"]))
     seule = Counter(next(iter(v))[1] for v in par_piece.values() if len(v) == 1)
     tot = Counter(g for v in par_piece.values() for _, g in v)
+    classees = [r for r in bart if r["classe"] != "non classé"]
+    est_entier = lambda r: r["classe"] == "composition entière"
+    est_gr_ou_entier = lambda r: r["classe"] in ("composition entière", "groupe")
+    # Ancienne version (erronée, gardée pour mémoire) : permutation_par_piece donnait à chaque pièce le
+    # graveur de sa PREMIÈRE référence, alors que des pièces citent Caraglio et Marcantonio à la fois.
+    # Version corrigée : (1) au niveau des références, chacune avec son graveur, bootstrap en grappes
+    # sur les pièces ; (2) au niveau des estampes (unité de la thèse de Briend), permutation des
+    # graveurs entre estampes.
+    ref_e = commun.bootstrap_par_piece(classees, "graveur", est_entier, "Marcantonio", "Caraglio")
+    ref_g = commun.bootstrap_par_piece(classees, "graveur", est_gr_ou_entier, "Marcantonio", "Caraglio")
     res = {"global": tab(bart), "par_graveur": par_graveur, "par_estampe": par_estampe,
-           "test_caraglio_vs_marcantonio": commun.permutation_par_piece(
-               [dict(r, grp=r["graveur"]) for r in bart if r["classe"] != "non classé"], "grp",
-               lambda r: r["classe"] == "composition entière", "Marcantonio", "Caraglio"),
-           "test_groupe_ou_entier_caraglio_vs_marcantonio": commun.permutation_par_piece(
-               [dict(r, grp=r["graveur"]) for r in bart if r["classe"] != "non classé"], "grp",
-               lambda r: r["classe"] in ("composition entière", "groupe"), "Marcantonio", "Caraglio"),
+           "test_caraglio_vs_marcantonio": dict(ref_e, note="corrigé le 10/10/2026 (voir README) ; "
+                                                "ancienne valeur erronée : +3,13 points, p = 0,22"),
+           "test_groupe_ou_entier_caraglio_vs_marcantonio": dict(ref_g, note="corrigé le 10/10/2026 ; "
+                                                                 "ancienne valeur erronée : +10,1 points, p = 0,06"),
+           "test_caraglio_vs_marcantonio_grappes_estampes": commun.bootstrap_par_piece(
+               classees, "graveur", est_entier, "Marcantonio", "Caraglio", grappe="estampe"),
+           "test_groupe_ou_entier_grappes_estampes": commun.bootstrap_par_piece(
+               classees, "graveur", est_gr_ou_entier, "Marcantonio", "Caraglio", grappe="estampe"),
+           "test_groupe_ou_entier_sans_contesa_B28.53": commun.bootstrap_par_piece(
+               [r for r in classees if r["estampe"] != "B28.53"], "graveur", est_gr_ou_entier, "Marcantonio", "Caraglio"),
+           "test_caraglio_vs_marcantonio_par_estampe": commun.permutation_par_estampe(
+               classees, est_entier, "Marcantonio", "Caraglio"),
+           "test_caraglio_vs_marcantonio_par_estampe_3_refs_ou_plus": commun.permutation_par_estampe(
+               classees, est_entier, "Marcantonio", "Caraglio", n_min=3),
+           "test_groupe_ou_entier_par_estampe": commun.permutation_par_estampe(
+               classees, est_gr_ou_entier, "Marcantonio", "Caraglio"),
+           "test_groupe_ou_entier_par_estampe_3_refs_ou_plus": commun.permutation_par_estampe(
+               classees, est_gr_ou_entier, "Marcantonio", "Caraglio", n_min=3),
+           "pieces_citant_caraglio_et_marcantonio": len({r["id"] for r in bart if r["graveur"] == "Caraglio"}
+                                                        & {r["id"] for r in bart if r["graveur"] == "Marcantonio"}),
            "caraglio_sans_contesa_B28.53": tab([r for r in bart if r["graveur"] == "Caraglio" and r["estampe"] != "B28.53"]),
            "pieces_a_source_unique_par_graveur": {g: {"pieces_source_unique": seule.get(g, 0),
                                                       "pieces_citant_le_graveur": tot[g]} for g in tot},
@@ -105,8 +129,13 @@ def main():
     print("T-whole", res["global"])
     for g, v in par_graveur.items():
         print("  ", g, v)
-    print("  ", res["test_caraglio_vs_marcantonio"], res["test_groupe_ou_entier_caraglio_vs_marcantonio"],
-          res["caraglio_sans_contesa_B28.53"])
+    for k in ("test_caraglio_vs_marcantonio", "test_groupe_ou_entier_caraglio_vs_marcantonio",
+              "test_caraglio_vs_marcantonio_grappes_estampes", "test_groupe_ou_entier_grappes_estampes",
+              "test_groupe_ou_entier_sans_contesa_B28.53",
+              "test_caraglio_vs_marcantonio_par_estampe", "test_caraglio_vs_marcantonio_par_estampe_3_refs_ou_plus",
+              "test_groupe_ou_entier_par_estampe", "test_groupe_ou_entier_par_estampe_3_refs_ou_plus"):
+        print("  ", k, {a: b for a, b in res[k].items() if a != "detail"})
+    print("  ", res["caraglio_sans_contesa_B28.53"], "pièces citant les deux :", res["pieces_citant_caraglio_et_marcantonio"])
     return res
 
 

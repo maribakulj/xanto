@@ -87,6 +87,14 @@ def main():
                lignes, "periode", lambda r: r["inversion"] in ("gauche", "droite"), "<=1530", "1536-1542"),
            "test_1531-1535_vs_1536-1542": commun.permutation_par_piece(
                lignes, "periode", lambda r: r["inversion"] in ("gauche", "droite"), "1531-1535", "1536-1542"),
+           # résultat principal depuis le 10/10/2026 : seules les dates inscrites (la période <= 1530
+           # est datée surtout par estimation ; avec toutes les dates, la série mêle époque et qualité de date)
+           "test_tendance_dates_inscrites_<=1530_vs_1536-1542": commun.permutation_par_piece(
+               [r for r in lignes if r["source_date"] == "inscription"], "periode",
+               lambda r: r["inversion"] in ("gauche", "droite"), "<=1530", "1536-1542"),
+           "test_dates_inscrites_1531-1535_vs_1536-1542": commun.permutation_par_piece(
+               [r for r in lignes if r["source_date"] == "inscription"], "periode",
+               lambda r: r["inversion"] in ("gauche", "droite"), "1531-1535", "1536-1542"),
            "par_estampe": par_estampe,
            "fiches_mentions_non_rattachees": [h["id"] for h in hors]}
     # supplément : I Modi (cités sans numéro Bartsch, absents de data/emprunts.csv)
@@ -97,7 +105,8 @@ def main():
     commun.ecrire_csv(OUT / "inversion_par_estampe.csv", par_estampe,
                       ["estampe", "titre", "graveur", "n_references", "n_inversees", "part", "ids_inversees"])
     print("T-inversion", res["global"], res["repartition_position"], res["test_tendance_<=1530_vs_1536-1542"],
-          res["test_1531-1535_vs_1536-1542"], res["par_periode_dates_inscrites"])
+          res["test_1531-1535_vs_1536-1542"], res["par_periode_dates_inscrites"],
+          res["test_tendance_dates_inscrites_<=1530_vs_1536-1542"], res["test_dates_inscrites_1531-1535_vs_1536-1542"])
     for p, v in par_periode.items():
         print("  ", p, v)
     for g, v in par_graveur.items():

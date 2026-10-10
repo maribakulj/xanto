@@ -76,7 +76,7 @@ id,annee,periode,source_date,n_estampes_bartsch,n_estampes_avec_modi,estampes,li
 181,1531,1531-1535,inscription,1,2,B28.53 MODI,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/10/la-morte-di-piramo-e-tisbe/
 184,1530,<=1530,catalogue,1,2,B26.247 MODI,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/09/la-nascita-di-venere/
 190,1525,<=1530,inscription,1,1,B27.340,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/08/le-tre-grazie/
-194,1522,<=1530,inscription,3,3,B27.352 B27.442 B27.464,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/07/ercole-e-onfale/
+194,1522,<=1530,"catalogue (date peinte dans la scène, 1522, non retenue)",3,3,B27.352 B27.442 B27.464,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/07/ercole-e-onfale/
 197,1536,1536-1542,inscription,2,2,B27.373 B28.62,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/06/lallegoria-delle-discordie-dellitalia/
 201,1533,1531-1535,inscription,3,3,B26.198 B26.211 B28.53,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/05/atteone-tramutato-da-diana-in-cervo/
 205,1532,1531-1535,catalogue,0,0,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/03/astolfo-che-insegue-le-arpie/

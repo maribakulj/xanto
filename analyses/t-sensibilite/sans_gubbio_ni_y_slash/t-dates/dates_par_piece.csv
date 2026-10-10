@@ -1,0 +1,305 @@
+id,titolo,annee,amin,amax,source_date,precis,periode,note_date,data_catalogue,avant_1528,initiales_FR,marque_y_slash,attribution_debattue,link
+153,Coppa con la conversione di Saulo,1528,1527,1528,catalogue intervalle,False,<=1530,,1527-1528,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/18/coppa-con-la-conversione-di-saulo/
+213,Piatto con Cleopatra,1528,1527,1528,catalogue intervalle,False,<=1530,,1527-1528,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/01/piatto-con-cleopatra/
+230,San Sebastiano e San Rocco,1528,1528,1528,inscription,True,<=1530,,1528,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/25/san-sebastiano-e-san-rocco/
+339,Danza di cupidi,1528,1527,1528,catalogue intervalle,False,<=1530,,1527-1528 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2019/11/14/danza-di-cupidi/
+354,Ippolito fugge dalla collera di Teseo,1528,1527,1528,catalogue intervalle,False,<=1530,,1527-1528,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2019/11/14/ippolito-fugge-dalla-collera-di-teseo/
+364,Ercole e Onfale,1528,1527,1530,catalogue intervalle,False,<=1530,,1527-1530 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2019/11/14/ercole-e-onfale-2/
+556,Piatto con Leda e il cigno,1528,1528,1528,catalogue,True,<=1530,,1528,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/piatto-con-leda-e-il-cigno/
+889,Allegoria del sacco di Roma,1528,1527,1530,catalogue intervalle,False,<=1530,,1527-1530 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-del-sacco-di-roma-4/
+1028,Carità,1528,1527,1530,catalogue intervalle,False,<=1530,,1527-1530 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/carita/
+1144,La morte di Lucrezia,1528,1527,1528,catalogue intervalle,False,<=1530,,1527-1528 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-lucrezia/
+1192,La morte di Laocoonte,1528,1528,1528,catalogue ca.,False,<=1530,,1528 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-lacoonte-2/
+1330,"Vulcano, Cupido e Venere",1528,1527,1530,catalogue intervalle,False,<=1530,,1527-1530 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/vulcano-cupido-e-venere/
+1333,Uomini combattono in una costruzione classica,1528,1527,1530,catalogue intervalle,False,<=1530,,1527-1530 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/uomini-combattono-in-una-costruzione-classica/
+1335,Uomini che combattono,1528,1527,1530,catalogue intervalle,False,<=1530,,1527-1530 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/uomini-che-combattono/
+116,Isacco che benedice Giacobbe ed Esaù,1529,1529,1529,inscription,True,<=1530,date de lustre (Gubbio),1529,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/29/isacco-che-benedice-giacobbe-ed-esau/
+123,Piatto con la caccia al cinghiale e Calidonio,1529,1529,1529,catalogue,True,<=1530,,1529,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/27/piatto-con-la-caccia-al-cinghiale-e-calidonio/
+209,Scilla e Galatea,1529,1528,1530,catalogue intervalle,False,<=1530,,1528-1530 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/02/scilla-e-galatea/
+257,La contesa musicale di Apollo e Pan,1529,1528,1530,catalogue intervalle,False,<=1530,,1528-1530,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/15/la-contesa-musicale-di-apollo-e-pan/
+357,Allegoria del trionfo della Germania,1529,1528,1530,catalogue intervalle,False,<=1530,,1528-1530,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2019/11/14/allegoria-del-trionfo-della-germania/
+435,Caccia al leone romana,1529,1529,1529,catalogue,True,<=1530,,1529,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/caccia-al-leone-romana/
+504,San Girolamo ed il beato Colombini in preghiera,1529,1528,1530,catalogue intervalle,False,<=1530,,1528-1530 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/san-girolamo-ed-il-beato-colombini-in-preghiera/
+522,Ercole e Caco,1529,1528,1530,catalogue intervalle,False,<=1530,,1528-1530,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ercole-e-caco/
+532,Leda e il cigno,1529,1528,1530,catalogue intervalle,False,<=1530,,1528-1530 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/leda-e-il-cigno/
+550,Ercole e il leone Nemeo e Santa Veronica,1529,1528,1530,catalogue intervalle,False,<=1530,,1528-1530,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ercole-e-il-leone-nemeo-e-santa-veronica/
+754,"Enea, Anchise ed Ascanio fuggono da Troia",1529,1528,1530,catalogue intervalle,False,<=1530,,1528-1530 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/enea-anchise-ed-ascanio-fuggono-da-troia/
+1065,Venere e Cupido,1529,1529,1529,catalogue ca.,False,<=1530,,1529 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/venere-e-cupido/
+1228,Ercole e l’Idra,1529,1528,1530,catalogue intervalle,False,<=1530,,1528-1530 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ercole-e-lidra/
+129,Piatto con la morte di Laocoonte e dei suoi due figli,1530,1530,1530,catalogue,True,<=1530,,1530,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/25/piatto-con-la-morte-di-laocoonte-e-dei-suoi-due-figli/
+184,La nascita di Venere,1530,1530,1530,catalogue,True,<=1530,,1530,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/09/la-nascita-di-venere/
+360,Mercurio conduce Psiche sull’Olimpo,1530,1530,1530,inscription,True,<=1530,date peinte dans la scène (droit seul),1530,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2019/11/14/mercurio-conduce-psiche-sullolimpo/
+411,Tondino dell’anno nuovo,1530,1530,1530,inscription,True,<=1530,,1530,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/tondino-dellanno-nuovo/
+526,Scena di parto,1530,1530,1530,inscription,True,<=1530,,1530,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/scena-di-parto/
+762,Sepoltura di Leucothoe o Rea Silvia ed il Re Amulio,1530,1529,1530,catalogue intervalle,False,<=1530,,1529-1530 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/sepoltura-di-leucothoe-o-rea-silvia-ed-il-re-amulio/
+767,Apollo e Dafne,1530,1530,1530,catalogue ca.,False,<=1530,,1530 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/apollo-e-dafne/
+772,Narciso ed Eco,1530,1529,1530,catalogue intervalle,False,<=1530,,1529-1530 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/narciso-ed-eco/
+774,Ino e Atamante,1530,1529,1530,catalogue intervalle,False,<=1530,,1529-1530 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ino-e-atamante/
+782,Dedalo e Icaro,1530,1529,1530,catalogue intervalle,False,<=1530,,1529-1530 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/dedalo-e-icaro/
+786,Allegoria del sacco di Roma,1530,1529,1530,catalogue intervalle,False,<=1530,,1529-1530 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-del-sacco-di-roma-3/
+802,"Dedalo vola alto, suo figlio cade dietro di lui, un dio del fiume in primo piano",1530,1530,1530,catalogue ca.,False,<=1530,,1530 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/dedalo-vola-alto-suo-figlio-cade-dietro-di-lui-un-dio-del-fiume-in-primo-piano/
+804,Un uomo con un elmo alato insegue Cupido,1530,1530,1530,catalogue ca.,False,<=1530,,1530 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/un-uomo-con-un-elmo-alato-insegue-cupido/
+892,Un dio del fiume con Cupido,1530,1530,1530,catalogue ca.,False,<=1530,,1530 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/un-dio-del-fiume-con-cupido/
+1056,La Vergine e il Bambino nel cielo circondati da angeli che suonano,1530,1530,1530,catalogue ca.,False,<=1530,,1530 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-vergine-e-il-bambino-nel-cielo-circondati-da-angeli-che-suonano/
+1101,La Sacra Famiglia,1530,1530,1530,catalogue,True,<=1530,,1530,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-sacra-famiglia/
+1215,La morte di Laocoonte,1530,1530,1530,catalogue ca.,False,<=1530,,1530 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-laocoonte/
+181,La morte di Piramo e Tisbe,1531,1531,1531,inscription,True,1531-1535,,1531,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/10/la-morte-di-piramo-e-tisbe/
+220,"Uomo anziano, giovane donna e Cupido",1531,1531,1531,inscription,True,1531-1535,,1531,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/29/uomo-anziano-giovane-donna-e-cupido/
+254,Ruggiero sull’Ippogrifo,1531,1531,1531,inscription,True,1531-1535,,1531,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/17/ruggiero-sullippogrifo/
+278,Ruggiero sull’ippogrifo,1531,1531,1531,inscription,True,1531-1535,,1531,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/prova/
+396,Orfeo ed Euridice,1531,1531,1531,catalogue ca.,False,1531-1535,,1531 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/orfeo-ed-euridice/
+399,L’inondazione del Tevere,1531,1531,1531,inscription,True,1531-1535,,1531,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/linondazione-del-tevere/
+408,Allegoria della buona e cattiva fama,1531,1531,1531,inscription,True,1531-1535,,1531,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-della-buona-e-cattiva-fama/
+414,Allegoria della quattro città sottomesse,1531,1531,1531,catalogue ca.,False,1531-1535,,1531 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-della-quattro-citta-sottomesse/
+425,Dedalo e Talo,1531,1531,1531,catalogue,True,1531-1535,,1531,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/dedalo-e-talo/
+428,Leucothoe sepolta viva,1531,1531,1531,inscription,True,1531-1535,,1531,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/leucothoe-sepolta-viva/
+438,Giudizio di Paride,1531,1531,1531,inscription,True,1531-1535,,1531,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/giudizio-di-paride/
+461,"Enea porta via Anchise da Troia, accompagnato da Ascanio",1531,1531,1531,inscription,True,1531-1535,,1531,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/enea-porta-via-anchise-da-troia-accompagnato-da-ascanio/
+528,Allegoria della Fama,1531,1531,1531,catalogue ca.,False,1531-1535,,1531 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-della-fama/
+573,Anfiarao e sua moglie,1531,1531,1531,inscription,True,1531-1535,,1531,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/anfiarao-e-sua-moglie/
+608,Le tre parche,1531,1530,1532,catalogue intervalle,False,,,1530-1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2014/11/14/le-tre-parche/
+640,San Girolamo,1531,1531,1531,inscription,True,1531-1535,,1531,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/san-girolamo/
+653,Le disgrazie dell’Italia,1531,1531,1531,inscription,True,1531-1535,,1531,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/le-disgrazie-dellitalia/
+680,La contesa musicale di Apollo e Pan,1531,1531,1531,inscription,True,1531-1535,,1531,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-contesa-musicale-di-apollo-e-pan-2/
+684,Ercole e Caco,1531,1531,1531,inscription,True,1531-1535,,1531,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ercole-e-caco-2/
+724,Scilla e Cariddi,1531,1531,1531,inscription,True,1531-1535,,1531,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/scilla-e-cariddi/
+806,Piatto con la leggenda di Romolo e Remo,1531,1531,1531,inscription,True,1531-1535,,1531,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/piatto-con-la-leggenda-di-romolo-e-remo/
+956,Anfiarao ed Erifile,1531,1531,1531,inscription,True,1531-1535,,1531,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/anfiarao-ed-erifile-3/
+958,Anfiarao ed Erifile,1531,1531,1531,inscription,True,1531-1535,,1531,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/anfiarao-ed-erifile-4/
+1002,"Bacco, Cupido e una donna",1531,1531,1531,inscription,True,1531-1535,,1531,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/bacco-cupido-e-una-donna/
+1024,Marte e Venere,1531,1531,1531,inscription,True,1531-1535,,1531,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/marte-e-venere/
+1081,La contesa musicale di Apollo e Pan con Cupido,1531,1531,1531,inscription,True,1531-1535,,1531,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-contesa-musicale-di-apollo-e-pan-con-cupido/
+1106,La danza dei Numi e la morte di Psiche,1531,1531,1531,inscription,True,1531-1535,date peinte dans la scène (droit seul),1531,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/1106/
+1252,Allegoria della Fama,1531,1531,1531,inscription,True,1531-1535,,1531,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-della-fama-2/
+1263,La Sacra Famiglia,1531,1531,1531,catalogue ca.,False,1531-1535,,1531 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-sacra-famiglia-2/
+1269,Conversazione con un putto volante con un piccolo scudo,1531,1531,1531,inscription,True,1531-1535,,1531,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/conversazione-con-un-putto-volante-con-un-piccolo-scudo/
+1337,Scena di parto e rapimento di Europa,1531,1531,1531,catalogue ca.,False,1531-1535,,1531 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/scena-di-parto-e-rapimento-di-europa/
+6,La storia del Re Anius,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/14/la-storia-del-re-anius/
+9,La storia di Enea,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/13/la-storia-di-enea/
+15,Ercole e Lica,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/12/ercole-e-lica/
+68,La trasformazione di Cicno e delle Sorelle di Fetonte,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/08/la-trasformazione-di-cicno-e-delle-sorelle-di-fetonte/
+71,La trasformazione delle Ninfe nelle isole Echinadi,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/07/la-trasformazione-delle-ninfe-nelle-isole-echinadi/
+75,La morte di Laocoonte e dei suoi figli,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/06/la-morte-di-laocoonte-e-dei-suoi-figli/
+82,"Piatto con Apollo, Dafne e Cupido",1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/04/piatto-con-apollo-dafne-e-cupido/
+112,Piatto con la morte della donna di Sestos,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/30/piatto-con-la-morte-della-donna-di-sestos/
+133,Piatto con Ercole e Cerbero,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/24/piatto-con-ercole-e-cerbero/
+136,Piatto con Calano,1532,1532,1532,catalogue,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/23/piatto-con-calano/
+156,Coppa a bordo largo con Nettuno che rapisce Teofane,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/17/coppa-a-bordo-largo-con-nettuno-che-rapisce-teofane/
+159,La discesa all’ Ade di Orfeo,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/16/la-discesa-all-ade-di-orfeo/
+163,La flotta di Seleuco che affonda,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/15/la-flotta-di-seleuco-che-affonda/
+205,Astolfo che insegue le Arpie,1532,1532,1532,catalogue,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/03/astolfo-che-insegue-le-arpie/
+250,Due figure nelle nuvole e Cupido,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/17/due-figure-nelle-nuvole-e-cupido/
+293,Piatto con Ero e Leandro,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/13/piatto-con-ero-e-leandro/
+298,La morte di Palinuro,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-palinuro-2/
+315,"Stemma Pucci, Cupido e ornamenti",1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/stemma-pucci-cupido-e-ornamenti/
+321,La discesa di Orfeo nell’Ade,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2019/11/14/la-discesa-di-orfeo-nellade/
+431,Morte di Piramo e Tisbe,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/morte-di-piramo-e-tisbe/
+442,"Orlando trova Frontino, il destriero di Ruggiero, la sua armatura e la sua spada",1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/orlando-trova-frontino-il-destriero-di-ruggiero-la-sua-armatura-e-la-sua-spada/
+450,Astolfo nella terra delle donne,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/astolfo-nella-terra-delle-donne/
+455,Morte di Calano,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/morte-di-calano/
+469,"Marte, Venere e Cupido",1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/marte-venere-e-cupido/
+477,Ulisse e Circe,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ulisse-e-circe/
+535,La caccia di Enea e dei suoi compagni,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/francesco-xanto-avelli-rovigo-c-1487-urbino-c-1542-la-caccia-di-enea-e-dei-suoi-compagni-1532-piatto-ceramica-maiolica-cotto-porcellanato-diametro-490cm-collezione-privata-iscrizioni/
+541,Enea contempla le battaglie troiane,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/enea-contempla-le-battaglie-troiane/
+548,Il salvataggio di Camilla,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-2/
+614,La decadenza di Roma,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2014/11/14/la-decadenza-di-roma/
+623,Ero e Leandro,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ero-e-leandro-4/
+693,Due dee e Mercurio,1532,1531,1532,catalogue intervalle,False,1531-1535,,1531-1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/due-dee-e-mercurio/
+701,Morte di Cleopatra,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/morte-di-cleopatra-2/
+722,Anfiarao ed Erifile,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/anfiarao-ed-erifile-2/
+726,Tre figure e Cupido,1532,1532,1532,catalogue,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/tre-figure-e-cupido/
+728,"Perseo, Medusa e Pegaso",1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/perseo-medusa-e-pegaso/
+730,Ercole e Caco,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ercole-e-caco-3/
+732,Tideo e Polinice,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/tideo-e-polinice/
+734,La visione di Alcmeone e il matricidio,1532,1532,1532,catalogue,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-visione-di-alcmeone-e-il-matricidio/
+736,Le Baccanti trasformate in querce,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/le-baccanti-trasformate-in-querce/
+738,Esaco ed Esperia,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/esaco-ed-esperia/
+742,Atto di pietà di Alessandro Magno,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/atto-di-pieta-di-alessandro-magno/
+744,"Scena allegorica con un uomo, la Musa della Musica e Cupido",1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/scena-allegorica-con-un-uomo-la-musa-della-musica-e-cupido/
+746,"Un soldato, un uomo e Cupido",1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/un-soldato-un-uomo-e-cupido/
+748,Contesa musicale con Cupido,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/contesa-musicale-con-cupido/
+750,Due figure e Cupido,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/due-figure-e-cupido/
+756,Rapimento di Elena,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/rapimento-di-elena-2/
+758,Aurora e Cefalo,1532,1532,1532,catalogue ca.,False,1531-1535,,1532 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/aurora-e-cefalo/
+998,La leggenda di Pico,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-leggenda-di-pico/
+1004,"Saturno, Mercurio e Giove",1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/saturno-mercurio-e-giove/
+1124,Ermafrodito con la ninfa Salmace,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ermafrodito-con-la-ninfa-salmace/
+1141,Baccanti trasformate in alberi,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/baccanti-trasformate-in-alberi/
+1163,La figura della Fortuna e foglie e rami di quercia,1532,1530,1535,catalogue intervalle,False,,,1530-1535 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-figura-della-fortuna-e-foglie-e-rami-di-quercia-2/
+1254,La storia di Procne e Filomela,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-storia-di-procne-e-filomela/
+1257,Enea e Anchise scappano da Troia,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/enea-e-anchise-scappano-da-troia/
+1259,Il salvataggio di Camilla,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-11/
+1261,San Cristoforo,1532,1532,1532,inscription,True,1531-1535,,1532,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/san-cristoforo/
+100,Cefalo che uccide Procri,1533,1533,1533,inscription,True,1531-1535,,1533,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/01/cefalo-che-uccide-procri/
+177,Il matrimonio di Nino e Seramide,1533,1533,1533,inscription,True,1531-1535,,1533,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/11/il-matrimonio-di-nino-e-seramide/
+201,Atteone tramutato da Diana in cervo,1533,1533,1533,inscription,True,1531-1535,,1533,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/05/atteone-tramutato-da-diana-in-cervo/
+327,Trionfo di Nettuno e di Venere,1533,1533,1533,inscription,True,1531-1535,,1533,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/trionfo-di-nettuno-e-di-venere/
+370,Polemone entra nella scuola di Senocrate,1533,1533,1533,inscription,True,1531-1535,,1533,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/polemone-entra-nella-scuola-di-senocrate/
+481,Anfiarao ed Erifile,1533,1533,1533,inscription,True,1531-1535,,1533,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/anfiarao-ed-erifile/
+484,Romolo e Remo allattati dalla lupa,1533,1533,1533,inscription,True,1531-1535,,1533,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/romolo-e-remo-allattati-dalla-lupa/
+489,Muzio Scevola si brucia la mano in presenza di Lars Porsenna,1533,1533,1533,inscription,True,1531-1535,,1533,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/muzio-scevola-si-brucia-la-mano-in-presenza-di-lars-porsenna/
+620,Il salvataggio di Camilla,1533,1533,1533,inscription,True,1531-1535,,1533,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-3/
+626,La morte di Esaco,1533,1533,1533,inscription,True,1531-1535,,1533,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2014/11/14/la-morte-di-esaco/
+644,Ulisse chiede a Circe i suoi compagni,1533,1533,1533,inscription,True,1531-1535,,1533,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/ulisse-chiede-a-circe-i-suoi-compagni/
+676,La distruzione della flotta di Seleuco,1533,1533,1533,inscription,True,1531-1535,,1533,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-distruzione-della-flotta-di-seleuco/
+829,La distruzione della flotta di Seleuco II,1533,1533,1533,inscription,True,1531-1535,,1533,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-distruzione-della-flotta-di-seleuco-ii/
+835,Deucalione e Pirra,1533,1533,1533,inscription,True,1531-1535,,1533,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/deucalione-e-pirra/
+923,Giunone trasforma Antigone in cicogna,1533,1533,1533,inscription,True,1531-1535,,1533,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/giunone-trasforma-antigone-in-cicogna/
+925,Le Sabine sconfiggono Tarpea,1533,1533,1533,inscription,True,1531-1535,,1533,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/le-sabine-sconfiggono-tarpea/
+1036,Atteone trasformato in un cervo,1533,1533,1533,inscription,True,1531-1535,,1533,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/atteone-trasformato-in-un-cervo/
+1070,Le Baccanti trasformate in querce,1533,1533,1533,inscription,True,1531-1535,,1533,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/le-baccanti-trasformate-in-querce-2/
+1150,L’uccisione dell’asino,1533,1533,1533,inscription,True,1531-1535,,1533,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/luccisione-dellasino/
+1267,Le figlie di Ciniro trasformate in gradini del tempio,1533,1533,1533,inscription,True,1531-1535,,1533,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/le-figlie-di-ciniro-trasformate-in-gradini-del-tempio/
+37,Il matrimonio di Alessandro e Rossana,1534,1534,1534,inscription,True,1531-1535,,1534,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/11/il-matrimonio-di-alessandro-e-rossana/
+78,Tagliere con il dio del Fiume e la Ninfa Aretusa,1534,1534,1534,inscription,True,1531-1535,,1534,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/05/tagliere-con-il-dio-del-fiume-e-la-ninfa-aretusa/
+120,Il mito di Esaco,1534,1534,1534,inscription,True,1531-1535,,1534,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/28/il-mito-di-esaco/
+308,Rapimento di Elena,1534,1534,1534,inscription,True,1531-1535,,1534,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/rapimento-di-elena/
+577,Carlo V punisce Roma corrotta,1534,1534,1534,inscription,True,1531-1535,,1534,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/carlo-v-punisce-roma-corrotta/
+580,Firenze offesa,1534,1534,1534,inscription,True,1531-1535,,1534,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/firenze-offesa/
+586,La vergine Vestale viene sepolta viva,1534,1534,1534,catalogue,True,1531-1535,,1534,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-vergine-vestale-viene-sepolta-viva/
+597,Morte di Cleopatra,1534,1534,1534,inscription,True,1531-1535,,1534,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/morte-di-cleopatra/
+667,Scena allegorica,1534,1534,1534,inscription,True,1531-1535,,1534,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/scena-allegorica/
+760,Muzio Scevola si brucia la mano in prsenza di Lars Porsenna,1534,1534,1534,inscription,True,1531-1535,,1534,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/muzio-scevola-si-brucia-la-mano-in-prsenza-di-lars-porsenna/
+849,Il salvataggio di Camilla,1534,1534,1534,inscription,True,1531-1535,,1534,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-5/
+856,Il salvataggio di Camilla,1534,1534,1534,inscription,True,1531-1535,,1534,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-7/
+863,La trasformazione delle ninfe nelle isole Echinadi,1534,1534,1534,inscription,True,1531-1535,,1534,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-trasformazione-delle-ninfe-nelle-isole-echinadi-2/
+865,La trasformazione delle ninfe nele isole Echinadi,1534,1534,1534,inscription,True,1531-1535,,1534,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-trasformazione-delle-ninfe-nele-isole-echinadi/
+867,Esaco ed Esperia,1534,1534,1534,inscription,True,1531-1535,,1534,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/esaco-ed-esperia-3/
+869,Esaco ed Esperia,1534,1534,1534,inscription,True,1531-1535,,1534,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/esaco-ed-esperia-4/
+871,Leucothoe sepolta viva,1534,1534,1534,inscription,True,1531-1535,,1534,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/leucothoe-sepolta-viva-2/
+873,Il matrimonio di Alessandro e Rossana,1534,1534,1534,inscription,True,1531-1535,,1534,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-matrimonio-di-alessandro-e-rossana-2/
+883,Il salvataggio di Camilla,1534,1534,1534,catalogue,True,1531-1535,,1534,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-9/
+895,La morte di Esaco ed Esperia,1534,1534,1534,inscription,True,1531-1535,,1534,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-esaco-ed-esperia/
+973,La battaglia di Pavia,1534,1534,1534,inscription,True,1531-1535,,1534,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/la-battaglia-di-pavia/
+1083,Dioniso il Tiranno (La spada di Damocle),1534,1534,1534,inscription,True,1531-1535,,1534,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/dioniso-il-tiranno-la-spada-di-damocle-2/
+1114,La storia di Procne e Filomena,1534,1534,1534,inscription,True,1531-1535,,1534,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-storia-di-procne-e-filomena/
+1138,Alcione e Ceice,1534,1534,1534,catalogue (désaccord avec l'inscription 1539),False,1531-1535,,1534,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/alcione-e-ceice-3/
+1237,Venere e Marte,1534,1534,1534,inscription,True,1531-1535,,1534,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/venere-e-marte/
+1340,Atteone trasformato in un cervo,1534,1534,1534,inscription,True,1531-1535,,1534,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/atteone-trasformato-in-un-cervo-2/
+1342,Deucalione e Pirra,1534,1534,1534,inscription,True,1531-1535,,1534,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/deucalione-e-pirra-2/
+85,La visione di Alcione,1535,1535,1535,inscription,True,1531-1535,,1535,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/03/la-visione-di-alcione/
+217,La morte di Palinuro,1535,1535,1535,inscription,True,1531-1535,,1535,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/30/la-morte-di-palinuro/
+234,Cupido travestito da Ascanio condotto a Didone da Acante,1535,1535,1535,inscription,True,1531-1535,,1535,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/24/cupido-travestito-da-ascanio-condotto-a-didone-da-acante/
+237,Ero e Leandro,1535,1535,1535,catalogue,True,1531-1535,,1535,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/23/ero-e-leandro-2/
+247,"Enea, Anchise, Creusa e Ascanio con la fiamma miracolosa",1535,1535,1535,inscription,True,1531-1535,,1535,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/18/enea-anchise-creusa-e-ascanio-con-la-fiamma-miracolosa/
+331,Glauco e Scilla,1535,1535,1535,inscription,True,1531-1535,,1535,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/glauco-e-scilla/
+583,"Polifemo, Aci e Galatea",1535,1535,1535,inscription,True,1531-1535,,1535,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/polifemo-aci-e-galatea/
+637,Il sogno di Alcione,1535,1535,1535,inscription,True,1531-1535,,1535,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/il-sogno-di-alcione/
+704,Allegoria del disastro,1535,1535,1535,catalogue,True,1531-1535,,1535,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-del-disastro/
+714,Allegoria della Prudenza,1535,1535,1535,inscription,True,1531-1535,,1535,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-della-prudenza/
+718,"Giove e Dioniso, Tiranno di Siracusa",1535,1535,1535,inscription,True,1531-1535,,1535,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/giove-e-dioniso-tiranno-di-siracusa/
+720,Teseo entra nel labirinto,1535,1535,1535,inscription,True,1531-1535,,1535,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/teseo-entra-nel-labirinto/
+875,Enea e Anchise nei Campi Elisi,1535,1535,1535,inscription,True,1531-1535,,1535,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/enea-e-anchise-nei-campi-elisi/
+928,Piramo e Tisbe,1535,1535,1535,inscription,True,1531-1535,,1535,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/piramo-e-tisbe-4/
+1015,Cupidi volanti,1535,1535,1535,catalogue ca.,False,1531-1535,,1535 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/cupidi-volanti/
+1058,Madonna col Bambino in gloria e angeli musicanti,1535,1535,1535,catalogue,True,1531-1535,,1535,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/madonna-col-bambino-in-gloria-e-angeli-musicanti/
+1072,Martirio di Santa Caterina,1535,1535,1535,inscription,True,1531-1535,,1535,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/martirio-di-santa-caterina/
+1116,Enea e Anchise nei Campi Elisi,1535,1535,1535,catalogue,True,1531-1535,,1535,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/enea-e-anchise-nei-campi-elisi-2/
+1118,La morte di Palinuro,1535,1535,1535,inscription,True,1531-1535,,1535,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-palinuro-3/
+1186,La vestale Tuccia porta l’acqua in un setaccio al Tempio di Vesta,1535,1535,1535,inscription,True,1531-1535,,1535,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-vestale-tuccia-porta-lacqua-in-un-setaccio-al-tempio-di-vesta-3/
+1248,Narciso ed Eco,1535,1535,1535,inscription,True,1531-1535,,1535,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/narciso-ed-eco-2/
+1273,Il sogno di Astiage,1535,1535,1535,inscription,True,1531-1535,,1535,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-sogno-di-astiage-5/
+1275,Il sogno di Astiage,1535,1535,1535,inscription,True,1531-1535,,1535,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-sogno-di-astiage-6/
+1277,La morte di Palinuro,1535,1535,1535,catalogue,True,1531-1535,,1535,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/1277/
+1344,Ratto di Elena,1535,1535,1535,inscription,True,1531-1535,,1535,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ratto-di-elena/
+94,Il Seppellimento di Cristo,1536,1536,1536,inscription,True,1536-1542,,1536,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/02/il-seppellimento-di-cristo/
+197,L’allegoria delle discordie dell’Italia,1536,1536,1536,inscription,True,1536-1542,,1536,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/06/lallegoria-delle-discordie-dellitalia/
+383,L’assassinio di Horopaste,1536,1536,1536,catalogue,True,1536-1542,,1536,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2019/11/14/lassassinio-di-horopaste/
+387,Serse e i suoi soldati profanano il Tempio di Apollo a Delfi,1536,1536,1536,inscription,True,1536-1542,date peinte dans la scène (droit seul),1536,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2019/11/14/serse-e-i-suoi-soldati-profanano-il-tempio-di-apollo-a-delfi/
+509,Isacco e Esaù,1536,1536,1536,inscription,True,1536-1542,,1536,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/isacco-e-esau/
+554,Piatto con Ercole e Cerbero,1536,1536,1536,inscription,True,1536-1542,,1536,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/piatto-con-ercole-e-cerbero-2/
+647,Ciro proclamato re dai bambini del villaggio,1536,1536,1536,inscription,True,1536-1542,,1536,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ciro-proclamato-re-dai-bambini-del-villaggio/
+650,Ciro bambino trovato da un pastore,1536,1536,1536,catalogue,True,1536-1542,,1536,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ciro-bambino-trovato-da-un-pastore/
+808,"La morte di Cambise, l’omicidio di Smerdise, l’incoronazione di Horopaste come re di Persia",1536,1536,1536,catalogue,True,1536-1542,,1536,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-cambise-lomicidio-di-smerdise-lincoronazione-di-horopaste-come-re-di-persia/
+811,Gobrio e Dario,1536,1536,1536,catalogue,True,1536-1542,,1536,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/gobrio-e-dario/
+837,Dioniso il tiranno (La spada di Damocle),1536,1536,1536,inscription,True,1536-1542,,1536,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/dioniso-il-tiranno-la-spada-di-damocle/
+916,Piramo e Tisbe,1536,1536,1536,inscription,True,1536-1542,,1536,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/piramo-e-tisbe-3/
+932,Il sogno di Astiage,1536,1536,1536,inscription,True,1536-1542,,1536,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-sogno-di-astiage/
+935,Esaco ed Esperia,1536,1536,1536,inscription,True,1536-1542,,1536,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/esaco-ed-esperia-5/
+969,Sinone davanti a Priamo,1536,1536,1536,catalogue ca.,False,1536-1542,,1536 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/sinone-davanti-a-priamo/
+1099,Il matrimonio di dario il Grande con la figlia di Ciro,1536,1536,1536,catalogue,True,1536-1542,,1536,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-matrimonio-di-dario-il-grande-con-la-figlia-di-ciro/
+1120,Gli Stati governati da Saturno,1536,1536,1536,inscription,True,1536-1542,,1536,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/gli-stati-governati-da-saturno/
+1217,Ciro davanti ad Astiage,1536,1536,1536,catalogue ca.,False,1536-1542,,1536 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ciro-davanti-ad-astiage/
+1221,Ciro alla conquista di Babilonia,1536,1536,1536,inscription,True,1536-1542,date peinte dans la scène (droit seul),1536,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/1221/
+1239,Il sogno di Astiage,1536,1536,1536,inscription,True,1536-1542,date peinte dans la scène (droit seul),1536,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-sogno-di-astiage-4/
+1241,La nascita e l’esposizione di Ciro,1536,1536,1536,catalogue,True,1536-1542,,1536,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-nascita-e-lesposizione-di-ciro/
+1280,La moglie del pastore abbandona suo figlio e adotta il piccolo Ciro,1536,1536,1536,catalogue,True,1536-1542,,1536,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/la-moglie-del-pastore-abbandona-suo-figlio-e-adotta-il-piccolo-ciro/
+1282,La festa di Ciro e Persepoli,1536,1536,1536,catalogue,True,1536-1542,,1536,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/la-festa-di-ciro-e-persepoli/
+1284,"La cattura del Re dei Lidiani, Creso",1536,1536,1536,catalogue ca.,False,1536-1542,,1536 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-cattura-del-re-dei-lidiani-creso/
+1322,"Demarato, re di Sparta, informa i suoi sudditi dei piani ostili di Serse",1536,1536,1536,inscription,True,1536-1542,,1536,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/demarato-re-di-sparta-informa-i-suoi-sudditi-dei-piani-ostili-di-serse/
+139,Tagliere con Ero e Leandro,1537,1537,1537,inscription,True,1536-1542,,1537,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/22/tagliere-con-ero-e-leandro/
+167,Il rapimento di Elena,1537,1537,1537,inscription,True,1536-1542,,1537,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/14/il-rapimento-di-elena/
+367,Ipermnestra guarda Liceo che minaccia suo padre Danao,1537,1537,1537,inscription,True,1536-1542,,1537,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ipermnestra-guarda-liceo-che-minaccia-suo-padre-danao/
+379,Giuseppe che fugge dalla moglie di Putifarre,1537,1537,1537,inscription,True,1536-1542,,1537,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/giuseppe-che-fugge-dalla-moglie-di-putifarre/
+393,Madonna di Foligno,1537,1537,1537,inscription,True,1536-1542,,1537,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/madonna-di-foligno/
+594,Sansone e i Filistei,1537,1537,1537,inscription,True,1536-1542,,1537,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/sansone-e-i-filistei/
+752,Esaco ed Esperia,1537,1537,1537,inscription,True,1536-1542,,1537,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/esaco-ed-esperia-2/
+820,Leda e il cigno,1537,1537,1537,inscription,True,1536-1542,,1537,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/leda-e-il-cigno-3/
+877,Alcione e Ceice,1537,1537,1537,inscription,True,1536-1542,,1537,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/alcione-e-ceice/
+879,Alcione e Ceice,1537,1537,1537,inscription,True,1536-1542,,1537,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/alcione-e-ceice-2/
+902,La ritirata di Serse,1537,1537,1537,inscription,True,1536-1542,,1537,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-ritirata-di-serse/
+939,Matrimonio di Alessandro e Rossana,1537,1537,1537,inscription,True,1536-1542,,1537,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/matrimonio-di-alessandro-e-rossana/
+1103,Adorazione dei pastori,1537,1537,1537,catalogue,True,1536-1542,,1537,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/adorazione-dei-pastori/
+1224,Enea e Anchise nei Campi Elisi,1537,1537,1537,inscription,True,1536-1542,,1537,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/enea-e-anchise-nei-campi-elisi-3/
+1230,Il rapimento di Elena,1537,1537,1537,inscription,True,1536-1542,,1537,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-rapimento-di-elena-3/
+1243,Leonida conquista i Persiani,1537,1537,1537,inscription,True,1536-1542,,1537,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/leonida-conquista-i-persiani/
+1271,Cefalo e Procri,1537,1537,1537,inscription,True,1536-1542,,1537,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/cefalo-e-procri/
+1347,Grifone che lotta contro il popolo di Damasco,1537,1537,1537,inscription,True,1536-1542,,1537,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/grifone-che-lotta-contro-il-popolo-di-damasco/
+1350,Scena di pesca,1537,1537,1537,inscription,True,1536-1542,,1537,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/scena-di-pesca/
+1352,,1537,1537,1537,inscription,True,1536-1542,,1537,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/1352/
+107,Piatto con la Natività,1538,1538,1538,inscription,True,1536-1542,,1538,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/31/piatto-con-la-nativita/
+170,Ero e Leandro,1538,1538,1538,inscription,True,1536-1542,,1538,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/13/ero-e-leandro/
+335,La vergine vestale Tuccia porta dell’acqua in un setaccio al tempio di Vesta,1538,1538,1538,inscription,True,1536-1542,,1538,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-vergine-vestale-tuccia-porta-dellacqua-in-un-setaccio-al-tempio-di-vesta/
+565,Coppa con Lucrezia e Traquinio,1538,1538,1538,inscription,True,1536-1542,,1538,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/coppa-con-lucrezia-e-traquinio/
+569,Coppa con Firenze piange i suoi figli (La peste di Firenze),1538,1538,1538,catalogue,True,1536-1542,,1538,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/coppa-con-firenze-piange-i-suoi-figli-la-peste-di-firenze/
+605,La vestale Tuccia porta l’acqua in un setaccio al Tempio di Vesta,1538,1538,1538,inscription,True,1536-1542,,1538,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-vestale-tuccia-porta-lacqua-in-un-setaccio-al-tempio-di-vesta/
+629,Giuseppe e la moglie di Putifarre,1538,1538,1538,inscription,True,1536-1542,,1538,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/giuseppe-e-la-moglie-di-putifarre/
+663,Orazio Coclite tiene il ponte contro gli Etruschi,1538,1538,1538,inscription,True,1536-1542,,1538,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/orazio-coclite-tiene-il-ponte-contro-gli-etruschi/
+788,Piramo e Tisbe,1538,1538,1538,inscription,True,1536-1542,,1538,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/piramo-e-tisbe-2/
+790,Narciso,1538,1538,1538,inscription,True,1536-1542,,1538,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/narciso/
+792,Pico e Circe,1538,1538,1538,inscription,True,1536-1542,,1538,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/pico-e-circe/
+794,I Filistei bruciano la casa del suocero di Sansone,1538,1538,1538,inscription,True,1536-1542,,1538,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/i-filistei-bruciano-la-casa-del-suocero-di-sansone/
+796,Sansone combatte contro i Filistei,1538,1538,1538,inscription,True,1536-1542,,1538,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/sansone-combatte-contro-i-filistei/
+798,La morte di Sansone,1538,1538,1538,inscription,True,1536-1542,,1538,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-sansone/
+815,Leda e il cigno,1538,1538,1538,inscription,True,1536-1542,,1538,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/815/
+845,Il salvataggio di Camilla,1538,1538,1538,inscription,True,1536-1542,,1538,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-4/
+1152,La morte di Cleopatra,1538,1538,1538,inscription,True,1536-1542,,1538,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-cleopatra-4/
+1245,Apollo e Dafne,1538,1538,1538,inscription,True,1536-1542,,1538,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/apollo-e-dafne-2/
+64,Il salvataggio di Camilla,1539,1539,1539,inscription,True,1536-1542,,1539,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/09/il-salvataggio-di-camilla/
+149,Dionisio e il Tiranno (La spada di Damocle),1539,1539,1539,inscription,True,1536-1542,,1539,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/19/dionisio-e-il-tiranno-la-spada-di-damocle/
+173,La morte di Laocoonte e dei due figli,1539,1539,1539,inscription,True,1536-1542,,1539,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/12/173/
+227,Soggetto allegorico con un uomo che indossa un turbante e quattro donne,1539,1539,1539,inscription,True,1536-1542,,1539,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/26/soggetto-allegorico-con-un-uomo-che-indossa-un-turbante-e-quattro-donne/
+839,La trasfigurazione,1539,1539,1539,inscription,True,1536-1542,,1539,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/la-trasfigurazione/
+859,Il salvataggio di Camilla,1539,1539,1539,inscription,True,1536-1542,,1539,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-8/
+981,I figli dei Falisci,1539,1539,1539,inscription,True,1536-1542,,1539,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/i-figli-dei-falisci/
+988,"Venere, Vulcano e Cupido",1539,1539,1539,catalogue,True,1536-1542,,1539,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/venere-vulcano-e-cupido/
+1006,La vestale Tuccia porta l’acqua in un setaccio al Tempio di Vesta,1539,1538,1540,catalogue intervalle,False,1536-1542,,1538-1540 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-vestale-tuccia-porta-lacqua-in-un-setaccio-al-tempio-di-vesta-2/
+1010,Piramo e Tisbe,1539,1539,1539,inscription,True,1536-1542,,1539,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/piramo-e-tisbe-5/
+1131,La morte di Lacoonte,1539,1539,1539,inscription,True,1536-1542,,1539,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-lacoonte/
+241,La sepoltura di Leucothoe,1540,1540,1540,inscription,True,1536-1542,,1540,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/20/la-sepoltura-di-leucothoe/
+244,Il sogno profetico della donna di Imera,1540,1540,1540,catalogue,True,1536-1542,,1540,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/19/il-sogno-profetico-della-donna-di-imera/
+288,La sepoltura di Leucothoe,1540,1540,1540,inscription,True,1536-1542,,1540,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-sepoltura-di-leucothoe-2/
+390,I figli di Venere e Putto che porta un cesto di fiori,1540,1539,1540,catalogue intervalle,False,1536-1542,,1539-1540 ca.,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/i-figli-di-venere-e-putto-che-porta-un-cesto-di-fiori/
+516,Ero e Leandro,1540,1540,1540,inscription,True,1536-1542,,1540,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ero-e-leandro-3/
+546,Circoncisione,1540,1540,1540,inscription,True,1536-1542,,1540,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/circoncisione/
+633,La morte di Eschilo,1540,1540,1540,inscription,True,1536-1542,,1540,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-eschilo/
+1074,Plauto e Orestilla,1540,1540,1540,inscription,True,1536-1542,,1540,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/plauto-e-orestilla/
+1078,Il rapimento di Elena,1540,1540,1540,inscription,True,1536-1542,,1540,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-rapimento-di-elena-2/
+1109,La morte di Cleopatra,1540,1540,1540,inscription,True,1536-1542,,1540,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-cleopatra-3/
+1190,La morte di Eschilo,1540,1540,1540,inscription,True,1536-1542,,1540,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-eschilo-2/
+1210,La vestale porta l’acqua in un setaccio al Tempio di Vesta,1540,1540,1540,inscription,True,1536-1542,,1540,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-vestale-porta-lacqua-in-un-setaccio-al-tempio-di-vesta/
+1213,Dioniso il Tiranno (La spada di Damocle),1540,1540,1540,inscription,True,1536-1542,,1540,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/dioniso-il-tiranno-la-spada-di-damocle-3/
+1250,La caduta di Icaro,1540,1540,1540,inscription,True,1536-1542,,1540,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-caduta-di-icaro-2/
+223,Sacrificio di Porzia,1541,1541,1541,inscription,True,1536-1542,,1541,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/27/sacrificio-di-porzia/
+560,Coppa con il Noli me tangere,1541,1541,1541,inscription,True,1536-1542,,1541,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/coppa-con-il-noli-me-tangere/
+841,Turno attacca la “Nuova Troia”,1541,1541,1541,inscription,True,1536-1542,,1541,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/turno-attacca-la-nuova-troia/
+843,L’assalto a La Goletta,1541,1541,1541,catalogue (désaccord avec l'inscription 1531),False,1536-1542,,1541,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/lassalto-a-la-goletta/
+898,Martirio di Santa Ursula,1541,1541,1541,inscription,True,1536-1542,,1541,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/martirio-di-santa-ursula/
+996,Il sogno di Astiage,1541,1541,1541,catalogue,True,1536-1542,,1541,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-sogno-di-astiage-3/
+1076,Il salvataggio di Camilla,1541,1541,1541,inscription,True,1536-1542,,1541,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-10/
+590,Vulcano forgia le frecce di Cupido,1542,1542,1542,inscription,True,1536-1542,,1542,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/vulcano-forgia-le-frecce-di-cupido/
+824,Apollo e le muse sul Monte Parnaso,1542,1542,1542,inscription,True,1536-1542,,1542,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/francesco-xanto-avelli-rovigo-c-1487-urbino-c-1542-apollo-e-le-muse-sul-monte-parnaso-1542-coppa-ceramica-maiolica-cotto-porcellanato-diametro-275-cm-collezione-della-fondazione-cassa-d/
+851,Il salvataggio di Camilla,1542,1542,1542,inscription,True,1536-1542,,1542,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-6/
+984,La morte di Cleopatra,1542,1542,1542,inscription,True,1536-1542,,1542,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-cleopatra/
+991,Il sogno di Astiage,1542,1542,1542,inscription,True,1536-1542,,1542,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-sogno-di-astiage-2/
+1033,I bambini del pianeta Venere,1542,1542,1542,inscription,True,1536-1542,,1542,False,False,False,False,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/i-bambini-del-pianeta-venere/

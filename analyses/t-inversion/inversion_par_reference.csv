@@ -100,9 +100,9 @@ id,estampe,titre_estampe,graveur,inversion,annee,periode,source_date,link
 181,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,,1531,1531-1535,inscription,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/10/la-morte-di-piramo-e-tisbe/
 184,B26.247,Parnaso,Marcantonio,,1530,<=1530,catalogue,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/09/la-nascita-di-venere/
 190,B27.340,Tre Grazie,Marcantonio,,1525,<=1530,inscription,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/08/le-tre-grazie/
-194,B27.352,Quos Ego,Marcantonio,gauche,1522,<=1530,inscription,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/07/ercole-e-onfale/
-194,B27.442,Imperatore seduto,Marcantonio,,1522,<=1530,inscription,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/07/ercole-e-onfale/
-194,B27.464,Due uomini nudi,Marcantonio,,1522,<=1530,inscription,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/07/ercole-e-onfale/
+194,B27.352,Quos Ego,Marcantonio,gauche,1522,<=1530,"catalogue (date peinte dans la scène, 1522, non retenue)",https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/07/ercole-e-onfale/
+194,B27.442,Imperatore seduto,Marcantonio,,1522,<=1530,"catalogue (date peinte dans la scène, 1522, non retenue)",https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/07/ercole-e-onfale/
+194,B27.464,Due uomini nudi,Marcantonio,,1522,<=1530,"catalogue (date peinte dans la scène, 1522, non retenue)",https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/07/ercole-e-onfale/
 197,B27.373,Donna con due spugne,Marcantonio,,1536,1536-1542,inscription,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/06/lallegoria-delle-discordie-dellitalia/
 197,B28.62,Matrimonio di Alessandro e Rossana,Caraglio,gauche,1536,1536-1542,inscription,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/06/lallegoria-delle-discordie-dellitalia/
 201,B26.211,Battaglia col coltellaccio / con la sciabola,Marco Dente,,1533,1531-1535,inscription,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/05/atteone-tramutato-da-diana-in-cervo/

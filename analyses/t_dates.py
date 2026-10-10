@@ -16,10 +16,9 @@ OUT = commun.ICI / "t-dates"
 def main():
     fiches, _, _ = commun.charger()
     lignes = [{k: f[k] for k in ("id", "titolo", "annee", "amin", "amax", "source_date", "precis",
-                                 "periode", "note_date", "data_catalogue", "link")} for f in fiches]
-    for r in lignes:  # quelques champs « data » de pieces.csv contiennent l'inscription (colonnes décalées)
-        if len(r["data_catalogue"]) > 40:
-            r["data_catalogue"] = "(champ décalé dans pieces.csv)"
+                                 "periode", "note_date", "data_catalogue", "avant_1528", "initiales_FR",
+                                 "marque_y_slash", "attribution_debattue", "link")} for f in fiches]
+    # (le champ « data » de pieces.csv est lu par son contenu depuis le 10/10/2026 : plus de colonnes décalées)
     lignes.sort(key=lambda r: (r["annee"] or 9999, r["id"]))
     commun.ecrire_csv(OUT / "dates_par_piece.csv", lignes)
 
@@ -41,6 +40,11 @@ def main():
         "desaccords_inscription_catalogue": [r["id"] for r in lignes if "désaccord" in r["source_date"]],
         "dates_de_lustre_gubbio": [r["id"] for r in lignes if "Gubbio" in r["note_date"]],
         "sans_date": [r["id"] for r in lignes if r["annee"] is None],
+        "dates_peintes_dans_la_scene": [r["id"] for r in lignes if "dans la scène" in r["note_date"]],
+        "avant_1528": [{"id": r["id"], "annee": r["annee"], "source_date": r["source_date"], "note_date": r["note_date"]}
+                       for r in lignes if r["avant_1528"]],
+        "attribution_debattue": [r["id"] for r in lignes if r["attribution_debattue"]],
+        "marque_y_slash": [r["id"] for r in lignes if r["marque_y_slash"]],
         "a_cheval_sur_deux_periodes": [r["id"] for r in lignes if r["annee"] and r["periode"] is None],
     }
     commun.ecrire_json(OUT / "resultats.json", res)

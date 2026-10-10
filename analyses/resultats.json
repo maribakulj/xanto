@@ -12,9 +12,10 @@
  "t_dates": {
   "n_pieces": 374,
   "par_source": {
-   "inscription": 244,
+   "catalogue (date peinte dans la scène, 1522, non retenue)": 1,
    "catalogue ca.": 25,
    "catalogue intervalle": 67,
+   "inscription": 243,
    "catalogue": 36,
    "catalogue (désaccord avec l'inscription 1539)": 1,
    "catalogue (désaccord avec l'inscription 1531)": 1
@@ -29,8 +30,8 @@
    {
     "annee": 1522,
     "toutes": 2,
-    "inscrites": 1,
-    "catalogue_annee": 1,
+    "inscrites": 0,
+    "catalogue_annee": 2,
     "milieu_intervalle": 0
    },
    {
@@ -172,13 +173,17 @@
    843
   ],
   "dates_de_lustre_gubbio": [
+   1045,
    1052,
    1175,
+   190,
    346,
    1129,
    1148,
    1166,
+   1171,
    1179,
+   1184,
    656,
    919,
    1122,
@@ -186,6 +191,247 @@
    116
   ],
   "sans_date": [],
+  "dates_peintes_dans_la_scene": [
+   194,
+   360,
+   1106,
+   387,
+   1221,
+   1239
+  ],
+  "avant_1528": [
+   {
+    "id": 194,
+    "annee": 1522,
+    "source_date": "catalogue (date peinte dans la scène, 1522, non retenue)",
+    "note_date": "date peinte dans la scène (droit seul)"
+   },
+   {
+    "id": 611,
+    "annee": 1522,
+    "source_date": "catalogue ca.",
+    "note_date": ""
+   },
+   {
+    "id": 942,
+    "annee": 1524,
+    "source_date": "catalogue intervalle",
+    "note_date": ""
+   },
+   {
+    "id": 1045,
+    "annee": 1524,
+    "source_date": "inscription",
+    "note_date": "date de lustre (Gubbio)"
+   },
+   {
+    "id": 1052,
+    "annee": 1524,
+    "source_date": "inscription",
+    "note_date": "date de lustre (Gubbio)"
+   },
+   {
+    "id": 1175,
+    "annee": 1524,
+    "source_date": "inscription",
+    "note_date": "date de lustre (Gubbio)"
+   },
+   {
+    "id": 126,
+    "annee": 1525,
+    "source_date": "catalogue",
+    "note_date": ""
+   },
+   {
+    "id": 190,
+    "annee": 1525,
+    "source_date": "inscription",
+    "note_date": "date de lustre (Gubbio)"
+   },
+   {
+    "id": 346,
+    "annee": 1525,
+    "source_date": "inscription",
+    "note_date": "date de lustre (Gubbio)"
+   },
+   {
+    "id": 507,
+    "annee": 1525,
+    "source_date": "catalogue",
+    "note_date": ""
+   },
+   {
+    "id": 886,
+    "annee": 1525,
+    "source_date": "catalogue ca.",
+    "note_date": ""
+   },
+   {
+    "id": 1129,
+    "annee": 1525,
+    "source_date": "inscription",
+    "note_date": "date de lustre (Gubbio)"
+   },
+   {
+    "id": 1133,
+    "annee": 1525,
+    "source_date": "catalogue",
+    "note_date": ""
+   },
+   {
+    "id": 1148,
+    "annee": 1525,
+    "source_date": "inscription",
+    "note_date": "date de lustre (Gubbio)"
+   },
+   {
+    "id": 1166,
+    "annee": 1525,
+    "source_date": "inscription",
+    "note_date": "date de lustre (Gubbio)"
+   },
+   {
+    "id": 1171,
+    "annee": 1525,
+    "source_date": "inscription",
+    "note_date": "date de lustre (Gubbio)"
+   },
+   {
+    "id": 1179,
+    "annee": 1525,
+    "source_date": "inscription",
+    "note_date": "date de lustre (Gubbio)"
+   },
+   {
+    "id": 1184,
+    "annee": 1525,
+    "source_date": "inscription",
+    "note_date": "date de lustre (Gubbio)"
+   },
+   {
+    "id": 343,
+    "annee": 1526,
+    "source_date": "catalogue intervalle",
+    "note_date": ""
+   },
+   {
+    "id": 446,
+    "annee": 1526,
+    "source_date": "catalogue intervalle",
+    "note_date": ""
+   },
+   {
+    "id": 709,
+    "annee": 1526,
+    "source_date": "catalogue intervalle",
+    "note_date": ""
+   },
+   {
+    "id": 947,
+    "annee": 1526,
+    "source_date": "catalogue intervalle",
+    "note_date": ""
+   },
+   {
+    "id": 950,
+    "annee": 1526,
+    "source_date": "catalogue intervalle",
+    "note_date": ""
+   },
+   {
+    "id": 1038,
+    "annee": 1526,
+    "source_date": "catalogue ca.",
+    "note_date": ""
+   },
+   {
+    "id": 1043,
+    "annee": 1526,
+    "source_date": "catalogue ca.",
+    "note_date": ""
+   },
+   {
+    "id": 466,
+    "annee": 1527,
+    "source_date": "catalogue intervalle",
+    "note_date": ""
+   }
+  ],
+  "attribution_debattue": [
+   194,
+   611,
+   942,
+   1045,
+   1052,
+   1175,
+   126,
+   190,
+   346,
+   507,
+   886,
+   1129,
+   1133,
+   1148,
+   1166,
+   1171,
+   1179,
+   1184,
+   343,
+   446,
+   709,
+   947,
+   950,
+   1038,
+   1043,
+   466
+  ],
+  "marque_y_slash": [
+   466,
+   656,
+   800,
+   831,
+   833,
+   906,
+   910,
+   919,
+   977,
+   979,
+   1041,
+   1061,
+   1122,
+   1320,
+   1324,
+   1326,
+   1328,
+   373,
+   474,
+   496,
+   499,
+   672,
+   881,
+   952,
+   960,
+   964,
+   1198,
+   1201,
+   1203,
+   58,
+   145,
+   458,
+   493,
+   659,
+   776,
+   780,
+   784,
+   632,
+   1000,
+   1017,
+   1022,
+   305,
+   912,
+   511,
+   827
+  ],
   "a_cheval_sur_deux_periodes": [
    952,
    960,
@@ -277,9 +523,9 @@
   },
   "par_periode_dates_inscrites": {
    "<=1530": {
-    "n_references": 18,
-    "n_inversees": 4,
-    "part": 0.222
+    "n_references": 15,
+    "n_inversees": 3,
+    "part": 0.2
    },
    "1531-1535": {
     "n_references": 291,
@@ -307,6 +553,22 @@
    "p_permutation_bilateral": 0.1029,
    "n_permutations": 10000,
    "n_pieces": 212
+  },
+  "test_tendance_dates_inscrites_<=1530_vs_1536-1542": {
+   "groupe_1": "<=1530",
+   "groupe_2": "1536-1542",
+   "difference_g2_moins_g1": -0.0349,
+   "p_permutation_bilateral": 0.7607,
+   "n_permutations": 10000,
+   "n_pieces": 71
+  },
+  "test_dates_inscrites_1531-1535_vs_1536-1542": {
+   "groupe_1": "1531-1535",
+   "groupe_2": "1536-1542",
+   "difference_g2_moins_g1": 0.0586,
+   "p_permutation_bilateral": 0.135,
+   "n_permutations": 10000,
+   "n_pieces": 183
   },
   "par_estampe": [
    {
@@ -2170,7 +2432,7 @@
      {
       "id": 194,
       "annee": 1522,
-      "source_date": "inscription",
+      "source_date": "catalogue (date peinte dans la scène, 1522, non retenue)",
       "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/07/ercole-e-onfale/"
      },
      {
@@ -4342,7 +4604,7 @@
      {
       "id": 194,
       "annee": 1522,
-      "source_date": "inscription",
+      "source_date": "catalogue (date peinte dans la scène, 1522, non retenue)",
       "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/07/ercole-e-onfale/"
      },
      {
@@ -4633,7 +4895,7 @@
      {
       "id": 194,
       "annee": 1522,
-      "source_date": "inscription",
+      "source_date": "catalogue (date peinte dans la scène, 1522, non retenue)",
       "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/07/ercole-e-onfale/"
      },
      {
@@ -5673,16 +5935,6 @@
   "variante_inscrites": {
    "par_annee": [
     {
-     "annee": 1522,
-     "pieces": 1,
-     "pieces_avec_ref": 1,
-     "references": 3,
-     "estampes_distinctes": 3,
-     "estampes_nouvelles": 3,
-     "part_nouvelles": 1.0,
-     "liste_nouvelles": "B27.352 B27.442 B27.464"
-    },
-    {
      "annee": 1524,
      "pieces": 3,
      "pieces_avec_ref": 2,
@@ -5708,9 +5960,9 @@
      "pieces_avec_ref": 2,
      "references": 4,
      "estampes_distinctes": 4,
-     "estampes_nouvelles": 1,
-     "part_nouvelles": 0.25,
-     "liste_nouvelles": "B26.247"
+     "estampes_nouvelles": 4,
+     "part_nouvelles": 1.0,
+     "liste_nouvelles": "B26.247 B27.352 B27.442 B27.464"
     },
     {
      "annee": 1529,
@@ -5855,26 +6107,26 @@
    ],
    "par_periode": {
     "<=1530": {
-     "references": 18,
+     "references": 15,
      "estampes_distinctes": 10,
-     "distinctes_par_reference": 0.556,
+     "distinctes_par_reference": 0.667,
      "part_top5": 0.667,
-     "herfindahl": 0.1173,
+     "herfindahl": 0.12,
      "top5": [
-      "B27.352",
       "B26.245",
       "B26.211",
       "B26.247",
-      "B27.442"
+      "B27.352",
+      "B26.6"
      ],
-     "pieces": 22,
-     "pieces_avec_ref": 13,
-     "part_pieces_avec_ref": 0.591,
-     "refs_par_piece_avec_ref": 1.38,
+     "pieces": 21,
+     "pieces_avec_ref": 12,
+     "part_pieces_avec_ref": 0.571,
+     "refs_par_piece_avec_ref": 1.25,
      "estampes_nouvelles": 10,
      "part_estampes_nouvelles": 1.0,
-     "pieces_a_2_estampes_ou_plus": 3,
-     "combinaisons_deja_vues": 1
+     "pieces_a_2_estampes_ou_plus": 2,
+     "combinaisons_deja_vues": 0
     },
     "1531-1535": {
      "references": 291,
@@ -5924,33 +6176,33 @@
    "controle_permutation": {
     "estampes_introduites_des_1536": {
      "observe": 4,
-     "moyenne_permutations": 4.465,
+     "moyenne_permutations": 4.884,
      "intervalle_95": [
       1,
-      8
+      9
      ],
-     "p_inferieur_ou_egal": 0.5303,
-     "p_superieur_ou_egal": 0.6931
+     "p_inferieur_ou_egal": 0.437,
+     "p_superieur_ou_egal": 0.7599
     },
     "part_refs_tardives_vers_estampes_nouvelles": {
      "observe": 0.074,
-     "moyenne_permutations": 0.042,
+     "moyenne_permutations": 0.043,
      "intervalle_95": [
-      0.008,
-      0.087
+      0.013,
+      0.085
      ],
-     "p_inferieur_ou_egal": 0.9329,
-     "p_superieur_ou_egal": 0.0687
+     "p_inferieur_ou_egal": 0.9373,
+     "p_superieur_ou_egal": 0.0647
     },
     "part_pieces_tardives_a_combinaison_deja_vue": {
      "observe": 0.375,
-     "moyenne_permutations": 0.272,
+     "moyenne_permutations": 0.262,
      "intervalle_95": [
-      0.174,
-      0.372
+      0.167,
+      0.357
      ],
-     "p_inferieur_ou_egal": 0.9799,
-     "p_superieur_ou_egal": 0.0224
+     "p_inferieur_ou_egal": 0.9907,
+     "p_superieur_ou_egal": 0.0118
     }
    }
   }
@@ -5969,7 +6221,8 @@
      1328,
      414,
      889
-    ]
+    ],
+    "p_holm_3_definitions": 0.0395
    },
    "commentaire_actualite_politique": {
     "pieces_total": 374,
@@ -5985,7 +6238,8 @@
      428,
      889,
      1122
-    ]
+    ],
+    "p_holm_3_definitions": 0.0216
    },
    "nota_ou_commentaire_politique": {
     "pieces_total": 374,
@@ -6002,9 +6256,51 @@
      414,
      889,
      1122
-    ]
+    ],
+    "p_holm_3_definitions": 0.0216
    }
   },
+  "modi_et_sujets_politiques_stratifie_par_periode": {
+   "definition": "nota_ou_commentaire_politique",
+   "observe": 7,
+   "attendu": 2.67,
+   "p_permutation_dans_les_periodes_unilateral": 0.0098,
+   "strates": [
+    {
+     "periode": "1531-1535",
+     "pieces": 164,
+     "pieces_modi": 27,
+     "pieces_politiques": 10,
+     "modi_et_politiques": 3,
+     "attendu": 1.65
+    },
+    {
+     "periode": "1536-1542",
+     "pieces": 101,
+     "pieces_modi": 6,
+     "pieces_politiques": 3,
+     "modi_et_politiques": 0,
+     "attendu": 0.18
+    },
+    {
+     "periode": "<=1530",
+     "pieces": 101,
+     "pieces_modi": 6,
+     "pieces_politiques": 10,
+     "modi_et_politiques": 3,
+     "attendu": 0.59
+    },
+    {
+     "periode": "sans période",
+     "pieces": 8,
+     "pieces_modi": 1,
+     "pieces_politiques": 2,
+     "modi_et_politiques": 1,
+     "attendu": 0.25
+    }
+   ]
+  },
+  "modi_et_sujets_politiques_note": "Trois définitions essayées, p corrigés par Holm. Circularité : les Modi ont été cherchés surtout sur les plats du Sac et de Pavie (Talvacchia, Petruzzellis Scherer, Mallet). L'association s'accorde aussi avec Mallet (poses athlétiques, corps renversés utiles aux scènes violentes). Verdict : fragile, descriptif.",
   "pieces_avec_inscription": 353,
   "genres_comptes": {
    "aucun": 313,
@@ -8332,19 +8628,827 @@
   "test_caraglio_vs_marcantonio": {
    "groupe_1": "Marcantonio",
    "groupe_2": "Caraglio",
-   "difference_g2_moins_g1": 0.0313,
-   "p_permutation_bilateral": 0.2241,
-   "n_permutations": 10000,
-   "n_pieces": 227
+   "unite": "référence (grappes = pièces)",
+   "positifs_g1": 10,
+   "references_g1": 247,
+   "part_g1": 0.0405,
+   "positifs_g2": 8,
+   "references_g2": 114,
+   "part_g2": 0.0702,
+   "difference_g2_moins_g1": 0.0297,
+   "ic95_bootstrap": [
+    -0.0217,
+    0.0859
+   ],
+   "p_bootstrap_bilateral": 0.2726,
+   "n_bootstrap": 10000,
+   "n_grappes": 227,
+   "n_pieces": 227,
+   "n_pieces_avec_les_deux_groupes": 60,
+   "note": "corrigé le 10/10/2026 (voir README) ; ancienne valeur erronée : +3,13 points, p = 0,22"
   },
   "test_groupe_ou_entier_caraglio_vs_marcantonio": {
    "groupe_1": "Marcantonio",
    "groupe_2": "Caraglio",
-   "difference_g2_moins_g1": 0.1006,
-   "p_permutation_bilateral": 0.0595,
-   "n_permutations": 10000,
-   "n_pieces": 227
+   "unite": "référence (grappes = pièces)",
+   "positifs_g1": 68,
+   "references_g1": 247,
+   "part_g1": 0.2753,
+   "positifs_g2": 52,
+   "references_g2": 114,
+   "part_g2": 0.4561,
+   "difference_g2_moins_g1": 0.1808,
+   "ic95_bootstrap": [
+    0.0721,
+    0.2872
+   ],
+   "p_bootstrap_bilateral": 0.0014,
+   "n_bootstrap": 10000,
+   "n_grappes": 227,
+   "n_pieces": 227,
+   "n_pieces_avec_les_deux_groupes": 60,
+   "note": "corrigé le 10/10/2026 ; ancienne valeur erronée : +10,1 points, p = 0,06"
   },
+  "test_caraglio_vs_marcantonio_grappes_estampes": {
+   "groupe_1": "Marcantonio",
+   "groupe_2": "Caraglio",
+   "unite": "référence (grappes = estampe)",
+   "positifs_g1": 10,
+   "references_g1": 247,
+   "part_g1": 0.0405,
+   "positifs_g2": 8,
+   "references_g2": 114,
+   "part_g2": 0.0702,
+   "difference_g2_moins_g1": 0.0297,
+   "ic95_bootstrap": [
+    -0.0495,
+    0.2367
+   ],
+   "p_bootstrap_bilateral": 0.6028,
+   "n_bootstrap": 10000,
+   "n_grappes": 31,
+   "n_pieces": null,
+   "n_pieces_avec_les_deux_groupes": null
+  },
+  "test_groupe_ou_entier_grappes_estampes": {
+   "groupe_1": "Marcantonio",
+   "groupe_2": "Caraglio",
+   "unite": "référence (grappes = estampe)",
+   "positifs_g1": 68,
+   "references_g1": 247,
+   "part_g1": 0.2753,
+   "positifs_g2": 52,
+   "references_g2": 114,
+   "part_g2": 0.4561,
+   "difference_g2_moins_g1": 0.1808,
+   "ic95_bootstrap": [
+    -0.0798,
+    0.3171
+   ],
+   "p_bootstrap_bilateral": 0.1068,
+   "n_bootstrap": 10000,
+   "n_grappes": 31,
+   "n_pieces": null,
+   "n_pieces_avec_les_deux_groupes": null
+  },
+  "test_groupe_ou_entier_sans_contesa_B28.53": {
+   "groupe_1": "Marcantonio",
+   "groupe_2": "Caraglio",
+   "unite": "référence (grappes = pièces)",
+   "positifs_g1": 68,
+   "references_g1": 247,
+   "part_g1": 0.2753,
+   "positifs_g2": 17,
+   "references_g2": 52,
+   "part_g2": 0.3269,
+   "difference_g2_moins_g1": 0.0516,
+   "ic95_bootstrap": [
+    -0.0859,
+    0.1937
+   ],
+   "p_bootstrap_bilateral": 0.4702,
+   "n_bootstrap": 10000,
+   "n_grappes": 209,
+   "n_pieces": 209,
+   "n_pieces_avec_les_deux_groupes": 23
+  },
+  "test_caraglio_vs_marcantonio_par_estampe": {
+   "groupe_1": "Marcantonio",
+   "groupe_2": "Caraglio",
+   "unite": "estampe",
+   "n_min_references": 1,
+   "estampes_g1": 22,
+   "estampes_g2": 9,
+   "estampes_g1_avec_au_moins_un_positif": 9,
+   "estampes_g2_avec_au_moins_un_positif": 3,
+   "moyenne_par_estampe_g1": 0.1554,
+   "moyenne_par_estampe_g2": 0.1435,
+   "difference_g2_moins_g1": -0.0119,
+   "p_permutation_bilateral": 0.9648,
+   "n_permutations": 10000,
+   "detail": [
+    {
+     "estampe": "B28.53",
+     "graveur": "Caraglio",
+     "positifs": 0,
+     "classees": 62
+    },
+    {
+     "estampe": "B28.62",
+     "graveur": "Caraglio",
+     "positifs": 3,
+     "classees": 24
+    },
+    {
+     "estampe": "B28.60",
+     "graveur": "Caraglio",
+     "positifs": 3,
+     "classees": 6
+    },
+    {
+     "estampe": "B28.48",
+     "graveur": "Caraglio",
+     "positifs": 0,
+     "classees": 4
+    },
+    {
+     "estampe": "B28.57",
+     "graveur": "Caraglio",
+     "positifs": 0,
+     "classees": 4
+    },
+    {
+     "estampe": "B28.49",
+     "graveur": "Caraglio",
+     "positifs": 0,
+     "classees": 4
+    },
+    {
+     "estampe": "B28.50",
+     "graveur": "Caraglio",
+     "positifs": 0,
+     "classees": 4
+    },
+    {
+     "estampe": "B28.44",
+     "graveur": "Caraglio",
+     "positifs": 0,
+     "classees": 3
+    },
+    {
+     "estampe": "B28.4",
+     "graveur": "Caraglio",
+     "positifs": 2,
+     "classees": 3
+    },
+    {
+     "estampe": "B26.247",
+     "graveur": "Marcantonio",
+     "positifs": 1,
+     "classees": 64
+    },
+    {
+     "estampe": "B26.104",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 44
+    },
+    {
+     "estampe": "B27.352",
+     "graveur": "Marcantonio",
+     "positifs": 1,
+     "classees": 25
+    },
+    {
+     "estampe": "B26.217",
+     "graveur": "Marcantonio",
+     "positifs": 1,
+     "classees": 18
+    },
+    {
+     "estampe": "B26.209",
+     "graveur": "Marcantonio",
+     "positifs": 2,
+     "classees": 17
+    },
+    {
+     "estampe": "B26.117",
+     "graveur": "Marcantonio",
+     "positifs": 1,
+     "classees": 11
+    },
+    {
+     "estampe": "B26.23",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 11
+    },
+    {
+     "estampe": "B26.6",
+     "graveur": "Marcantonio",
+     "positifs": 1,
+     "classees": 10
+    },
+    {
+     "estampe": "B26.10",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 10
+    },
+    {
+     "estampe": "B26.245",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 10
+    },
+    {
+     "estampe": "B26.226",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 7
+    },
+    {
+     "estampe": "B27.373",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 5
+    },
+    {
+     "estampe": "B27.442",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 3
+    },
+    {
+     "estampe": "B26.313",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 3
+    },
+    {
+     "estampe": "B26.294",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 2
+    },
+    {
+     "estampe": "B27.340",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 1
+    },
+    {
+     "estampe": "B27.384",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 1
+    },
+    {
+     "estampe": "B27.386",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 1
+    },
+    {
+     "estampe": "B26.185",
+     "graveur": "Marcantonio",
+     "positifs": 1,
+     "classees": 1
+    },
+    {
+     "estampe": "B26.28",
+     "graveur": "Marcantonio",
+     "positifs": 1,
+     "classees": 1
+    },
+    {
+     "estampe": "B26.227",
+     "graveur": "Marcantonio",
+     "positifs": 1,
+     "classees": 1
+    },
+    {
+     "estampe": "B26.47",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 1
+    }
+   ]
+  },
+  "test_caraglio_vs_marcantonio_par_estampe_3_refs_ou_plus": {
+   "groupe_1": "Marcantonio",
+   "groupe_2": "Caraglio",
+   "unite": "estampe",
+   "n_min_references": 3,
+   "estampes_g1": 14,
+   "estampes_g2": 9,
+   "estampes_g1_avec_au_moins_un_positif": 6,
+   "estampes_g2_avec_au_moins_un_positif": 3,
+   "moyenne_par_estampe_g1": 0.03,
+   "moyenne_par_estampe_g2": 0.1435,
+   "difference_g2_moins_g1": 0.1135,
+   "p_permutation_bilateral": 0.1118,
+   "n_permutations": 10000,
+   "detail": [
+    {
+     "estampe": "B28.53",
+     "graveur": "Caraglio",
+     "positifs": 0,
+     "classees": 62
+    },
+    {
+     "estampe": "B28.62",
+     "graveur": "Caraglio",
+     "positifs": 3,
+     "classees": 24
+    },
+    {
+     "estampe": "B28.60",
+     "graveur": "Caraglio",
+     "positifs": 3,
+     "classees": 6
+    },
+    {
+     "estampe": "B28.48",
+     "graveur": "Caraglio",
+     "positifs": 0,
+     "classees": 4
+    },
+    {
+     "estampe": "B28.57",
+     "graveur": "Caraglio",
+     "positifs": 0,
+     "classees": 4
+    },
+    {
+     "estampe": "B28.49",
+     "graveur": "Caraglio",
+     "positifs": 0,
+     "classees": 4
+    },
+    {
+     "estampe": "B28.50",
+     "graveur": "Caraglio",
+     "positifs": 0,
+     "classees": 4
+    },
+    {
+     "estampe": "B28.44",
+     "graveur": "Caraglio",
+     "positifs": 0,
+     "classees": 3
+    },
+    {
+     "estampe": "B28.4",
+     "graveur": "Caraglio",
+     "positifs": 2,
+     "classees": 3
+    },
+    {
+     "estampe": "B26.247",
+     "graveur": "Marcantonio",
+     "positifs": 1,
+     "classees": 64
+    },
+    {
+     "estampe": "B26.104",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 44
+    },
+    {
+     "estampe": "B27.352",
+     "graveur": "Marcantonio",
+     "positifs": 1,
+     "classees": 25
+    },
+    {
+     "estampe": "B26.217",
+     "graveur": "Marcantonio",
+     "positifs": 1,
+     "classees": 18
+    },
+    {
+     "estampe": "B26.209",
+     "graveur": "Marcantonio",
+     "positifs": 2,
+     "classees": 17
+    },
+    {
+     "estampe": "B26.117",
+     "graveur": "Marcantonio",
+     "positifs": 1,
+     "classees": 11
+    },
+    {
+     "estampe": "B26.23",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 11
+    },
+    {
+     "estampe": "B26.6",
+     "graveur": "Marcantonio",
+     "positifs": 1,
+     "classees": 10
+    },
+    {
+     "estampe": "B26.10",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 10
+    },
+    {
+     "estampe": "B26.245",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 10
+    },
+    {
+     "estampe": "B26.226",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 7
+    },
+    {
+     "estampe": "B27.373",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 5
+    },
+    {
+     "estampe": "B27.442",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 3
+    },
+    {
+     "estampe": "B26.313",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 3
+    }
+   ]
+  },
+  "test_groupe_ou_entier_par_estampe": {
+   "groupe_1": "Marcantonio",
+   "groupe_2": "Caraglio",
+   "unite": "estampe",
+   "n_min_references": 1,
+   "estampes_g1": 22,
+   "estampes_g2": 9,
+   "estampes_g1_avec_au_moins_un_positif": 15,
+   "estampes_g2_avec_au_moins_un_positif": 6,
+   "moyenne_par_estampe_g1": 0.3133,
+   "moyenne_par_estampe_g2": 0.3451,
+   "difference_g2_moins_g1": 0.0319,
+   "p_permutation_bilateral": 0.8215,
+   "n_permutations": 10000,
+   "detail": [
+    {
+     "estampe": "B28.53",
+     "graveur": "Caraglio",
+     "positifs": 35,
+     "classees": 62
+    },
+    {
+     "estampe": "B28.62",
+     "graveur": "Caraglio",
+     "positifs": 7,
+     "classees": 24
+    },
+    {
+     "estampe": "B28.60",
+     "graveur": "Caraglio",
+     "positifs": 5,
+     "classees": 6
+    },
+    {
+     "estampe": "B28.48",
+     "graveur": "Caraglio",
+     "positifs": 2,
+     "classees": 4
+    },
+    {
+     "estampe": "B28.57",
+     "graveur": "Caraglio",
+     "positifs": 0,
+     "classees": 4
+    },
+    {
+     "estampe": "B28.49",
+     "graveur": "Caraglio",
+     "positifs": 0,
+     "classees": 4
+    },
+    {
+     "estampe": "B28.50",
+     "graveur": "Caraglio",
+     "positifs": 1,
+     "classees": 4
+    },
+    {
+     "estampe": "B28.44",
+     "graveur": "Caraglio",
+     "positifs": 0,
+     "classees": 3
+    },
+    {
+     "estampe": "B28.4",
+     "graveur": "Caraglio",
+     "positifs": 2,
+     "classees": 3
+    },
+    {
+     "estampe": "B26.247",
+     "graveur": "Marcantonio",
+     "positifs": 21,
+     "classees": 64
+    },
+    {
+     "estampe": "B26.104",
+     "graveur": "Marcantonio",
+     "positifs": 10,
+     "classees": 44
+    },
+    {
+     "estampe": "B27.352",
+     "graveur": "Marcantonio",
+     "positifs": 12,
+     "classees": 25
+    },
+    {
+     "estampe": "B26.217",
+     "graveur": "Marcantonio",
+     "positifs": 6,
+     "classees": 18
+    },
+    {
+     "estampe": "B26.209",
+     "graveur": "Marcantonio",
+     "positifs": 4,
+     "classees": 17
+    },
+    {
+     "estampe": "B26.117",
+     "graveur": "Marcantonio",
+     "positifs": 4,
+     "classees": 11
+    },
+    {
+     "estampe": "B26.23",
+     "graveur": "Marcantonio",
+     "positifs": 1,
+     "classees": 11
+    },
+    {
+     "estampe": "B26.6",
+     "graveur": "Marcantonio",
+     "positifs": 3,
+     "classees": 10
+    },
+    {
+     "estampe": "B26.10",
+     "graveur": "Marcantonio",
+     "positifs": 1,
+     "classees": 10
+    },
+    {
+     "estampe": "B26.245",
+     "graveur": "Marcantonio",
+     "positifs": 1,
+     "classees": 10
+    },
+    {
+     "estampe": "B26.226",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 7
+    },
+    {
+     "estampe": "B27.373",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 5
+    },
+    {
+     "estampe": "B27.442",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 3
+    },
+    {
+     "estampe": "B26.313",
+     "graveur": "Marcantonio",
+     "positifs": 1,
+     "classees": 3
+    },
+    {
+     "estampe": "B26.294",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 2
+    },
+    {
+     "estampe": "B27.340",
+     "graveur": "Marcantonio",
+     "positifs": 1,
+     "classees": 1
+    },
+    {
+     "estampe": "B27.384",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 1
+    },
+    {
+     "estampe": "B27.386",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 1
+    },
+    {
+     "estampe": "B26.185",
+     "graveur": "Marcantonio",
+     "positifs": 1,
+     "classees": 1
+    },
+    {
+     "estampe": "B26.28",
+     "graveur": "Marcantonio",
+     "positifs": 1,
+     "classees": 1
+    },
+    {
+     "estampe": "B26.227",
+     "graveur": "Marcantonio",
+     "positifs": 1,
+     "classees": 1
+    },
+    {
+     "estampe": "B26.47",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 1
+    }
+   ]
+  },
+  "test_groupe_ou_entier_par_estampe_3_refs_ou_plus": {
+   "groupe_1": "Marcantonio",
+   "groupe_2": "Caraglio",
+   "unite": "estampe",
+   "n_min_references": 3,
+   "estampes_g1": 14,
+   "estampes_g2": 9,
+   "estampes_g1_avec_au_moins_un_positif": 11,
+   "estampes_g2_avec_au_moins_un_positif": 6,
+   "moyenne_par_estampe_g1": 0.2066,
+   "moyenne_par_estampe_g2": 0.3451,
+   "difference_g2_moins_g1": 0.1386,
+   "p_permutation_bilateral": 0.1704,
+   "n_permutations": 10000,
+   "detail": [
+    {
+     "estampe": "B28.53",
+     "graveur": "Caraglio",
+     "positifs": 35,
+     "classees": 62
+    },
+    {
+     "estampe": "B28.62",
+     "graveur": "Caraglio",
+     "positifs": 7,
+     "classees": 24
+    },
+    {
+     "estampe": "B28.60",
+     "graveur": "Caraglio",
+     "positifs": 5,
+     "classees": 6
+    },
+    {
+     "estampe": "B28.48",
+     "graveur": "Caraglio",
+     "positifs": 2,
+     "classees": 4
+    },
+    {
+     "estampe": "B28.57",
+     "graveur": "Caraglio",
+     "positifs": 0,
+     "classees": 4
+    },
+    {
+     "estampe": "B28.49",
+     "graveur": "Caraglio",
+     "positifs": 0,
+     "classees": 4
+    },
+    {
+     "estampe": "B28.50",
+     "graveur": "Caraglio",
+     "positifs": 1,
+     "classees": 4
+    },
+    {
+     "estampe": "B28.44",
+     "graveur": "Caraglio",
+     "positifs": 0,
+     "classees": 3
+    },
+    {
+     "estampe": "B28.4",
+     "graveur": "Caraglio",
+     "positifs": 2,
+     "classees": 3
+    },
+    {
+     "estampe": "B26.247",
+     "graveur": "Marcantonio",
+     "positifs": 21,
+     "classees": 64
+    },
+    {
+     "estampe": "B26.104",
+     "graveur": "Marcantonio",
+     "positifs": 10,
+     "classees": 44
+    },
+    {
+     "estampe": "B27.352",
+     "graveur": "Marcantonio",
+     "positifs": 12,
+     "classees": 25
+    },
+    {
+     "estampe": "B26.217",
+     "graveur": "Marcantonio",
+     "positifs": 6,
+     "classees": 18
+    },
+    {
+     "estampe": "B26.209",
+     "graveur": "Marcantonio",
+     "positifs": 4,
+     "classees": 17
+    },
+    {
+     "estampe": "B26.117",
+     "graveur": "Marcantonio",
+     "positifs": 4,
+     "classees": 11
+    },
+    {
+     "estampe": "B26.23",
+     "graveur": "Marcantonio",
+     "positifs": 1,
+     "classees": 11
+    },
+    {
+     "estampe": "B26.6",
+     "graveur": "Marcantonio",
+     "positifs": 3,
+     "classees": 10
+    },
+    {
+     "estampe": "B26.10",
+     "graveur": "Marcantonio",
+     "positifs": 1,
+     "classees": 10
+    },
+    {
+     "estampe": "B26.245",
+     "graveur": "Marcantonio",
+     "positifs": 1,
+     "classees": 10
+    },
+    {
+     "estampe": "B26.226",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 7
+    },
+    {
+     "estampe": "B27.373",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 5
+    },
+    {
+     "estampe": "B27.442",
+     "graveur": "Marcantonio",
+     "positifs": 0,
+     "classees": 3
+    },
+    {
+     "estampe": "B26.313",
+     "graveur": "Marcantonio",
+     "positifs": 1,
+     "classees": 3
+    }
+   ]
+  },
+  "pieces_citant_caraglio_et_marcantonio": 78,
   "caraglio_sans_contesa_B28.53": {
    "n": 61,
    "composition entière": 8,
@@ -8356,10 +9460,6 @@
    "part_groupe_ou_entiere_parmi_classees": 0.327
   },
   "pieces_a_source_unique_par_graveur": {
-   "Marcantonio": {
-    "pieces_source_unique": 53,
-    "pieces_citant_le_graveur": 302
-   },
    "Marco Dente": {
     "pieces_source_unique": 15,
     "pieces_citant_le_graveur": 90
@@ -8367,6 +9467,10 @@
    "Maestro I.B.": {
     "pieces_source_unique": 0,
     "pieces_citant_le_graveur": 15
+   },
+   "Marcantonio": {
+    "pieces_source_unique": 53,
+    "pieces_citant_le_graveur": 302
    },
    "Caraglio": {
     "pieces_source_unique": 28,
@@ -8506,17 +9610,17 @@
   },
   "par_periode_dates_inscrites": {
    "<=1530": {
-    "pieces": 22,
-    "pieces_avec_source": 14,
-    "part_avec_source": 0.636,
-    "moyenne_si_source": 1.43,
+    "pieces": 21,
+    "pieces_avec_source": 13,
+    "part_avec_source": 0.619,
+    "moyenne_si_source": 1.31,
     "mediane_si_source": 1,
     "max": 3,
     "distribution": {
      "0": 8,
      "1": 10,
      "2": 2,
-     "3": 2
+     "3": 1
     }
    },
    "1531-1535": {
@@ -8911,6 +10015,511 @@
     "id": 614,
     "annee": 1532,
     "n": 7
+   }
+  ]
+ },
+ "t_sensibilite": {
+  "note": "T-sensibilité : les tests chronologiques (dates, inversion, réemploi, estampes par pièce) refaits",
+  "exclues": {
+   "sans_gubbio_1522_1527": [
+    126,
+    190,
+    194,
+    343,
+    346,
+    446,
+    466,
+    507,
+    611,
+    709,
+    886,
+    942,
+    947,
+    950,
+    1038,
+    1043,
+    1045,
+    1052,
+    1129,
+    1133,
+    1148,
+    1166,
+    1171,
+    1175,
+    1179,
+    1184
+   ],
+   "sans_gubbio_ni_y_slash": [
+    58,
+    126,
+    145,
+    190,
+    194,
+    305,
+    343,
+    346,
+    373,
+    446,
+    458,
+    466,
+    474,
+    493,
+    496,
+    499,
+    507,
+    511,
+    611,
+    632,
+    656,
+    659,
+    672,
+    709,
+    776,
+    780,
+    784,
+    800,
+    827,
+    831,
+    833,
+    881,
+    886,
+    906,
+    910,
+    912,
+    919,
+    942,
+    947,
+    950,
+    952,
+    960,
+    964,
+    977,
+    979,
+    1000,
+    1017,
+    1022,
+    1038,
+    1041,
+    1043,
+    1045,
+    1052,
+    1061,
+    1122,
+    1129,
+    1133,
+    1148,
+    1166,
+    1171,
+    1175,
+    1179,
+    1184,
+    1198,
+    1201,
+    1203,
+    1320,
+    1324,
+    1326,
+    1328
+   ]
+  },
+  "variantes": {
+   "complet": {
+    "pieces": 374,
+    "pieces_par_periode": {
+     "<=1530": 101,
+     "None": 8,
+     "1531-1535": 164,
+     "1536-1542": 101
+    },
+    "inversion_par_periode_toutes_dates": {
+     "<=1530": [
+      8,
+      105,
+      0.076
+     ],
+     "1531-1535": [
+      33,
+      331,
+      0.1
+     ],
+     "1536-1542": [
+      20,
+      128,
+      0.156
+     ],
+     "sans période": [
+      2,
+      12,
+      0.167
+     ]
+    },
+    "inversion_par_periode_dates_inscrites": {
+     "<=1530": [
+      3,
+      15,
+      0.2
+     ],
+     "1531-1535": [
+      31,
+      291,
+      0.107
+     ],
+     "1536-1542": [
+      18,
+      109,
+      0.165
+     ]
+    },
+    "inversion_p_<=1530_vs_1536-1542_toutes": 0.1016,
+    "inversion_p_<=1530_vs_1536-1542_inscrites": 0.7607,
+    "reemploi_estampes_nouvelles_par_periode": {
+     "<=1530": 30,
+     "1531-1535": 18,
+     "1536-1542": 6
+    },
+    "reemploi_part_refs_tardives_nouvelles_toutes": [
+     0.079,
+     0.0063
+    ],
+    "reemploi_part_refs_tardives_nouvelles_inscrites": [
+     0.074,
+     0.0647
+    ],
+    "reemploi_combinaisons_deja_vues_toutes": [
+     0.359,
+     0.193
+    ],
+    "reemploi_combinaisons_deja_vues_inscrites": [
+     0.375,
+     0.0118
+    ],
+    "sources_par_periode_moyenne_si_source": {
+     "<=1530": 1.76,
+     "1531-1535": 2.47,
+     "1536-1542": 1.93
+    },
+    "sources_par_periode_part_avec_source": {
+     "<=1530": 0.624,
+     "1531-1535": 0.884,
+     "1536-1542": 0.683
+    },
+    "sources_p_1531-1535_vs_1536-1542": 0.0017
+   },
+   "sans_gubbio_1522_1527": {
+    "pieces": 348,
+    "pieces_par_periode": {
+     "<=1530": 75,
+     "None": 8,
+     "1531-1535": 164,
+     "1536-1542": 101
+    },
+    "inversion_par_periode_toutes_dates": {
+     "<=1530": [
+      5,
+      91,
+      0.055
+     ],
+     "1531-1535": [
+      33,
+      331,
+      0.1
+     ],
+     "1536-1542": [
+      20,
+      128,
+      0.156
+     ],
+     "sans période": [
+      2,
+      12,
+      0.167
+     ]
+    },
+    "inversion_par_periode_dates_inscrites": {
+     "<=1530": [
+      2,
+      8,
+      0.25
+     ],
+     "1531-1535": [
+      31,
+      291,
+      0.107
+     ],
+     "1536-1542": [
+      18,
+      109,
+      0.165
+     ]
+    },
+    "inversion_p_<=1530_vs_1536-1542_toutes": 0.0418,
+    "inversion_p_<=1530_vs_1536-1542_inscrites": 0.5868,
+    "reemploi_estampes_nouvelles_par_periode": {
+     "<=1530": 26,
+     "1531-1535": 19,
+     "1536-1542": 6
+    },
+    "reemploi_part_refs_tardives_nouvelles_toutes": [
+     0.079,
+     0.0038
+    ],
+    "reemploi_part_refs_tardives_nouvelles_inscrites": [
+     0.074,
+     0.0609
+    ],
+    "reemploi_combinaisons_deja_vues_toutes": [
+     0.359,
+     0.1319
+    ],
+    "reemploi_combinaisons_deja_vues_inscrites": [
+     0.375,
+     0.0073
+    ],
+    "sources_par_periode_moyenne_si_source": {
+     "<=1530": 1.83,
+     "1531-1535": 2.47,
+     "1536-1542": 1.93
+    },
+    "sources_par_periode_part_avec_source": {
+     "<=1530": 0.707,
+     "1531-1535": 0.884,
+     "1536-1542": 0.683
+    },
+    "sources_p_1531-1535_vs_1536-1542": 0.0017
+   },
+   "sans_gubbio_ni_y_slash": {
+    "pieces": 304,
+    "pieces_par_periode": {
+     "<=1530": 44,
+     "1531-1535": 157,
+     "None": 2,
+     "1536-1542": 101
+    },
+    "inversion_par_periode_toutes_dates": {
+     "<=1530": [
+      4,
+      55,
+      0.073
+     ],
+     "1531-1535": [
+      33,
+      323,
+      0.102
+     ],
+     "1536-1542": [
+      20,
+      128,
+      0.156
+     ],
+     "sans période": [
+      0,
+      0,
+      null
+     ]
+    },
+    "inversion_par_periode_dates_inscrites": {
+     "<=1530": [
+      1,
+      3,
+      0.333
+     ],
+     "1531-1535": [
+      31,
+      291,
+      0.107
+     ],
+     "1536-1542": [
+      18,
+      109,
+      0.165
+     ]
+    },
+    "inversion_p_<=1530_vs_1536-1542_toutes": 0.1798,
+    "inversion_p_<=1530_vs_1536-1542_inscrites": 0.6919,
+    "reemploi_estampes_nouvelles_par_periode": {
+     "<=1530": 23,
+     "1531-1535": 21,
+     "1536-1542": 6
+    },
+    "reemploi_part_refs_tardives_nouvelles_toutes": [
+     0.079,
+     0.0164
+    ],
+    "reemploi_part_refs_tardives_nouvelles_inscrites": [
+     0.074,
+     0.0407
+    ],
+    "reemploi_combinaisons_deja_vues_toutes": [
+     0.359,
+     0.1177
+    ],
+    "reemploi_combinaisons_deja_vues_inscrites": [
+     0.375,
+     0.0086
+    ],
+    "sources_par_periode_moyenne_si_source": {
+     "<=1530": 1.97,
+     "1531-1535": 2.46,
+     "1536-1542": 1.93
+    },
+    "sources_par_periode_part_avec_source": {
+     "<=1530": 0.682,
+     "1531-1535": 0.904,
+     "1536-1542": 0.683
+    },
+    "sources_p_1531-1535_vs_1536-1542": 0.0016
+   }
+  }
+ },
+ "p_valeurs": {
+  "note": "Tests exploratoires sur les mêmes 374 fiches. Aucune correction pour tests multiples n'est appliquée dans les verdicts, sauf la correction de Holm sur les trois définitions de « politique » (T-revers). La colonne p_holm_toutes corrige sur toute la liste, à titre indicatif.",
+  "liste": [
+   {
+    "test": "T-inversion",
+    "comparaison": "<=1530 vs 1536-1542, toutes dates",
+    "p": 0.1016,
+    "note": "",
+    "p_holm_toutes": 1.0
+   },
+   {
+    "test": "T-inversion",
+    "comparaison": "1531-1535 vs 1536-1542, toutes dates",
+    "p": 0.1029,
+    "note": "",
+    "p_holm_toutes": 1.0
+   },
+   {
+    "test": "T-inversion",
+    "comparaison": "<=1530 vs 1536-1542, dates inscrites",
+    "p": 0.7607,
+    "note": "résultat principal",
+    "p_holm_toutes": 1.0
+   },
+   {
+    "test": "T-inversion",
+    "comparaison": "1531-1535 vs 1536-1542, dates inscrites",
+    "p": 0.135,
+    "note": "résultat principal",
+    "p_holm_toutes": 1.0
+   },
+   {
+    "test": "T-reuse",
+    "comparaison": "estampes introduites dès 1536 (moins que le hasard ?), toutes dates",
+    "p": 0.8861,
+    "note": "unilatéral",
+    "p_holm_toutes": 1.0
+   },
+   {
+    "test": "T-reuse",
+    "comparaison": "part des références tardives vers des estampes nouvelles, toutes dates",
+    "p": 0.0063,
+    "note": "unilatéral",
+    "p_holm_toutes": 0.1197
+   },
+   {
+    "test": "T-reuse",
+    "comparaison": "combinaisons déjà vues (pièces tardives), toutes dates",
+    "p": 0.193,
+    "note": "unilatéral",
+    "p_holm_toutes": 1.0
+   },
+   {
+    "test": "T-reuse",
+    "comparaison": "estampes introduites dès 1536 (moins que le hasard ?), dates inscrites",
+    "p": 0.437,
+    "note": "unilatéral",
+    "p_holm_toutes": 1.0
+   },
+   {
+    "test": "T-reuse",
+    "comparaison": "part des références tardives vers des estampes nouvelles, dates inscrites",
+    "p": 0.0647,
+    "note": "unilatéral",
+    "p_holm_toutes": 0.8411
+   },
+   {
+    "test": "T-reuse",
+    "comparaison": "combinaisons déjà vues (pièces tardives), dates inscrites",
+    "p": 0.0118,
+    "note": "unilatéral",
+    "p_holm_toutes": 0.177
+   },
+   {
+    "test": "T-sources",
+    "comparaison": "estampes par pièce, 1531-1535 vs 1536-1542",
+    "p": 0.0017,
+    "note": "",
+    "p_holm_toutes": 0.034
+   },
+   {
+    "test": "T-whole (Briend)",
+    "comparaison": "entière, par référence (grappes = pièces)",
+    "p": 0.2726,
+    "note": "bootstrap",
+    "p_holm_toutes": 1.0
+   },
+   {
+    "test": "T-whole (Briend)",
+    "comparaison": "entière ou groupe, par référence (grappes = pièces)",
+    "p": 0.0014,
+    "note": "bootstrap",
+    "p_holm_toutes": 0.0294
+   },
+   {
+    "test": "T-whole (Briend)",
+    "comparaison": "entière, par référence (grappes = estampes)",
+    "p": 0.6028,
+    "note": "bootstrap",
+    "p_holm_toutes": 1.0
+   },
+   {
+    "test": "T-whole (Briend)",
+    "comparaison": "entière ou groupe, par référence (grappes = estampes)",
+    "p": 0.1068,
+    "note": "bootstrap",
+    "p_holm_toutes": 1.0
+   },
+   {
+    "test": "T-whole (Briend)",
+    "comparaison": "entière, par estampe (>= 3 réf.)",
+    "p": 0.1118,
+    "note": "permutation entre estampes",
+    "p_holm_toutes": 1.0
+   },
+   {
+    "test": "T-whole (Briend)",
+    "comparaison": "entière ou groupe, par estampe (>= 3 réf.)",
+    "p": 0.1704,
+    "note": "permutation entre estampes",
+    "p_holm_toutes": 1.0
+   },
+   {
+    "test": "T-revers (Modi × politique)",
+    "comparaison": "définition « revers_nota »",
+    "p": 0.0395,
+    "note": "Holm sur les 3 définitions : 0.0395",
+    "p_holm_toutes": 0.553
+   },
+   {
+    "test": "T-revers (Modi × politique)",
+    "comparaison": "définition « commentaire_actualite_politique »",
+    "p": 0.0072,
+    "note": "Holm sur les 3 définitions : 0.0216",
+    "p_holm_toutes": 0.1296
+   },
+   {
+    "test": "T-revers (Modi × politique)",
+    "comparaison": "définition « nota_ou_commentaire_politique »",
+    "p": 0.0106,
+    "note": "Holm sur les 3 définitions : 0.0216",
+    "p_holm_toutes": 0.1696
+   },
+   {
+    "test": "T-revers (Modi × politique)",
+    "comparaison": "définition combinée, stratifiée par période",
+    "p": 0.0098,
+    "note": "unilatéral",
+    "p_holm_toutes": 0.1666
    }
   ]
  }

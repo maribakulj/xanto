@@ -1,0 +1,146 @@
+{
+ "n_pieces": 304,
+ "par_source": {
+  "catalogue intervalle": 30,
+  "inscription": 223,
+  "catalogue": 31,
+  "catalogue ca.": 18,
+  "catalogue (désaccord avec l'inscription 1539)": 1,
+  "catalogue (désaccord avec l'inscription 1531)": 1
+ },
+ "par_periode": {
+  "<=1530": 44,
+  "1531-1535": 157,
+  "None": 2,
+  "1536-1542": 101
+ },
+ "par_annee": [
+  {
+   "annee": 1528,
+   "toutes": 14,
+   "inscrites": 1,
+   "catalogue_annee": 2,
+   "milieu_intervalle": 11
+  },
+  {
+   "annee": 1529,
+   "toutes": 13,
+   "inscrites": 1,
+   "catalogue_annee": 3,
+   "milieu_intervalle": 9
+  },
+  {
+   "annee": 1530,
+   "toutes": 17,
+   "inscrites": 3,
+   "catalogue_annee": 9,
+   "milieu_intervalle": 5
+  },
+  {
+   "annee": 1531,
+   "toutes": 31,
+   "inscrites": 24,
+   "catalogue_annee": 6,
+   "milieu_intervalle": 1
+  },
+  {
+   "annee": 1532,
+   "toutes": 56,
+   "inscrites": 49,
+   "catalogue_annee": 5,
+   "milieu_intervalle": 2
+  },
+  {
+   "annee": 1533,
+   "toutes": 20,
+   "inscrites": 20,
+   "catalogue_annee": 0,
+   "milieu_intervalle": 0
+  },
+  {
+   "annee": 1534,
+   "toutes": 27,
+   "inscrites": 24,
+   "catalogue_annee": 3,
+   "milieu_intervalle": 0
+  },
+  {
+   "annee": 1535,
+   "toutes": 25,
+   "inscrites": 19,
+   "catalogue_annee": 6,
+   "milieu_intervalle": 0
+  },
+  {
+   "annee": 1536,
+   "toutes": 25,
+   "inscrites": 14,
+   "catalogue_annee": 11,
+   "milieu_intervalle": 0
+  },
+  {
+   "annee": 1537,
+   "toutes": 20,
+   "inscrites": 19,
+   "catalogue_annee": 1,
+   "milieu_intervalle": 0
+  },
+  {
+   "annee": 1538,
+   "toutes": 18,
+   "inscrites": 17,
+   "catalogue_annee": 1,
+   "milieu_intervalle": 0
+  },
+  {
+   "annee": 1539,
+   "toutes": 11,
+   "inscrites": 9,
+   "catalogue_annee": 1,
+   "milieu_intervalle": 1
+  },
+  {
+   "annee": 1540,
+   "toutes": 14,
+   "inscrites": 12,
+   "catalogue_annee": 1,
+   "milieu_intervalle": 1
+  },
+  {
+   "annee": 1541,
+   "toutes": 7,
+   "inscrites": 5,
+   "catalogue_annee": 2,
+   "milieu_intervalle": 0
+  },
+  {
+   "annee": 1542,
+   "toutes": 6,
+   "inscrites": 6,
+   "catalogue_annee": 0,
+   "milieu_intervalle": 0
+  }
+ ],
+ "desaccords_inscription_catalogue": [
+  1138,
+  843
+ ],
+ "dates_de_lustre_gubbio": [
+  116
+ ],
+ "sans_date": [],
+ "dates_peintes_dans_la_scene": [
+  360,
+  1106,
+  387,
+  1221,
+  1239
+ ],
+ "avant_1528": [],
+ "attribution_debattue": [],
+ "marque_y_slash": [],
+ "a_cheval_sur_deux_periodes": [
+  608,
+  1163
+ ]
+}

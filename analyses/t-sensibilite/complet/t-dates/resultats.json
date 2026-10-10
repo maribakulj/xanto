@@ -1,0 +1,434 @@
+{
+ "n_pieces": 374,
+ "par_source": {
+  "catalogue (date peinte dans la scène, 1522, non retenue)": 1,
+  "catalogue ca.": 25,
+  "catalogue intervalle": 67,
+  "inscription": 243,
+  "catalogue": 36,
+  "catalogue (désaccord avec l'inscription 1539)": 1,
+  "catalogue (désaccord avec l'inscription 1531)": 1
+ },
+ "par_periode": {
+  "<=1530": 101,
+  "None": 8,
+  "1531-1535": 164,
+  "1536-1542": 101
+ },
+ "par_annee": [
+  {
+   "annee": 1522,
+   "toutes": 2,
+   "inscrites": 0,
+   "catalogue_annee": 2,
+   "milieu_intervalle": 0
+  },
+  {
+   "annee": 1524,
+   "toutes": 4,
+   "inscrites": 3,
+   "catalogue_annee": 0,
+   "milieu_intervalle": 1
+  },
+  {
+   "annee": 1525,
+   "toutes": 12,
+   "inscrites": 8,
+   "catalogue_annee": 4,
+   "milieu_intervalle": 0
+  },
+  {
+   "annee": 1526,
+   "toutes": 7,
+   "inscrites": 0,
+   "catalogue_annee": 2,
+   "milieu_intervalle": 5
+  },
+  {
+   "annee": 1527,
+   "toutes": 1,
+   "inscrites": 0,
+   "catalogue_annee": 0,
+   "milieu_intervalle": 1
+  },
+  {
+   "annee": 1528,
+   "toutes": 30,
+   "inscrites": 5,
+   "catalogue_annee": 3,
+   "milieu_intervalle": 22
+  },
+  {
+   "annee": 1529,
+   "toutes": 25,
+   "inscrites": 1,
+   "catalogue_annee": 3,
+   "milieu_intervalle": 21
+  },
+  {
+   "annee": 1530,
+   "toutes": 25,
+   "inscrites": 4,
+   "catalogue_annee": 10,
+   "milieu_intervalle": 11
+  },
+  {
+   "annee": 1531,
+   "toutes": 35,
+   "inscrites": 27,
+   "catalogue_annee": 6,
+   "milieu_intervalle": 2
+  },
+  {
+   "annee": 1532,
+   "toutes": 56,
+   "inscrites": 49,
+   "catalogue_annee": 5,
+   "milieu_intervalle": 2
+  },
+  {
+   "annee": 1533,
+   "toutes": 22,
+   "inscrites": 21,
+   "catalogue_annee": 1,
+   "milieu_intervalle": 0
+  },
+  {
+   "annee": 1534,
+   "toutes": 27,
+   "inscrites": 24,
+   "catalogue_annee": 3,
+   "milieu_intervalle": 0
+  },
+  {
+   "annee": 1535,
+   "toutes": 27,
+   "inscrites": 19,
+   "catalogue_annee": 8,
+   "milieu_intervalle": 0
+  },
+  {
+   "annee": 1536,
+   "toutes": 25,
+   "inscrites": 14,
+   "catalogue_annee": 11,
+   "milieu_intervalle": 0
+  },
+  {
+   "annee": 1537,
+   "toutes": 20,
+   "inscrites": 19,
+   "catalogue_annee": 1,
+   "milieu_intervalle": 0
+  },
+  {
+   "annee": 1538,
+   "toutes": 18,
+   "inscrites": 17,
+   "catalogue_annee": 1,
+   "milieu_intervalle": 0
+  },
+  {
+   "annee": 1539,
+   "toutes": 11,
+   "inscrites": 9,
+   "catalogue_annee": 1,
+   "milieu_intervalle": 1
+  },
+  {
+   "annee": 1540,
+   "toutes": 14,
+   "inscrites": 12,
+   "catalogue_annee": 1,
+   "milieu_intervalle": 1
+  },
+  {
+   "annee": 1541,
+   "toutes": 7,
+   "inscrites": 5,
+   "catalogue_annee": 2,
+   "milieu_intervalle": 0
+  },
+  {
+   "annee": 1542,
+   "toutes": 6,
+   "inscrites": 6,
+   "catalogue_annee": 0,
+   "milieu_intervalle": 0
+  }
+ ],
+ "desaccords_inscription_catalogue": [
+  1138,
+  843
+ ],
+ "dates_de_lustre_gubbio": [
+  1045,
+  1052,
+  1175,
+  190,
+  346,
+  1129,
+  1148,
+  1166,
+  1171,
+  1179,
+  1184,
+  656,
+  919,
+  1122,
+  1320,
+  116
+ ],
+ "sans_date": [],
+ "dates_peintes_dans_la_scene": [
+  194,
+  360,
+  1106,
+  387,
+  1221,
+  1239
+ ],
+ "avant_1528": [
+  {
+   "id": 194,
+   "annee": 1522,
+   "source_date": "catalogue (date peinte dans la scène, 1522, non retenue)",
+   "note_date": "date peinte dans la scène (droit seul)"
+  },
+  {
+   "id": 611,
+   "annee": 1522,
+   "source_date": "catalogue ca.",
+   "note_date": ""
+  },
+  {
+   "id": 942,
+   "annee": 1524,
+   "source_date": "catalogue intervalle",
+   "note_date": ""
+  },
+  {
+   "id": 1045,
+   "annee": 1524,
+   "source_date": "inscription",
+   "note_date": "date de lustre (Gubbio)"
+  },
+  {
+   "id": 1052,
+   "annee": 1524,
+   "source_date": "inscription",
+   "note_date": "date de lustre (Gubbio)"
+  },
+  {
+   "id": 1175,
+   "annee": 1524,
+   "source_date": "inscription",
+   "note_date": "date de lustre (Gubbio)"
+  },
+  {
+   "id": 126,
+   "annee": 1525,
+   "source_date": "catalogue",
+   "note_date": ""
+  },
+  {
+   "id": 190,
+   "annee": 1525,
+   "source_date": "inscription",
+   "note_date": "date de lustre (Gubbio)"
+  },
+  {
+   "id": 346,
+   "annee": 1525,
+   "source_date": "inscription",
+   "note_date": "date de lustre (Gubbio)"
+  },
+  {
+   "id": 507,
+   "annee": 1525,
+   "source_date": "catalogue",
+   "note_date": ""
+  },
+  {
+   "id": 886,
+   "annee": 1525,
+   "source_date": "catalogue ca.",
+   "note_date": ""
+  },
+  {
+   "id": 1129,
+   "annee": 1525,
+   "source_date": "inscription",
+   "note_date": "date de lustre (Gubbio)"
+  },
+  {
+   "id": 1133,
+   "annee": 1525,
+   "source_date": "catalogue",
+   "note_date": ""
+  },
+  {
+   "id": 1148,
+   "annee": 1525,
+   "source_date": "inscription",
+   "note_date": "date de lustre (Gubbio)"
+  },
+  {
+   "id": 1166,
+   "annee": 1525,
+   "source_date": "inscription",
+   "note_date": "date de lustre (Gubbio)"
+  },
+  {
+   "id": 1171,
+   "annee": 1525,
+   "source_date": "inscription",
+   "note_date": "date de lustre (Gubbio)"
+  },
+  {
+   "id": 1179,
+   "annee": 1525,
+   "source_date": "inscription",
+   "note_date": "date de lustre (Gubbio)"
+  },
+  {
+   "id": 1184,
+   "annee": 1525,
+   "source_date": "inscription",
+   "note_date": "date de lustre (Gubbio)"
+  },
+  {
+   "id": 343,
+   "annee": 1526,
+   "source_date": "catalogue intervalle",
+   "note_date": ""
+  },
+  {
+   "id": 446,
+   "annee": 1526,
+   "source_date": "catalogue intervalle",
+   "note_date": ""
+  },
+  {
+   "id": 709,
+   "annee": 1526,
+   "source_date": "catalogue intervalle",
+   "note_date": ""
+  },
+  {
+   "id": 947,
+   "annee": 1526,
+   "source_date": "catalogue intervalle",
+   "note_date": ""
+  },
+  {
+   "id": 950,
+   "annee": 1526,
+   "source_date": "catalogue intervalle",
+   "note_date": ""
+  },
+  {
+   "id": 1038,
+   "annee": 1526,
+   "source_date": "catalogue ca.",
+   "note_date": ""
+  },
+  {
+   "id": 1043,
+   "annee": 1526,
+   "source_date": "catalogue ca.",
+   "note_date": ""
+  },
+  {
+   "id": 466,
+   "annee": 1527,
+   "source_date": "catalogue intervalle",
+   "note_date": ""
+  }
+ ],
+ "attribution_debattue": [
+  194,
+  611,
+  942,
+  1045,
+  1052,
+  1175,
+  126,
+  190,
+  346,
+  507,
+  886,
+  1129,
+  1133,
+  1148,
+  1166,
+  1171,
+  1179,
+  1184,
+  343,
+  446,
+  709,
+  947,
+  950,
+  1038,
+  1043,
+  466
+ ],
+ "marque_y_slash": [
+  466,
+  656,
+  800,
+  831,
+  833,
+  906,
+  910,
+  919,
+  977,
+  979,
+  1041,
+  1061,
+  1122,
+  1320,
+  1324,
+  1326,
+  1328,
+  373,
+  474,
+  496,
+  499,
+  672,
+  881,
+  952,
+  960,
+  964,
+  1198,
+  1201,
+  1203,
+  58,
+  145,
+  458,
+  493,
+  659,
+  776,
+  780,
+  784,
+  632,
+  1000,
+  1017,
+  1022,
+  305,
+  912,
+  511,
+  827
+ ],
+ "a_cheval_sur_deux_periodes": [
+  952,
+  960,
+  964,
+  145,
+  659,
+  608,
+  1000,
+  1163
+ ]
+}

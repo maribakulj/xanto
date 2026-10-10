@@ -12,7 +12,8 @@
     1328,
     414,
     889
-   ]
+   ],
+   "p_holm_3_definitions": 0.0395
   },
   "commentaire_actualite_politique": {
    "pieces_total": 374,
@@ -28,7 +29,8 @@
     428,
     889,
     1122
-   ]
+   ],
+   "p_holm_3_definitions": 0.0216
   },
   "nota_ou_commentaire_politique": {
    "pieces_total": 374,
@@ -45,9 +47,51 @@
     414,
     889,
     1122
-   ]
+   ],
+   "p_holm_3_definitions": 0.0216
   }
  },
+ "modi_et_sujets_politiques_stratifie_par_periode": {
+  "definition": "nota_ou_commentaire_politique",
+  "observe": 7,
+  "attendu": 2.67,
+  "p_permutation_dans_les_periodes_unilateral": 0.0098,
+  "strates": [
+   {
+    "periode": "1531-1535",
+    "pieces": 164,
+    "pieces_modi": 27,
+    "pieces_politiques": 10,
+    "modi_et_politiques": 3,
+    "attendu": 1.65
+   },
+   {
+    "periode": "1536-1542",
+    "pieces": 101,
+    "pieces_modi": 6,
+    "pieces_politiques": 3,
+    "modi_et_politiques": 0,
+    "attendu": 0.18
+   },
+   {
+    "periode": "<=1530",
+    "pieces": 101,
+    "pieces_modi": 6,
+    "pieces_politiques": 10,
+    "modi_et_politiques": 3,
+    "attendu": 0.59
+   },
+   {
+    "periode": "sans période",
+    "pieces": 8,
+    "pieces_modi": 1,
+    "pieces_politiques": 2,
+    "modi_et_politiques": 1,
+    "attendu": 0.25
+   }
+  ]
+ },
+ "modi_et_sujets_politiques_note": "Trois définitions essayées, p corrigés par Holm. Circularité : les Modi ont été cherchés surtout sur les plats du Sac et de Pavie (Talvacchia, Petruzzellis Scherer, Mallet). L'association s'accorde aussi avec Mallet (poses athlétiques, corps renversés utiles aux scènes violentes). Verdict : fragile, descriptif.",
  "pieces_avec_inscription": 353,
  "genres_comptes": {
   "aucun": 313,

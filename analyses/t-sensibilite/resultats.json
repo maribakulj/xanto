@@ -1,0 +1,353 @@
+{
+ "note": "T-sensibilité : les tests chronologiques (dates, inversion, réemploi, estampes par pièce) refaits",
+ "exclues": {
+  "sans_gubbio_1522_1527": [
+   126,
+   190,
+   194,
+   343,
+   346,
+   446,
+   466,
+   507,
+   611,
+   709,
+   886,
+   942,
+   947,
+   950,
+   1038,
+   1043,
+   1045,
+   1052,
+   1129,
+   1133,
+   1148,
+   1166,
+   1171,
+   1175,
+   1179,
+   1184
+  ],
+  "sans_gubbio_ni_y_slash": [
+   58,
+   126,
+   145,
+   190,
+   194,
+   305,
+   343,
+   346,
+   373,
+   446,
+   458,
+   466,
+   474,
+   493,
+   496,
+   499,
+   507,
+   511,
+   611,
+   632,
+   656,
+   659,
+   672,
+   709,
+   776,
+   780,
+   784,
+   800,
+   827,
+   831,
+   833,
+   881,
+   886,
+   906,
+   910,
+   912,
+   919,
+   942,
+   947,
+   950,
+   952,
+   960,
+   964,
+   977,
+   979,
+   1000,
+   1017,
+   1022,
+   1038,
+   1041,
+   1043,
+   1045,
+   1052,
+   1061,
+   1122,
+   1129,
+   1133,
+   1148,
+   1166,
+   1171,
+   1175,
+   1179,
+   1184,
+   1198,
+   1201,
+   1203,
+   1320,
+   1324,
+   1326,
+   1328
+  ]
+ },
+ "variantes": {
+  "complet": {
+   "pieces": 374,
+   "pieces_par_periode": {
+    "<=1530": 101,
+    "None": 8,
+    "1531-1535": 164,
+    "1536-1542": 101
+   },
+   "inversion_par_periode_toutes_dates": {
+    "<=1530": [
+     8,
+     105,
+     0.076
+    ],
+    "1531-1535": [
+     33,
+     331,
+     0.1
+    ],
+    "1536-1542": [
+     20,
+     128,
+     0.156
+    ],
+    "sans période": [
+     2,
+     12,
+     0.167
+    ]
+   },
+   "inversion_par_periode_dates_inscrites": {
+    "<=1530": [
+     3,
+     15,
+     0.2
+    ],
+    "1531-1535": [
+     31,
+     291,
+     0.107
+    ],
+    "1536-1542": [
+     18,
+     109,
+     0.165
+    ]
+   },
+   "inversion_p_<=1530_vs_1536-1542_toutes": 0.1016,
+   "inversion_p_<=1530_vs_1536-1542_inscrites": 0.7607,
+   "reemploi_estampes_nouvelles_par_periode": {
+    "<=1530": 30,
+    "1531-1535": 18,
+    "1536-1542": 6
+   },
+   "reemploi_part_refs_tardives_nouvelles_toutes": [
+    0.079,
+    0.0063
+   ],
+   "reemploi_part_refs_tardives_nouvelles_inscrites": [
+    0.074,
+    0.0647
+   ],
+   "reemploi_combinaisons_deja_vues_toutes": [
+    0.359,
+    0.193
+   ],
+   "reemploi_combinaisons_deja_vues_inscrites": [
+    0.375,
+    0.0118
+   ],
+   "sources_par_periode_moyenne_si_source": {
+    "<=1530": 1.76,
+    "1531-1535": 2.47,
+    "1536-1542": 1.93
+   },
+   "sources_par_periode_part_avec_source": {
+    "<=1530": 0.624,
+    "1531-1535": 0.884,
+    "1536-1542": 0.683
+   },
+   "sources_p_1531-1535_vs_1536-1542": 0.0017
+  },
+  "sans_gubbio_1522_1527": {
+   "pieces": 348,
+   "pieces_par_periode": {
+    "<=1530": 75,
+    "None": 8,
+    "1531-1535": 164,
+    "1536-1542": 101
+   },
+   "inversion_par_periode_toutes_dates": {
+    "<=1530": [
+     5,
+     91,
+     0.055
+    ],
+    "1531-1535": [
+     33,
+     331,
+     0.1
+    ],
+    "1536-1542": [
+     20,
+     128,
+     0.156
+    ],
+    "sans période": [
+     2,
+     12,
+     0.167
+    ]
+   },
+   "inversion_par_periode_dates_inscrites": {
+    "<=1530": [
+     2,
+     8,
+     0.25
+    ],
+    "1531-1535": [
+     31,
+     291,
+     0.107
+    ],
+    "1536-1542": [
+     18,
+     109,
+     0.165
+    ]
+   },
+   "inversion_p_<=1530_vs_1536-1542_toutes": 0.0418,
+   "inversion_p_<=1530_vs_1536-1542_inscrites": 0.5868,
+   "reemploi_estampes_nouvelles_par_periode": {
+    "<=1530": 26,
+    "1531-1535": 19,
+    "1536-1542": 6
+   },
+   "reemploi_part_refs_tardives_nouvelles_toutes": [
+    0.079,
+    0.0038
+   ],
+   "reemploi_part_refs_tardives_nouvelles_inscrites": [
+    0.074,
+    0.0609
+   ],
+   "reemploi_combinaisons_deja_vues_toutes": [
+    0.359,
+    0.1319
+   ],
+   "reemploi_combinaisons_deja_vues_inscrites": [
+    0.375,
+    0.0073
+   ],
+   "sources_par_periode_moyenne_si_source": {
+    "<=1530": 1.83,
+    "1531-1535": 2.47,
+    "1536-1542": 1.93
+   },
+   "sources_par_periode_part_avec_source": {
+    "<=1530": 0.707,
+    "1531-1535": 0.884,
+    "1536-1542": 0.683
+   },
+   "sources_p_1531-1535_vs_1536-1542": 0.0017
+  },
+  "sans_gubbio_ni_y_slash": {
+   "pieces": 304,
+   "pieces_par_periode": {
+    "<=1530": 44,
+    "1531-1535": 157,
+    "None": 2,
+    "1536-1542": 101
+   },
+   "inversion_par_periode_toutes_dates": {
+    "<=1530": [
+     4,
+     55,
+     0.073
+    ],
+    "1531-1535": [
+     33,
+     323,
+     0.102
+    ],
+    "1536-1542": [
+     20,
+     128,
+     0.156
+    ],
+    "sans période": [
+     0,
+     0,
+     null
+    ]
+   },
+   "inversion_par_periode_dates_inscrites": {
+    "<=1530": [
+     1,
+     3,
+     0.333
+    ],
+    "1531-1535": [
+     31,
+     291,
+     0.107
+    ],
+    "1536-1542": [
+     18,
+     109,
+     0.165
+    ]
+   },
+   "inversion_p_<=1530_vs_1536-1542_toutes": 0.1798,
+   "inversion_p_<=1530_vs_1536-1542_inscrites": 0.6919,
+   "reemploi_estampes_nouvelles_par_periode": {
+    "<=1530": 23,
+    "1531-1535": 21,
+    "1536-1542": 6
+   },
+   "reemploi_part_refs_tardives_nouvelles_toutes": [
+    0.079,
+    0.0164
+   ],
+   "reemploi_part_refs_tardives_nouvelles_inscrites": [
+    0.074,
+    0.0407
+   ],
+   "reemploi_combinaisons_deja_vues_toutes": [
+    0.359,
+    0.1177
+   ],
+   "reemploi_combinaisons_deja_vues_inscrites": [
+    0.375,
+    0.0086
+   ],
+   "sources_par_periode_moyenne_si_source": {
+    "<=1530": 1.97,
+    "1531-1535": 2.46,
+    "1536-1542": 1.93
+   },
+   "sources_par_periode_part_avec_source": {
+    "<=1530": 0.682,
+    "1531-1535": 0.904,
+    "1536-1542": 0.683
+   },
+   "sources_p_1531-1535_vs_1536-1542": 0.0016
+  }
+ }
+}

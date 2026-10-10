@@ -67,7 +67,7 @@ def annee_inscrite(ins):
     if not ans:
         return None, ""
     note = "plusieurs années" if len(ans) > 1 else ""
-    if re.search(r"M[°o]\s*G|Giorgio|Ugubio|Gubbio", ins):
+    if re.search(r"M[°o]\.?\s*G[°o]|Giorgio|Ugubio|Gubbio", ins):
         note = (note + "; date de lustre (Gubbio)").strip("; ")
     if dans_la_scene(ins):
         note = (note + "; date peinte dans la scène (droit seul)").strip("; ")
@@ -77,8 +77,11 @@ def annee_inscrite(ins):
 def dans_la_scene(ins):
     """Date lue seulement sur le droit (tablette, cartouche peints dans la scène), sans inscription au
     revers. Ce peut être une date figurée et non la date d'exécution (pièce 194 : « OMNIA VINCIT AMOR 1522 »)."""
-    return bool(re.search(r"Sul verso|Sul davanti|in primo piano|tavol[ae]|tavolett|targhett|cartigli", ins, re.I)
-                and not re.search(r"\bretro\b|sotto il piede|nel piede", ins, re.I))
+    m = re.search(r"\bretro\b|sotto il piede|nel piede", ins, re.I)
+    droit, revers = (ins[:m.start()], ins[m.start():]) if m else (ins, "")
+    annee = re.compile(r"(?<!\d)15[0-4]\d(?!\d)|\bM\.?\s*D\.?\s*[XLVI]")
+    return bool(re.search(r"Sul verso|Sul davanti|in primo piano|tavol[ae]|tavolett|targhett|cartigli", droit, re.I)
+                and annee.search(droit) and not annee.search(revers))
 
 
 def date_piece(champ_data, ins):
@@ -355,3 +358,87 @@ def permutation_par_piece(lignes, cle_groupe, est_positif, g1, g2, n=10000, grai
     return {"groupe_1": g1, "groupe_2": g2, "difference_g2_moins_g1": round(obs, 4),
             "p_permutation_bilateral": round((extr + 1) / (n + 1), 4), "n_permutations": n,
             "n_pieces": len(ids)}
+
+
+def bootstrap_par_piece(lignes, cle_groupe, est_positif, g1, g2, n=10000, graine=1, grappe="id"):
+    """Différence de proportion (g2 - g1) calculée au niveau des RÉFÉRENCES, chaque référence gardant
+    son propre groupe (par ex. le graveur de SON estampe ; une pièce peut citer les deux graveurs).
+    Incertitude : bootstrap en grappes, en tirant les PIÈCES avec remise (les références d'une même
+    pièce restent ensemble). Permuter les graveurs entre pièces n'a pas de sens ici, puisque le graveur
+    n'est pas une propriété de la pièce. p bilatéral = part des tirages centrés |d* - d| >= |d|."""
+    import random
+    rnd = random.Random(graine)
+    paquets = defaultdict(lambda: [0, 0, 0, 0])  # pos g1, tot g1, pos g2, tot g2
+    for r in lignes:
+        g = r[cle_groupe]
+        if g in (g1, g2):
+            j = 0 if g == g1 else 2
+            paquets[r[grappe]][j] += bool(est_positif(r))
+            paquets[r[grappe]][j + 1] += 1
+    P = list(paquets.values())
+
+    def diff(ech):
+        s = [sum(x[j] for x in ech) for j in range(4)]
+        return (s[2] / s[3] if s[3] else 0) - (s[0] / s[1] if s[1] else 0), s
+
+    obs, s = diff(P)
+    sims = sorted(diff([P[rnd.randrange(len(P))] for _ in P])[0] for _ in range(n))
+    extr = sum(abs(d - obs) >= abs(obs) - 1e-12 for d in sims)
+    return {"groupe_1": g1, "groupe_2": g2, "unite": "référence (grappes = %s)" % ("pièces" if grappe == "id" else grappe),
+            "positifs_g1": s[0], "references_g1": s[1], "part_g1": round(s[0] / s[1], 4) if s[1] else None,
+            "positifs_g2": s[2], "references_g2": s[3], "part_g2": round(s[2] / s[3], 4) if s[3] else None,
+            "difference_g2_moins_g1": round(obs, 4),
+            "ic95_bootstrap": [round(sims[int(.025 * n)], 4), round(sims[int(.975 * n)], 4)],
+            "p_bootstrap_bilateral": round((extr + 1) / (n + 1), 4), "n_bootstrap": n,
+            "n_grappes": len(P), "n_pieces": len(P) if grappe == "id" else None,
+            "n_pieces_avec_les_deux_groupes": sum(1 for x in P if x[1] and x[3]) if grappe == "id" else None}
+
+
+def permutation_par_estampe(lignes, est_positif, g1, g2, n_min=1, n=10000, graine=1):
+    """Unité = l'ESTAMPE (le graveur est une propriété de l'estampe ; c'est l'unité de la thèse de
+    Briend). Proportion de références positives par estampe, moyenne non pondérée par graveur, et p de
+    permutation des étiquettes de graveur ENTRE estampes. n_min : nombre minimal de références classées."""
+    import random
+    rnd = random.Random(graine)
+    par = defaultdict(lambda: [0, 0])
+    gr = {}
+    for r in lignes:
+        if r["graveur"] in (g1, g2):
+            par[r["estampe"]][0] += bool(est_positif(r))
+            par[r["estampe"]][1] += 1
+            gr[r["estampe"]] = r["graveur"]
+    es = [e for e in par if par[e][1] >= n_min]
+    props = [par[e][0] / par[e][1] for e in es]
+    lab = [gr[e] for e in es]
+
+    def diff(l):
+        a = [p for p, x in zip(props, l) if x == g1]
+        b = [p for p, x in zip(props, l) if x == g2]
+        return (sum(b) / len(b) if b else 0) - (sum(a) / len(a) if a else 0)
+
+    obs = diff(lab)
+    extr = 0
+    for _ in range(n):
+        l = lab[:]
+        rnd.shuffle(l)
+        extr += abs(diff(l)) >= abs(obs) - 1e-12
+    det = sorted(({"estampe": e, "graveur": gr[e], "positifs": par[e][0], "classees": par[e][1]} for e in es),
+                 key=lambda d: (d["graveur"], -d["classees"]))
+    return {"groupe_1": g1, "groupe_2": g2, "unite": "estampe", "n_min_references": n_min,
+            "estampes_g1": lab.count(g1), "estampes_g2": lab.count(g2),
+            "estampes_g1_avec_au_moins_un_positif": sum(1 for e in es if gr[e] == g1 and par[e][0]),
+            "estampes_g2_avec_au_moins_un_positif": sum(1 for e in es if gr[e] == g2 and par[e][0]),
+            "moyenne_par_estampe_g1": round(sum(p for p, x in zip(props, lab) if x == g1) / max(1, lab.count(g1)), 4),
+            "moyenne_par_estampe_g2": round(sum(p for p, x in zip(props, lab) if x == g2) / max(1, lab.count(g2)), 4),
+            "difference_g2_moins_g1": round(obs, 4), "p_permutation_bilateral": round((extr + 1) / (n + 1), 4),
+            "n_permutations": n, "detail": det}
+
+
+def holm(ps):
+    """Correction de Holm-Bonferroni. ps : dict nom -> p. Renvoie dict nom -> p corrigé."""
+    items = sorted(ps.items(), key=lambda kv: kv[1])
+    m, out, courant = len(items), {}, 0.0
+    for i, (k, p) in enumerate(items):
+        courant = max(courant, min(1.0, (m - i) * p))
+        out[k] = round(courant, 4)
+    return out

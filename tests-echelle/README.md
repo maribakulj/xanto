@@ -1,6 +1,6 @@
 # Test d'échelle n° 1 (pilote) : l'Apollon du *Parnasse*
 
-**Question.** Xanto reportait-il les figures gravées à la taille de l'estampe (calque ou poncif), comme le pensent Wilson 1990 (« most of the figures… correspond in size to the originals », p. 323-324) et Hess 1999 ? Ou les recopiait-il en changeant l'échelle, comme l'admet Mallet 2007 (« capable of copying such figures freehand, and varying them in scale », p. 32-33, d'après Wilson 2002) ? Personne n'a publié de mesure.
+**Question.** Xanto reportait-il les figures gravées à la taille de l'estampe (calque, poncif, patron ou copie à vue à l'échelle 1 : la mesure ne les distingue pas), comme le pensent Wilson 1990 (« most of the figures… correspond in size to the originals », p. 323-324) et Hess 1999 ? Ou les recopiait-il en changeant l'échelle, comme l'admet Mallet 2007 (« capable of copying such figures freehand, and varying them in scale », p. 32-33, d'après Wilson 2002) ? Personne n'a publié de mesure.
 
 **Principe.** On prend une même figure, l'Apollon du *Parnasse* de Marcantonio Raimondi (Bartsch XIV 247), reprise sur des plats de diamètres différents. Si Xanto la reporte à taille fixe, sa hauteur réelle en centimètres reste la même quel que soit le plat. S'il l'adapte au plat, elle grandit avec le diamètre.
 

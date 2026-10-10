@@ -1,9 +1,10 @@
 {
  "n_pieces": 374,
  "par_source": {
-  "inscription": 244,
+  "catalogue (date peinte dans la scène, 1522, non retenue)": 1,
   "catalogue ca.": 25,
   "catalogue intervalle": 67,
+  "inscription": 243,
   "catalogue": 36,
   "catalogue (désaccord avec l'inscription 1539)": 1,
   "catalogue (désaccord avec l'inscription 1531)": 1
@@ -18,8 +19,8 @@
   {
    "annee": 1522,
    "toutes": 2,
-   "inscrites": 1,
-   "catalogue_annee": 1,
+   "inscrites": 0,
+   "catalogue_annee": 2,
    "milieu_intervalle": 0
   },
   {
@@ -161,13 +162,17 @@
   843
  ],
  "dates_de_lustre_gubbio": [
+  1045,
   1052,
   1175,
+  190,
   346,
   1129,
   1148,
   1166,
+  1171,
   1179,
+  1184,
   656,
   919,
   1122,
@@ -175,6 +180,247 @@
   116
  ],
  "sans_date": [],
+ "dates_peintes_dans_la_scene": [
+  194,
+  360,
+  1106,
+  387,
+  1221,
+  1239
+ ],
+ "avant_1528": [
+  {
+   "id": 194,
+   "annee": 1522,
+   "source_date": "catalogue (date peinte dans la scène, 1522, non retenue)",
+   "note_date": "date peinte dans la scène (droit seul)"
+  },
+  {
+   "id": 611,
+   "annee": 1522,
+   "source_date": "catalogue ca.",
+   "note_date": ""
+  },
+  {
+   "id": 942,
+   "annee": 1524,
+   "source_date": "catalogue intervalle",
+   "note_date": ""
+  },
+  {
+   "id": 1045,
+   "annee": 1524,
+   "source_date": "inscription",
+   "note_date": "date de lustre (Gubbio)"
+  },
+  {
+   "id": 1052,
+   "annee": 1524,
+   "source_date": "inscription",
+   "note_date": "date de lustre (Gubbio)"
+  },
+  {
+   "id": 1175,
+   "annee": 1524,
+   "source_date": "inscription",
+   "note_date": "date de lustre (Gubbio)"
+  },
+  {
+   "id": 126,
+   "annee": 1525,
+   "source_date": "catalogue",
+   "note_date": ""
+  },
+  {
+   "id": 190,
+   "annee": 1525,
+   "source_date": "inscription",
+   "note_date": "date de lustre (Gubbio)"
+  },
+  {
+   "id": 346,
+   "annee": 1525,
+   "source_date": "inscription",
+   "note_date": "date de lustre (Gubbio)"
+  },
+  {
+   "id": 507,
+   "annee": 1525,
+   "source_date": "catalogue",
+   "note_date": ""
+  },
+  {
+   "id": 886,
+   "annee": 1525,
+   "source_date": "catalogue ca.",
+   "note_date": ""
+  },
+  {
+   "id": 1129,
+   "annee": 1525,
+   "source_date": "inscription",
+   "note_date": "date de lustre (Gubbio)"
+  },
+  {
+   "id": 1133,
+   "annee": 1525,
+   "source_date": "catalogue",
+   "note_date": ""
+  },
+  {
+   "id": 1148,
+   "annee": 1525,
+   "source_date": "inscription",
+   "note_date": "date de lustre (Gubbio)"
+  },
+  {
+   "id": 1166,
+   "annee": 1525,
+   "source_date": "inscription",
+   "note_date": "date de lustre (Gubbio)"
+  },
+  {
+   "id": 1171,
+   "annee": 1525,
+   "source_date": "inscription",
+   "note_date": "date de lustre (Gubbio)"
+  },
+  {
+   "id": 1179,
+   "annee": 1525,
+   "source_date": "inscription",
+   "note_date": "date de lustre (Gubbio)"
+  },
+  {
+   "id": 1184,
+   "annee": 1525,
+   "source_date": "inscription",
+   "note_date": "date de lustre (Gubbio)"
+  },
+  {
+   "id": 343,
+   "annee": 1526,
+   "source_date": "catalogue intervalle",
+   "note_date": ""
+  },
+  {
+   "id": 446,
+   "annee": 1526,
+   "source_date": "catalogue intervalle",
+   "note_date": ""
+  },
+  {
+   "id": 709,
+   "annee": 1526,
+   "source_date": "catalogue intervalle",
+   "note_date": ""
+  },
+  {
+   "id": 947,
+   "annee": 1526,
+   "source_date": "catalogue intervalle",
+   "note_date": ""
+  },
+  {
+   "id": 950,
+   "annee": 1526,
+   "source_date": "catalogue intervalle",
+   "note_date": ""
+  },
+  {
+   "id": 1038,
+   "annee": 1526,
+   "source_date": "catalogue ca.",
+   "note_date": ""
+  },
+  {
+   "id": 1043,
+   "annee": 1526,
+   "source_date": "catalogue ca.",
+   "note_date": ""
+  },
+  {
+   "id": 466,
+   "annee": 1527,
+   "source_date": "catalogue intervalle",
+   "note_date": ""
+  }
+ ],
+ "attribution_debattue": [
+  194,
+  611,
+  942,
+  1045,
+  1052,
+  1175,
+  126,
+  190,
+  346,
+  507,
+  886,
+  1129,
+  1133,
+  1148,
+  1166,
+  1171,
+  1179,
+  1184,
+  343,
+  446,
+  709,
+  947,
+  950,
+  1038,
+  1043,
+  466
+ ],
+ "marque_y_slash": [
+  466,
+  656,
+  800,
+  831,
+  833,
+  906,
+  910,
+  919,
+  977,
+  979,
+  1041,
+  1061,
+  1122,
+  1320,
+  1324,
+  1326,
+  1328,
+  373,
+  474,
+  496,
+  499,
+  672,
+  881,
+  952,
+  960,
+  964,
+  1198,
+  1201,
+  1203,
+  58,
+  145,
+  458,
+  493,
+  659,
+  776,
+  780,
+  784,
+  632,
+  1000,
+  1017,
+  1022,
+  305,
+  912,
+  511,
+  827
+ ],
  "a_cheval_sur_deux_periodes": [
   952,
   960,

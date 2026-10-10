@@ -26,7 +26,7 @@ def main():
         "litterature": json.load(open(DEMO / "data/litterature.json")) if (DEMO / "data/litterature.json").exists() else None,
         "analyses": json.load(open(DEMO / "data/tests_demo.json")) if (DEMO / "data/tests_demo.json").exists() else None,
         "echelle": json.load(open(ROOT / "tests-echelle/cas.json")) if (ROOT / "tests-echelle/cas.json").exists() else None,
-        "estampes": read_csv(PRIVATE / "corpus-images/estampes/index.csv"),
+        "estampes": read_csv(ROOT / "data/estampes_sources.csv"),
         "titres": read_csv(ROOT / "data/titres_estampes.csv"),
         "reemploi": json.load(open(ROOT / "analyses/resultats.json"))["t_reemploi"]["par_estampe"] if (ROOT / "analyses/resultats.json").exists() else None,
     }

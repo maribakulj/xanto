@@ -78,9 +78,9 @@
  },
  "par_periode_dates_inscrites": {
   "<=1530": {
-   "n_references": 18,
-   "n_inversees": 4,
-   "part": 0.222
+   "n_references": 15,
+   "n_inversees": 3,
+   "part": 0.2
   },
   "1531-1535": {
    "n_references": 291,
@@ -108,6 +108,22 @@
   "p_permutation_bilateral": 0.1029,
   "n_permutations": 10000,
   "n_pieces": 212
+ },
+ "test_tendance_dates_inscrites_<=1530_vs_1536-1542": {
+  "groupe_1": "<=1530",
+  "groupe_2": "1536-1542",
+  "difference_g2_moins_g1": -0.0349,
+  "p_permutation_bilateral": 0.7607,
+  "n_permutations": 10000,
+  "n_pieces": 71
+ },
+ "test_dates_inscrites_1531-1535_vs_1536-1542": {
+  "groupe_1": "1531-1535",
+  "groupe_2": "1536-1542",
+  "difference_g2_moins_g1": 0.0586,
+  "p_permutation_bilateral": 0.135,
+  "n_permutations": 10000,
+  "n_pieces": 183
  },
  "par_estampe": [
   {

@@ -1,0 +1,723 @@
+{
+ "global": {
+  "n_references": 576,
+  "n_inversees": 63,
+  "part": 0.109
+ },
+ "repartition_position": {
+  "aucune": 513,
+  "gauche": 62,
+  "droite": 1
+ },
+ "negations_trouvees": 0,
+ "fiches_avec_reference": 278,
+ "fiches_avec_au_moins_une_inversion": 53,
+ "par_graveur": {
+  "Marcantonio": {
+   "n_references": 303,
+   "n_inversees": 34,
+   "part": 0.112
+  },
+  "Caraglio": {
+   "n_references": 132,
+   "n_inversees": 16,
+   "part": 0.121
+  },
+  "Marco Dente": {
+   "n_references": 90,
+   "n_inversees": 7,
+   "part": 0.078
+  },
+  "Agostino Veneziano": {
+   "n_references": 32,
+   "n_inversees": 6,
+   "part": 0.188
+  },
+  "Maestro I.B.": {
+   "n_references": 15,
+   "n_inversees": 0,
+   "part": 0.0
+  },
+  "Maestro I.B. / Pencz": {
+   "n_references": 2,
+   "n_inversees": 0,
+   "part": 0.0
+  },
+  "Mantegna": {
+   "n_references": 1,
+   "n_inversees": 0,
+   "part": 0.0
+  },
+  "Beatrizet": {
+   "n_references": 1,
+   "n_inversees": 0,
+   "part": 0.0
+  }
+ },
+ "par_periode": {
+  "<=1530": {
+   "n_references": 105,
+   "n_inversees": 8,
+   "part": 0.076
+  },
+  "1531-1535": {
+   "n_references": 331,
+   "n_inversees": 33,
+   "part": 0.1
+  },
+  "1536-1542": {
+   "n_references": 128,
+   "n_inversees": 20,
+   "part": 0.156
+  },
+  "sans période": {
+   "n_references": 12,
+   "n_inversees": 2,
+   "part": 0.167
+  }
+ },
+ "par_periode_dates_inscrites": {
+  "<=1530": {
+   "n_references": 15,
+   "n_inversees": 3,
+   "part": 0.2
+  },
+  "1531-1535": {
+   "n_references": 291,
+   "n_inversees": 31,
+   "part": 0.107
+  },
+  "1536-1542": {
+   "n_references": 109,
+   "n_inversees": 18,
+   "part": 0.165
+  }
+ },
+ "test_tendance_<=1530_vs_1536-1542": {
+  "groupe_1": "<=1530",
+  "groupe_2": "1536-1542",
+  "difference_g2_moins_g1": 0.0801,
+  "p_permutation_bilateral": 0.1016,
+  "n_permutations": 10000,
+  "n_pieces": 130
+ },
+ "test_1531-1535_vs_1536-1542": {
+  "groupe_1": "1531-1535",
+  "groupe_2": "1536-1542",
+  "difference_g2_moins_g1": 0.0566,
+  "p_permutation_bilateral": 0.1029,
+  "n_permutations": 10000,
+  "n_pieces": 212
+ },
+ "test_tendance_dates_inscrites_<=1530_vs_1536-1542": {
+  "groupe_1": "<=1530",
+  "groupe_2": "1536-1542",
+  "difference_g2_moins_g1": -0.0349,
+  "p_permutation_bilateral": 0.7607,
+  "n_permutations": 10000,
+  "n_pieces": 71
+ },
+ "test_dates_inscrites_1531-1535_vs_1536-1542": {
+  "groupe_1": "1531-1535",
+  "groupe_2": "1536-1542",
+  "difference_g2_moins_g1": 0.0586,
+  "p_permutation_bilateral": 0.135,
+  "n_permutations": 10000,
+  "n_pieces": 183
+ },
+ "par_estampe": [
+  {
+   "n_references": 76,
+   "n_inversees": 4,
+   "part": 0.053,
+   "estampe": "B26.247",
+   "titre": "Parnaso",
+   "graveur": "Marcantonio",
+   "ids_inversees": [
+    37,
+    509,
+    569,
+    1124
+   ]
+  },
+  {
+   "n_references": 71,
+   "n_inversees": 10,
+   "part": 0.141,
+   "estampe": "B28.53",
+   "titre": "Contesa tra le Muse e le Pieridi",
+   "graveur": "Caraglio",
+   "ids_inversees": [
+    335,
+    399,
+    408,
+    623,
+    659,
+    835,
+    875,
+    998,
+    1010,
+    1186
+   ]
+  },
+  {
+   "n_references": 52,
+   "n_inversees": 7,
+   "part": 0.135,
+   "estampe": "B26.104",
+   "titre": "Martirio di San Lorenzo",
+   "graveur": "Marcantonio",
+   "ids_inversees": [
+    244,
+    335,
+    667,
+    849,
+    867,
+    1186,
+    1228
+   ]
+  },
+  {
+   "n_references": 29,
+   "n_inversees": 3,
+   "part": 0.103,
+   "estampe": "B27.420",
+   "titre": "Battaglia tra Romani e Cartaginesi (Scena di battaglia)",
+   "graveur": "Marco Dente",
+   "ids_inversees": [
+    254,
+    278,
+    408
+   ]
+  },
+  {
+   "n_references": 29,
+   "n_inversees": 6,
+   "part": 0.207,
+   "estampe": "B27.352",
+   "titre": "Quos Ego",
+   "graveur": "Marcantonio",
+   "ids_inversees": [
+    58,
+    194,
+    837,
+    950,
+    1083,
+    1213
+   ]
+  },
+  {
+   "n_references": 27,
+   "n_inversees": 4,
+   "part": 0.148,
+   "estampe": "B28.62",
+   "titre": "Matrimonio di Alessandro e Rossana",
+   "graveur": "Caraglio",
+   "ids_inversees": [
+    197,
+    411,
+    489,
+    1237
+   ]
+  },
+  {
+   "n_references": 27,
+   "n_inversees": 1,
+   "part": 0.037,
+   "estampe": "B26.209",
+   "titre": "Ratto di Elena",
+   "graveur": "Marcantonio",
+   "ids_inversees": [
+    1078
+   ]
+  },
+  {
+   "n_references": 21,
+   "n_inversees": 1,
+   "part": 0.048,
+   "estampe": "B26.21",
+   "titre": "Strage degli Innocenti",
+   "graveur": "Marco Dente",
+   "ids_inversees": [
+    15
+   ]
+  },
+  {
+   "n_references": 21,
+   "n_inversees": 3,
+   "part": 0.143,
+   "estampe": "B26.211",
+   "titre": "Battaglia col coltellaccio / con la sciabola",
+   "graveur": "Marco Dente",
+   "ids_inversees": [
+    237,
+    875,
+    1010
+   ]
+  },
+  {
+   "n_references": 20,
+   "n_inversees": 3,
+   "part": 0.15,
+   "estampe": "B26.217",
+   "titre": "Danza di Cupidi",
+   "graveur": "Marcantonio",
+   "ids_inversees": [
+    396,
+    659,
+    752
+   ]
+  },
+  {
+   "n_references": 19,
+   "n_inversees": 6,
+   "part": 0.316,
+   "estampe": "B26.198",
+   "titre": "Cleopatra",
+   "graveur": "Agostino Veneziano",
+   "ids_inversees": [
+    752,
+    869,
+    895,
+    984,
+    1109,
+    1152
+   ]
+  },
+  {
+   "n_references": 14,
+   "n_inversees": 1,
+   "part": 0.071,
+   "estampe": "B26.6",
+   "titre": "Isacco che benedice Giacobbe",
+   "graveur": "Marcantonio",
+   "ids_inversees": [
+    1261
+   ]
+  },
+  {
+   "n_references": 13,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B26.10",
+   "titre": "Davide e Golia",
+   "graveur": "Marcantonio",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 12,
+   "n_inversees": 4,
+   "part": 0.333,
+   "estampe": "B26.117",
+   "titre": "Martirio di Santa Cecilia",
+   "graveur": "Marcantonio",
+   "ids_inversees": [
+    804,
+    829,
+    1072,
+    1109
+   ]
+  },
+  {
+   "n_references": 12,
+   "n_inversees": 4,
+   "part": 0.333,
+   "estampe": "B26.23",
+   "titre": "Cristo in casa di Simone il Fariseo",
+   "graveur": "Marcantonio",
+   "ids_inversees": [
+    149,
+    227,
+    227,
+    428
+   ]
+  },
+  {
+   "n_references": 11,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B16.14",
+   "titre": "Sol",
+   "graveur": "Maestro I.B.",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 11,
+   "n_inversees": 1,
+   "part": 0.091,
+   "estampe": "B26.226",
+   "titre": "Uomo nudo che rincorre una ninfa",
+   "graveur": "Marcantonio",
+   "ids_inversees": [
+    331
+   ]
+  },
+  {
+   "n_references": 11,
+   "n_inversees": 3,
+   "part": 0.273,
+   "estampe": "B26.245",
+   "titre": "Giudizio di Paride",
+   "graveur": "Marcantonio",
+   "ids_inversees": [
+    153,
+    863,
+    1052
+   ]
+  },
+  {
+   "n_references": 6,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B28.44",
+   "titre": "Ercole e Cerbero",
+   "graveur": "Caraglio",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 6,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B28.60",
+   "titre": "Enea che salva Anchise (Fuga di Enea)",
+   "graveur": "Caraglio",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 6,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B26.232",
+   "titre": "Leda",
+   "graveur": "Agostino Veneziano",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 6,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B26.242",
+   "titre": "Trono di Saturno",
+   "graveur": "Marco Dente",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 5,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B27.373",
+   "titre": "Donna con due spugne",
+   "graveur": "Marcantonio",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 5,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B28.49",
+   "titre": "Ercole e Caco",
+   "graveur": "Caraglio",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 4,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B27.442",
+   "titre": "Imperatore seduto",
+   "graveur": "Marcantonio",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 4,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B27.323",
+   "titre": "Nascita di Venere",
+   "graveur": "Marco Dente",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 4,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B26.294",
+   "titre": "Giovane e sacerdote di Bacco",
+   "graveur": "Marcantonio",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 4,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B28.48",
+   "titre": "Ercole e Acheloo",
+   "graveur": "Caraglio",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 4,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B26.243",
+   "titre": "Laocoonte",
+   "graveur": "Marco Dente",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 4,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B28.57",
+   "titre": "Scuola di un filosofo antico",
+   "graveur": "Caraglio",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 4,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B28.4",
+   "titre": "Adorazione dei pastori",
+   "graveur": "Caraglio",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 4,
+   "n_inversees": 2,
+   "part": 0.5,
+   "estampe": "B28.50",
+   "titre": "Mercurio porta Psiche sull'Olimpo",
+   "graveur": "Caraglio",
+   "ids_inversees": [
+    327,
+    863
+   ]
+  },
+  {
+   "n_references": 3,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B27.464",
+   "titre": "Due uomini nudi",
+   "graveur": "Marcantonio",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 3,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B26.313",
+   "titre": "Venere accovacciata",
+   "graveur": "Marcantonio",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 3,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B26.8",
+   "titre": "Israeliti che raccolgono la manna",
+   "graveur": "Agostino Veneziano",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 3,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B26.103",
+   "titre": "San Girolamo e il leone",
+   "graveur": "Agostino Veneziano",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 3,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B16.16",
+   "titre": "Mercurio",
+   "graveur": "Maestro I.B.",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 2,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B16.12",
+   "titre": "Giove",
+   "graveur": "Maestro I.B. / Pencz",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 2,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B26.4",
+   "titre": "Sacrificio di Noè",
+   "graveur": "Marco Dente",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 1,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B25.1",
+   "titre": "(stampa di Mantegna)",
+   "graveur": "Mantegna",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 1,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B27.340",
+   "titre": "Tre Grazie",
+   "graveur": "Marcantonio",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 1,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B27.193",
+   "titre": "Suicidio di Cleopatra",
+   "graveur": "Agostino Veneziano",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 1,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B27.384",
+   "titre": "Giovane con la lanterna",
+   "graveur": "Marcantonio",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 1,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B27.386",
+   "titre": "Carità",
+   "graveur": "Marcantonio",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 1,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B26.185",
+   "titre": "Tarpeia uccisa dai Sabini",
+   "graveur": "Marcantonio",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 1,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B27.227",
+   "titre": "Venere e Vulcano",
+   "graveur": "Marco Dente",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 1,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B16.91",
+   "titre": "Diana e Atteone",
+   "graveur": "Maestro I.B.",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 1,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B27.405",
+   "titre": "Tre animali in un ovale",
+   "graveur": "Marco Dente",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 1,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B26.28",
+   "titre": "Cristo porta la Croce",
+   "graveur": "Marcantonio",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 1,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B26.227",
+   "titre": "(rilievo antico)",
+   "graveur": "Marcantonio",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 1,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B29.43",
+   "titre": "Sacrificio di Ifigenia",
+   "graveur": "Beatrizet",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 1,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B28.46",
+   "titre": "Ercole e l'Idra",
+   "graveur": "Caraglio",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 1,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B26.47",
+   "titre": "Madonna di Foligno",
+   "graveur": "Marcantonio",
+   "ids_inversees": []
+  },
+  {
+   "n_references": 1,
+   "n_inversees": 0,
+   "part": 0.0,
+   "estampe": "B27.32",
+   "titre": "Venere ferita da una spina",
+   "graveur": "Marco Dente",
+   "ids_inversees": []
+  }
+ ],
+ "fiches_mentions_non_rattachees": [
+  1252,
+  928,
+  484,
+  560,
+  1004,
+  469,
+  1081,
+  331,
+  892,
+  640,
+  873,
+  425,
+  667,
+  879,
+  916,
+  411
+ ],
+ "supplement_modi": {
+  "n_references": 40,
+  "n_inversees": 2,
+  "part": 0.05,
+  "ids_inversees": [
+   469,
+   484
+  ]
+ }
+}

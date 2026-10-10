@@ -140,8 +140,48 @@ def main():
                           "modi_dans_categorie": k, "attendu_si_hasard": round(n * len(modi) / len(lignes), 2),
                           "p_hypergeometrique_unilateral": round(hyper(len(lignes), len(modi), n, k), 4),
                           "ids": [r["id"] for r in modi if test(r)]}
+    # Trois définitions de « politique » ont été essayées (la combinée avait été retenue seule) :
+    # correction de Holm sur les trois.
+    corr = commun.holm({k: v["p_hypergeometrique_unilateral"] for k, v in politique.items()})
+    for k in politique:
+        politique[k]["p_holm_3_definitions"] = corr[k]
+    # Stratification par période (la date est un facteur de confusion possible) : attendu par strate
+    # et p par permutation du statut « Modi » à l'intérieur de chaque période (définition combinée).
+    import random
+    est_pol = lambda r: "nota" in r["genres"] or "attualità" in r["sources_commentaire"]
+    strates = {}
+    for r in lignes:
+        strates.setdefault(r["periode"] or "sans période", []).append(r)
+    detail_strates, obs, att = [], 0, 0.0
+    for nom, rs in strates.items():
+        nm = sum(1 for r in rs if r["n_érotique"])
+        npol = sum(1 for r in rs if est_pol(r))
+        k = sum(1 for r in rs if r["n_érotique"] and est_pol(r))
+        detail_strates.append({"periode": nom, "pieces": len(rs), "pieces_modi": nm, "pieces_politiques": npol,
+                               "modi_et_politiques": k, "attendu": round(nm * npol / len(rs), 2)})
+        obs += k
+        att += nm * npol / len(rs)
+    rnd = random.Random(11)
+    sup = 0
+    N = 10000
+    for _ in range(N):
+        tot = 0
+        for rs in strates.values():
+            m = [bool(r["n_érotique"]) for r in rs]
+            rnd.shuffle(m)
+            tot += sum(1 for x, r in zip(m, rs) if x and est_pol(r))
+        sup += tot >= obs
+    stratifie = {"definition": "nota_ou_commentaire_politique", "observe": obs, "attendu": round(att, 2),
+                 "p_permutation_dans_les_periodes_unilateral": round((sup + 1) / (N + 1), 4),
+                 "strates": sorted(detail_strates, key=lambda d: d["periode"])}
     res = {
         "modi_et_sujets_politiques": politique,
+        "modi_et_sujets_politiques_stratifie_par_periode": stratifie,
+        "modi_et_sujets_politiques_note": (
+            "Trois définitions essayées, p corrigés par Holm. Circularité : les Modi ont été cherchés "
+            "surtout sur les plats du Sac et de Pavie (Talvacchia, Petruzzellis Scherer, Mallet). "
+            "L'association s'accorde aussi avec Mallet (poses athlétiques, corps renversés utiles aux "
+            "scènes violentes). Verdict : fragile, descriptif."),
         "pieces_avec_inscription": sum(r["inscription_presente"] for r in lignes),
         "genres_comptes": dict(Counter(groupe(r) for r in lignes)),
         "sources_litteraires_comptes": {k: sum(1 for r in lignes if k in r["sources_litteraires"]) for k in LITTERAIRES},
@@ -162,6 +202,9 @@ def main():
     for c in conting:
         print("  ", {k: v for k, v in c.items() if k != "ids"})
     print("  modi", res["pieces_aux_modi"]["genres"], res["sporcitia"], res["marque_y_slash_et_genre"])
+    print("  modi x politique", {k: (v["modi_dans_categorie"], v["attendu_si_hasard"], v["p_hypergeometrique_unilateral"],
+                                     v["p_holm_3_definitions"]) for k, v in politique.items()},
+          {k: v for k, v in stratifie.items() if k != "strates"}, stratifie["strates"])
     return res
 
 

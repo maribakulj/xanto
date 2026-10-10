@@ -21,6 +21,7 @@
   }));
   const modale = (html) => { $("#contenu-modale").innerHTML = html; $("#modale").hidden = false; };
   $("#fermer").onclick = () => ($("#modale").hidden = true);
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") $("#modale").hidden = true; });
   $("#modale").onclick = (e) => { if (e.target.id === "modale") $("#modale").hidden = true; };
 
   // Accueil
@@ -38,7 +39,8 @@
   const badgeDes = (d) => d === "publié" ? '<span class="badge publie">désaccord publié</span>' : d === "implicite" ? '<span class="badge implicite">désaccord implicite</span>' : d ? `<span class="badge">${esc(d)}</span>` : "";
   const badgeStat = (s) => `<span class="badge ${s === "lu" || s === "lu en partie" ? "lu" : s === "indirect" ? "indirect" : "inference"}">${esc(s)}</span>`;
   $("#questions").innerHTML = (L.questions || []).map((q, i) => `
-    <div class="carte" data-q="${i}">${badgeDes(q.desaccord)}<h4>${esc(q.titre)}</h4><p>${esc(q.explication)}</p></div>`).join("") || "<p>Carte de la littérature non chargée.</p>";
+    <div class="carte" data-q="${i}" tabindex="0" role="button">${badgeDes(q.desaccord)}<h4>${esc(q.titre)}</h4><p>${esc(q.explication)}</p></div>`).join("") || "<p>Carte de la littérature non chargée.</p>";
+  document.querySelectorAll(".carte").forEach((c) => c.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); c.click(); } }));
   document.querySelectorAll(".carte").forEach((c) => c.addEventListener("click", () => {
     const q = L.questions[+c.dataset.q];
     modale(`<h2>${esc(q.titre)}</h2><p>${esc(q.explication)}</p>${badgeDes(q.desaccord)}
@@ -56,7 +58,7 @@
     const max = Math.max(...vals, 1), bw = (w - 40) / labels.length;
     return `<svg viewBox="0 0 ${w} ${h + 44}" width="100%"><g transform="translate(0,14)">${labels.map((l, i) => {
       const bh = (vals[i] / max) * h; return `<rect class="barre" x="${30 + i * bw + 2}" y="${h - bh + 4}" width="${bw - 4}" height="${bh}"><title>${l} : ${vals[i]}</title></rect>
-      <text class="axe" x="${30 + i * bw + bw / 2}" y="${h + 20}" text-anchor="middle">${String(l).slice(-2)}</text><text class="axe" x="${30 + i * bw + bw / 2}" y="${h - bh}" text-anchor="middle">${vals[i]}</text>`;
+      <text class="axe" x="${30 + i * bw + bw / 2}" y="${h + 20}" text-anchor="middle">${/^1[45]\d\d$/.test(String(l)) ? String(l).slice(-2) : esc(String(l).slice(0, 14))}</text><text class="axe" x="${30 + i * bw + bw / 2}" y="${h - bh}" text-anchor="middle">${vals[i]}</text>`;
     }).join("")}</g></svg>`;
   };
   $("#frise").innerHTML = svgBarres(ans, ans.map((a) => parAn[a]));
@@ -70,7 +72,9 @@
   document.querySelectorAll(".classement-ligne").forEach((l) => l.addEventListener("click", () => {
     const [v, n] = l.dataset.k.split("/");
     const ps = [...compte[l.dataset.k]].map((id) => byId[id]).filter(Boolean).sort((a, b) => (annee(a) || 9999) - (annee(b) || 9999));
-    $("#detail-estampe").innerHTML = `<h3>${esc(nomEstampe(v, n))} — ${ps.length} pièces</h3><div class="tablewrap"><table><tr><th></th><th>Année</th><th>Titre</th><th>Lieu</th><th>Diamètre</th></tr>${ps.map((p) => ligne(p)).join("")}</table></div>`;
+    const ep = (D.estampes || []).filter((x) => x.tib_vol === v && String(+x.tib_n) === String(+n));
+    const liens = ep.length ? `<p class="aide">Épreuves conservées (domaine public) : ${ep.map((x) => `<a href="${esc(x.object_url)}" target="_blank" rel="noopener">${esc(x.museum)} ${esc(x.accession)}</a>${x.sheet_dimensions ? ` (feuille ${esc(x.sheet_dimensions)})` : ""}${x.version_note ? ` — ${esc(x.version_note)}` : ""}`).join(" ; ")}</p>` : "";
+    $("#detail-estampe").innerHTML = `<h3>${esc(nomEstampe(v, n))} — ${ps.length} pièces</h3>${liens}<div class="tablewrap"><table><tr><th></th><th>Année</th><th>Titre</th><th>Lieu</th><th>Diamètre</th></tr>${ps.map((p) => ligne(p)).join("")}</table></div>`;
   }));
 
   // Corpus : frise des estampes (Gantt)
@@ -115,7 +119,7 @@
     if (!E) { $("#cas-echelle").innerHTML = "<p>Aucun cas chargé.</p>"; return; }
     const PXCM = 26; // pixels d'écran par centimètre réel
     $("#cas-echelle").innerHTML = E.cas.map((c, ci) => `<div class="cas"><h3>${esc(c.titre || c.id)}</h3>${c.resume ? `<p>${esc(c.resume)}</p>` : ""}
-      <div class="temoins">${c.temoins.map((t, ti) => `<div class="temoin ${t.comparable ? "" : "non-comparable"}"><canvas id="cv-${ci}-${ti}"></canvas><div class="h">${t.hauteur_cm ?? "–"} cm</div>${t.hauteur_cm_independant ? `<div class="leg">second annotateur : ${t.hauteur_cm_independant} cm</div>` : ""}<div class="leg">${esc(t.objet)}${t.reference_cm ? `<br>${t.type === "plat" ? "diamètre" : "largeur de feuille"} ${t.reference_cm} cm` : ""}${t.prediction_proportionnelle_cm ? `<br>si adapté au plat : ${t.prediction_proportionnelle_cm} cm` : ""}${t.comparable ? "" : "<br><i>non comparable (figure redessinée)</i>"}</div></div>`).join("")}</div>
+      <div class="temoins">${c.temoins.map((t, ti) => `<div class="temoin ${t.comparable ? "" : "non-comparable"}"><canvas id="cv-${ci}-${ti}" role="img" aria-label="${esc(t.objet)} : ${t.hauteur_cm ?? "?"} cm de la tête au pied"></canvas><div class="h">${t.hauteur_cm ?? "–"} cm</div>${t.hauteur_cm_independant ? `<div class="leg">second annotateur : ${t.hauteur_cm_independant} cm</div>` : ""}<div class="leg">${esc(t.objet)}${t.reference_cm ? `<br>${t.type === "plat" ? "diamètre" : "largeur de feuille"} ${t.reference_cm} cm` : ""}${t.prediction_proportionnelle_cm ? `<br>si adapté au plat : ${t.prediction_proportionnelle_cm} cm` : ""}${t.comparable ? "" : `<br><i>écarté : ${esc(t.note || "non comparable")}</i>`}</div></div>`).join("")}</div>
       <div id="graph-${ci}"></div></div>`).join("");
     E.cas.forEach((c, ci) => {
       c.temoins.forEach((t, ti) => {
@@ -137,7 +141,7 @@
         img.src = "assets/" + t.image.split("/").pop();
       });
       const vals = c.temoins.filter((t) => t.hauteur_cm), max = Math.max(...vals.map((t) => Math.max(t.hauteur_cm, t.prediction_proportionnelle_cm || 0)));
-      document.getElementById(`graph-${ci}`).innerHTML = `<h3>Hauteur mesurée (barre) et hauteur attendue si la figure était adaptée au plat (trait)</h3><svg viewBox="0 0 640 ${vals.length * 34 + 10}" width="100%">${vals.map((t, i) => {
+      document.getElementById(`graph-${ci}`).innerHTML = `<h3>Hauteur mesurée (barre) et, à titre indicatif, hauteur qu\'aurait la figure si elle grandissait avec le diamètre à partir du plat de référence (trait)</h3><p class="aide">Le plat qui sert de référence confirme ce trait par construction ; la lecture pertinente est l\'écart sur les autres plats.</p><svg viewBox="0 0 640 ${vals.length * 34 + 10}" width="100%">${vals.map((t, i) => {
         const w = (v) => (v / max) * 380; return `<text class="axe" x="0" y="${i * 34 + 20}">${esc(t.objet.slice(0, 38))}</text><rect class="barre" x="250" y="${i * 34 + 8}" width="${w(t.hauteur_cm)}" height="16" opacity="${t.comparable ? 1 : .4}"></rect><text class="axe" x="${255 + w(t.hauteur_cm)}" y="${i * 34 + 20}">${t.hauteur_cm} cm</text>${t.prediction_proportionnelle_cm ? `<line x1="${250 + w(t.prediction_proportionnelle_cm)}" x2="${250 + w(t.prediction_proportionnelle_cm)}" y1="${i * 34 + 4}" y2="${i * 34 + 28}" stroke="var(--bleu)" stroke-width="3"></line>` : ""}`;
       }).join("")}</svg>${c.conclusion ? `<p><b>Lecture :</b> ${esc(c.conclusion)}</p>` : ""}${c.limites ? `<p class="aide"><b>Limites :</b> ${esc(c.limites)}</p>` : ""}`;
     });

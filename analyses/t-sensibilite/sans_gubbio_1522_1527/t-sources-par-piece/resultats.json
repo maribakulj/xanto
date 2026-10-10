@@ -1,0 +1,455 @@
+{
+ "global_bartsch": {
+  "pieces": 348,
+  "pieces_avec_source": 268,
+  "part_avec_source": 0.77,
+  "moyenne_si_source": 2.09,
+  "mediane_si_source": 2,
+  "max": 7,
+  "distribution": {
+   "0": 80,
+   "1": 93,
+   "2": 93,
+   "3": 56,
+   "4": 21,
+   "5": 1,
+   "6": 3,
+   "7": 1
+  }
+ },
+ "global_avec_modi": {
+  "pieces": 348,
+  "pieces_avec_source": 273,
+  "part_avec_source": 0.784,
+  "moyenne_si_source": 2.2,
+  "mediane_si_source": 2,
+  "max": 8,
+  "distribution": {
+   "0": 75,
+   "1": 85,
+   "2": 96,
+   "3": 58,
+   "4": 28,
+   "5": 2,
+   "6": 1,
+   "7": 2,
+   "8": 1
+  }
+ },
+ "par_periode_avec_modi": {
+  "<=1530": {
+   "pieces": 75,
+   "pieces_avec_source": 53,
+   "part_avec_source": 0.707,
+   "moyenne_si_source": 1.83,
+   "mediane_si_source": 2,
+   "max": 4,
+   "distribution": {
+    "0": 22,
+    "1": 22,
+    "2": 20,
+    "3": 9,
+    "4": 2
+   }
+  },
+  "1531-1535": {
+   "pieces": 164,
+   "pieces_avec_source": 145,
+   "part_avec_source": 0.884,
+   "moyenne_si_source": 2.47,
+   "mediane_si_source": 2,
+   "max": 8,
+   "distribution": {
+    "0": 19,
+    "1": 34,
+    "2": 48,
+    "3": 37,
+    "4": 21,
+    "5": 1,
+    "6": 1,
+    "7": 2,
+    "8": 1
+   }
+  },
+  "1536-1542": {
+   "pieces": 101,
+   "pieces_avec_source": 69,
+   "part_avec_source": 0.683,
+   "moyenne_si_source": 1.93,
+   "mediane_si_source": 2,
+   "max": 5,
+   "distribution": {
+    "0": 32,
+    "1": 26,
+    "2": 28,
+    "3": 10,
+    "4": 4,
+    "5": 1
+   }
+  }
+ },
+ "par_periode_dates_inscrites": {
+  "<=1530": {
+   "pieces": 10,
+   "pieces_avec_source": 7,
+   "part_avec_source": 0.7,
+   "moyenne_si_source": 1.43,
+   "mediane_si_source": 1,
+   "max": 3,
+   "distribution": {
+    "0": 3,
+    "1": 5,
+    "2": 1,
+    "3": 1
+   }
+  },
+  "1531-1535": {
+   "pieces": 140,
+   "pieces_avec_source": 126,
+   "part_avec_source": 0.9,
+   "moyenne_si_source": 2.49,
+   "mediane_si_source": 2,
+   "max": 8,
+   "distribution": {
+    "0": 14,
+    "1": 28,
+    "2": 43,
+    "3": 30,
+    "4": 21,
+    "5": 1,
+    "6": 1,
+    "7": 1,
+    "8": 1
+   }
+  },
+  "1536-1542": {
+   "pieces": 82,
+   "pieces_avec_source": 59,
+   "part_avec_source": 0.72,
+   "moyenne_si_source": 1.93,
+   "mediane_si_source": 2,
+   "max": 5,
+   "distribution": {
+    "0": 23,
+    "1": 23,
+    "2": 22,
+    "3": 10,
+    "4": 3,
+    "5": 1
+   }
+  }
+ },
+ "test_1531-1535_vs_1536-1542_moyenne_si_source": {
+  "difference_moyennes": -0.541,
+  "p_permutation_bilateral": 0.0017
+ },
+ "par_annee": [
+  {
+   "annee": 1528,
+   "pieces": 30,
+   "pieces_avec_source": 19,
+   "part_avec_source": 0.633,
+   "moyenne_si_source": 1.58,
+   "mediane_si_source": 1,
+   "max": 3
+  },
+  {
+   "annee": 1529,
+   "pieces": 25,
+   "pieces_avec_source": 18,
+   "part_avec_source": 0.72,
+   "moyenne_si_source": 2.06,
+   "mediane_si_source": 2,
+   "max": 4
+  },
+  {
+   "annee": 1530,
+   "pieces": 25,
+   "pieces_avec_source": 21,
+   "part_avec_source": 0.84,
+   "moyenne_si_source": 2.0,
+   "mediane_si_source": 2,
+   "max": 3
+  },
+  {
+   "annee": 1531,
+   "pieces": 35,
+   "pieces_avec_source": 29,
+   "part_avec_source": 0.829,
+   "moyenne_si_source": 2.34,
+   "mediane_si_source": 2,
+   "max": 8
+  },
+  {
+   "annee": 1532,
+   "pieces": 56,
+   "pieces_avec_source": 49,
+   "part_avec_source": 0.875,
+   "moyenne_si_source": 2.63,
+   "mediane_si_source": 3,
+   "max": 7
+  },
+  {
+   "annee": 1533,
+   "pieces": 22,
+   "pieces_avec_source": 20,
+   "part_avec_source": 0.909,
+   "moyenne_si_source": 2.9,
+   "mediane_si_source": 3,
+   "max": 7
+  },
+  {
+   "annee": 1534,
+   "pieces": 27,
+   "pieces_avec_source": 26,
+   "part_avec_source": 0.963,
+   "moyenne_si_source": 2.27,
+   "mediane_si_source": 2,
+   "max": 4
+  },
+  {
+   "annee": 1535,
+   "pieces": 27,
+   "pieces_avec_source": 22,
+   "part_avec_source": 0.815,
+   "moyenne_si_source": 2.05,
+   "mediane_si_source": 2,
+   "max": 3
+  },
+  {
+   "annee": 1536,
+   "pieces": 25,
+   "pieces_avec_source": 16,
+   "part_avec_source": 0.64,
+   "moyenne_si_source": 2.12,
+   "mediane_si_source": 2,
+   "max": 4
+  },
+  {
+   "annee": 1537,
+   "pieces": 20,
+   "pieces_avec_source": 14,
+   "part_avec_source": 0.7,
+   "moyenne_si_source": 1.57,
+   "mediane_si_source": 2,
+   "max": 3
+  },
+  {
+   "annee": 1538,
+   "pieces": 18,
+   "pieces_avec_source": 14,
+   "part_avec_source": 0.778,
+   "moyenne_si_source": 2.21,
+   "mediane_si_source": 2,
+   "max": 5
+  },
+  {
+   "annee": 1539,
+   "pieces": 11,
+   "pieces_avec_source": 7,
+   "part_avec_source": 0.636,
+   "moyenne_si_source": 2.14,
+   "mediane_si_source": 2,
+   "max": 3
+  },
+  {
+   "annee": 1540,
+   "pieces": 14,
+   "pieces_avec_source": 8,
+   "part_avec_source": 0.571,
+   "moyenne_si_source": 2.12,
+   "mediane_si_source": 2,
+   "max": 4
+  },
+  {
+   "annee": 1541,
+   "pieces": 7,
+   "pieces_avec_source": 5,
+   "part_avec_source": 0.714,
+   "moyenne_si_source": 1.4,
+   "mediane_si_source": 1,
+   "max": 3
+  },
+  {
+   "annee": 1542,
+   "pieces": 6,
+   "pieces_avec_source": 5,
+   "part_avec_source": 0.833,
+   "moyenne_si_source": 1.4,
+   "mediane_si_source": 1,
+   "max": 2
+  }
+ ],
+ "pieces_a_4_estampes_ou_plus": [
+  {
+   "id": 952,
+   "annee": 1529,
+   "n": 4
+  },
+  {
+   "id": 100,
+   "annee": 1533,
+   "n": 4
+  },
+  {
+   "id": 120,
+   "annee": 1534,
+   "n": 4
+  },
+  {
+   "id": 156,
+   "annee": 1532,
+   "n": 4
+  },
+  {
+   "id": 177,
+   "annee": 1533,
+   "n": 6
+  },
+  {
+   "id": 257,
+   "annee": 1529,
+   "n": 4
+  },
+  {
+   "id": 1259,
+   "annee": 1532,
+   "n": 4
+  },
+  {
+   "id": 428,
+   "annee": 1531,
+   "n": 4
+  },
+  {
+   "id": 869,
+   "annee": 1534,
+   "n": 4
+  },
+  {
+   "id": 829,
+   "annee": 1533,
+   "n": 4
+  },
+  {
+   "id": 663,
+   "annee": 1538,
+   "n": 5
+  },
+  {
+   "id": 1124,
+   "annee": 1532,
+   "n": 4
+  },
+  {
+   "id": 1342,
+   "annee": 1534,
+   "n": 4
+  },
+  {
+   "id": 620,
+   "annee": 1533,
+   "n": 4
+  },
+  {
+   "id": 450,
+   "annee": 1532,
+   "n": 4
+  },
+  {
+   "id": 680,
+   "annee": 1531,
+   "n": 4
+  },
+  {
+   "id": 532,
+   "annee": 1529,
+   "n": 4
+  },
+  {
+   "id": 548,
+   "annee": 1532,
+   "n": 4
+  },
+  {
+   "id": 863,
+   "annee": 1534,
+   "n": 4
+  },
+  {
+   "id": 867,
+   "annee": 1534,
+   "n": 4
+  },
+  {
+   "id": 732,
+   "annee": 1532,
+   "n": 4
+  },
+  {
+   "id": 1213,
+   "annee": 1540,
+   "n": 4
+  },
+  {
+   "id": 742,
+   "annee": 1532,
+   "n": 4
+  },
+  {
+   "id": 738,
+   "annee": 1532,
+   "n": 4
+  },
+  {
+   "id": 1267,
+   "annee": 1533,
+   "n": 5
+  },
+  {
+   "id": 845,
+   "annee": 1538,
+   "n": 4
+  },
+  {
+   "id": 969,
+   "annee": 1536,
+   "n": 4
+  },
+  {
+   "id": 912,
+   "annee": 1533,
+   "n": 7
+  },
+  {
+   "id": 806,
+   "annee": 1531,
+   "n": 4
+  },
+  {
+   "id": 399,
+   "annee": 1531,
+   "n": 8
+  },
+  {
+   "id": 1106,
+   "annee": 1531,
+   "n": 4
+  },
+  {
+   "id": 516,
+   "annee": 1540,
+   "n": 4
+  },
+  {
+   "id": 293,
+   "annee": 1532,
+   "n": 4
+  },
+  {
+   "id": 614,
+   "annee": 1532,
+   "n": 7
+  }
+ ]
+}

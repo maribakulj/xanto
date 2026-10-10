@@ -90,17 +90,17 @@
  },
  "par_periode_dates_inscrites": {
   "<=1530": {
-   "pieces": 22,
-   "pieces_avec_source": 14,
-   "part_avec_source": 0.636,
-   "moyenne_si_source": 1.43,
+   "pieces": 21,
+   "pieces_avec_source": 13,
+   "part_avec_source": 0.619,
+   "moyenne_si_source": 1.31,
    "mediane_si_source": 1,
    "max": 3,
    "distribution": {
     "0": 8,
     "1": 10,
     "2": 2,
-    "3": 2
+    "3": 1
    }
   },
   "1531-1535": {
