@@ -1,0 +1,107 @@
+{
+ "A": {
+  "image": "A",
+  "fiche_rovigo": "64",
+  "lieu": "New York Met 460208",
+  "annee": "1539",
+  "diametre_cm": "29.7",
+  "qualite_image": "haute",
+  "mesures": {
+   "camille_annotateur1": {
+    "hauteur_cm": 11.06,
+    "diametre_px": 2559.0,
+    "ratio_vertical": 0.988
+   },
+   "camille_annotateur2": {
+    "hauteur_cm": 11.04,
+    "diametre_px": 2561.0,
+    "ratio_vertical": 0.988
+   }
+  },
+  "moyenne_cm": 11.05
+ },
+ "B": {
+  "image": "B",
+  "fiche_rovigo": "845",
+  "lieu": "Luton Hoo (Wernher)",
+  "annee": "1538",
+  "diametre_cm": "27",
+  "qualite_image": "haute",
+  "mesures": {
+   "camille_annotateur1": {
+    "hauteur_cm": 10.81,
+    "diametre_px": 2119.0,
+    "ratio_vertical": 0.988
+   },
+   "camille_annotateur2": {
+    "hauteur_cm": 10.84,
+    "diametre_px": 2123.0,
+    "ratio_vertical": 0.989
+   }
+  },
+  "moyenne_cm": 10.82
+ },
+ "C": {
+  "image": "C",
+  "fiche_rovigo": "859",
+  "lieu": "localisation inconnue",
+  "annee": "1539",
+  "diametre_cm": "31",
+  "qualite_image": "moyenne",
+  "mesures": {
+   "camille_annotateur1": {
+    "hauteur_cm": 11.5,
+    "diametre_px": 1772.0,
+    "ratio_vertical": 1.023
+   },
+   "camille_annotateur2": {
+    "hauteur_cm": 11.1,
+    "diametre_px": 1775.0,
+    "ratio_vertical": 1.024
+   }
+  },
+  "moyenne_cm": 11.3
+ },
+ "D": {
+  "image": "D",
+  "fiche_rovigo": "620",
+  "lieu": "Paris Louvre",
+  "annee": "1533",
+  "diametre_cm": "26.0",
+  "qualite_image": "basse (noir et blanc)",
+  "mesures": {
+   "camille_annotateur1": {
+    "hauteur_cm": 12.41,
+    "diametre_px": 489.0,
+    "ratio_vertical": 1.033
+   },
+   "camille_annotateur2": {
+    "hauteur_cm": 11.99,
+    "diametre_px": 488.0,
+    "ratio_vertical": 1.035
+   }
+  },
+  "moyenne_cm": 12.2
+ },
+ "E": {
+  "image": "E",
+  "fiche_rovigo": "883",
+  "lieu": "Toronto Gardiner",
+  "annee": "1534",
+  "diametre_cm": "26",
+  "qualite_image": "très basse",
+  "mesures": {
+   "camille_annotateur1": {
+    "hauteur_cm": 12.63,
+    "diametre_px": 280.0,
+    "ratio_vertical": 0.989
+   },
+   "camille_annotateur2": {
+    "hauteur_cm": 12.78,
+    "diametre_px": 279.0,
+    "ratio_vertical": 1.0
+   }
+  },
+  "moyenne_cm": 12.71
+ }
+}

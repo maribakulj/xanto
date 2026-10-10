@@ -1,0 +1,6 @@
+image,G_x,D_x,H_y,B_y,T_x,T_y,P_x,P_y,P2_x,P2_y,incertitude_px,commentaire
+A,201,2762,559,3090,412,1567,486,2516,686,2393,6,bord ±3 px ; T = sommet du cimier rouge du casque ; P = pied gauche (orteils vers le bas)
+B,104,2227,70,2170,258,1066,501,1883,648,1738,6,bord ±3 px ; B_y presque au bord de l'image ; T = sommet du casque orange
+C,35,1810,54,1872,205,809,236,1444,386,1370,5,bord ±2 px ; pieds flous à cette résolution
+D,10,498,15,520,92,218,96,443,140,413,3,image en gris basse résolution ; T = sommet du grand cimier ovale derrière la tête (si c'est un bouclier et non un cimier : sommet du casque ≈ (72,270))
+E,161,440,151,430,202,268,239,400,268,375,4,image petite (plaque ≈ 280 px) ; casque peu lisible (sommet de la tête/coiffe) ; pieds très flous, P2 approximatif (±6 px)

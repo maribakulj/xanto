@@ -1,0 +1,6 @@
+image,G_x,D_x,H_y,B_y,T_x,T_y,P_x,P_y,P2_x,P2_y,incertitude_px,commentaire
+A,203,2762,558,3086,420,1566,487,2517,690,2393,5,"bord bas = arete visible du marli (vue legerement plongeante); T = sommet de la crete orange (dragon) du casque; P = pointe la plus basse des orteils du pied gauche"
+B,103,2222,68,2162,262,1066,497,1881,641,1734,6,"image tramee (scan imprime), bords flous; T = haut du casque orange; orteils peu nets"
+C,38,1810,55,1868,224,807,268,1463,388,1377,5,"T = sommet du cimier orange; P = orteil le plus bas (pied tourne vers la gauche, orteil le plus a gauche vers x=237 y=1442)"
+D,9,498,15,520,88,218,103,451,142,413,2,"gravure N&B basse resolution; bord exterieur = fin liseré gris du marli blanc; T = sommet du grand ovale (cimier ou bouclier?) - si bouclier, sommet du casque a bandeau perle vers x=62 y=252"
+E,160,440,153,430,201,269,241,399,271,377,2,"tres basse resolution (plat ~280 px); casque non distinct, T = sommet de la tete blanche; P2 peu lisible (jambe droite repliee)"

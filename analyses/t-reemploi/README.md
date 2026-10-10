@@ -33,7 +33,7 @@ Estampes les plus réemployées (`reemploi_par_estampe.csv`) :
 
 15 estampes sur 54 n'apparaissent que sur une seule pièce. Les trois estampes principales servent du début à la fin de la carrière.
 
-Par période (variante `toutes`) :
+Par période (variante `toutes` ; ici la période vient de l'année retenue, milieu d'intervalle compris, d'où 97 / 164 / 100 pièces au lieu de 93 / 161 / 100 dans T-dates) :
 
 | | ≤ 1530 | 1531-1535 | 1536-1542 |
 |---|---|---|---|

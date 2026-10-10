@@ -184,6 +184,160 @@
      "hauteur_cm_moyenne": 10.58
     }
    ]
+  },
+  {
+   "id": "camille-metabus",
+   "titre": "Métabus dans le Sauvetage de Camille (Marco Dente, Bataille entre Romains et Carthaginois, Bartsch XIV 420)",
+   "resume": "Xanto peint le Sauvetage de Camille au moins dix fois entre 1532 et 1542, toujours avec le même Métabus tiré de la gravure de Marco Dente. Cinq plats ont une image utilisable ; deux annotateurs indépendants, qui ignoraient l'hypothèse et les diamètres, ont relevé la tête et le pied de Métabus et mesuré eux-mêmes les plats sur des images anonymisées.",
+   "conclusion": "Sur les trois plats de 1538-1539 (27 à 31 cm), Métabus mesure 10,8 à 11,3 cm : sa taille ne suit pas le diamètre (une figure adaptée au plat varierait de 15 %). C'est la signature d'un même patron réutilisé à taille fixe. Sur les plats de 1533-1534, il paraît plus grand (12,2 à 12,7 cm), ce qui pourrait signaler un autre patron, mais ces deux images sont trop pauvres pour conclure.",
+   "limites": "Annotateurs : deux instances d'IA (écart entre elles de 0,2 à 3 %). Images D et E de très basse qualité, sommet du casque ambigu sur D. Estampe source pas encore mesurée.",
+   "temoins": [
+    {
+     "type": "plat",
+     "objet": "Sauvetage de Camille, 1539 (New York Met 460208)",
+     "fiche_rovigo": "64",
+     "image": "corpus-images/met-plats/met_460208.jpg",
+     "crop": [
+      87,
+      1532,
+      1022,
+      2583
+     ],
+     "reference_cm": 29.7,
+     "cm_par_px": 0.011606096131301289,
+     "reperes": {
+      "tete": [
+       420.0,
+       1566.0
+      ],
+      "pied_tendu": [
+       487.0,
+       2517.0
+      ]
+     },
+     "hauteur_cm": 11.06,
+     "hauteur_cm_independant": 11.04,
+     "prediction_proportionnelle_cm": 11.9,
+     "comparable": true,
+     "note": "image de qualité haute"
+    },
+    {
+     "type": "plat",
+     "objet": "Sauvetage de Camille, 1538 (Luton Hoo (Wernher))",
+     "fiche_rovigo": "845",
+     "image": "corpus-images/rovigo/845__238.-01.jpg",
+     "crop": [
+      0,
+      1037,
+      926,
+      1938
+     ],
+     "reference_cm": 27.0,
+     "cm_par_px": 0.012741859367626238,
+     "reperes": {
+      "tete": [
+       262.0,
+       1066.0
+      ],
+      "pied_tendu": [
+       497.0,
+       1881.0
+      ]
+     },
+     "hauteur_cm": 10.81,
+     "hauteur_cm_independant": 10.84,
+     "prediction_proportionnelle_cm": 10.82,
+     "comparable": true,
+     "note": "image de qualité haute"
+    },
+    {
+     "type": "plat",
+     "objet": "Sauvetage de Camille, 1539 (localisation inconnue)",
+     "fiche_rovigo": "859",
+     "image": "corpus-images/rovigo/859__242.-01.jpg",
+     "crop": [
+      0,
+      784,
+      617,
+      1508
+     ],
+     "reference_cm": 31.0,
+     "cm_par_px": 0.017494356659142212,
+     "reperes": {
+      "tete": [
+       224.0,
+       807.0
+      ],
+      "pied_tendu": [
+       268.0,
+       1463.0
+      ]
+     },
+     "hauteur_cm": 11.5,
+     "hauteur_cm_independant": 11.1,
+     "prediction_proportionnelle_cm": 12.42,
+     "comparable": true,
+     "note": "image de qualité moyenne"
+    },
+    {
+     "type": "plat",
+     "objet": "Sauvetage de Camille, 1533 (Paris Louvre)",
+     "fiche_rovigo": "620",
+     "image": "corpus-images/rovigo/620__156.-01.jpg",
+     "crop": [
+      6,
+      209,
+      223,
+      467
+     ],
+     "reference_cm": 26.0,
+     "cm_par_px": 0.053169734151329244,
+     "reperes": {
+      "tete": [
+       88.0,
+       218.0
+      ],
+      "pied_tendu": [
+       103.0,
+       451.0
+      ]
+     },
+     "hauteur_cm": 12.41,
+     "hauteur_cm_independant": 11.99,
+     "prediction_proportionnelle_cm": 10.42,
+     "comparable": false,
+     "note": "image de qualité basse (noir et blanc)"
+    },
+    {
+     "type": "plat",
+     "objet": "Sauvetage de Camille, 1534 (Toronto Gardiner)",
+     "fiche_rovigo": "883",
+     "image": "corpus-images/rovigo/883__253.-01.jpg",
+     "crop": [
+      155,
+      264,
+      316,
+      408
+     ],
+     "reference_cm": 26.0,
+     "cm_par_px": 0.09285714285714286,
+     "reperes": {
+      "tete": [
+       201.0,
+       269.0
+      ],
+      "pied_tendu": [
+       241.0,
+       399.0
+      ]
+     },
+     "hauteur_cm": 12.63,
+     "hauteur_cm_independant": 12.78,
+     "prediction_proportionnelle_cm": 10.42,
+     "comparable": false,
+     "note": "image de qualité très basse"
+    }
+   ]
   }
  ]
 }

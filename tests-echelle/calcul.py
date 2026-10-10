@@ -57,6 +57,9 @@ def main():
                 t["rapport_a_l_estampe"] = round(t["hauteur_cm"] / est["hauteur_cm"], 3)
         meta = json.load(open("cas_meta.json")).get(cid, {}) if __import__("os").path.exists("cas_meta.json") else {}
         out["cas"].append({"id": cid, **meta, "temoins": temoins})
+    import glob, os
+    for extra in sorted(f for f in glob.glob("cas_*.json") if f != "cas_meta.json"):
+        out["cas"].append(json.load(open(extra)))
     json.dump(out, open("cas.json", "w"), ensure_ascii=False, indent=1)
 
 

@@ -30,3 +30,5 @@ td img{width:56px;height:56px;object-fit:cover;border-radius:2px}
 .res{background:var(--blanc);border:1px solid var(--ligne);padding:16px 18px;margin:14px 0}.res h3{margin-top:0}.verdict{display:inline-block;font-size:12px;padding:2px 8px;border-radius:3px;background:var(--papier);border:1px solid var(--ligne)}
 .limites li{margin:8px 0;max-width:860px}
 a{color:var(--bleu)}code{font-size:12.5px}
+.res svg{max-width:620px;display:block}.res h4{font-size:13px;margin:14px 0 4px;color:var(--gris);font-weight:600}
+.cas svg{max-width:760px;display:block}

@@ -54,10 +54,10 @@
   const ans = Object.keys(parAn).map(Number).sort((a, b) => a - b);
   const svgBarres = (labels, vals, w = 560, h = 220, onClick) => {
     const max = Math.max(...vals, 1), bw = (w - 40) / labels.length;
-    return `<svg viewBox="0 0 ${w} ${h + 30}" width="100%">${labels.map((l, i) => {
+    return `<svg viewBox="0 0 ${w} ${h + 44}" width="100%"><g transform="translate(0,14)">${labels.map((l, i) => {
       const bh = (vals[i] / max) * h; return `<rect class="barre" x="${30 + i * bw + 2}" y="${h - bh + 4}" width="${bw - 4}" height="${bh}"><title>${l} : ${vals[i]}</title></rect>
       <text class="axe" x="${30 + i * bw + bw / 2}" y="${h + 20}" text-anchor="middle">${String(l).slice(-2)}</text><text class="axe" x="${30 + i * bw + bw / 2}" y="${h - bh}" text-anchor="middle">${vals[i]}</text>`;
-    }).join("")}</svg>`;
+    }).join("")}</g></svg>`;
   };
   $("#frise").innerHTML = svgBarres(ans, ans.map((a) => parAn[a]));
 
