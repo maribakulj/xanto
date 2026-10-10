@@ -1,0 +1,6 @@
+image,N_x,N_y,C_x,C_y,K_x,K_y,P_x,P_y,incertitude_px,commentaire
+A,539,1706,508,1790,575,2197,456,2486,20,"barbu: C = point le plus bas de la barbe (contour flou); pied bas = pied gauche dans l'image, vu de face, orteils vers le bas-gauche, P = bout des orteils (milieu du groupe)"
+B,384,1164,384,1232,512,1608,490,1880,15,"barbu: C = bas de la barbe; image tramee peu nette autour de la tete; pied bas en partie masque par le bord, P approximatif"
+C,295,902,285,958,320,1255,238,1450,12,"barbu: C = bas de la barbe; visage petit et peu lisible; orteils vers le bas-gauche"
+F,433,602,422,655,484,787,467,904,10,"barbu: C = bas de la barbe; tete inclinee, nez difficile a separer du baudrier; pied bas vu de face, orteils vers le bas"
+G,360,1372,372,1430,563,1930,,,15,"barbe incertaine (joue hachuree), C = pointe du menton; jambe avant: le pied est cache par le rocher, P non visible (plus bas point visible du tibia ~528,2290); autre jambe genou ~285,2030, pied hors champ"

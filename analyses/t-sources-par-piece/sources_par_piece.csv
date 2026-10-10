@@ -57,15 +57,15 @@ id,annee,periode,source_date,n_estampes_bartsch,n_estampes_avec_modi,estampes,li
 112,1532,1531-1535,inscription,1,1,B26.117,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/30/piatto-con-la-morte-della-donna-di-sestos/
 116,1529,<=1530,inscription,1,1,B26.6,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/29/isacco-che-benedice-giacobbe-ed-esau/
 120,1534,1531-1535,inscription,3,4,B16.14 B26.104 B26.198 MODI,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/28/il-mito-di-esaco/
-123,,,aucune,0,0,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/27/piatto-con-la-caccia-al-cinghiale-e-calidonio/
-126,,,aucune,2,2,B26.104 B27.420,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/26/piastra-con-achille-ed-ettore/
-129,,,aucune,0,0,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/25/piatto-con-la-morte-di-laocoonte-e-dei-suoi-due-figli/
+123,1529,<=1530,catalogue,0,0,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/27/piatto-con-la-caccia-al-cinghiale-e-calidonio/
+126,1525,<=1530,catalogue,2,2,B26.104 B27.420,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/26/piastra-con-achille-ed-ettore/
+129,1530,<=1530,catalogue,0,0,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/25/piatto-con-la-morte-di-laocoonte-e-dei-suoi-due-figli/
 133,1532,1531-1535,inscription,1,1,B28.44,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/24/piatto-con-ercole-e-cerbero/
-136,,,aucune,3,3,B26.10 B26.209 B27.352,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/23/piatto-con-calano/
+136,1532,1531-1535,catalogue,3,3,B26.10 B26.209 B27.352,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/23/piatto-con-calano/
 139,1537,1536-1542,inscription,2,2,B26.209 B26.211,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/22/tagliere-con-ero-e-leandro/
-145,,,aucune,0,1,MODI,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/20/allegoria-del-sacco-di-roma/
+145,1530,,catalogue intervalle,0,1,MODI,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/20/allegoria-del-sacco-di-roma/
 149,1539,1536-1542,inscription,3,3,B26.23 B27.352 B28.57,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/19/dionisio-e-il-tiranno-la-spada-di-damocle/
-153,,,aucune,1,1,B26.245,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/18/coppa-con-la-conversione-di-saulo/
+153,1528,<=1530,catalogue intervalle,1,1,B26.245,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/18/coppa-con-la-conversione-di-saulo/
 156,1532,1531-1535,inscription,4,4,B26.104 B26.209 B26.217 B28.48,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/17/coppa-a-bordo-largo-con-nettuno-che-rapisce-teofane/
 159,1532,1531-1535,inscription,0,0,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/16/la-discesa-all-ade-di-orfeo/
 163,1532,1531-1535,inscription,2,3,B16.14 B26.226 MODI,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/15/la-flotta-di-seleuco-che-affonda/
@@ -74,28 +74,28 @@ id,annee,periode,source_date,n_estampes_bartsch,n_estampes_avec_modi,estampes,li
 173,1539,1536-1542,inscription,0,0,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/12/173/
 177,1533,1531-1535,inscription,6,6,B26.104 B26.211 B26.23 B26.4 B26.6 B28.62,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/11/il-matrimonio-di-nino-e-seramide/
 181,1531,1531-1535,inscription,1,2,B28.53 MODI,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/10/la-morte-di-piramo-e-tisbe/
-184,,,aucune,1,2,B26.247 MODI,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/09/la-nascita-di-venere/
+184,1530,<=1530,catalogue,1,2,B26.247 MODI,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/09/la-nascita-di-venere/
 190,1525,<=1530,inscription,1,1,B27.340,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/08/le-tre-grazie/
 194,1522,<=1530,inscription,3,3,B27.352 B27.442 B27.464,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/07/ercole-e-onfale/
 197,1536,1536-1542,inscription,2,2,B27.373 B28.62,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/06/lallegoria-delle-discordie-dellitalia/
 201,1533,1531-1535,inscription,3,3,B26.198 B26.211 B28.53,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/05/atteone-tramutato-da-diana-in-cervo/
-205,,,aucune,0,0,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/03/astolfo-che-insegue-le-arpie/
-209,,,aucune,2,2,B26.247 B28.53,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/02/scilla-e-galatea/
-213,,,aucune,1,1,B27.193,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/01/piatto-con-cleopatra/
+205,1532,1531-1535,catalogue,0,0,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/03/astolfo-che-insegue-le-arpie/
+209,1529,<=1530,catalogue intervalle,2,2,B26.247 B28.53,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/02/scilla-e-galatea/
+213,1528,<=1530,catalogue intervalle,1,1,B27.193,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/01/piatto-con-cleopatra/
 217,1535,1531-1535,inscription,2,2,B26.209 B28.49,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/30/la-morte-di-palinuro/
 220,1531,1531-1535,inscription,1,1,B26.247,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/29/uomo-anziano-giovane-donna-e-cupido/
 223,1541,1536-1542,inscription,1,1,B28.4,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/27/sacrificio-di-porzia/
 227,1539,1536-1542,inscription,2,2,B26.23 B28.53,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/26/soggetto-allegorico-con-un-uomo-che-indossa-un-turbante-e-quattro-donne/
 230,1528,<=1530,inscription,0,0,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/25/san-sebastiano-e-san-rocco/
 234,1535,1531-1535,inscription,1,1,B27.384,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/24/cupido-travestito-da-ascanio-condotto-a-didone-da-acante/
-237,,,aucune,3,3,B26.198 B26.211 B26.8,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/23/ero-e-leandro-2/
+237,1535,1531-1535,catalogue,3,3,B26.198 B26.211 B26.8,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/23/ero-e-leandro-2/
 241,1540,1536-1542,inscription,0,0,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/20/la-sepoltura-di-leucothoe/
-244,,,aucune,2,2,B26.104 B26.117,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/19/il-sogno-profetico-della-donna-di-imera/
+244,1540,1536-1542,catalogue,2,2,B26.104 B26.117,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/19/il-sogno-profetico-della-donna-di-imera/
 247,1535,1531-1535,inscription,3,3,B26.103 B26.211 B27.386,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/18/enea-anchise-creusa-e-ascanio-con-la-fiamma-miracolosa/
 254,1531,1531-1535,inscription,2,2,B26.247 B27.420,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/17/ruggiero-sullippogrifo/
 250,1532,1531-1535,inscription,2,2,B26.247 B27.352,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/17/due-figure-nelle-nuvole-e-cupido/
 1148,1525,<=1530,inscription,0,0,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/17/il-figliol-prodigo-ed-il-maiale/
-257,,,aucune,4,4,B26.104 B26.23 B26.247 B27.420,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/15/la-contesa-musicale-di-apollo-e-pan/
+257,1529,<=1530,catalogue intervalle,4,4,B26.104 B26.23 B26.247 B27.420,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/15/la-contesa-musicale-di-apollo-e-pan/
 379,1537,1536-1542,inscription,0,0,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/giuseppe-che-fugge-dalla-moglie-di-putifarre/
 1245,1538,1536-1542,inscription,2,2,B27.420 B28.53,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/apollo-e-dafne-2/
 278,1531,1531-1535,inscription,2,2,B26.247 B27.420,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/prova/

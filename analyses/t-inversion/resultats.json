@@ -56,24 +56,24 @@
  },
  "par_periode": {
   "<=1530": {
-   "n_references": 94,
-   "n_inversees": 7,
-   "part": 0.074
+   "n_references": 105,
+   "n_inversees": 8,
+   "part": 0.076
   },
   "1531-1535": {
-   "n_references": 325,
-   "n_inversees": 32,
-   "part": 0.098
+   "n_references": 331,
+   "n_inversees": 33,
+   "part": 0.1
   },
   "1536-1542": {
-   "n_references": 126,
-   "n_inversees": 19,
-   "part": 0.151
+   "n_references": 128,
+   "n_inversees": 20,
+   "part": 0.156
   },
   "sans période": {
-   "n_references": 31,
-   "n_inversees": 5,
-   "part": 0.161
+   "n_references": 12,
+   "n_inversees": 2,
+   "part": 0.167
   }
  },
  "par_periode_dates_inscrites": {
@@ -96,18 +96,18 @@
  "test_tendance_<=1530_vs_1536-1542": {
   "groupe_1": "<=1530",
   "groupe_2": "1536-1542",
-  "difference_g2_moins_g1": 0.0763,
-  "p_permutation_bilateral": 0.1359,
+  "difference_g2_moins_g1": 0.0801,
+  "p_permutation_bilateral": 0.1016,
   "n_permutations": 10000,
-  "n_pieces": 123
+  "n_pieces": 130
  },
  "test_1531-1535_vs_1536-1542": {
   "groupe_1": "1531-1535",
   "groupe_2": "1536-1542",
-  "difference_g2_moins_g1": 0.0523,
-  "p_permutation_bilateral": 0.1362,
+  "difference_g2_moins_g1": 0.0566,
+  "p_permutation_bilateral": 0.1029,
   "n_permutations": 10000,
-  "n_pieces": 209
+  "n_pieces": 212
  },
  "par_estampe": [
   {

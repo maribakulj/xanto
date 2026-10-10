@@ -124,5 +124,26 @@
    }
   },
   "moyenne_cm": 10.84
+ },
+ "G": {
+  "image": "G",
+  "fiche_rovigo": "estampe B. 420",
+  "lieu": "Met 59.570.277 (feuille rognée 23 x 36.2 cm)",
+  "annee": "vers 1520-1527",
+  "diametre_cm": "36.2",
+  "qualite_image": "haute (la photo ne montre pas le bord du papier)",
+  "mesures": {
+   "camille_annotateur1": {
+    "hauteur_cm": 10.0,
+    "diametre_px": 3971.0,
+    "ratio_vertical": 0.644
+   },
+   "camille_annotateur2": {
+    "hauteur_cm": 10.03,
+    "diametre_px": 3971.0,
+    "ratio_vertical": 0.644
+   }
+  },
+  "moyenne_cm": 10.02
  }
 }

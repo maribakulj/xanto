@@ -3,17 +3,16 @@
  "par_source": {
   "inscription": 244,
   "catalogue ca.": 25,
-  "catalogue intervalle": 62,
-  "catalogue": 28,
+  "catalogue intervalle": 67,
+  "catalogue": 36,
   "catalogue (désaccord avec l'inscription 1539)": 1,
-  "catalogue (désaccord avec l'inscription 1531)": 1,
-  "aucune": 13
+  "catalogue (désaccord avec l'inscription 1531)": 1
  },
  "par_periode": {
-  "<=1530": 93,
-  "None": 20,
-  "1531-1535": 161,
-  "1536-1542": 100
+  "<=1530": 101,
+  "None": 8,
+  "1531-1535": 164,
+  "1536-1542": 101
  },
  "par_annee": [
   {
@@ -32,9 +31,9 @@
   },
   {
    "annee": 1525,
-   "toutes": 11,
+   "toutes": 12,
    "inscrites": 8,
-   "catalogue_annee": 3,
+   "catalogue_annee": 4,
    "milieu_intervalle": 0
   },
   {
@@ -53,24 +52,24 @@
   },
   {
    "annee": 1528,
-   "toutes": 28,
+   "toutes": 30,
    "inscrites": 5,
    "catalogue_annee": 3,
-   "milieu_intervalle": 20
+   "milieu_intervalle": 22
   },
   {
    "annee": 1529,
-   "toutes": 22,
+   "toutes": 25,
    "inscrites": 1,
-   "catalogue_annee": 2,
-   "milieu_intervalle": 19
+   "catalogue_annee": 3,
+   "milieu_intervalle": 21
   },
   {
    "annee": 1530,
-   "toutes": 22,
+   "toutes": 25,
    "inscrites": 4,
-   "catalogue_annee": 8,
-   "milieu_intervalle": 10
+   "catalogue_annee": 10,
+   "milieu_intervalle": 11
   },
   {
    "annee": 1531,
@@ -81,9 +80,9 @@
   },
   {
    "annee": 1532,
-   "toutes": 54,
+   "toutes": 56,
    "inscrites": 49,
-   "catalogue_annee": 3,
+   "catalogue_annee": 5,
    "milieu_intervalle": 2
   },
   {
@@ -102,9 +101,9 @@
   },
   {
    "annee": 1535,
-   "toutes": 26,
+   "toutes": 27,
    "inscrites": 19,
-   "catalogue_annee": 7,
+   "catalogue_annee": 8,
    "milieu_intervalle": 0
   },
   {
@@ -137,9 +136,9 @@
   },
   {
    "annee": 1540,
-   "toutes": 13,
+   "toutes": 14,
    "inscrites": 12,
-   "catalogue_annee": 0,
+   "catalogue_annee": 1,
    "milieu_intervalle": 1
   },
   {
@@ -175,25 +174,12 @@
   1320,
   116
  ],
- "sans_date": [
-  123,
-  126,
-  129,
-  136,
-  145,
-  153,
-  184,
-  205,
-  209,
-  213,
-  237,
-  244,
-  257
- ],
+ "sans_date": [],
  "a_cheval_sur_deux_periodes": [
   952,
   960,
   964,
+  145,
   659,
   608,
   1000,

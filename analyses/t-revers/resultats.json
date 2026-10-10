@@ -400,7 +400,7 @@
    "nota": 0,
    "sporcitia": 0,
    "plusieurs": 0,
-   "aucun": 11
+   "aucun": 12
   },
   {
    "annee": 1526,
@@ -427,25 +427,25 @@
    "nota": 4,
    "sporcitia": 1,
    "plusieurs": 0,
-   "aucun": 18
+   "aucun": 20
   },
   {
    "annee": 1529,
    "historia": 3,
-   "fabula": 6,
+   "fabula": 7,
    "nota": 3,
    "sporcitia": 0,
    "plusieurs": 1,
-   "aucun": 9
+   "aucun": 11
   },
   {
    "annee": 1530,
-   "historia": 2,
+   "historia": 3,
    "fabula": 8,
-   "nota": 0,
+   "nota": 1,
    "sporcitia": 0,
    "plusieurs": 1,
-   "aucun": 11
+   "aucun": 12
   },
   {
    "annee": 1531,
@@ -463,7 +463,7 @@
    "nota": 0,
    "sporcitia": 0,
    "plusieurs": 0,
-   "aucun": 54
+   "aucun": 56
   },
   {
    "annee": 1533,
@@ -490,7 +490,7 @@
    "nota": 0,
    "sporcitia": 0,
    "plusieurs": 0,
-   "aucun": 26
+   "aucun": 27
   },
   {
    "annee": 1536,
@@ -535,7 +535,7 @@
    "nota": 0,
    "sporcitia": 0,
    "plusieurs": 0,
-   "aucun": 13
+   "aucun": 14
   },
   {
    "annee": 1541,
@@ -554,15 +554,6 @@
    "sporcitia": 0,
    "plusieurs": 0,
    "aucun": 6
-  },
-  {
-   "annee": null,
-   "historia": 1,
-   "fabula": 1,
-   "nota": 1,
-   "sporcitia": 0,
-   "plusieurs": 0,
-   "aucun": 10
   }
  ],
  "pieces_aux_modi": {

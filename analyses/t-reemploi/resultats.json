@@ -36,14 +36,14 @@
     },
     {
      "id": 184,
-     "annee": null,
-     "source_date": "aucune",
+     "annee": 1530,
+     "source_date": "catalogue",
      "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/09/la-nascita-di-venere/"
     },
     {
      "id": 209,
-     "annee": null,
-     "source_date": "aucune",
+     "annee": 1529,
+     "source_date": "catalogue intervalle",
      "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/02/scilla-e-galatea/"
     },
     {
@@ -66,8 +66,8 @@
     },
     {
      "id": 257,
-     "annee": null,
-     "source_date": "aucune",
+     "annee": 1529,
+     "source_date": "catalogue intervalle",
      "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/15/la-contesa-musicale-di-apollo-e-pan/"
     },
     {
@@ -509,8 +509,8 @@
     },
     {
      "id": 209,
-     "annee": null,
-     "source_date": "aucune",
+     "annee": 1529,
+     "source_date": "catalogue intervalle",
      "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/02/scilla-e-galatea/"
     },
     {
@@ -911,7 +911,7 @@
    "graveur": "Marcantonio",
    "type": "religieux",
    "n_pieces": 52,
-   "premiere_annee": 1528,
+   "premiere_annee": 1525,
    "derniere_annee": 1542,
    "pieces": [
     {
@@ -934,8 +934,8 @@
     },
     {
      "id": 126,
-     "annee": null,
-     "source_date": "aucune",
+     "annee": 1525,
+     "source_date": "catalogue",
      "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/26/piastra-con-achille-ed-ettore/"
     },
     {
@@ -952,14 +952,14 @@
     },
     {
      "id": 244,
-     "annee": null,
-     "source_date": "aucune",
+     "annee": 1540,
+     "source_date": "catalogue",
      "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/19/il-sogno-profetico-della-donna-di-imera/"
     },
     {
      "id": 257,
-     "annee": null,
-     "source_date": "aucune",
+     "annee": 1529,
+     "source_date": "catalogue intervalle",
      "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/15/la-contesa-musicale-di-apollo-e-pan/"
     },
     {
@@ -1251,8 +1251,8 @@
     },
     {
      "id": 136,
-     "annee": null,
-     "source_date": "aucune",
+     "annee": 1532,
+     "source_date": "catalogue",
      "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/23/piatto-con-calano/"
     },
     {
@@ -1419,7 +1419,7 @@
    "graveur": "Marco Dente",
    "type": "bataille",
    "n_pieces": 29,
-   "premiere_annee": 1528,
+   "premiere_annee": 1525,
    "derniere_annee": 1542,
    "pieces": [
     {
@@ -1430,8 +1430,8 @@
     },
     {
      "id": 126,
-     "annee": null,
-     "source_date": "aucune",
+     "annee": 1525,
+     "source_date": "catalogue",
      "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/26/piastra-con-achille-ed-ettore/"
     },
     {
@@ -1442,8 +1442,8 @@
     },
     {
      "id": 257,
-     "annee": null,
-     "source_date": "aucune",
+     "annee": 1529,
+     "source_date": "catalogue intervalle",
      "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/15/la-contesa-musicale-di-apollo-e-pan/"
     },
     {
@@ -1615,8 +1615,8 @@
     },
     {
      "id": 136,
-     "annee": null,
-     "source_date": "aucune",
+     "annee": 1532,
+     "source_date": "catalogue",
      "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/23/piatto-con-calano/"
     },
     {
@@ -2122,8 +2122,8 @@
     },
     {
      "id": 237,
-     "annee": null,
-     "source_date": "aucune",
+     "annee": 1535,
+     "source_date": "catalogue",
      "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/23/ero-e-leandro-2/"
     },
     {
@@ -2372,8 +2372,8 @@
     },
     {
      "id": 237,
-     "annee": null,
-     "source_date": "aucune",
+     "annee": 1535,
+     "source_date": "catalogue",
      "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/23/ero-e-leandro-2/"
     },
     {
@@ -2586,8 +2586,8 @@
     },
     {
      "id": 136,
-     "annee": null,
-     "source_date": "aucune",
+     "annee": 1532,
+     "source_date": "catalogue",
      "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/23/piatto-con-calano/"
     },
     {
@@ -2675,8 +2675,8 @@
     },
     {
      "id": 244,
-     "annee": null,
-     "source_date": "aucune",
+     "annee": 1540,
+     "source_date": "catalogue",
      "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/19/il-sogno-profetico-della-donna-di-imera/"
     },
     {
@@ -2924,8 +2924,8 @@
     },
     {
      "id": 257,
-     "annee": null,
-     "source_date": "aucune",
+     "annee": 1529,
+     "source_date": "catalogue intervalle",
      "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/15/la-contesa-musicale-di-apollo-e-pan/"
     },
     {
@@ -2983,8 +2983,8 @@
    "pieces": [
     {
      "id": 153,
-     "annee": null,
-     "source_date": "aucune",
+     "annee": 1528,
+     "source_date": "catalogue intervalle",
      "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/18/coppa-con-la-conversione-di-saulo/"
     },
     {
@@ -3693,12 +3693,12 @@
    "type": "religieux",
    "n_pieces": 3,
    "premiere_annee": 1529,
-   "derniere_annee": 1529,
+   "derniere_annee": 1535,
    "pieces": [
     {
      "id": 237,
-     "annee": null,
-     "source_date": "aucune",
+     "annee": 1535,
+     "source_date": "catalogue",
      "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/23/ero-e-leandro-2/"
     },
     {
@@ -3898,13 +3898,13 @@
    "graveur": "Agostino Veneziano",
    "type": "historique",
    "n_pieces": 1,
-   "premiere_annee": null,
-   "derniere_annee": null,
+   "premiere_annee": 1528,
+   "derniere_annee": 1528,
    "pieces": [
     {
      "id": 213,
-     "annee": null,
-     "source_date": "aucune",
+     "annee": 1528,
+     "source_date": "catalogue intervalle",
      "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/01/piatto-con-cleopatra/"
     }
    ]
@@ -4054,6 +4054,10 @@
    ],
    "pieces": [
     {
+     "id": 209,
+     "annee": 1529
+    },
+    {
      "id": 672,
      "annee": 1529
     },
@@ -4080,10 +4084,6 @@
     {
      "id": 792,
      "annee": 1538
-    },
-    {
-     "id": 209,
-     "annee": null
     }
    ]
   },
@@ -4093,6 +4093,10 @@
     "B27.420"
    ],
    "pieces": [
+    {
+     "id": 126,
+     "annee": 1525
+    },
     {
      "id": 522,
      "annee": 1529
@@ -4104,10 +4108,6 @@
     {
      "id": 851,
      "annee": 1542
-    },
-    {
-     "id": 126,
-     "annee": null
     }
    ]
   },
@@ -4335,12 +4335,12 @@
    ],
    "pieces": [
     {
-     "id": 680,
-     "annee": 1531
+     "id": 257,
+     "annee": 1529
     },
     {
-     "id": 257,
-     "annee": null
+     "id": 680,
+     "annee": 1531
     }
    ]
   },
@@ -4484,13 +4484,13 @@
    },
    {
     "annee": 1525,
-    "pieces": 11,
-    "pieces_avec_ref": 4,
-    "references": 5,
-    "estampes_distinctes": 4,
-    "estampes_nouvelles": 3,
-    "part_nouvelles": 0.75,
-    "liste_nouvelles": "B16.91 B26.211 B27.340"
+    "pieces": 12,
+    "pieces_avec_ref": 5,
+    "references": 7,
+    "estampes_distinctes": 6,
+    "estampes_nouvelles": 5,
+    "part_nouvelles": 0.833,
+    "liste_nouvelles": "B16.91 B26.104 B26.211 B27.340 B27.420"
    },
    {
     "annee": 1526,
@@ -4514,19 +4514,19 @@
    },
    {
     "annee": 1528,
-    "pieces": 28,
-    "pieces_avec_ref": 15,
-    "references": 25,
-    "estampes_distinctes": 13,
-    "estampes_nouvelles": 9,
-    "part_nouvelles": 0.692,
-    "liste_nouvelles": "B26.104 B26.209 B26.21 B26.217 B26.242 B26.243 B26.247 B27.420 B28.53"
+    "pieces": 30,
+    "pieces_avec_ref": 17,
+    "references": 27,
+    "estampes_distinctes": 14,
+    "estampes_nouvelles": 8,
+    "part_nouvelles": 0.571,
+    "liste_nouvelles": "B26.209 B26.21 B26.217 B26.242 B26.243 B26.247 B27.193 B28.53"
    },
    {
     "annee": 1529,
-    "pieces": 22,
-    "pieces_avec_ref": 16,
-    "references": 31,
+    "pieces": 25,
+    "pieces_avec_ref": 18,
+    "references": 37,
     "estampes_distinctes": 17,
     "estampes_nouvelles": 8,
     "part_nouvelles": 0.471,
@@ -4534,9 +4534,9 @@
    },
    {
     "annee": 1530,
-    "pieces": 22,
-    "pieces_avec_ref": 19,
-    "references": 37,
+    "pieces": 25,
+    "pieces_avec_ref": 20,
+    "references": 38,
     "estampes_distinctes": 18,
     "estampes_nouvelles": 4,
     "part_nouvelles": 0.222,
@@ -4554,9 +4554,9 @@
    },
    {
     "annee": 1532,
-    "pieces": 54,
-    "pieces_avec_ref": 48,
-    "references": 119,
+    "pieces": 56,
+    "pieces_avec_ref": 49,
+    "references": 122,
     "estampes_distinctes": 29,
     "estampes_nouvelles": 9,
     "part_nouvelles": 0.31,
@@ -4584,12 +4584,12 @@
    },
    {
     "annee": 1535,
-    "pieces": 26,
-    "pieces_avec_ref": 21,
-    "references": 39,
-    "estampes_distinctes": 18,
+    "pieces": 27,
+    "pieces_avec_ref": 22,
+    "references": 42,
+    "estampes_distinctes": 20,
     "estampes_nouvelles": 2,
-    "part_nouvelles": 0.111,
+    "part_nouvelles": 0.1,
     "liste_nouvelles": "B27.384 B27.386"
    },
    {
@@ -4634,10 +4634,10 @@
    },
    {
     "annee": 1540,
-    "pieces": 13,
-    "pieces_avec_ref": 7,
-    "references": 15,
-    "estampes_distinctes": 11,
+    "pieces": 14,
+    "pieces_avec_ref": 8,
+    "references": 17,
+    "estampes_distinctes": 12,
     "estampes_nouvelles": 0,
     "part_nouvelles": 0.0,
     "liste_nouvelles": ""
@@ -4665,102 +4665,102 @@
   ],
   "par_periode": {
    "<=1530": {
-    "references": 105,
-    "estampes_distinctes": 29,
-    "distinctes_par_reference": 0.276,
-    "part_top5": 0.438,
-    "herfindahl": 0.0601,
+    "references": 116,
+    "estampes_distinctes": 30,
+    "distinctes_par_reference": 0.259,
+    "part_top5": 0.457,
+    "herfindahl": 0.0623,
     "top5": [
      "B26.104",
+     "B26.247",
      "B26.217",
      "B26.245",
-     "B27.352",
-     "B26.247"
+     "B28.53"
     ],
-    "pieces": 97,
-    "pieces_avec_ref": 59,
-    "part_pieces_avec_ref": 0.608,
+    "pieces": 106,
+    "pieces_avec_ref": 65,
+    "part_pieces_avec_ref": 0.613,
     "refs_par_piece_avec_ref": 1.78,
-    "estampes_nouvelles": 29,
+    "estampes_nouvelles": 30,
     "part_estampes_nouvelles": 1.0,
-    "pieces_a_2_estampes_ou_plus": 32,
-    "combinaisons_deja_vues": 2
+    "pieces_a_2_estampes_ou_plus": 35,
+    "combinaisons_deja_vues": 4
    },
    "1531-1535": {
-    "references": 326,
-    "estampes_distinctes": 39,
+    "references": 332,
+    "estampes_distinctes": 40,
     "distinctes_par_reference": 0.12,
-    "part_top5": 0.491,
-    "herfindahl": 0.0725,
+    "part_top5": 0.488,
+    "herfindahl": 0.071,
     "top5": [
      "B26.247",
      "B28.53",
      "B26.104",
      "B26.209",
-     "B28.62"
+     "B27.352"
     ],
-    "pieces": 164,
-    "pieces_avec_ref": 142,
-    "part_pieces_avec_ref": 0.866,
-    "refs_par_piece_avec_ref": 2.3,
+    "pieces": 167,
+    "pieces_avec_ref": 144,
+    "part_pieces_avec_ref": 0.862,
+    "refs_par_piece_avec_ref": 2.31,
     "estampes_nouvelles": 18,
-    "part_estampes_nouvelles": 0.462,
-    "pieces_a_2_estampes_ou_plus": 102,
-    "combinaisons_deja_vues": 19
+    "part_estampes_nouvelles": 0.45,
+    "pieces_a_2_estampes_ou_plus": 104,
+    "combinaisons_deja_vues": 20
    },
    "1536-1542": {
-    "references": 125,
+    "references": 127,
     "estampes_distinctes": 29,
-    "distinctes_par_reference": 0.232,
-    "part_top5": 0.44,
-    "herfindahl": 0.0618,
+    "distinctes_par_reference": 0.228,
+    "part_top5": 0.441,
+    "herfindahl": 0.0613,
     "top5": [
      "B26.247",
      "B28.53",
      "B28.62",
-     "B27.420",
-     "B26.104"
+     "B26.104",
+     "B27.420"
     ],
-    "pieces": 100,
-    "pieces_avec_ref": 68,
-    "part_pieces_avec_ref": 0.68,
+    "pieces": 101,
+    "pieces_avec_ref": 69,
+    "part_pieces_avec_ref": 0.683,
     "refs_par_piece_avec_ref": 1.84,
     "estampes_nouvelles": 6,
     "part_estampes_nouvelles": 0.207,
-    "pieces_a_2_estampes_ou_plus": 38,
+    "pieces_a_2_estampes_ou_plus": 39,
     "combinaisons_deja_vues": 14
    }
   },
   "controle_permutation": {
    "estampes_introduites_des_1536": {
     "observe": 6,
-    "moyenne_permutations": 4.252,
+    "moyenne_permutations": 4.331,
     "intervalle_95": [
      1,
      8
     ],
-    "p_inferieur_ou_egal": 0.8991,
-    "p_superieur_ou_egal": 0.2294
+    "p_inferieur_ou_egal": 0.8861,
+    "p_superieur_ou_egal": 0.2495
    },
    "part_refs_tardives_vers_estampes_nouvelles": {
-    "observe": 0.08,
+    "observe": 0.079,
     "moyenne_permutations": 0.031,
     "intervalle_95": [
      0.007,
-     0.065
+     0.063
     ],
-    "p_inferieur_ou_egal": 0.993,
-    "p_superieur_ou_egal": 0.0073
+    "p_inferieur_ou_egal": 0.9938,
+    "p_superieur_ou_egal": 0.0063
    },
    "part_pieces_tardives_a_combinaison_deja_vue": {
-    "observe": 0.368,
-    "moyenne_permutations": 0.301,
+    "observe": 0.359,
+    "moyenne_permutations": 0.312,
     "intervalle_95": [
-     0.2,
-     0.405
+     0.208,
+     0.418
     ],
-    "p_inferieur_ou_egal": 0.8989,
-    "p_superieur_ou_egal": 0.1025
+    "p_inferieur_ou_egal": 0.8086,
+    "p_superieur_ou_egal": 0.193
    }
   }
  },

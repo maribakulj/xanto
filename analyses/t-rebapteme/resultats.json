@@ -22,14 +22,14 @@
  "cibles_cupido": 36,
  "par_periode": {
   "<=1530": {
-   "n": 23,
+   "n": 25,
    "changees": 16,
-   "part_changees": 0.696
+   "part_changees": 0.64
   },
   "1531-1535": {
-   "n": 88,
-   "changees": 59,
-   "part_changees": 0.67
+   "n": 91,
+   "changees": 62,
+   "part_changees": 0.681
   },
   "1536-1542": {
    "n": 27,

@@ -22,6 +22,9 @@ OUT = Path(__file__).resolve().parents[1] / "data"
 ENGRAVERS = ["Marcantonio", "Marco Dente", "Agostino", "Caraglio", "Ugo da Carpi", "Pencz", "Beham",
              "Dürer", "Durer", "Bonasone", "Maestro del Dado", "Maestro IB", "Giovanni Antonio da Brescia",
              "Vico", "Robetta", "Giovanni Jacopo", "Parmigianino", "Mantegna", "Musi", "Veneziano"]
+# Ligne de datation du catalogue : « 1532 », « 1528-1530 ca. », « 1525 ca. »… (jamais l'inscription)
+DATE_LINE = re.compile(r"^(?:ca\.\s*)?1[45]\d\d(?:\s*[-–]\s*(?:1[45])?\d\d)?(?:\s*ca\.?)?$", re.I)
+HEAD_END = re.compile(r"^(Ceramica|Maiolica|Diametro|Dimensioni|Altezza|Iscrizion)", re.I)
 INVERSION = re.compile(r"invers|controparte|specular|rovesciat|capovolt|a specchio", re.I)
 
 
@@ -41,14 +44,21 @@ def main():
     for e in json.load(open(SRC)):
         t = text(e["html"])
         lines = [l.strip() for l in t.split("\n") if l.strip()]
-        date = next((l for l in lines[3:8] if re.search(r"1[45]\d\d", l)), "")
+        # En-tête de la fiche = lignes avant le matériau / les dimensions. Certaines fiches n'ont pas
+        # les deux lignes d'auteur ni le titre : on repère donc la date et la forme par leur forme,
+        # pas par leur position (l'ancienne lecture par position prenait l'inscription pour 38 fiches).
+        end = next((i for i, l in enumerate(lines) if HEAD_END.match(l)), min(len(lines), 8))
+        head = lines[:end]
+        date_i = next((i for i, l in enumerate(head) if DATE_LINE.match(l)), None)
+        date = head[date_i] if date_i is not None else ""
+        forma = next((l for l in head[date_i + 1:] if l.isupper() and not re.search(r"\d", l)), "") if date_i is not None else ""
         diam = re.search(r"Diametro\s*:?\s*([\d,\.]+)\s*cm", t, re.I)
         place_i = next((i for i, l in enumerate(lines) if l.lower().startswith("diametro") or l.lower().startswith("dimensioni") or l.lower().startswith("altezza")), None)
         place = lines[place_i + 1] if place_i is not None and place_i + 1 < len(lines) else ""
         images = re.findall(r'href="(https?://[^"]+\.(?:jpe?g|png))"', e["html"], re.I)
         title = html.unescape(e["title"])
         rows.append({"id": e["id"], "titolo": title, "data": date,
-                     "forma": next((l for l in lines[3:9] if l.isupper() and not re.search(r"\d", l) and l != title.upper()), ""),
+                     "forma": forma,
                      "diametro_cm": diam.group(1).replace(",", ".") if diam else "",
                      "luogo": place, "iscrizione": field(t, "Iscrizion[ei]")[:400],
                      "n_bartsch": 0, "inversione_citata": int(bool(INVERSION.search(t))),

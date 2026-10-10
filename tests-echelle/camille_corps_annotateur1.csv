@@ -1,0 +1,6 @@
+image,N_x,N_y,C_x,C_y,K_x,K_y,P_x,P_y,incertitude_px,commentaire
+A,540,1705,505,1788,577,2198,455,2495,12,"barbu : C = point le plus bas de la barbe ; pied bas = pied gauche (côté spectateur), orteils écartés vers le bas-gauche, P = orteil médian"
+B,386,1166,378,1230,513,1604,475,1868,12,"barbu : C = bas de la barbe ; image tramée floue au fort zoom ; orteils vers le bas-gauche"
+C,296,906,287,954,323,1258,238,1448,10,"barbu : C = bas de la barbe ; visage petit et peu lisible (incertitude N ~10 px)"
+F,426,599,420,648,483,780,461,903,8,"barbu : C = bas de la barbe, se confond avec le drapé blanc-bleu ; figure petite (~400 px)"
+G,360,1368,377,1420,568,1940,523,2287,10,"imberbe, bouche ouverte, tête renversée vers la droite ; seule une jambe bien visible (l'autre derrière, plus haute) ; pied en partie noyé dans les hachures du sol, P = pointe claire"

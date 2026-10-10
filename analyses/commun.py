@@ -21,6 +21,11 @@ JSON_FICHES = PRIVE / "Rovigo_Xanto_catalogo_374_schede.json"
 PIECES = DEPOT / "data" / "pieces.csv"
 
 PERIODES = [("<=1530", 1400, 1530), ("1531-1535", 1531, 1535), ("1536-1542", 1536, 1545)]
+DEBUT_URBINO = 1528  # première date sûre de Xanto à Urbino ; avant : groupe de Gubbio d'attribution débattue
+
+# Filtre facultatif pour les analyses de sensibilité (t_sensibilite.py) : fonction fiche -> bool
+# (True = on garde). None = toutes les fiches.
+FILTRE = None
 
 # --------------------------------------------------------------------------- texte
 
@@ -64,7 +69,16 @@ def annee_inscrite(ins):
     note = "plusieurs années" if len(ans) > 1 else ""
     if re.search(r"M[°o]\s*G|Giorgio|Ugubio|Gubbio", ins):
         note = (note + "; date de lustre (Gubbio)").strip("; ")
+    if dans_la_scene(ins):
+        note = (note + "; date peinte dans la scène (droit seul)").strip("; ")
     return ans[-1] if len(ans) == 1 else ans[0], note
+
+
+def dans_la_scene(ins):
+    """Date lue seulement sur le droit (tablette, cartouche peints dans la scène), sans inscription au
+    revers. Ce peut être une date figurée et non la date d'exécution (pièce 194 : « OMNIA VINCIT AMOR 1522 »)."""
+    return bool(re.search(r"Sul verso|Sul davanti|in primo piano|tavol[ae]|tavolett|targhett|cartigli", ins, re.I)
+                and not re.search(r"\bretro\b|sotto il piede|nel piede", ins, re.I))
 
 
 def date_piece(champ_data, ins):
@@ -74,6 +88,13 @@ def date_piece(champ_data, ins):
     d = champ_data if len(champ_data) < 40 else ""
     ca = bool(re.search(r"\bca\b|circa", d))
     ys = [int(x) for x in re.findall(r"(?<!\d)(1[45]\d\d)(?!\d)", d)]
+    if a and "dans la scène" in note and a < DEBUT_URBINO:
+        # date figurée sur le droit, antérieure à 1528 : ne compte pas comme date inscrite d'exécution
+        if len(ys) >= 1:
+            lo, hi = min(ys), max(ys)
+            return _fin(round((lo + hi) / 2), lo, hi, "catalogue (date peinte dans la scène, %d, non retenue)" % a,
+                        False, note)
+        return _fin(a, a, a, "date peinte dans la scène (à vérifier)", False, note)
     if a and "plusieurs" not in note:
         if len(ys) == 1 and ys[0] != a:  # désaccord : on garde l'année du catalogue, signalée
             return _fin(ys[0], ys[0], ys[0], "catalogue (désaccord avec l'inscription %d)" % a, False, note)
@@ -218,6 +239,9 @@ def charger(avec_modi=False):
              "forma": p.get("forma", ""), "diametro_cm": p.get("diametro_cm", ""),
              "data_catalogue": p.get("data", ""), "_ins": ins, "_comm": comm}
         f.update(date_piece(p.get("data", ""), ins))
+        f.update(attribution(f))
+        if FILTRE is not None and not FILTRE(f):
+            continue
         fiches.append(f)
         for a, b in _clauses(comm):
             seg = comm[a:b]
@@ -245,6 +269,22 @@ def charger(avec_modi=False):
         c["titre_estampe"] = info[0] if info else ""
         c["type_estampe"] = info[2] if info else "inconnu"
     return fiches, citations, votes
+
+
+Y_SLASH = re.compile(r"\by\s*/\s*[Øø0φΦ]|\by\b\s*[”\"]")
+
+
+def attribution(f):
+    """Indicateurs d'attribution débattue (Mallet donne au jeune Xanto le groupe de Gubbio de 1522-1527,
+    Wilson le lui refuse ; les initiales F.R. et la marque y/Ø sont discutées de même)."""
+    ins = f["_ins"]
+    cite = " ".join(re.findall(r"[“\"]([^”\"]*)[”\"]?", ins)) or ins
+    avant = f["annee"] is not None and f["annee"] < DEBUT_URBINO
+    fr = bool(re.search(r"F\.\s?R\.", ins))
+    ys = bool(Y_SLASH.search(cite))
+    return {"avant_1528": avant, "initiales_FR": fr, "marque_y_slash": ys,
+            "attribution_debattue": avant or fr,
+            "attribution_debattue_large": avant or fr or ys}
 
 
 def graveur_dans(s):
