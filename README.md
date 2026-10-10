@@ -36,7 +36,7 @@ Résultat de la v0.2, à lire avec ses limites : la localisation est plausible s
 
 ## Questions ouvertes
 
-La formalisation personnelle du porteur du projet (la Pathosformel comme invariant sous l'action d'un groupe) est revendiquée, mais son contenu n'est pas reproduit ici. Aucun texte de ce dépôt ne la remplace. Les textes intégraux de Talvacchia 1994, d'Ekserdjian 2007, de Turner 2004 et du catalogue Mallet 2007 n'ont pas été lus.
+Le projet part désormais de la littérature sur Xanto et les estampes : technique de report (Wilson 1990, Hess 1999 et 2002, Mallet 2007), sens des emprunts (Talvacchia 1994, Castelletti 2020), attribution (Mallet, Wilson). Les documents de `docs/` qui partaient d'une autre entrée (formules expressives, invariants) sont conservés comme étapes antérieures. Textes encore non lus : Ekserdjian 2007, la thèse de Triolo (1996), Petruzzellis Scherer 1980, Collins 1987, Jestaz 1972, Turner 2004.
 
 ## Données et premiers tests (10/10/2026)
 
