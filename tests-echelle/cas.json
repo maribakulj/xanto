@@ -1,0 +1,141 @@
+{
+ "cas": [
+  {
+   "id": "apollon-parnasse",
+   "titre": "Apollon du Parnasse (Marcantonio Raimondi, Bartsch XIV 247)",
+   "resume": "Xanto reprend l'Apollon assis de la gravure du Parnasse sur au moins cinq plats. Il est mesuré ici sur la gravure et sur trois plats de diamètres différents (26,0 à 29,8 cm).",
+   "conclusion": "Sur les deux plats d'Apollon et Pan, la figure mesure la même hauteur que sur la gravure, à 1 % près, alors que les plats diffèrent de 3,1 cm de diamètre. Pour ce motif, cela va dans le sens d'un report à taille fixe (calque ou poncif : Wilson 1990, Hess 1999) plutôt que d'une copie adaptée à chaque plat (Mallet 2007). Sur le Jugement de Pâris, la tête est redessinée : la mesure tête-pied n'est plus comparable.",
+   "limites": "Un seul motif ; repères relevés à la main par un seul annotateur qui connaissait l'hypothèse ; images de deux plats en basse définition (marge ± 2,5 %) ; perspective et courbure non corrigées.",
+   "temoins": [
+    {
+     "type": "estampe",
+     "objet": "Marcantonio Raimondi, Parnasse, 2e état (Met 17.37.150)",
+     "fiche_rovigo": "",
+     "image": "test-echelle/images/parnasse-high.jpg",
+     "crop": [
+      1550,
+      1050,
+      2150,
+      1850
+     ],
+     "reference_cm": 46.9,
+     "cm_par_px": 0.013469270534175761,
+     "reperes": {
+      "tete": [
+       1850.0,
+       1127.0
+      ],
+      "genou_tendu": [
+       1775.0,
+       1612.0
+      ],
+      "pied_tendu": [
+       1618.0,
+       1822.0
+      ]
+     },
+     "hauteur_cm": 9.87,
+     "comparable": true,
+     "note": "largeur de la feuille selon le Met ; hauteur 35,6 cm donne 0,01334 cm/px (écart 1 %)"
+    },
+    {
+     "type": "plat",
+     "objet": "Xanto, Apollon et Pan, 1531 (Fitzwilliam C.88-1961)",
+     "fiche_rovigo": "680",
+     "image": "test-echelle/images/apollo-pan.jpg",
+     "crop": [
+      200,
+      230,
+      390,
+      460
+     ],
+     "reference_cm": 26.7,
+     "cm_par_px": 0.05066413662239089,
+     "reperes": {
+      "tete": [
+       292.0,
+       252.0
+      ],
+      "genou_tendu": [
+       257.0,
+       386.0
+      ],
+      "pied_tendu": [
+       232.0,
+       438.0
+      ]
+     },
+     "hauteur_cm": 9.9,
+     "comparable": true,
+     "note": "image basse définition : ±3 px sur chaque repère",
+     "prediction_proportionnelle_cm": 9.9,
+     "rapport_a_l_estampe": 1.003
+    },
+    {
+     "type": "plat",
+     "objet": "Xanto, Apollon et Pan (LACMA)",
+     "fiche_rovigo": "257",
+     "image": "test-echelle/images/65.-01.jpg",
+     "crop": [
+      255,
+      205,
+      425,
+      415
+     ],
+     "reference_cm": 29.8,
+     "cm_par_px": 0.05687022900763359,
+     "reperes": {
+      "tete": [
+       305.0,
+       223.0
+      ],
+      "genou_tendu": [
+       295.0,
+       344.0
+      ],
+      "pied_tendu": [
+       272.0,
+       392.0
+      ]
+     },
+     "hauteur_cm": 9.79,
+     "comparable": true,
+     "note": "image basse définition ; diamètre selon la fiche de Rovigo",
+     "prediction_proportionnelle_cm": 11.05,
+     "rapport_a_l_estampe": 0.992
+    },
+    {
+     "type": "plat",
+     "objet": "Xanto, Jugement de Pâris, 1531 (Fitzwilliam C.86-1961)",
+     "fiche_rovigo": "438",
+     "image": "test-echelle/images/paris-front-high.jpg",
+     "crop": [
+      2400,
+      1950,
+      3800,
+      3700
+     ],
+     "reference_cm": 26.0,
+     "cm_par_px": 0.006887417218543046,
+     "reperes": {
+      "tete": [
+       3214.0,
+       2104.0
+      ],
+      "genou_tendu": [
+       3002.0,
+       3169.0
+      ],
+      "pied_tendu": [
+       2735.0,
+       3548.0
+      ]
+     },
+     "hauteur_cm": 10.48,
+     "comparable": false,
+     "note": "tête relevée et tournée de profil : segment tête-pied non comparable tel quel"
+    }
+   ]
+  }
+ ]
+}

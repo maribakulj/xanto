@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Xanto et les estampes</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="titre">
+    <h1>Xanto et les estampes</h1>
+    <p>Comment un peintre de majolique d'Urbino (vers 1528-1542) réemployait les figures des gravures, et ce que le calcul peut dire des débats des historiens.</p>
+  </div>
+  <nav id="nav">
+    <button data-vue="accueil" class="actif">Accueil</button>
+    <button data-vue="litterature">Les débats</button>
+    <button data-vue="corpus">Le corpus</button>
+    <button data-vue="echelle">Test d'échelle</button>
+    <button data-vue="tests">Autres tests</button>
+    <button data-vue="limites">Limites</button>
+  </nav>
+</header>
+<main>
+  <section id="accueil" class="vue actif">
+    <div class="intro">
+      <h2>De quoi s'agit-il ?</h2>
+      <p>Francesco Xanto Avelli peignait des scènes sur des plats en majolique. Pour ses personnages, il prélevait des figures dans les gravures de l'entourage de Raphaël (Marcantonio Raimondi, Marco Dente, Caraglio…), puis les recombinait. Tout le monde l'admet. Les historiens divergent sur <em>comment</em> il reportait ces figures, sur ce que vaut cette méthode, et sur le sens de certains emprunts.</p>
+      <p>Cette démo met côte à côte ce que les historiens ont écrit, les données (374 pièces, 576 références d'estampes, d'après le catalogue <em>Xanto nel mondo</em> de Rovigo) et des mesures qui peuvent départager certaines thèses.</p>
+      <div id="chiffres" class="chiffres"></div>
+      <h3>Comment lire les étiquettes</h3>
+      <ul class="legende">
+        <li><span class="badge lu">lu</span> thèse lue dans le texte de l'auteur</li>
+        <li><span class="badge indirect">indirect</span> connue par un résumé ou un autre auteur</li>
+        <li><span class="badge inference">inférence</span> raisonnement propre à ce travail</li>
+        <li><span class="badge publie">désaccord publié</span> les auteurs se contredisent explicitement</li>
+        <li><span class="badge implicite">désaccord implicite</span> les positions s'opposent sans se répondre</li>
+      </ul>
+    </div>
+  </section>
+  <section id="litterature" class="vue">
+    <h2>Les débats des historiens</h2>
+    <p class="aide">Chaque carte est une question discutée dans la littérature. Cliquez pour voir les positions, les citations et ce que le calcul peut (ou ne peut pas) en dire.</p>
+    <div id="questions" class="grille"></div>
+  </section>
+  <section id="corpus" class="vue">
+    <h2>Le corpus</h2>
+    <div class="deux">
+      <div><h3>Pièces par année</h3><div id="frise"></div><p class="aide">Année tirée de la fiche (inscription datée ou datation proposée). Les pièces sans date n'apparaissent pas.</p></div>
+      <div><h3>Estampes les plus réemployées</h3><div id="classement"></div><p class="aide">Cliquez sur une estampe pour voir les pièces qui la citent, dans le temps.</p></div>
+    </div>
+    <div id="detail-estampe" class="encart"></div>
+    <h3>Les pièces</h3>
+    <input id="filtre" placeholder="Filtrer : titre, lieu, année, numéro de Bartsch…">
+    <div id="table-pieces"></div>
+  </section>
+  <section id="echelle" class="vue">
+    <h2>Test d'échelle : la figure garde-t-elle la taille de la gravure ?</h2>
+    <p class="aide">Si Xanto reportait la figure par calque ou poncif, elle garde la même taille réelle sur tous les plats, quel que soit leur diamètre (Wilson 1990, Hess 1999). S'il la recopiait en l'adaptant (Mallet 2007), elle grandit avec le plat. Les images ci-dessous sont affichées <strong>à la même échelle réelle</strong> (graduation en centimètres) : une figure reportée telle quelle apparaît de la même taille partout.</p>
+    <div id="cas-echelle"></div>
+  </section>
+  <section id="tests" class="vue">
+    <h2>Autres tests sur le corpus</h2>
+    <p class="aide">Tests descriptifs tirés des fiches. Chaque résultat indique la thèse visée et ses limites ; les comptages par mots-clés restent à vérifier sur les fiches.</p>
+    <div id="resultats"></div>
+  </section>
+  <section id="limites" class="vue">
+    <h2>Limites et sources</h2>
+    <ul class="limites">
+      <li>Les données viennent du catalogue <em>Xanto nel mondo</em> (Fondazione Banca del Monte di Rovigo), extraites automatiquement : chaque ligne doit être vérifiée sur sa fiche.</li>
+      <li>Les repères des tests d'échelle ont été relevés à la main sur des photographies de musée ; perspective et courbure des plats ne sont pas corrigées.</li>
+      <li>Un accord entre mesures ne dit rien du sens ni de l'intention : la géométrie peut départager des thèses sur la <em>technique</em>, pas sur la <em>réception</em>.</li>
+      <li>Les images ne sont pas publiées avec le dépôt (droits des musées et du site de Rovigo) ; elles sont copiées localement par <code>build_data.py</code>.</li>
+      <li>Les textes non lus (Ekserdjian 2007, Triolo 1996, Petruzzellis Scherer 1980, Collins 1987, Jestaz 1972, Turner 2004) ne sont jamais cités comme établis.</li>
+    </ul>
+    <div id="auteurs"></div>
+  </section>
+</main>
+<div id="modale" class="modale" hidden><div class="boite"><button id="fermer">×</button><div id="contenu-modale"></div></div></div>
+<script src="data/bundle.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

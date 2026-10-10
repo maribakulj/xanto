@@ -4,7 +4,7 @@
 
 **Principe.** On prend une même figure, l'Apollon du *Parnasse* de Marcantonio Raimondi (Bartsch XIV 247), reprise sur des plats de diamètres différents. Si Xanto la reporte à taille fixe, sa hauteur réelle en centimètres reste la même quel que soit le plat. S'il l'adapte au plat, elle grandit avec le diamètre.
 
-**Mesure.** Chaque image est mise à l'échelle par une longueur connue : la largeur de la feuille gravée (46,9 cm selon le Met) ou le diamètre du plat donné par le musée ou par la fiche de Rovigo, mesuré sur le bord extérieur. Sur chaque figure, trois repères sont relevés à la main : le sommet des cheveux, le genou de la jambe tendue et la pointe du pied tendu. Tableau : `mesures_apollon_parnasse.csv` ; calcul : `python3 calcul.py`.
+**Mesure.** Chaque image est mise à l'échelle par une longueur connue : la largeur de la feuille gravée (46,9 cm selon le Met) ou le diamètre du plat donné par le musée ou par la fiche de Rovigo, mesuré sur le bord extérieur. Sur chaque figure, trois repères sont relevés à la main : le sommet des cheveux, le genou de la jambe tendue et la pointe du pied tendu. Tableau : `mesures.csv` ; calcul : `python3 calcul.py`.
 
 ## Résultats
 

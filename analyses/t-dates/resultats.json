@@ -1,0 +1,202 @@
+{
+ "n_pieces": 374,
+ "par_source": {
+  "inscription": 244,
+  "catalogue ca.": 25,
+  "catalogue intervalle": 62,
+  "catalogue": 28,
+  "catalogue (désaccord avec l'inscription 1539)": 1,
+  "catalogue (désaccord avec l'inscription 1531)": 1,
+  "aucune": 13
+ },
+ "par_periode": {
+  "<=1530": 93,
+  "None": 20,
+  "1531-1535": 161,
+  "1536-1542": 100
+ },
+ "par_annee": [
+  {
+   "annee": 1522,
+   "toutes": 2,
+   "inscrites": 1,
+   "catalogue_annee": 1,
+   "milieu_intervalle": 0
+  },
+  {
+   "annee": 1524,
+   "toutes": 4,
+   "inscrites": 3,
+   "catalogue_annee": 0,
+   "milieu_intervalle": 1
+  },
+  {
+   "annee": 1525,
+   "toutes": 11,
+   "inscrites": 8,
+   "catalogue_annee": 3,
+   "milieu_intervalle": 0
+  },
+  {
+   "annee": 1526,
+   "toutes": 7,
+   "inscrites": 0,
+   "catalogue_annee": 2,
+   "milieu_intervalle": 5
+  },
+  {
+   "annee": 1527,
+   "toutes": 1,
+   "inscrites": 0,
+   "catalogue_annee": 0,
+   "milieu_intervalle": 1
+  },
+  {
+   "annee": 1528,
+   "toutes": 28,
+   "inscrites": 5,
+   "catalogue_annee": 3,
+   "milieu_intervalle": 20
+  },
+  {
+   "annee": 1529,
+   "toutes": 22,
+   "inscrites": 1,
+   "catalogue_annee": 2,
+   "milieu_intervalle": 19
+  },
+  {
+   "annee": 1530,
+   "toutes": 22,
+   "inscrites": 4,
+   "catalogue_annee": 8,
+   "milieu_intervalle": 10
+  },
+  {
+   "annee": 1531,
+   "toutes": 35,
+   "inscrites": 27,
+   "catalogue_annee": 6,
+   "milieu_intervalle": 2
+  },
+  {
+   "annee": 1532,
+   "toutes": 54,
+   "inscrites": 49,
+   "catalogue_annee": 3,
+   "milieu_intervalle": 2
+  },
+  {
+   "annee": 1533,
+   "toutes": 22,
+   "inscrites": 21,
+   "catalogue_annee": 1,
+   "milieu_intervalle": 0
+  },
+  {
+   "annee": 1534,
+   "toutes": 27,
+   "inscrites": 24,
+   "catalogue_annee": 3,
+   "milieu_intervalle": 0
+  },
+  {
+   "annee": 1535,
+   "toutes": 26,
+   "inscrites": 19,
+   "catalogue_annee": 7,
+   "milieu_intervalle": 0
+  },
+  {
+   "annee": 1536,
+   "toutes": 25,
+   "inscrites": 14,
+   "catalogue_annee": 11,
+   "milieu_intervalle": 0
+  },
+  {
+   "annee": 1537,
+   "toutes": 20,
+   "inscrites": 19,
+   "catalogue_annee": 1,
+   "milieu_intervalle": 0
+  },
+  {
+   "annee": 1538,
+   "toutes": 18,
+   "inscrites": 17,
+   "catalogue_annee": 1,
+   "milieu_intervalle": 0
+  },
+  {
+   "annee": 1539,
+   "toutes": 11,
+   "inscrites": 9,
+   "catalogue_annee": 1,
+   "milieu_intervalle": 1
+  },
+  {
+   "annee": 1540,
+   "toutes": 13,
+   "inscrites": 12,
+   "catalogue_annee": 0,
+   "milieu_intervalle": 1
+  },
+  {
+   "annee": 1541,
+   "toutes": 7,
+   "inscrites": 5,
+   "catalogue_annee": 2,
+   "milieu_intervalle": 0
+  },
+  {
+   "annee": 1542,
+   "toutes": 6,
+   "inscrites": 6,
+   "catalogue_annee": 0,
+   "milieu_intervalle": 0
+  }
+ ],
+ "desaccords_inscription_catalogue": [
+  1138,
+  843
+ ],
+ "dates_de_lustre_gubbio": [
+  1052,
+  1175,
+  346,
+  1129,
+  1148,
+  1166,
+  1179,
+  656,
+  919,
+  1122,
+  1320,
+  116
+ ],
+ "sans_date": [
+  123,
+  126,
+  129,
+  136,
+  145,
+  153,
+  184,
+  205,
+  209,
+  213,
+  237,
+  244,
+  257
+ ],
+ "a_cheval_sur_deux_periodes": [
+  952,
+  960,
+  964,
+  659,
+  608,
+  1000,
+  1163
+ ]
+}
