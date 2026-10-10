@@ -37,3 +37,8 @@ Résultat de la v0.2, à lire avec ses limites : la localisation est plausible s
 ## Questions ouvertes
 
 La formalisation personnelle du porteur du projet (la Pathosformel comme invariant sous l'action d'un groupe) est revendiquée, mais son contenu n'est pas reproduit ici. Aucun texte de ce dépôt ne la remplace. Les textes intégraux de Talvacchia 1994, d'Ekserdjian 2007, de Turner 2004 et du catalogue Mallet 2007 n'ont pas été lus.
+
+## Données et premiers tests (10/10/2026)
+
+- `data/pieces.csv` et `data/emprunts.csv` forment la table pièce ↔ estampe, extraite des 374 fiches du catalogue *Xanto nel mondo* (Fondazione Banca del Monte di Rovigo) : 576 références Bartsch, 278 fiches avec au moins une référence. L'extraction est automatique et chaque ligne doit être vérifiée sur sa fiche (lien fourni). Script : `scripts/rovigo_table.py`.
+- `tests-echelle/` : premier test d'échelle, à titre de pilote. L'Apollon du *Parnasse* garde la taille de l'estampe (à 1 % près) sur deux plats de diamètres différents. Voir le README du dossier pour la marge d'erreur et les limites.
