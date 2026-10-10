@@ -1,0 +1,617 @@
+id,estampe,titre_estampe,graveur,classe,annee,periode,link
+321,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2019/11/14/la-discesa-di-orfeo-nellade/
+321,B16.14,Sol,Maestro I.B.,non classé,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2019/11/14/la-discesa-di-orfeo-nellade/
+321,B26.104,Martirio di San Lorenzo,Marcantonio,partie de figure,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2019/11/14/la-discesa-di-orfeo-nellade/
+339,B26.217,Danza di Cupidi,Marcantonio,composition entière,1528,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2019/11/14/danza-di-cupidi/
+364,B27.442,Imperatore seduto,Marcantonio,partie de figure,1528,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2019/11/14/ercole-e-onfale-2/
+364,B27.464,Due uomini nudi,Marcantonio,non classé,1528,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2019/11/14/ercole-e-onfale-2/
+364,B27.352,Quos Ego,Marcantonio,figure isolée,1528,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2019/11/14/ercole-e-onfale-2/
+387,B26.10,Davide e Golia,Marcantonio,non classé,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2019/11/14/serse-e-i-suoi-soldati-profanano-il-tempio-di-apollo-a-delfi/
+653,B26.21,Strage degli Innocenti,Marco Dente,non classé,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/le-disgrazie-dellitalia/
+653,B26.247,Parnaso,Marcantonio,groupe,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/le-disgrazie-dellitalia/
+577,B28.44,Ercole e Cerbero,Caraglio,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/carlo-v-punisce-roma-corrotta/
+577,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/carlo-v-punisce-roma-corrotta/
+1171,B26.211,Battaglia col coltellaccio / con la sciabola,Marco Dente,non classé,1525,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/scena-di-battaglia-e-cupido/
+956,B26.6,Isacco che benedice Giacobbe,Marcantonio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/anfiarao-ed-erifile-3/
+956,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/anfiarao-ed-erifile-3/
+718,B26.117,Martirio di Santa Cecilia,Marcantonio,figure isolée,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/giove-e-dioniso-tiranno-di-siracusa/
+718,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,non classé,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/giove-e-dioniso-tiranno-di-siracusa/
+718,B26.217,Danza di Cupidi,Marcantonio,figure isolée,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/giove-e-dioniso-tiranno-di-siracusa/
+898,B26.10,Davide e Golia,Marcantonio,figure isolée,1541,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/martirio-di-santa-ursula/
+656,B26.247,Parnaso,Marcantonio,figure isolée,1528,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/la-favola-di-pico/
+843,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,figure isolée,1541,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/lassalto-a-la-goletta/
+910,B26.217,Danza di Cupidi,Marcantonio,figure isolée,1528,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/una-scena-allegorica-con-una-donna-e-un-putto/
+950,B27.352,Quos Ego,Marcantonio,composition entière,1526,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/didone-intrattiene-enea/
+644,B26.247,Parnaso,Marcantonio,figure isolée,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/ulisse-chiede-a-circe-i-suoi-compagni/
+644,B16.12,Giove,Maestro I.B. / Pencz,figure isolée,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/ulisse-chiede-a-circe-i-suoi-compagni/
+788,B26.211,Battaglia col coltellaccio / con la sciabola,Marco Dente,figure isolée,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/piramo-e-tisbe-2/
+952,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1529,,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/cupido-scappa-da-psiche/
+952,B26.313,Venere accovacciata,Marcantonio,figure isolée,1529,,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/cupido-scappa-da-psiche/
+952,B27.352,Quos Ego,Marcantonio,figure isolée,1529,,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/cupido-scappa-da-psiche/
+952,B27.323,Nascita di Venere,Marco Dente,figure isolée,1529,,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/cupido-scappa-da-psiche/
+526,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,figure isolée,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/scena-di-parto/
+526,B26.247,Parnaso,Marcantonio,groupe,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/scena-di-parto/
+672,B26.247,Parnaso,Marcantonio,non classé,1529,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/scilla-cupido-e-quattro-ninfe/
+672,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1529,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/scilla-cupido-e-quattro-ninfe/
+1350,B26.104,Martirio di San Lorenzo,Marcantonio,non classé,1537,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/scena-di-pesca/
+1350,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,non classé,1537,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/scena-di-pesca/
+973,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/la-battaglia-di-pavia/
+839,B26.247,Parnaso,Marcantonio,non classé,1539,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/la-trasfigurazione/
+839,B27.323,Nascita di Venere,Marco Dente,non classé,1539,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/la-trasfigurazione/
+637,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,groupe,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/il-sogno-di-alcione/
+637,B28.62,Matrimonio di Alessandro e Rossana,Caraglio,figure isolée,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/il-sogno-di-alcione/
+594,B26.209,Ratto di Elena,Marcantonio,figure isolée,1537,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/sansone-e-i-filistei/
+1203,B26.104,Martirio di San Lorenzo,Marcantonio,groupe,1529,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/alfeo-e-aretusa-2/
+6,B26.294,Giovane e sacerdote di Bacco,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/14/la-storia-del-re-anius/
+6,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/14/la-storia-del-re-anius/
+9,B26.21,Strage degli Innocenti,Marco Dente,groupe,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/13/la-storia-di-enea/
+9,B27.352,Quos Ego,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/13/la-storia-di-enea/
+15,B26.21,Strage degli Innocenti,Marco Dente,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/12/ercole-e-lica/
+15,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/12/ercole-e-lica/
+15,B26.226,Uomo nudo che rincorre una ninfa,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/12/ercole-e-lica/
+37,B28.62,Matrimonio di Alessandro e Rossana,Caraglio,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/11/il-matrimonio-di-alessandro-e-rossana/
+37,B26.247,Parnaso,Marcantonio,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/11/il-matrimonio-di-alessandro-e-rossana/
+37,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/11/il-matrimonio-di-alessandro-e-rossana/
+58,B27.352,Quos Ego,Marcantonio,groupe,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/10/venere-che-appare-ad-enea-ed-acante/
+64,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,figure isolée,1539,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/09/il-salvataggio-di-camilla/
+64,B26.247,Parnaso,Marcantonio,groupe,1539,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/09/il-salvataggio-di-camilla/
+64,B26.211,Battaglia col coltellaccio / con la sciabola,Marco Dente,figure isolée,1539,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/09/il-salvataggio-di-camilla/
+68,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/08/la-trasformazione-di-cicno-e-delle-sorelle-di-fetonte/
+68,B28.48,Ercole e Acheloo,Caraglio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/08/la-trasformazione-di-cicno-e-delle-sorelle-di-fetonte/
+68,B26.226,Uomo nudo che rincorre una ninfa,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/08/la-trasformazione-di-cicno-e-delle-sorelle-di-fetonte/
+71,B26.247,Parnaso,Marcantonio,non classé,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/07/la-trasformazione-delle-ninfe-nelle-isole-echinadi/
+75,B26.243,Laocoonte,Marco Dente,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/06/la-morte-di-laocoonte-e-dei-suoi-figli/
+78,B26.217,Danza di Cupidi,Marcantonio,groupe,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/05/tagliere-con-il-dio-del-fiume-e-la-ninfa-aretusa/
+78,B26.226,Uomo nudo che rincorre una ninfa,Marcantonio,non classé,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/05/tagliere-con-il-dio-del-fiume-e-la-ninfa-aretusa/
+82,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/04/piatto-con-apollo-dafne-e-cupido/
+82,B26.209,Ratto di Elena,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/04/piatto-con-apollo-dafne-e-cupido/
+82,B26.217,Danza di Cupidi,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/04/piatto-con-apollo-dafne-e-cupido/
+85,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,figure isolée,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/03/la-visione-di-alcione/
+85,B28.62,Matrimonio di Alessandro e Rossana,Caraglio,figure isolée,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/03/la-visione-di-alcione/
+94,B25.1,(stampa di Mantegna),Mantegna,non classé,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/02/il-seppellimento-di-cristo/
+100,B26.247,Parnaso,Marcantonio,non classé,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/01/cefalo-che-uccide-procri/
+100,B26.10,Davide e Golia,Marcantonio,non classé,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/01/cefalo-che-uccide-procri/
+100,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,non classé,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/01/cefalo-che-uccide-procri/
+100,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,non classé,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/01/cefalo-che-uccide-procri/
+112,B26.117,Martirio di Santa Cecilia,Marcantonio,composition entière,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/30/piatto-con-la-morte-della-donna-di-sestos/
+116,B26.6,Isacco che benedice Giacobbe,Marcantonio,composition entière,1529,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/29/isacco-che-benedice-giacobbe-ed-esau/
+120,B26.198,Cleopatra,Agostino Veneziano,non classé,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/28/il-mito-di-esaco/
+120,B26.104,Martirio di San Lorenzo,Marcantonio,non classé,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/28/il-mito-di-esaco/
+120,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,non classé,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/28/il-mito-di-esaco/
+120,B16.14,Sol,Maestro I.B.,non classé,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/28/il-mito-di-esaco/
+126,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,non classé,,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/26/piastra-con-achille-ed-ettore/
+126,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/26/piastra-con-achille-ed-ettore/
+133,B28.44,Ercole e Cerbero,Caraglio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/24/piatto-con-ercole-e-cerbero/
+136,B27.352,Quos Ego,Marcantonio,groupe,,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/23/piatto-con-calano/
+136,B26.10,Davide e Golia,Marcantonio,figure isolée,,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/23/piatto-con-calano/
+136,B26.209,Ratto di Elena,Marcantonio,figure isolée,,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/23/piatto-con-calano/
+139,B26.211,Battaglia col coltellaccio / con la sciabola,Marco Dente,figure isolée,1537,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/22/tagliere-con-ero-e-leandro/
+139,B26.209,Ratto di Elena,Marcantonio,non classé,1537,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/22/tagliere-con-ero-e-leandro/
+145,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,non classé,,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/20/allegoria-del-sacco-di-roma/
+149,B27.352,Quos Ego,Marcantonio,groupe,1539,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/19/dionisio-e-il-tiranno-la-spada-di-damocle/
+149,B28.57,Scuola di un filosofo antico,Caraglio,figure isolée,1539,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/19/dionisio-e-il-tiranno-la-spada-di-damocle/
+149,B26.23,Cristo in casa di Simone il Fariseo,Marcantonio,figure isolée,1539,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/19/dionisio-e-il-tiranno-la-spada-di-damocle/
+153,B26.245,Giudizio di Paride,Marcantonio,figure isolée,,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/18/coppa-con-la-conversione-di-saulo/
+156,B28.48,Ercole e Acheloo,Caraglio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/17/coppa-a-bordo-largo-con-nettuno-che-rapisce-teofane/
+156,B26.209,Ratto di Elena,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/17/coppa-a-bordo-largo-con-nettuno-che-rapisce-teofane/
+156,B26.217,Danza di Cupidi,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/17/coppa-a-bordo-largo-con-nettuno-che-rapisce-teofane/
+156,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/17/coppa-a-bordo-largo-con-nettuno-che-rapisce-teofane/
+163,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/15/la-flotta-di-seleuco-che-affonda/
+163,B16.14,Sol,Maestro I.B.,non classé,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/15/la-flotta-di-seleuco-che-affonda/
+163,B26.226,Uomo nudo che rincorre una ninfa,Marcantonio,non classé,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/15/la-flotta-di-seleuco-che-affonda/
+167,B26.209,Ratto di Elena,Marcantonio,figure isolée,1537,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/14/il-rapimento-di-elena/
+170,B26.211,Battaglia col coltellaccio / con la sciabola,Marco Dente,groupe,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/13/ero-e-leandro/
+177,B28.62,Matrimonio di Alessandro e Rossana,Caraglio,groupe,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/11/il-matrimonio-di-nino-e-seramide/
+177,B26.211,Battaglia col coltellaccio / con la sciabola,Marco Dente,non classé,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/11/il-matrimonio-di-nino-e-seramide/
+177,B26.6,Isacco che benedice Giacobbe,Marcantonio,non classé,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/11/il-matrimonio-di-nino-e-seramide/
+177,B26.104,Martirio di San Lorenzo,Marcantonio,non classé,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/11/il-matrimonio-di-nino-e-seramide/
+177,B26.4,Sacrificio di Noè,Marco Dente,non classé,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/11/il-matrimonio-di-nino-e-seramide/
+177,B26.23,Cristo in casa di Simone il Fariseo,Marcantonio,non classé,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/11/il-matrimonio-di-nino-e-seramide/
+181,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/10/la-morte-di-piramo-e-tisbe/
+181,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/10/la-morte-di-piramo-e-tisbe/
+184,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,figure isolée,,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/09/la-nascita-di-venere/
+184,B26.247,Parnaso,Marcantonio,groupe,,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/09/la-nascita-di-venere/
+190,B27.340,Tre Grazie,Marcantonio,groupe,1525,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/08/le-tre-grazie/
+194,B27.352,Quos Ego,Marcantonio,partie de figure,1522,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/07/ercole-e-onfale/
+194,B27.442,Imperatore seduto,Marcantonio,partie de figure,1522,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/07/ercole-e-onfale/
+194,B27.464,Due uomini nudi,Marcantonio,non classé,1522,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/07/ercole-e-onfale/
+197,B27.373,Donna con due spugne,Marcantonio,figure isolée,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/06/lallegoria-delle-discordie-dellitalia/
+197,B28.62,Matrimonio di Alessandro e Rossana,Caraglio,figure isolée,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/06/lallegoria-delle-discordie-dellitalia/
+201,B26.211,Battaglia col coltellaccio / con la sciabola,Marco Dente,figure isolée,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/05/atteone-tramutato-da-diana-in-cervo/
+201,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/05/atteone-tramutato-da-diana-in-cervo/
+201,B26.198,Cleopatra,Agostino Veneziano,figure isolée,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/05/atteone-tramutato-da-diana-in-cervo/
+209,B26.247,Parnaso,Marcantonio,groupe,,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/02/scilla-e-galatea/
+209,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/02/scilla-e-galatea/
+213,B27.193,Suicidio di Cleopatra,Agostino Veneziano,non classé,,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/01/piatto-con-cleopatra/
+217,B26.209,Ratto di Elena,Marcantonio,figure isolée,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/30/la-morte-di-palinuro/
+217,B28.49,Ercole e Caco,Caraglio,figure isolée,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/30/la-morte-di-palinuro/
+220,B26.247,Parnaso,Marcantonio,non classé,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/29/uomo-anziano-giovane-donna-e-cupido/
+223,B28.4,Adorazione dei pastori,Caraglio,non classé,1541,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/27/sacrificio-di-porzia/
+227,B26.23,Cristo in casa di Simone il Fariseo,Marcantonio,figure isolée,1539,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/26/soggetto-allegorico-con-un-uomo-che-indossa-un-turbante-e-quattro-donne/
+227,B26.23,Cristo in casa di Simone il Fariseo,Marcantonio,figure isolée,1539,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/26/soggetto-allegorico-con-un-uomo-che-indossa-un-turbante-e-quattro-donne/
+227,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1539,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/26/soggetto-allegorico-con-un-uomo-che-indossa-un-turbante-e-quattro-donne/
+234,B27.384,Giovane con la lanterna,Marcantonio,figure isolée,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/24/cupido-travestito-da-ascanio-condotto-a-didone-da-acante/
+237,B26.211,Battaglia col coltellaccio / con la sciabola,Marco Dente,figure isolée,,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/23/ero-e-leandro-2/
+237,B26.198,Cleopatra,Agostino Veneziano,figure isolée,,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/23/ero-e-leandro-2/
+237,B26.8,Israeliti che raccolgono la manna,Agostino Veneziano,figure isolée,,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/23/ero-e-leandro-2/
+244,B26.117,Martirio di Santa Cecilia,Marcantonio,figure isolée,,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/19/il-sogno-profetico-della-donna-di-imera/
+244,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/19/il-sogno-profetico-della-donna-di-imera/
+247,B26.211,Battaglia col coltellaccio / con la sciabola,Marco Dente,groupe,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/18/enea-anchise-creusa-e-ascanio-con-la-fiamma-miracolosa/
+247,B27.386,Carità,Marcantonio,figure isolée,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/18/enea-anchise-creusa-e-ascanio-con-la-fiamma-miracolosa/
+247,B26.103,San Girolamo e il leone,Agostino Veneziano,figure isolée,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/18/enea-anchise-creusa-e-ascanio-con-la-fiamma-miracolosa/
+254,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/17/ruggiero-sullippogrifo/
+254,B26.247,Parnaso,Marcantonio,groupe,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/17/ruggiero-sullippogrifo/
+250,B27.352,Quos Ego,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/17/due-figure-nelle-nuvole-e-cupido/
+250,B26.247,Parnaso,Marcantonio,groupe,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/17/due-figure-nelle-nuvole-e-cupido/
+257,B26.247,Parnaso,Marcantonio,figure isolée,,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/15/la-contesa-musicale-di-apollo-e-pan/
+257,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,figure isolée,,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/15/la-contesa-musicale-di-apollo-e-pan/
+257,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/15/la-contesa-musicale-di-apollo-e-pan/
+257,B26.23,Cristo in casa di Simone il Fariseo,Marcantonio,figure isolée,,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/15/la-contesa-musicale-di-apollo-e-pan/
+1245,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,figure isolée,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/apollo-e-dafne-2/
+1245,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,figure isolée,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/apollo-e-dafne-2/
+278,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/prova/
+278,B26.247,Parnaso,Marcantonio,groupe,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/prova/
+1259,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,groupe,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-11/
+1259,B26.247,Parnaso,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-11/
+1259,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-11/
+1259,B26.21,Strage degli Innocenti,Marco Dente,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-11/
+1228,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1529,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ercole-e-lidra/
+811,B27.352,Quos Ego,Marcantonio,groupe,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/gobrio-e-dario/
+811,B16.14,Sol,Maestro I.B.,figure isolée,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/gobrio-e-dario/
+431,B26.10,Davide e Golia,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/morte-di-piramo-e-tisbe/
+431,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/morte-di-piramo-e-tisbe/
+902,B26.209,Ratto di Elena,Marcantonio,non classé,1537,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-ritirata-di-serse/
+902,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,non classé,1537,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-ritirata-di-serse/
+804,B26.313,Venere accovacciata,Marcantonio,groupe,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/un-uomo-con-un-elmo-alato-insegue-cupido/
+804,B26.117,Martirio di Santa Cecilia,Marcantonio,figure isolée,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/un-uomo-con-un-elmo-alato-insegue-cupido/
+1257,B28.60,Enea che salva Anchise (Fuga di Enea),Caraglio,composition entière,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/enea-e-anchise-scappano-da-troia/
+1257,B26.209,Ratto di Elena,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/enea-e-anchise-scappano-da-troia/
+744,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/scena-allegorica-con-un-uomo-la-musa-della-musica-e-cupido/
+744,B26.247,Parnaso,Marcantonio,groupe,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/scena-allegorica-con-un-uomo-la-musa-della-musica-e-cupido/
+1252,B26.247,Parnaso,Marcantonio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-della-fama-2/
+1045,B26.245,Giudizio di Paride,Marcantonio,figure isolée,1524,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-giudizio-di-paride-con-mercurio/
+774,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,figure isolée,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ino-e-atamante/
+774,B26.217,Danza di Cupidi,Marcantonio,figure isolée,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ino-e-atamante/
+774,B26.21,Strage degli Innocenti,Marco Dente,figure isolée,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ino-e-atamante/
+1192,B26.243,Laocoonte,Marco Dente,figure isolée,1528,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-lacoonte-2/
+573,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/anfiarao-e-sua-moglie/
+573,B27.352,Quos Ego,Marcantonio,groupe,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/anfiarao-e-sua-moglie/
+1000,B26.247,Parnaso,Marcantonio,composition entière,1531,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/apollo-e-le-muse-sul-monte-parnaso/
+925,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,figure isolée,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/le-sabine-sconfiggono-tarpea/
+925,B26.21,Strage degli Innocenti,Marco Dente,figure isolée,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/le-sabine-sconfiggono-tarpea/
+925,B26.185,Tarpeia uccisa dai Sabini,Marcantonio,composition entière,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/le-sabine-sconfiggono-tarpea/
+1141,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/baccanti-trasformate-in-alberi/
+758,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/aurora-e-cefalo/
+758,B26.10,Davide e Golia,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/aurora-e-cefalo/
+758,B26.247,Parnaso,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/aurora-e-cefalo/
+1328,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,figure isolée,1528,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-del-sacco-di-roma-5/
+428,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,groupe,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/leucothoe-sepolta-viva/
+428,B26.23,Cristo in casa di Simone il Fariseo,Marcantonio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/leucothoe-sepolta-viva/
+428,B27.352,Quos Ego,Marcantonio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/leucothoe-sepolta-viva/
+428,B26.247,Parnaso,Marcantonio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/leucothoe-sepolta-viva/
+1024,B26.211,Battaglia col coltellaccio / con la sciabola,Marco Dente,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/marte-e-venere/
+1024,B26.247,Parnaso,Marcantonio,groupe,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/marte-e-venere/
+988,B27.227,Venere e Vulcano,Marco Dente,figure isolée,1539,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/venere-vulcano-e-cupido/
+877,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,groupe,1537,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/alcione-e-ceice/
+877,B28.62,Matrimonio di Alessandro e Rossana,Caraglio,figure isolée,1537,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/alcione-e-ceice/
+869,B16.14,Sol,Maestro I.B.,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/esaco-ed-esperia-4/
+869,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/esaco-ed-esperia-4/
+869,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/esaco-ed-esperia-4/
+869,B26.198,Cleopatra,Agostino Veneziano,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/esaco-ed-esperia-4/
+829,B26.211,Battaglia col coltellaccio / con la sciabola,Marco Dente,groupe,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-distruzione-della-flotta-di-seleuco-ii/
+829,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-distruzione-della-flotta-di-seleuco-ii/
+829,B28.62,Matrimonio di Alessandro e Rossana,Caraglio,figure isolée,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-distruzione-della-flotta-di-seleuco-ii/
+829,B26.117,Martirio di Santa Cecilia,Marcantonio,figure isolée,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-distruzione-della-flotta-di-seleuco-ii/
+676,B26.211,Battaglia col coltellaccio / con la sciabola,Marco Dente,figure isolée,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-distruzione-della-flotta-di-seleuco/
+676,B16.14,Sol,Maestro I.B.,non classé,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-distruzione-della-flotta-di-seleuco/
+676,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-distruzione-della-flotta-di-seleuco/
+827,B28.60,Enea che salva Anchise (Fuga di Enea),Caraglio,composition entière,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-freccia-di-enea-e-la-morte-di-creusa/
+1263,B28.4,Adorazione dei pastori,Caraglio,composition entière,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-sacra-famiglia-2/
+776,B26.232,Leda,Agostino Veneziano,figure isolée,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/leda-e-il-cigno-2/
+776,B26.245,Giudizio di Paride,Marcantonio,groupe,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/leda-e-il-cigno-2/
+776,B26.217,Danza di Cupidi,Marcantonio,figure isolée,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/leda-e-il-cigno-2/
+663,B26.209,Ratto di Elena,Marcantonio,non classé,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/orazio-coclite-tiene-il-ponte-contro-gli-etruschi/
+663,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,non classé,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/orazio-coclite-tiene-il-ponte-contro-gli-etruschi/
+663,B26.211,Battaglia col coltellaccio / con la sciabola,Marco Dente,non classé,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/orazio-coclite-tiene-il-ponte-contro-gli-etruschi/
+663,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,non classé,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/orazio-coclite-tiene-il-ponte-contro-gli-etruschi/
+663,B28.44,Ercole e Cerbero,Caraglio,non classé,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/orazio-coclite-tiene-il-ponte-contro-gli-etruschi/
+1250,B26.117,Martirio di Santa Cecilia,Marcantonio,groupe,1540,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-caduta-di-icaro-2/
+1215,B26.243,Laocoonte,Marco Dente,figure isolée,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-laocoonte/
+928,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,figure isolée,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/piramo-e-tisbe-4/
+414,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-della-quattro-citta-sottomesse/
+414,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-della-quattro-citta-sottomesse/
+1224,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1537,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/enea-e-anchise-nei-campi-elisi-3/
+1224,B26.247,Parnaso,Marcantonio,non classé,1537,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/enea-e-anchise-nei-campi-elisi-3/
+1131,B26.243,Laocoonte,Marco Dente,composition entière,1539,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-lacoonte/
+1131,B27.373,Donna con due spugne,Marcantonio,figure isolée,1539,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-lacoonte/
+461,B28.60,Enea che salva Anchise (Fuga di Enea),Caraglio,composition entière,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/enea-porta-via-anchise-da-troia-accompagnato-da-ascanio/
+346,B26.245,Giudizio di Paride,Marcantonio,figure isolée,1525,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/donne-al-bagno/
+346,B16.91,Diana e Atteone,Maestro I.B.,groupe,1525,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/donne-al-bagno/
+1124,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ermafrodito-con-la-ninfa-salmace/
+1124,B16.14,Sol,Maestro I.B.,non classé,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ermafrodito-con-la-ninfa-salmace/
+1124,B26.247,Parnaso,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ermafrodito-con-la-ninfa-salmace/
+1124,B28.62,Matrimonio di Alessandro e Rossana,Caraglio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ermafrodito-con-la-ninfa-salmace/
+1002,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/bacco-cupido-e-una-donna/
+1002,B26.294,Giovane e sacerdote di Bacco,Marcantonio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/bacco-cupido-e-una-donna/
+1002,B26.247,Parnaso,Marcantonio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/bacco-cupido-e-una-donna/
+964,B26.21,Strage degli Innocenti,Marco Dente,figure isolée,1529,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/venere-attaccata-da-un-uomo-con-la-spada-mentre-due-putti-con-le-ali-si-allontanano/
+623,B26.211,Battaglia col coltellaccio / con la sciabola,Marco Dente,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ero-e-leandro-4/
+623,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ero-e-leandro-4/
+489,B28.62,Matrimonio di Alessandro e Rossana,Caraglio,composition entière,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/muzio-scevola-si-brucia-la-mano-in-presenza-di-lars-porsenna/
+1036,B26.247,Parnaso,Marcantonio,figure isolée,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/atteone-trasformato-in-un-cervo/
+511,B28.60,Enea che salva Anchise (Fuga di Enea),Caraglio,groupe,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/enea-fugge-da-troia/
+851,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,figure isolée,1542,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-6/
+851,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1542,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-6/
+760,B28.62,Matrimonio di Alessandro e Rossana,Caraglio,composition entière,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/muzio-scevola-si-brucia-la-mano-in-prsenza-di-lars-porsenna/
+484,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,groupe,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/romolo-e-remo-allattati-dalla-lupa/
+481,B26.6,Isacco che benedice Giacobbe,Marcantonio,figure isolée,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/anfiarao-ed-erifile/
+481,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/anfiarao-ed-erifile/
+481,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/anfiarao-ed-erifile/
+659,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,figure isolée,1530,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/piramo-e-tisbe/
+659,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,figure isolée,1530,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/piramo-e-tisbe/
+659,B26.217,Danza di Cupidi,Marcantonio,figure isolée,1530,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/piramo-e-tisbe/
+1248,B26.217,Danza di Cupidi,Marcantonio,non classé,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/narciso-ed-eco-2/
+1248,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,non classé,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/narciso-ed-eco-2/
+367,B26.6,Isacco che benedice Giacobbe,Marcantonio,figure isolée,1537,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ipermnestra-guarda-liceo-che-minaccia-suo-padre-danao/
+367,B28.62,Matrimonio di Alessandro e Rossana,Caraglio,figure isolée,1537,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ipermnestra-guarda-liceo-che-minaccia-suo-padre-danao/
+1284,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-cattura-del-re-dei-lidiani-creso/
+1284,B26.21,Strage degli Innocenti,Marco Dente,non classé,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-cattura-del-re-dei-lidiani-creso/
+1261,B26.6,Isacco che benedice Giacobbe,Marcantonio,groupe,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/san-cristoforo/
+1261,B26.247,Parnaso,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/san-cristoforo/
+1241,B26.247,Parnaso,Marcantonio,groupe,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-nascita-e-lesposizione-di-ciro/
+1241,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,non classé,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-nascita-e-lesposizione-di-ciro/
+935,B26.198,Cleopatra,Agostino Veneziano,figure isolée,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/esaco-ed-esperia-5/
+935,B26.10,Davide e Golia,Marcantonio,figure isolée,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/esaco-ed-esperia-5/
+875,B27.352,Quos Ego,Marcantonio,figure isolée,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/enea-e-anchise-nei-campi-elisi/
+875,B26.211,Battaglia col coltellaccio / con la sciabola,Marco Dente,figure isolée,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/enea-e-anchise-nei-campi-elisi/
+875,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,figure isolée,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/enea-e-anchise-nei-campi-elisi/
+704,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-del-disastro/
+704,B28.62,Matrimonio di Alessandro e Rossana,Caraglio,figure isolée,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-del-disastro/
+704,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,figure isolée,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-del-disastro/
+856,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,groupe,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-7/
+856,B26.104,Martirio di San Lorenzo,Marcantonio,groupe,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-7/
+605,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,non classé,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-vestale-tuccia-porta-lacqua-in-un-setaccio-al-tempio-di-vesta/
+605,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-vestale-tuccia-porta-lacqua-in-un-setaccio-al-tempio-di-vesta/
+1342,B26.226,Uomo nudo che rincorre una ninfa,Marcantonio,non classé,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/deucalione-e-pirra-2/
+1342,B27.352,Quos Ego,Marcantonio,non classé,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/deucalione-e-pirra-2/
+1342,B26.247,Parnaso,Marcantonio,groupe,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/deucalione-e-pirra-2/
+1342,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/deucalione-e-pirra-2/
+979,B27.352,Quos Ego,Marcantonio,figure isolée,1528,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-con-una-figura-femminile-forse-diana-un-cane-e-due-soldati/
+720,B26.217,Danza di Cupidi,Marcantonio,figure isolée,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/teseo-entra-nel-labirinto/
+720,B26.209,Ratto di Elena,Marcantonio,figure isolée,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/teseo-entra-nel-labirinto/
+720,B27.352,Quos Ego,Marcantonio,figure isolée,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/teseo-entra-nel-labirinto/
+620,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,figure isolée,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-3/
+620,B26.247,Parnaso,Marcantonio,figure isolée,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-3/
+620,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,figure isolée,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-3/
+620,B26.211,Battaglia col coltellaccio / con la sciabola,Marco Dente,figure isolée,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-3/
+569,B26.21,Strage degli Innocenti,Marco Dente,groupe,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/coppa-con-firenze-piange-i-suoi-figli-la-peste-di-firenze/
+569,B26.247,Parnaso,Marcantonio,groupe,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/coppa-con-firenze-piange-i-suoi-figli-la-peste-di-firenze/
+560,B28.62,Matrimonio di Alessandro e Rossana,Caraglio,non classé,1541,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/coppa-con-il-noli-me-tangere/
+1217,B26.247,Parnaso,Marcantonio,groupe,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ciro-davanti-ad-astiage/
+1217,B28.62,Matrimonio di Alessandro e Rossana,Caraglio,non classé,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ciro-davanti-ad-astiage/
+1056,B26.217,Danza di Cupidi,Marcantonio,groupe,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-vergine-e-il-bambino-nel-cielo-circondati-da-angeli-che-suonano/
+1056,B26.247,Parnaso,Marcantonio,non classé,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-vergine-e-il-bambino-nel-cielo-circondati-da-angeli-che-suonano/
+919,B27.442,Imperatore seduto,Marcantonio,partie de figure,1528,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ercole-e-deianara/
+919,B27.464,Due uomini nudi,Marcantonio,non classé,1528,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ercole-e-deianara/
+919,B27.352,Quos Ego,Marcantonio,figure isolée,1528,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ercole-e-deianara/
+458,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/francesco-xanto-avelli-rovigo-c-1487-urbino-c-1542-diana-e-atteone-1529-1530-piatto-ceramica-maiolica-cotto-porcellanato-diametro-289-cm-oxford-the-ashmolean-museum-iscrizioni-sul-retr/
+458,B26.6,Isacco che benedice Giacobbe,Marcantonio,figure isolée,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/francesco-xanto-avelli-rovigo-c-1487-urbino-c-1542-diana-e-atteone-1529-1530-piatto-ceramica-maiolica-cotto-porcellanato-diametro-289-cm-oxford-the-ashmolean-museum-iscrizioni-sul-retr/
+458,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,non classé,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/francesco-xanto-avelli-rovigo-c-1487-urbino-c-1542-diana-e-atteone-1529-1530-piatto-ceramica-maiolica-cotto-porcellanato-diametro-289-cm-oxford-the-ashmolean-museum-iscrizioni-sul-retr/
+1078,B26.209,Ratto di Elena,Marcantonio,non classé,1540,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-rapimento-di-elena-2/
+1052,B26.245,Giudizio di Paride,Marcantonio,figure isolée,1524,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/un-dio-del-fiume-in-un-paesaggio/
+1004,B16.16,Mercurio,Maestro I.B.,non classé,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/saturno-mercurio-e-giove/
+1004,B16.14,Sol,Maestro I.B.,non classé,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/saturno-mercurio-e-giove/
+1004,B26.247,Parnaso,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/saturno-mercurio-e-giove/
+977,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1528,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-delle-pene-ditalia/
+906,B26.21,Strage degli Innocenti,Marco Dente,non classé,1528,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-strage-degli-innocenti/
+906,B26.209,Ratto di Elena,Marcantonio,figure isolée,1528,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-strage-degli-innocenti/
+450,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,groupe,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/astolfo-nella-terra-delle-donne/
+450,B26.117,Martirio di Santa Cecilia,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/astolfo-nella-terra-delle-donne/
+450,B26.226,Uomo nudo che rincorre una ninfa,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/astolfo-nella-terra-delle-donne/
+450,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/astolfo-nella-terra-delle-donne/
+984,B26.198,Cleopatra,Agostino Veneziano,figure isolée,1542,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-cleopatra/
+680,B26.247,Parnaso,Marcantonio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-contesa-musicale-di-apollo-e-pan-2/
+680,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-contesa-musicale-di-apollo-e-pan-2/
+680,B26.104,Martirio di San Lorenzo,Marcantonio,groupe,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-contesa-musicale-di-apollo-e-pan-2/
+680,B26.23,Cristo in casa di Simone il Fariseo,Marcantonio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-contesa-musicale-di-apollo-e-pan-2/
+408,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-della-buona-e-cattiva-fama/
+408,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-della-buona-e-cattiva-fama/
+408,B26.198,Cleopatra,Agostino Veneziano,non classé,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-della-buona-e-cattiva-fama/
+532,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,figure isolée,1529,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/leda-e-il-cigno/
+532,B26.245,Giudizio di Paride,Marcantonio,figure isolée,1529,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/leda-e-il-cigno/
+532,B26.232,Leda,Agostino Veneziano,non classé,1529,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/leda-e-il-cigno/
+532,B26.217,Danza di Cupidi,Marcantonio,figure isolée,1529,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/leda-e-il-cigno/
+469,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/marte-venere-e-cupido/
+469,B28.50,Mercurio porta Psiche sull'Olimpo,Caraglio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/marte-venere-e-cupido/
+469,B26.247,Parnaso,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/marte-venere-e-cupido/
+1061,B26.21,Strage degli Innocenti,Marco Dente,groupe,1528,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ino-e-atamante-2/
+1061,B26.247,Parnaso,Marcantonio,figure isolée,1528,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ino-e-atamante-2/
+1061,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,figure isolée,1528,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ino-e-atamante-2/
+889,B26.242,Trono di Saturno,Marco Dente,figure isolée,1528,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-del-sacco-di-roma-4/
+889,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,figure isolée,1528,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-del-sacco-di-roma-4/
+889,B26.209,Ratto di Elena,Marcantonio,figure isolée,1528,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-del-sacco-di-roma-4/
+865,B28.50,Mercurio porta Psiche sull'Olimpo,Caraglio,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-trasformazione-delle-ninfe-nele-isole-echinadi/
+865,B26.232,Leda,Agostino Veneziano,groupe,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-trasformazione-delle-ninfe-nele-isole-echinadi/
+865,B26.247,Parnaso,Marcantonio,non classé,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-trasformazione-delle-ninfe-nele-isole-echinadi/
+493,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/eco-trasformata-in-sasso/
+493,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/eco-trasformata-in-sasso/
+548,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-2/
+548,B26.247,Parnaso,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-2/
+548,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,non classé,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-2/
+548,B26.103,San Girolamo e il leone,Agostino Veneziano,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-2/
+1076,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,figure isolée,1541,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-10/
+1076,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1541,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-10/
+1076,B26.247,Parnaso,Marcantonio,figure isolée,1541,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-10/
+863,B28.50,Mercurio porta Psiche sull'Olimpo,Caraglio,groupe,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-trasformazione-delle-ninfe-nelle-isole-echinadi-2/
+863,B26.245,Giudizio di Paride,Marcantonio,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-trasformazione-delle-ninfe-nelle-isole-echinadi-2/
+863,B26.232,Leda,Agostino Veneziano,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-trasformazione-delle-ninfe-nelle-isole-echinadi-2/
+863,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-trasformazione-delle-ninfe-nelle-isole-echinadi-2/
+728,B16.12,Giove,Maestro I.B. / Pencz,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/perseo-medusa-e-pegaso/
+728,B26.209,Ratto di Elena,Marcantonio,non classé,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/perseo-medusa-e-pegaso/
+728,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/perseo-medusa-e-pegaso/
+960,B26.8,Israeliti che raccolgono la manna,Agostino Veneziano,figure isolée,1529,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/danae-e-perseo-escono-in-mare/
+960,B26.23,Cristo in casa di Simone il Fariseo,Marcantonio,figure isolée,1529,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/danae-e-perseo-escono-in-mare/
+960,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1529,,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/danae-e-perseo-escono-in-mare/
+792,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/pico-e-circe/
+792,B26.247,Parnaso,Marcantonio,figure isolée,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/pico-e-circe/
+790,B26.247,Parnaso,Marcantonio,groupe,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/narciso/
+1138,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/alcione-e-ceice-3/
+1138,B28.62,Matrimonio di Alessandro e Rossana,Caraglio,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/alcione-e-ceice-3/
+1083,B27.352,Quos Ego,Marcantonio,groupe,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/dioniso-il-tiranno-la-spada-di-damocle-2/
+1083,B28.57,Scuola di un filosofo antico,Caraglio,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/dioniso-il-tiranno-la-spada-di-damocle-2/
+442,B26.209,Ratto di Elena,Marcantonio,non classé,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/orlando-trova-frontino-il-destriero-di-ruggiero-la-sua-armatura-e-la-sua-spada/
+867,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/esaco-ed-esperia-3/
+867,B16.14,Sol,Maestro I.B.,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/esaco-ed-esperia-3/
+867,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/esaco-ed-esperia-3/
+867,B26.247,Parnaso,Marcantonio,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/esaco-ed-esperia-3/
+1344,B26.209,Ratto di Elena,Marcantonio,composition entière,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ratto-di-elena/
+732,B26.226,Uomo nudo che rincorre una ninfa,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/tideo-e-polinice/
+732,B28.44,Ercole e Cerbero,Caraglio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/tideo-e-polinice/
+732,B26.209,Ratto di Elena,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/tideo-e-polinice/
+732,B26.294,Giovane e sacerdote di Bacco,Marcantonio,non classé,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/tideo-e-polinice/
+370,B26.247,Parnaso,Marcantonio,groupe,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/polemone-entra-nella-scuola-di-senocrate/
+1213,B27.352,Quos Ego,Marcantonio,groupe,1540,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/dioniso-il-tiranno-la-spada-di-damocle-3/
+1213,B28.57,Scuola di un filosofo antico,Caraglio,figure isolée,1540,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/dioniso-il-tiranno-la-spada-di-damocle-3/
+1213,B26.23,Cristo in casa di Simone il Fariseo,Marcantonio,figure isolée,1540,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/dioniso-il-tiranno-la-spada-di-damocle-3/
+1213,B26.247,Parnaso,Marcantonio,figure isolée,1540,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/dioniso-il-tiranno-la-spada-di-damocle-3/
+1116,B26.247,Parnaso,Marcantonio,non classé,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/enea-e-anchise-nei-campi-elisi-2/
+1116,B26.21,Strage degli Innocenti,Marco Dente,groupe,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/enea-e-anchise-nei-campi-elisi-2/
+991,B27.373,Donna con due spugne,Marcantonio,figure isolée,1542,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-sogno-di-astiage-2/
+991,B26.6,Isacco che benedice Giacobbe,Marcantonio,figure isolée,1542,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-sogno-di-astiage-2/
+1081,B26.247,Parnaso,Marcantonio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-contesa-musicale-di-apollo-e-pan-con-cupido/
+1081,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-contesa-musicale-di-apollo-e-pan-con-cupido/
+798,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,figure isolée,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-sansone/
+798,B26.104,Martirio di San Lorenzo,Marcantonio,non classé,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-sansone/
+798,B27.352,Quos Ego,Marcantonio,non classé,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-sansone/
+742,B26.23,Cristo in casa di Simone il Fariseo,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/atto-di-pieta-di-alessandro-magno/
+742,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/atto-di-pieta-di-alessandro-magno/
+742,B26.209,Ratto di Elena,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/atto-di-pieta-di-alessandro-magno/
+742,B16.14,Sol,Maestro I.B.,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/atto-di-pieta-di-alessandro-magno/
+597,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/morte-di-cleopatra/
+1221,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,figure isolée,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/1221/
+1101,B28.4,Adorazione dei pastori,Caraglio,composition entière,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-sacra-famiglia/
+550,B26.21,Strage degli Innocenti,Marco Dente,figure isolée,1529,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ercole-e-il-leone-nemeo-e-santa-veronica/
+550,B27.405,Tre animali in un ovale,Marco Dente,figure isolée,1529,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ercole-e-il-leone-nemeo-e-santa-veronica/
+738,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/esaco-ed-esperia/
+738,B26.226,Uomo nudo che rincorre una ninfa,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/esaco-ed-esperia/
+738,B26.247,Parnaso,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/esaco-ed-esperia/
+738,B16.16,Mercurio,Maestro I.B.,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/esaco-ed-esperia/
+556,B26.217,Danza di Cupidi,Marcantonio,figure isolée,1528,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/piatto-con-leda-e-il-cigno/
+556,B26.245,Giudizio di Paride,Marcantonio,figure isolée,1528,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/piatto-con-leda-e-il-cigno/
+556,B27.352,Quos Ego,Marcantonio,groupe,1528,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/piatto-con-leda-e-il-cigno/
+528,B26.247,Parnaso,Marcantonio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-della-fama/
+1122,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,groupe,1528,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/una-scena-damore-venere-e-giove-e-venere-e-un-cupido/
+331,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,non classé,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/glauco-e-scilla/
+331,B26.226,Uomo nudo che rincorre una ninfa,Marcantonio,figure isolée,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/glauco-e-scilla/
+331,B28.4,Adorazione dei pastori,Caraglio,figure isolée,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/glauco-e-scilla/
+1072,B26.10,Davide e Golia,Marcantonio,groupe,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/martirio-di-santa-caterina/
+1072,B26.117,Martirio di Santa Cecilia,Marcantonio,figure isolée,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/martirio-di-santa-caterina/
+939,B28.62,Matrimonio di Alessandro e Rossana,Caraglio,composition entière,1537,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/matrimonio-di-alessandro-e-rossana/
+932,B27.373,Donna con due spugne,Marcantonio,figure isolée,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-sogno-di-astiage/
+932,B28.62,Matrimonio di Alessandro e Rossana,Caraglio,figure isolée,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-sogno-di-astiage/
+1118,B26.209,Ratto di Elena,Marcantonio,groupe,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-palinuro-3/
+1118,B28.49,Ercole e Caco,Caraglio,figure isolée,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-palinuro-3/
+1118,B26.10,Davide e Golia,Marcantonio,figure isolée,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-palinuro-3/
+849,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-5/
+849,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-5/
+849,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-5/
+714,B28.62,Matrimonio di Alessandro e Rossana,Caraglio,figure isolée,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-della-prudenza/
+871,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,groupe,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/leucothoe-sepolta-viva-2/
+871,B26.104,Martirio di San Lorenzo,Marcantonio,groupe,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/leucothoe-sepolta-viva-2/
+871,B26.247,Parnaso,Marcantonio,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/leucothoe-sepolta-viva-2/
+446,B26.28,Cristo porta la Croce,Marcantonio,composition entière,1526,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/cristo-porta-la-croce-spasimo-sicilia/
+1190,B26.6,Isacco che benedice Giacobbe,Marcantonio,groupe,1540,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-eschilo-2/
+1129,B26.211,Battaglia col coltellaccio / con la sciabola,Marco Dente,composition entière,1525,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/scena-di-battaglia/
+1070,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/le-baccanti-trasformate-in-querce-2/
+1070,B28.48,Ercole e Acheloo,Caraglio,groupe,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/le-baccanti-trasformate-in-querce-2/
+1010,B26.211,Battaglia col coltellaccio / con la sciabola,Marco Dente,figure isolée,1539,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/piramo-e-tisbe-5/
+1010,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,figure isolée,1539,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/piramo-e-tisbe-5/
+895,B26.217,Danza di Cupidi,Marcantonio,groupe,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-esaco-ed-esperia/
+895,B26.104,Martirio di San Lorenzo,Marcantonio,non classé,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-esaco-ed-esperia/
+895,B26.198,Cleopatra,Agostino Veneziano,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-esaco-ed-esperia/
+762,B26.23,Cristo in casa di Simone il Fariseo,Marcantonio,groupe,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/sepoltura-di-leucothoe-o-rea-silvia-ed-il-re-amulio/
+762,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/sepoltura-di-leucothoe-o-rea-silvia-ed-il-re-amulio/
+762,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,figure isolée,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/sepoltura-di-leucothoe-o-rea-silvia-ed-il-re-amulio/
+730,B28.49,Ercole e Caco,Caraglio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ercole-e-caco-3/
+640,B26.103,San Girolamo e il leone,Agostino Veneziano,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/san-girolamo/
+640,B26.242,Trono di Saturno,Marco Dente,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/san-girolamo/
+455,B26.10,Davide e Golia,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/morte-di-calano/
+455,B27.352,Quos Ego,Marcantonio,groupe,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/morte-di-calano/
+455,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/morte-di-calano/
+335,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-vergine-vestale-tuccia-porta-dellacqua-in-un-setaccio-al-tempio-di-vesta/
+335,B26.104,Martirio di San Lorenzo,Marcantonio,groupe,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-vergine-vestale-tuccia-porta-dellacqua-in-un-setaccio-al-tempio-di-vesta/
+815,B28.62,Matrimonio di Alessandro e Rossana,Caraglio,groupe,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/815/
+736,B28.48,Ercole e Acheloo,Caraglio,groupe,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/le-baccanti-trasformate-in-querce/
+736,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/le-baccanti-trasformate-in-querce/
+438,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/giudizio-di-paride/
+438,B26.247,Parnaso,Marcantonio,groupe,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/giudizio-di-paride/
+390,B28.62,Matrimonio di Alessandro e Rossana,Caraglio,figure isolée,1540,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/i-figli-di-venere-e-putto-che-porta-un-cesto-di-fiori/
+1065,B26.247,Parnaso,Marcantonio,partie de figure,1529,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/venere-e-cupido/
+1065,B26.245,Giudizio di Paride,Marcantonio,partie de figure,1529,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/venere-e-cupido/
+796,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,figure isolée,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/sansone-combatte-contro-i-filistei/
+796,B26.10,Davide e Golia,Marcantonio,non classé,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/sansone-combatte-contro-i-filistei/
+780,B26.4,Sacrificio di Noè,Marco Dente,figure isolée,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/frisso-ed-elle/
+780,B26.247,Parnaso,Marcantonio,figure isolée,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/frisso-ed-elle/
+701,B26.247,Parnaso,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/morte-di-cleopatra-2/
+701,B26.198,Cleopatra,Agostino Veneziano,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/morte-di-cleopatra-2/
+701,B26.117,Martirio di Santa Cecilia,Marcantonio,groupe,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/morte-di-cleopatra-2/
+580,B26.21,Strage degli Innocenti,Marco Dente,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/firenze-offesa/
+509,B26.6,Isacco che benedice Giacobbe,Marcantonio,non classé,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/isacco-e-esau/
+509,B26.247,Parnaso,Marcantonio,groupe,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/isacco-e-esau/
+684,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ercole-e-caco-2/
+684,B26.6,Isacco che benedice Giacobbe,Marcantonio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ercole-e-caco-2/
+1186,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-vestale-tuccia-porta-lacqua-in-un-setaccio-al-tempio-di-vesta-3/
+1186,B26.104,Martirio di San Lorenzo,Marcantonio,groupe,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-vestale-tuccia-porta-lacqua-in-un-setaccio-al-tempio-di-vesta-3/
+835,B27.352,Quos Ego,Marcantonio,figure isolée,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/deucalione-e-pirra/
+835,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/deucalione-e-pirra/
+833,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,figure isolée,1528,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/lultima-battaglia-di-cicno-figlio-di-nettuno/
+756,B26.209,Ratto di Elena,Marcantonio,composition entière,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/rapimento-di-elena-2/
+1239,B27.373,Donna con due spugne,Marcantonio,figure isolée,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-sogno-di-astiage-4/
+1239,B28.62,Matrimonio di Alessandro e Rossana,Caraglio,figure isolée,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-sogno-di-astiage-4/
+1239,B26.6,Isacco che benedice Giacobbe,Marcantonio,figure isolée,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-sogno-di-astiage-4/
+873,B26.209,Ratto di Elena,Marcantonio,groupe,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-matrimonio-di-alessandro-e-rossana-2/
+820,B26.232,Leda,Agostino Veneziano,composition entière,1537,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/leda-e-il-cigno-3/
+772,B26.217,Danza di Cupidi,Marcantonio,groupe,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/narciso-ed-eco/
+772,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,figure isolée,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/narciso-ed-eco/
+693,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/due-dee-e-mercurio/
+693,B16.16,Mercurio,Maestro I.B.,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/due-dee-e-mercurio/
+693,B26.247,Parnaso,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/due-dee-e-mercurio/
+590,B26.227,(rilievo antico),Marcantonio,composition entière,1542,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/vulcano-forgia-le-frecce-di-cupido/
+425,B28.62,Matrimonio di Alessandro e Rossana,Caraglio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/dedalo-e-talo/
+425,B26.104,Martirio di San Lorenzo,Marcantonio,groupe,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/dedalo-e-talo/
+1267,B26.247,Parnaso,Marcantonio,figure isolée,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/le-figlie-di-ciniro-trasformate-in-gradini-del-tempio/
+1267,B26.6,Isacco che benedice Giacobbe,Marcantonio,non classé,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/le-figlie-di-ciniro-trasformate-in-gradini-del-tempio/
+1267,B26.232,Leda,Agostino Veneziano,non classé,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/le-figlie-di-ciniro-trasformate-in-gradini-del-tempio/
+1267,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,non classé,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/le-figlie-di-ciniro-trasformate-in-gradini-del-tempio/
+1267,B26.104,Martirio di San Lorenzo,Marcantonio,non classé,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/le-figlie-di-ciniro-trasformate-in-gradini-del-tempio/
+837,B27.352,Quos Ego,Marcantonio,groupe,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/dioniso-il-tiranno-la-spada-di-damocle/
+837,B28.57,Scuola di un filosofo antico,Caraglio,figure isolée,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/dioniso-il-tiranno-la-spada-di-damocle/
+800,B26.245,Giudizio di Paride,Marcantonio,non classé,1528,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/giudizio-di-paride-2/
+786,B26.21,Strage degli Innocenti,Marco Dente,groupe,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-del-sacco-di-roma-3/
+786,B26.242,Trono di Saturno,Marco Dente,figure isolée,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-del-sacco-di-roma-3/
+667,B16.14,Sol,Maestro I.B.,non classé,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/scena-allegorica/
+667,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/scena-allegorica/
+667,B26.198,Cleopatra,Agostino Veneziano,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/scena-allegorica/
+522,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,figure isolée,1529,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ercole-e-caco/
+522,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1529,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ercole-e-caco/
+824,B26.247,Parnaso,Marcantonio,figure isolée,1542,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/francesco-xanto-avelli-rovigo-c-1487-urbino-c-1542-apollo-e-le-muse-sul-monte-parnaso-1542-coppa-ceramica-maiolica-cotto-porcellanato-diametro-275-cm-collezione-della-fondazione-cassa-d/
+1269,B26.247,Parnaso,Marcantonio,non classé,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/conversazione-con-un-putto-volante-con-un-piccolo-scudo/
+845,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,figure isolée,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-4/
+845,B26.247,Parnaso,Marcantonio,figure isolée,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-4/
+845,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-4/
+845,B26.21,Strage degli Innocenti,Marco Dente,figure isolée,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-4/
+782,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/dedalo-e-icaro/
+782,B26.247,Parnaso,Marcantonio,figure isolée,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/dedalo-e-icaro/
+746,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/un-soldato-un-uomo-e-cupido/
+746,B26.247,Parnaso,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/un-soldato-un-uomo-e-cupido/
+724,B26.247,Parnaso,Marcantonio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/scilla-e-cariddi/
+724,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/scilla-e-cariddi/
+784,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/cupido-psiche-ed-un-dio-del-fiume/
+784,B26.313,Venere accovacciata,Marcantonio,figure isolée,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/cupido-psiche-ed-un-dio-del-fiume/
+752,B26.198,Cleopatra,Agostino Veneziano,figure isolée,1537,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/esaco-ed-esperia-2/
+752,B26.217,Danza di Cupidi,Marcantonio,figure isolée,1537,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/esaco-ed-esperia-2/
+752,B26.247,Parnaso,Marcantonio,figure isolée,1537,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/esaco-ed-esperia-2/
+734,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-visione-di-alcmeone-e-il-matricidio/
+734,B26.209,Ratto di Elena,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-visione-di-alcmeone-e-il-matricidio/
+734,B26.247,Parnaso,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-visione-di-alcmeone-e-il-matricidio/
+726,B26.247,Parnaso,Marcantonio,groupe,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/tre-figure-e-cupido/
+726,B27.352,Quos Ego,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/tre-figure-e-cupido/
+1230,B26.209,Ratto di Elena,Marcantonio,non classé,1537,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-rapimento-di-elena-3/
+750,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/due-figure-e-cupido/
+750,B26.104,Martirio di San Lorenzo,Marcantonio,non classé,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/due-figure-e-cupido/
+750,B26.247,Parnaso,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/due-figure-e-cupido/
+748,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/contesa-musicale-con-cupido/
+748,B26.247,Parnaso,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/contesa-musicale-con-cupido/
+722,B26.6,Isacco che benedice Giacobbe,Marcantonio,non classé,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/anfiarao-ed-erifile-2/
+722,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/anfiarao-ed-erifile-2/
+722,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/anfiarao-ed-erifile-2/
+647,B26.217,Danza di Cupidi,Marcantonio,non classé,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ciro-proclamato-re-dai-bambini-del-villaggio/
+647,B26.198,Cleopatra,Agostino Veneziano,non classé,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ciro-proclamato-re-dai-bambini-del-villaggio/
+647,B28.62,Matrimonio di Alessandro e Rossana,Caraglio,non classé,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ciro-proclamato-re-dai-bambini-del-villaggio/
+1237,B28.62,Matrimonio di Alessandro e Rossana,Caraglio,groupe,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/venere-e-marte/
+1152,B26.198,Cleopatra,Agostino Veneziano,composition entière,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-cleopatra-4/
+1152,B26.104,Martirio di San Lorenzo,Marcantonio,groupe,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-cleopatra-4/
+1152,B26.117,Martirio di Santa Cecilia,Marcantonio,figure isolée,1538,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-cleopatra-4/
+969,B27.442,Imperatore seduto,Marcantonio,non classé,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/sinone-davanti-a-priamo/
+969,B29.43,Sacrificio di Ifigenia,Beatrizet,figure isolée,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/sinone-davanti-a-priamo/
+969,B26.104,Martirio di San Lorenzo,Marcantonio,groupe,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/sinone-davanti-a-priamo/
+969,B27.352,Quos Ego,Marcantonio,non classé,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/sinone-davanti-a-priamo/
+923,B26.21,Strage degli Innocenti,Marco Dente,groupe,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/giunone-trasforma-antigone-in-cicogna/
+923,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,figure isolée,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/giunone-trasforma-antigone-in-cicogna/
+912,B26.209,Ratto di Elena,Marcantonio,non classé,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-battaglia-di-roncisvalle/
+912,B28.44,Ercole e Cerbero,Caraglio,non classé,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-battaglia-di-roncisvalle/
+912,B28.46,Ercole e l'Idra,Caraglio,non classé,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-battaglia-di-roncisvalle/
+912,B28.49,Ercole e Caco,Caraglio,non classé,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-battaglia-di-roncisvalle/
+912,B26.211,Battaglia col coltellaccio / con la sciabola,Marco Dente,non classé,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-battaglia-di-roncisvalle/
+912,B26.104,Martirio di San Lorenzo,Marcantonio,figure isolée,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-battaglia-di-roncisvalle/
+912,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,non classé,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-battaglia-di-roncisvalle/
+881,B26.21,Strage degli Innocenti,Marco Dente,figure isolée,1529,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-storia-di-porzia/
+881,B26.8,Israeliti che raccolgono la manna,Agostino Veneziano,figure isolée,1529,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-storia-di-porzia/
+767,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,figure isolée,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/apollo-e-dafne/
+767,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,figure isolée,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/apollo-e-dafne/
+754,B28.60,Enea che salva Anchise (Fuga di Enea),Caraglio,groupe,1529,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/enea-anchise-ed-ascanio-fuggono-da-troia/
+754,B26.242,Trono di Saturno,Marco Dente,figure isolée,1529,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/enea-anchise-ed-ascanio-fuggono-da-troia/
+1340,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/atteone-trasformato-in-un-cervo-2/
+1028,B26.242,Trono di Saturno,Marco Dente,groupe,1528,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/carita/
+1015,B26.247,Parnaso,Marcantonio,groupe,1535,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/cupidi-volanti/
+1352,B28.44,Ercole e Cerbero,Caraglio,non classé,1537,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/1352/
+586,B26.23,Cristo in casa di Simone il Fariseo,Marcantonio,figure isolée,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-vergine-vestale-viene-sepolta-viva/
+1201,B26.104,Martirio di San Lorenzo,Marcantonio,groupe,1529,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/alfeo-e-aretusa/
+916,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,non classé,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/piramo-e-tisbe-3/
+916,B26.211,Battaglia col coltellaccio / con la sciabola,Marco Dente,figure isolée,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/piramo-e-tisbe-3/
+916,B28.62,Matrimonio di Alessandro e Rossana,Caraglio,figure isolée,1536,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/piramo-e-tisbe-3/
+998,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-leggenda-di-pico/
+998,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-leggenda-di-pico/
+806,B26.247,Parnaso,Marcantonio,non classé,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/piatto-con-la-leggenda-di-romolo-e-remo/
+806,B26.198,Cleopatra,Agostino Veneziano,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/piatto-con-la-leggenda-di-romolo-e-remo/
+806,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/piatto-con-la-leggenda-di-romolo-e-remo/
+806,B26.21,Strage degli Innocenti,Marco Dente,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/piatto-con-la-leggenda-di-romolo-e-remo/
+1114,B26.211,Battaglia col coltellaccio / con la sciabola,Marco Dente,groupe,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-storia-di-procne-e-filomena/
+1114,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-storia-di-procne-e-filomena/
+308,B26.209,Ratto di Elena,Marcantonio,non classé,1534,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/rapimento-di-elena/
+399,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,groupe,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/linondazione-del-tevere/
+399,B26.247,Parnaso,Marcantonio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/linondazione-del-tevere/
+399,B26.294,Giovane e sacerdote di Bacco,Marcantonio,non classé,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/linondazione-del-tevere/
+399,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,groupe,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/linondazione-del-tevere/
+399,B28.60,Enea che salva Anchise (Fuga di Enea),Caraglio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/linondazione-del-tevere/
+399,B27.352,Quos Ego,Marcantonio,groupe,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/linondazione-del-tevere/
+399,B26.21,Strage degli Innocenti,Marco Dente,groupe,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/linondazione-del-tevere/
+399,B26.226,Uomo nudo che rincorre una ninfa,Marcantonio,non classé,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/linondazione-del-tevere/
+474,B27.323,Nascita di Venere,Marco Dente,figure isolée,1529,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/unallegoria-un-vecchio-con-una-mezzaluna-e-due-putti-che-portano-mulini-a-vento/
+477,B27.420,Battaglia tra Romani e Cartaginesi (Scena di battaglia),Marco Dente,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ulisse-e-circe/
+477,B27.352,Quos Ego,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ulisse-e-circe/
+1106,B26.198,Cleopatra,Agostino Veneziano,non classé,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/1106/
+1106,B27.352,Quos Ego,Marcantonio,non classé,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/1106/
+1106,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/1106/
+1106,B28.62,Matrimonio di Alessandro e Rossana,Caraglio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/1106/
+393,B26.47,Madonna di Foligno,Marcantonio,figure isolée,1537,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/madonna-di-foligno/
+496,B26.217,Danza di Cupidi,Marcantonio,groupe,1529,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-del-sacco-di-roma-2/
+496,B26.245,Giudizio di Paride,Marcantonio,figure isolée,1529,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/allegoria-del-sacco-di-roma-2/
+327,B27.323,Nascita di Venere,Marco Dente,figure isolée,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/trionfo-di-nettuno-e-di-venere/
+327,B28.50,Mercurio porta Psiche sull'Olimpo,Caraglio,figure isolée,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/trionfo-di-nettuno-e-di-venere/
+298,B26.21,Strage degli Innocenti,Marco Dente,groupe,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-palinuro-2/
+298,B28.49,Ercole e Caco,Caraglio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-palinuro-2/
+1109,B26.198,Cleopatra,Agostino Veneziano,figure isolée,1540,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-cleopatra-3/
+1109,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,figure isolée,1540,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-cleopatra-3/
+1109,B26.117,Martirio di Santa Cecilia,Marcantonio,groupe,1540,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-cleopatra-3/
+396,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/orfeo-ed-euridice/
+396,B26.226,Uomo nudo che rincorre una ninfa,Marcantonio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/orfeo-ed-euridice/
+396,B26.217,Danza di Cupidi,Marcantonio,figure isolée,1531,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/orfeo-ed-euridice/
+516,B26.10,Davide e Golia,Marcantonio,figure isolée,1540,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ero-e-leandro-3/
+516,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,figure isolée,1540,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ero-e-leandro-3/
+516,B26.198,Cleopatra,Agostino Veneziano,figure isolée,1540,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ero-e-leandro-3/
+516,B26.209,Ratto di Elena,Marcantonio,non classé,1540,1536-1542,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ero-e-leandro-3/
+411,B28.62,Matrimonio di Alessandro e Rossana,Caraglio,groupe,1530,<=1530,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/tondino-dellanno-nuovo/
+293,B26.198,Cleopatra,Agostino Veneziano,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/13/piatto-con-ero-e-leandro/
+293,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/13/piatto-con-ero-e-leandro/
+293,B26.242,Trono di Saturno,Marco Dente,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/13/piatto-con-ero-e-leandro/
+293,B26.247,Parnaso,Marcantonio,figure isolée,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/13/piatto-con-ero-e-leandro/
+614,B27.32,Venere ferita da una spina,Marco Dente,non classé,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2014/11/14/la-decadenza-di-roma/
+614,MODI,"I Modi (série, sans numéro Bartsch dans les fiches)",Marcantonio,non classé,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2014/11/14/la-decadenza-di-roma/
+614,B26.117,Martirio di Santa Cecilia,Marcantonio,non classé,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2014/11/14/la-decadenza-di-roma/
+614,B28.53,Contesa tra le Muse e le Pieridi,Caraglio,non classé,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2014/11/14/la-decadenza-di-roma/
+614,B26.198,Cleopatra,Agostino Veneziano,non classé,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2014/11/14/la-decadenza-di-roma/
+614,B26.104,Martirio di San Lorenzo,Marcantonio,non classé,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2014/11/14/la-decadenza-di-roma/
+614,B26.247,Parnaso,Marcantonio,non classé,1532,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2014/11/14/la-decadenza-di-roma/
+626,B26.10,Davide e Golia,Marcantonio,figure isolée,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2014/11/14/la-morte-di-esaco/
+626,B26.247,Parnaso,Marcantonio,figure isolée,1533,1531-1535,https://xanto.fondazionebancadelmonte.rovigo.it/2014/11/14/la-morte-di-esaco/

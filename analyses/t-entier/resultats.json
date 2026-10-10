@@ -1,0 +1,491 @@
+{
+ "global": {
+  "n": 576,
+  "composition entière": 22,
+  "groupe": 119,
+  "figure isolée": 324,
+  "partie de figure": 7,
+  "non classé": 104,
+  "part_entiere_parmi_classees": 0.047,
+  "part_groupe_ou_entiere_parmi_classees": 0.299
+ },
+ "par_graveur": {
+  "Marcantonio": {
+   "n": 303,
+   "composition entière": 10,
+   "groupe": 58,
+   "figure isolée": 172,
+   "partie de figure": 7,
+   "non classé": 56,
+   "part_entiere_parmi_classees": 0.04,
+   "part_groupe_ou_entiere_parmi_classees": 0.275
+  },
+  "Caraglio": {
+   "n": 132,
+   "composition entière": 8,
+   "groupe": 44,
+   "figure isolée": 62,
+   "partie de figure": 0,
+   "non classé": 18,
+   "part_entiere_parmi_classees": 0.07,
+   "part_groupe_ou_entiere_parmi_classees": 0.456
+  },
+  "Marco Dente": {
+   "n": 90,
+   "composition entière": 2,
+   "groupe": 15,
+   "figure isolée": 60,
+   "partie de figure": 0,
+   "non classé": 13,
+   "part_entiere_parmi_classees": 0.026,
+   "part_groupe_ou_entiere_parmi_classees": 0.221
+  },
+  "Agostino Veneziano": {
+   "n": 32,
+   "composition entière": 2,
+   "groupe": 1,
+   "figure isolée": 21,
+   "partie de figure": 0,
+   "non classé": 8,
+   "part_entiere_parmi_classees": 0.083,
+   "part_groupe_ou_entiere_parmi_classees": 0.125
+  },
+  "Maestro I.B.": {
+   "n": 15,
+   "composition entière": 0,
+   "groupe": 1,
+   "figure isolée": 6,
+   "partie de figure": 0,
+   "non classé": 8,
+   "part_entiere_parmi_classees": 0.0,
+   "part_groupe_ou_entiere_parmi_classees": 0.143
+  },
+  "Maestro I.B. / Pencz": {
+   "n": 2,
+   "composition entière": 0,
+   "groupe": 0,
+   "figure isolée": 2,
+   "partie de figure": 0,
+   "non classé": 0,
+   "part_entiere_parmi_classees": 0.0,
+   "part_groupe_ou_entiere_parmi_classees": 0.0
+  },
+  "Mantegna": {
+   "n": 1,
+   "composition entière": 0,
+   "groupe": 0,
+   "figure isolée": 0,
+   "partie de figure": 0,
+   "non classé": 1,
+   "part_entiere_parmi_classees": null,
+   "part_groupe_ou_entiere_parmi_classees": null
+  },
+  "Beatrizet": {
+   "n": 1,
+   "composition entière": 0,
+   "groupe": 0,
+   "figure isolée": 1,
+   "partie de figure": 0,
+   "non classé": 0,
+   "part_entiere_parmi_classees": 0.0,
+   "part_groupe_ou_entiere_parmi_classees": 0.0
+  },
+  "I Modi (Marcantonio, sans n° Bartsch)": {
+   "n": 40,
+   "composition entière": 0,
+   "groupe": 8,
+   "figure isolée": 23,
+   "partie de figure": 0,
+   "non classé": 9,
+   "part_entiere_parmi_classees": 0.0,
+   "part_groupe_ou_entiere_parmi_classees": 0.258
+  }
+ },
+ "par_estampe": [
+  {
+   "estampe": "B26.247",
+   "titre": "Parnaso",
+   "graveur": "Marcantonio",
+   "n": 76,
+   "composition entière": 1,
+   "groupe": 20,
+   "figure isolée": 42,
+   "partie de figure": 1,
+   "non classé": 12,
+   "part_entiere_parmi_classees": 0.016,
+   "part_groupe_ou_entiere_parmi_classees": 0.328,
+   "ids_entiere": [
+    1000
+   ]
+  },
+  {
+   "estampe": "B28.53",
+   "titre": "Contesa tra le Muse e le Pieridi",
+   "graveur": "Caraglio",
+   "n": 71,
+   "composition entière": 0,
+   "groupe": 35,
+   "figure isolée": 27,
+   "partie de figure": 0,
+   "non classé": 9,
+   "part_entiere_parmi_classees": 0.0,
+   "part_groupe_ou_entiere_parmi_classees": 0.565,
+   "ids_entiere": []
+  },
+  {
+   "estampe": "B26.104",
+   "titre": "Martirio di San Lorenzo",
+   "graveur": "Marcantonio",
+   "n": 52,
+   "composition entière": 0,
+   "groupe": 10,
+   "figure isolée": 33,
+   "partie de figure": 1,
+   "non classé": 8,
+   "part_entiere_parmi_classees": 0.0,
+   "part_groupe_ou_entiere_parmi_classees": 0.227,
+   "ids_entiere": []
+  },
+  {
+   "estampe": "MODI",
+   "titre": "I Modi (série, sans numéro Bartsch dans les fiches)",
+   "graveur": "Marcantonio",
+   "n": 40,
+   "composition entière": 0,
+   "groupe": 8,
+   "figure isolée": 23,
+   "partie de figure": 0,
+   "non classé": 9,
+   "part_entiere_parmi_classees": 0.0,
+   "part_groupe_ou_entiere_parmi_classees": 0.258,
+   "ids_entiere": []
+  },
+  {
+   "estampe": "B27.420",
+   "titre": "Battaglia tra Romani e Cartaginesi (Scena di battaglia)",
+   "graveur": "Marco Dente",
+   "n": 29,
+   "composition entière": 0,
+   "groupe": 2,
+   "figure isolée": 24,
+   "partie de figure": 0,
+   "non classé": 3,
+   "part_entiere_parmi_classees": 0.0,
+   "part_groupe_ou_entiere_parmi_classees": 0.077,
+   "ids_entiere": []
+  },
+  {
+   "estampe": "B27.352",
+   "titre": "Quos Ego",
+   "graveur": "Marcantonio",
+   "n": 29,
+   "composition entière": 1,
+   "groupe": 11,
+   "figure isolée": 12,
+   "partie de figure": 1,
+   "non classé": 4,
+   "part_entiere_parmi_classees": 0.04,
+   "part_groupe_ou_entiere_parmi_classees": 0.48,
+   "ids_entiere": [
+    950
+   ]
+  },
+  {
+   "estampe": "B28.62",
+   "titre": "Matrimonio di Alessandro e Rossana",
+   "graveur": "Caraglio",
+   "n": 27,
+   "composition entière": 3,
+   "groupe": 4,
+   "figure isolée": 17,
+   "partie de figure": 0,
+   "non classé": 3,
+   "part_entiere_parmi_classees": 0.125,
+   "part_groupe_ou_entiere_parmi_classees": 0.292,
+   "ids_entiere": [
+    489,
+    760,
+    939
+   ]
+  },
+  {
+   "estampe": "B26.209",
+   "titre": "Ratto di Elena",
+   "graveur": "Marcantonio",
+   "n": 27,
+   "composition entière": 2,
+   "groupe": 2,
+   "figure isolée": 13,
+   "partie de figure": 0,
+   "non classé": 10,
+   "part_entiere_parmi_classees": 0.118,
+   "part_groupe_ou_entiere_parmi_classees": 0.235,
+   "ids_entiere": [
+    1344,
+    756
+   ]
+  },
+  {
+   "estampe": "B26.21",
+   "titre": "Strage degli Innocenti",
+   "graveur": "Marco Dente",
+   "n": 21,
+   "composition entière": 0,
+   "groupe": 8,
+   "figure isolée": 10,
+   "partie de figure": 0,
+   "non classé": 3,
+   "part_entiere_parmi_classees": 0.0,
+   "part_groupe_ou_entiere_parmi_classees": 0.444,
+   "ids_entiere": []
+  },
+  {
+   "estampe": "B26.211",
+   "titre": "Battaglia col coltellaccio / con la sciabola",
+   "graveur": "Marco Dente",
+   "n": 21,
+   "composition entière": 1,
+   "groupe": 4,
+   "figure isolée": 12,
+   "partie de figure": 0,
+   "non classé": 4,
+   "part_entiere_parmi_classees": 0.059,
+   "part_groupe_ou_entiere_parmi_classees": 0.294,
+   "ids_entiere": [
+    1129
+   ]
+  },
+  {
+   "estampe": "B26.217",
+   "titre": "Danza di Cupidi",
+   "graveur": "Marcantonio",
+   "n": 20,
+   "composition entière": 1,
+   "groupe": 5,
+   "figure isolée": 12,
+   "partie de figure": 0,
+   "non classé": 2,
+   "part_entiere_parmi_classees": 0.056,
+   "part_groupe_ou_entiere_parmi_classees": 0.333,
+   "ids_entiere": [
+    339
+   ]
+  },
+  {
+   "estampe": "B26.198",
+   "titre": "Cleopatra",
+   "graveur": "Agostino Veneziano",
+   "n": 19,
+   "composition entière": 1,
+   "groupe": 0,
+   "figure isolée": 13,
+   "partie de figure": 0,
+   "non classé": 5,
+   "part_entiere_parmi_classees": 0.071,
+   "part_groupe_ou_entiere_parmi_classees": 0.071,
+   "ids_entiere": [
+    1152
+   ]
+  },
+  {
+   "estampe": "B26.6",
+   "titre": "Isacco che benedice Giacobbe",
+   "graveur": "Marcantonio",
+   "n": 14,
+   "composition entière": 1,
+   "groupe": 2,
+   "figure isolée": 7,
+   "partie de figure": 0,
+   "non classé": 4,
+   "part_entiere_parmi_classees": 0.1,
+   "part_groupe_ou_entiere_parmi_classees": 0.3,
+   "ids_entiere": [
+    116
+   ]
+  },
+  {
+   "estampe": "B26.10",
+   "titre": "Davide e Golia",
+   "graveur": "Marcantonio",
+   "n": 13,
+   "composition entière": 0,
+   "groupe": 1,
+   "figure isolée": 9,
+   "partie de figure": 0,
+   "non classé": 3,
+   "part_entiere_parmi_classees": 0.0,
+   "part_groupe_ou_entiere_parmi_classees": 0.1,
+   "ids_entiere": []
+  },
+  {
+   "estampe": "B26.117",
+   "titre": "Martirio di Santa Cecilia",
+   "graveur": "Marcantonio",
+   "n": 12,
+   "composition entière": 1,
+   "groupe": 3,
+   "figure isolée": 7,
+   "partie de figure": 0,
+   "non classé": 1,
+   "part_entiere_parmi_classees": 0.091,
+   "part_groupe_ou_entiere_parmi_classees": 0.364,
+   "ids_entiere": [
+    112
+   ]
+  },
+  {
+   "estampe": "B26.23",
+   "titre": "Cristo in casa di Simone il Fariseo",
+   "graveur": "Marcantonio",
+   "n": 12,
+   "composition entière": 0,
+   "groupe": 1,
+   "figure isolée": 10,
+   "partie de figure": 0,
+   "non classé": 1,
+   "part_entiere_parmi_classees": 0.0,
+   "part_groupe_ou_entiere_parmi_classees": 0.091,
+   "ids_entiere": []
+  },
+  {
+   "estampe": "B16.14",
+   "titre": "Sol",
+   "graveur": "Maestro I.B.",
+   "n": 11,
+   "composition entière": 0,
+   "groupe": 0,
+   "figure isolée": 4,
+   "partie de figure": 0,
+   "non classé": 7,
+   "part_entiere_parmi_classees": 0.0,
+   "part_groupe_ou_entiere_parmi_classees": 0.0,
+   "ids_entiere": []
+  },
+  {
+   "estampe": "B26.226",
+   "titre": "Uomo nudo che rincorre una ninfa",
+   "graveur": "Marcantonio",
+   "n": 11,
+   "composition entière": 0,
+   "groupe": 0,
+   "figure isolée": 7,
+   "partie de figure": 0,
+   "non classé": 4,
+   "part_entiere_parmi_classees": 0.0,
+   "part_groupe_ou_entiere_parmi_classees": 0.0,
+   "ids_entiere": []
+  },
+  {
+   "estampe": "B26.245",
+   "titre": "Giudizio di Paride",
+   "graveur": "Marcantonio",
+   "n": 11,
+   "composition entière": 0,
+   "groupe": 1,
+   "figure isolée": 8,
+   "partie de figure": 1,
+   "non classé": 1,
+   "part_entiere_parmi_classees": 0.0,
+   "part_groupe_ou_entiere_parmi_classees": 0.1,
+   "ids_entiere": []
+  },
+  {
+   "estampe": "B28.44",
+   "titre": "Ercole e Cerbero",
+   "graveur": "Caraglio",
+   "n": 6,
+   "composition entière": 0,
+   "groupe": 0,
+   "figure isolée": 3,
+   "partie de figure": 0,
+   "non classé": 3,
+   "part_entiere_parmi_classees": 0.0,
+   "part_groupe_ou_entiere_parmi_classees": 0.0,
+   "ids_entiere": []
+  }
+ ],
+ "test_caraglio_vs_marcantonio": {
+  "groupe_1": "Marcantonio",
+  "groupe_2": "Caraglio",
+  "difference_g2_moins_g1": 0.0313,
+  "p_permutation_bilateral": 0.2241,
+  "n_permutations": 10000,
+  "n_pieces": 227
+ },
+ "test_groupe_ou_entier_caraglio_vs_marcantonio": {
+  "groupe_1": "Marcantonio",
+  "groupe_2": "Caraglio",
+  "difference_g2_moins_g1": 0.1006,
+  "p_permutation_bilateral": 0.0595,
+  "n_permutations": 10000,
+  "n_pieces": 227
+ },
+ "caraglio_sans_contesa_B28.53": {
+  "n": 61,
+  "composition entière": 8,
+  "groupe": 9,
+  "figure isolée": 35,
+  "partie de figure": 0,
+  "non classé": 9,
+  "part_entiere_parmi_classees": 0.154,
+  "part_groupe_ou_entiere_parmi_classees": 0.327
+ },
+ "pieces_a_source_unique_par_graveur": {
+  "Marcantonio": {
+   "pieces_source_unique": 53,
+   "pieces_citant_le_graveur": 302
+  },
+  "Maestro I.B.": {
+   "pieces_source_unique": 0,
+   "pieces_citant_le_graveur": 15
+  },
+  "Marco Dente": {
+   "pieces_source_unique": 15,
+   "pieces_citant_le_graveur": 90
+  },
+  "Caraglio": {
+   "pieces_source_unique": 28,
+   "pieces_citant_le_graveur": 132
+  },
+  "Maestro I.B. / Pencz": {
+   "pieces_source_unique": 0,
+   "pieces_citant_le_graveur": 2
+  },
+  "Mantegna": {
+   "pieces_source_unique": 1,
+   "pieces_citant_le_graveur": 1
+  },
+  "Agostino Veneziano": {
+   "pieces_source_unique": 3,
+   "pieces_citant_le_graveur": 32
+  },
+  "Beatrizet": {
+   "pieces_source_unique": 0,
+   "pieces_citant_le_graveur": 1
+  }
+ },
+ "ids_composition_entiere": [
+  112,
+  116,
+  339,
+  446,
+  461,
+  489,
+  590,
+  756,
+  760,
+  820,
+  827,
+  925,
+  939,
+  950,
+  1000,
+  1101,
+  1129,
+  1131,
+  1152,
+  1257,
+  1263,
+  1344
+ ]
+}

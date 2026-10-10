@@ -17,6 +17,9 @@ def main():
     fiches, _, _ = commun.charger()
     lignes = [{k: f[k] for k in ("id", "titolo", "annee", "amin", "amax", "source_date", "precis",
                                  "periode", "note_date", "data_catalogue", "link")} for f in fiches]
+    for r in lignes:  # quelques champs « data » de pieces.csv contiennent l'inscription (colonnes décalées)
+        if len(r["data_catalogue"]) > 40:
+            r["data_catalogue"] = "(champ décalé dans pieces.csv)"
     lignes.sort(key=lambda r: (r["annee"] or 9999, r["id"]))
     commun.ecrire_csv(OUT / "dates_par_piece.csv", lignes)
 

@@ -94,7 +94,7 @@
     if (!E) { $("#cas-echelle").innerHTML = "<p>Aucun cas chargé.</p>"; return; }
     const PXCM = 26; // pixels d'écran par centimètre réel
     $("#cas-echelle").innerHTML = E.cas.map((c, ci) => `<div class="cas"><h3>${esc(c.titre || c.id)}</h3>${c.resume ? `<p>${esc(c.resume)}</p>` : ""}
-      <div class="temoins">${c.temoins.map((t, ti) => `<div class="temoin ${t.comparable ? "" : "non-comparable"}"><canvas id="cv-${ci}-${ti}"></canvas><div class="h">${t.hauteur_cm ?? "–"} cm</div><div class="leg">${esc(t.objet)}${t.reference_cm ? `<br>${t.type === "plat" ? "diamètre" : "largeur de feuille"} ${t.reference_cm} cm` : ""}${t.prediction_proportionnelle_cm ? `<br>si adapté au plat : ${t.prediction_proportionnelle_cm} cm` : ""}${t.comparable ? "" : "<br><i>non comparable (figure redessinée)</i>"}</div></div>`).join("")}</div>
+      <div class="temoins">${c.temoins.map((t, ti) => `<div class="temoin ${t.comparable ? "" : "non-comparable"}"><canvas id="cv-${ci}-${ti}"></canvas><div class="h">${t.hauteur_cm ?? "–"} cm</div>${t.hauteur_cm_independant ? `<div class="leg">second annotateur : ${t.hauteur_cm_independant} cm</div>` : ""}<div class="leg">${esc(t.objet)}${t.reference_cm ? `<br>${t.type === "plat" ? "diamètre" : "largeur de feuille"} ${t.reference_cm} cm` : ""}${t.prediction_proportionnelle_cm ? `<br>si adapté au plat : ${t.prediction_proportionnelle_cm} cm` : ""}${t.comparable ? "" : "<br><i>non comparable (figure redessinée)</i>"}</div></div>`).join("")}</div>
       <div id="graph-${ci}"></div></div>`).join("");
     E.cas.forEach((c, ci) => {
       c.temoins.forEach((t, ti) => {

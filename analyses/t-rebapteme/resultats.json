@@ -1,0 +1,1339 @@
+{
+ "n_references": 616,
+ "classes": {
+  "cible générique": 206,
+  "non classé (liste ou phrase sans verbe d'emprunt)": 117,
+  "non classé (cible introuvable)": 68,
+  "changée (présumée)": 94,
+  "anonyme → nommée (présumée)": 79,
+  "conservée (présumée)": 45,
+  "changée (explicite)": 6,
+  "conservée (explicite)": 1
+ },
+ "references_a_cible_nommee": 225,
+ "part_identite_changee_parmi_conservee_ou_changee": 0.685,
+ "part_identite_changee_explicite_seulement": 0.857,
+ "part_changee_ou_anonyme_vers_nommee_parmi_cibles_nommees": 0.796,
+ "sans_cupido": {
+  "n": 111,
+  "changees": 98,
+  "part_changees": 0.883
+ },
+ "cibles_cupido": 36,
+ "par_periode": {
+  "<=1530": {
+   "n": 23,
+   "changees": 16,
+   "part_changees": 0.696
+  },
+  "1531-1535": {
+   "n": 88,
+   "changees": 59,
+   "part_changees": 0.67
+  },
+  "1536-1542": {
+   "n": 27,
+   "changees": 21,
+   "part_changees": 0.778
+  }
+ },
+ "par_estampe": [
+  {
+   "estampe": "B26.247",
+   "titre": "Parnaso",
+   "n": 30,
+   "changees": 13,
+   "cibles": {
+    "Cupido": 14,
+    "Camilla": 5,
+    "Apollo": 3,
+    "Circe": 1,
+    "Paride": 1,
+    "Elle": 1,
+    "Cleopatra": 1,
+    "Isacco": 1
+   }
+  },
+  {
+   "estampe": "B28.53",
+   "titre": "Contesa tra le Muse e le Pieridi",
+   "n": 23,
+   "changees": 23,
+   "cibles": {
+    "Dafne": 3,
+    "Tisbe": 3,
+    "Ino": 2,
+    "Circe": 2,
+    "Cupido": 2,
+    "Anio": 1,
+    "Diana": 1,
+    "Firenze": 1
+   }
+  },
+  {
+   "estampe": "B26.198",
+   "titre": "Cleopatra",
+   "n": 10,
+   "changees": 5,
+   "cibles": {
+    "Cupido": 5,
+    "Esperia": 3,
+    "Ero": 2
+   }
+  },
+  {
+   "estampe": "B28.62",
+   "titre": "Matrimonio di Alessandro e Rossana",
+   "n": 9,
+   "changees": 5,
+   "cibles": {
+    "Cupido": 4,
+    "Ceice": 3,
+    "Morfeo": 1,
+    "Ciro": 1
+   }
+  },
+  {
+   "estampe": "B27.352",
+   "titre": "Quos Ego",
+   "n": 8,
+   "changees": 7,
+   "cibles": {
+    "Onfale": 3,
+    "Gobrio": 1,
+    "Enea": 1,
+    "Teseo": 1,
+    "Alessandro": 1,
+    "Deucalione": 1
+   }
+  },
+  {
+   "estampe": "B26.217",
+   "titre": "Danza di Cupidi",
+   "n": 8,
+   "changees": 1,
+   "cibles": {
+    "Cupido": 6,
+    "Melicerta": 1,
+    "Amore": 1
+   }
+  },
+  {
+   "estampe": "B26.10",
+   "titre": "Davide e Golia",
+   "n": 8,
+   "changees": 8,
+   "cibles": {
+    "Calano": 2,
+    "Esaco": 2,
+    "Piramo": 1,
+    "Cefalo": 1,
+    "Morfeo": 1,
+    "Leandro": 1
+   }
+  },
+  {
+   "estampe": "B26.6",
+   "titre": "Isacco che benedice Giacobbe",
+   "n": 7,
+   "changees": 7,
+   "cibles": {
+    "Anfiarao": 2,
+    "Danao": 1,
+    "Atteone": 1,
+    "Ciro": 1,
+    "Eschilo": 1,
+    "Astiage": 1
+   }
+  },
+  {
+   "estampe": "B26.209",
+   "titre": "Ratto di Elena",
+   "n": 6,
+   "changees": 6,
+   "cibles": {
+    "Enea": 2,
+    "Apollo": 1,
+    "Magno": 1,
+    "Nettuno": 1,
+    "Alcmeone": 1
+   }
+  },
+  {
+   "estampe": "B28.49",
+   "titre": "Ercole e Caco",
+   "n": 3,
+   "changees": 3,
+   "cibles": {
+    "Palinuro": 3
+   }
+  },
+  {
+   "estampe": "B16.14",
+   "titre": "Sol",
+   "n": 3,
+   "changees": 3,
+   "cibles": {
+    "Esaco": 2,
+    "Gobrio": 1
+   }
+  },
+  {
+   "estampe": "B26.245",
+   "titre": "Giudizio di Paride",
+   "n": 3,
+   "changees": 3,
+   "cibles": {
+    "Leda": 3
+   }
+  },
+  {
+   "estampe": "B28.50",
+   "titre": "Mercurio porta Psiche sull'Olimpo",
+   "n": 3,
+   "changees": 3,
+   "cibles": {
+    "Marte": 1,
+    "Acheole": 1,
+    "Nettuno": 1
+   }
+  },
+  {
+   "estampe": "B28.44",
+   "titre": "Ercole e Cerbero",
+   "n": 2,
+   "changees": 1,
+   "cibles": {
+    "Carlo": 1,
+    "Ercole": 1
+   }
+  },
+  {
+   "estampe": "B16.12",
+   "titre": "Giove",
+   "n": 2,
+   "changees": 2,
+   "cibles": {
+    "Ulisse": 1,
+    "Perseo": 1
+   }
+  }
+ ],
+ "exemples": {
+  "cible générique": [
+   {
+    "id": 321,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B27.420",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2019/11/14/la-discesa-di-orfeo-nellade/"
+   },
+   {
+    "id": 321,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.104",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2019/11/14/la-discesa-di-orfeo-nellade/"
+   },
+   {
+    "id": 364,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B27.442",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2019/11/14/ercole-e-onfale-2/"
+   },
+   {
+    "id": 577,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B28.53",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/carlo-v-punisce-roma-corrotta/"
+   },
+   {
+    "id": 898,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.10",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/martirio-di-santa-ursula/"
+   },
+   {
+    "id": 656,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.247",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/la-favola-di-pico/"
+   },
+   {
+    "id": 952,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B27.323",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/cupido-scappa-da-psiche/"
+   },
+   {
+    "id": 526,
+    "cible": "",
+    "figure_source": "Muse",
+    "estampe": "B26.247",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/scena-di-parto/"
+   },
+   {
+    "id": 672,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B28.53",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/scilla-cupido-e-quattro-ninfe/"
+   },
+   {
+    "id": 973,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "MODI",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/la-battaglia-di-pavia/"
+   },
+   {
+    "id": 1203,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.104",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/alfeo-e-aretusa-2/"
+   },
+   {
+    "id": 9,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B27.352",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/13/la-storia-di-enea/"
+   },
+   {
+    "id": 37,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.247",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/11/il-matrimonio-di-alessandro-e-rossana/"
+   },
+   {
+    "id": 37,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.104",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/11/il-matrimonio-di-alessandro-e-rossana/"
+   },
+   {
+    "id": 58,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B27.352",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/10/venere-che-appare-ad-enea-ed-acante/"
+   },
+   {
+    "id": 64,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.247",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/09/il-salvataggio-di-camilla/"
+   },
+   {
+    "id": 68,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.226",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/08/la-trasformazione-di-cicno-e-delle-sorelle-di-fetonte/"
+   },
+   {
+    "id": 78,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.217",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/05/tagliere-con-il-dio-del-fiume-e-la-ninfa-aretusa/"
+   },
+   {
+    "id": 126,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.104",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/26/piastra-con-achille-ed-ettore/"
+   },
+   {
+    "id": 136,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B27.352",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/23/piatto-con-calano/"
+   },
+   {
+    "id": 149,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B27.352",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/19/dionisio-e-il-tiranno-la-spada-di-damocle/"
+   },
+   {
+    "id": 153,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.245",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/18/coppa-con-la-conversione-di-saulo/"
+   },
+   {
+    "id": 156,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.104",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/17/coppa-a-bordo-largo-con-nettuno-che-rapisce-teofane/"
+   },
+   {
+    "id": 163,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "MODI",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/15/la-flotta-di-seleuco-che-affonda/"
+   },
+   {
+    "id": 170,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.211",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/13/ero-e-leandro/"
+   }
+  ],
+  "non classé (liste ou phrase sans verbe d'emprunt)": [
+   {
+    "id": 321,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B16.14",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2019/11/14/la-discesa-di-orfeo-nellade/"
+   },
+   {
+    "id": 364,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B27.464",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2019/11/14/ercole-e-onfale-2/"
+   },
+   {
+    "id": 387,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.10",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2019/11/14/serse-e-i-suoi-soldati-profanano-il-tempio-di-apollo-a-delfi/"
+   },
+   {
+    "id": 653,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.21",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/le-disgrazie-dellitalia/"
+   },
+   {
+    "id": 1171,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.211",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/scena-di-battaglia-e-cupido/"
+   },
+   {
+    "id": 718,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B28.53",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/giove-e-dioniso-tiranno-di-siracusa/"
+   },
+   {
+    "id": 672,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.247",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/scilla-cupido-e-quattro-ninfe/"
+   },
+   {
+    "id": 1350,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.104",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/scena-di-pesca/"
+   },
+   {
+    "id": 1350,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "MODI",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/scena-di-pesca/"
+   },
+   {
+    "id": 839,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.247",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/la-trasfigurazione/"
+   },
+   {
+    "id": 839,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B27.323",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/la-trasfigurazione/"
+   },
+   {
+    "id": 71,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.247",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/07/la-trasformazione-delle-ninfe-nelle-isole-echinadi/"
+   },
+   {
+    "id": 78,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.226",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/05/tagliere-con-il-dio-del-fiume-e-la-ninfa-aretusa/"
+   },
+   {
+    "id": 94,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B25.1",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/02/il-seppellimento-di-cristo/"
+   },
+   {
+    "id": 100,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.247",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/01/cefalo-che-uccide-procri/"
+   },
+   {
+    "id": 100,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.10",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/01/cefalo-che-uccide-procri/"
+   },
+   {
+    "id": 100,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B28.53",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/01/cefalo-che-uccide-procri/"
+   },
+   {
+    "id": 100,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "MODI",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/01/cefalo-che-uccide-procri/"
+   },
+   {
+    "id": 120,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.198",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/28/il-mito-di-esaco/"
+   },
+   {
+    "id": 120,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.104",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/28/il-mito-di-esaco/"
+   },
+   {
+    "id": 120,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "MODI",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/28/il-mito-di-esaco/"
+   },
+   {
+    "id": 120,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B16.14",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/28/il-mito-di-esaco/"
+   },
+   {
+    "id": 126,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B27.420",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/26/piastra-con-achille-ed-ettore/"
+   },
+   {
+    "id": 139,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.209",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/22/tagliere-con-ero-e-leandro/"
+   },
+   {
+    "id": 145,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "MODI",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/20/allegoria-del-sacco-di-roma/"
+   }
+  ],
+  "non classé (cible introuvable)": [
+   {
+    "id": 339,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.217",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2019/11/14/danza-di-cupidi/"
+   },
+   {
+    "id": 653,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.247",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/le-disgrazie-dellitalia/"
+   },
+   {
+    "id": 718,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.217",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/giove-e-dioniso-tiranno-di-siracusa/"
+   },
+   {
+    "id": 843,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B27.420",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/lassalto-a-la-goletta/"
+   },
+   {
+    "id": 950,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B27.352",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/didone-intrattiene-enea/"
+   },
+   {
+    "id": 952,
+    "cible": "",
+    "figure_source": "Didone",
+    "estampe": "B27.352",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/cupido-scappa-da-psiche/"
+   },
+   {
+    "id": 526,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "MODI",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/scena-di-parto/"
+   },
+   {
+    "id": 594,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.209",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/sansone-e-i-filistei/"
+   },
+   {
+    "id": 15,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.21",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/12/ercole-e-lica/"
+   },
+   {
+    "id": 37,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B28.62",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/11/il-matrimonio-di-alessandro-e-rossana/"
+   },
+   {
+    "id": 64,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.211",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/09/il-salvataggio-di-camilla/"
+   },
+   {
+    "id": 75,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.243",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/06/la-morte-di-laocoonte-e-dei-suoi-figli/"
+   },
+   {
+    "id": 112,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.117",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/30/piatto-con-la-morte-della-donna-di-sestos/"
+   },
+   {
+    "id": 116,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.6",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/29/isacco-che-benedice-giacobbe-ed-esau/"
+   },
+   {
+    "id": 167,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.209",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/14/il-rapimento-di-elena/"
+   },
+   {
+    "id": 227,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.23",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/26/soggetto-allegorico-con-un-uomo-che-indossa-un-turbante-e-quattro-donne/"
+   },
+   {
+    "id": 1259,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.21",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-11/"
+   },
+   {
+    "id": 804,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.313",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/un-uomo-con-un-elmo-alato-insegue-cupido/"
+   },
+   {
+    "id": 1257,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B28.60",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/enea-e-anchise-scappano-da-troia/"
+   },
+   {
+    "id": 1257,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.209",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/enea-e-anchise-scappano-da-troia/"
+   },
+   {
+    "id": 1192,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.243",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-lacoonte-2/"
+   },
+   {
+    "id": 925,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.185",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/le-sabine-sconfiggono-tarpea/"
+   },
+   {
+    "id": 428,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.247",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/leucothoe-sepolta-viva/"
+   },
+   {
+    "id": 1024,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B26.247",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/marte-e-venere/"
+   },
+   {
+    "id": 988,
+    "cible": "",
+    "figure_source": "",
+    "estampe": "B27.227",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/venere-vulcano-e-cupido/"
+   }
+  ],
+  "changée (présumée)": [
+   {
+    "id": 364,
+    "cible": "Onfale",
+    "figure_source": "",
+    "estampe": "B27.352",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2019/11/14/ercole-e-onfale-2/"
+   },
+   {
+    "id": 577,
+    "cible": "Carlo",
+    "figure_source": "",
+    "estampe": "B28.44",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/carlo-v-punisce-roma-corrotta/"
+   },
+   {
+    "id": 956,
+    "cible": "Anfiarao",
+    "figure_source": "",
+    "estampe": "B26.6",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/anfiarao-ed-erifile-3/"
+   },
+   {
+    "id": 644,
+    "cible": "Ulisse",
+    "figure_source": "",
+    "estampe": "B16.12",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/ulisse-chiede-a-circe-i-suoi-compagni/"
+   },
+   {
+    "id": 637,
+    "cible": "Ceice",
+    "figure_source": "",
+    "estampe": "B28.62",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/il-sogno-di-alcione/"
+   },
+   {
+    "id": 6,
+    "cible": "Anio",
+    "figure_source": "",
+    "estampe": "B28.53",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/14/la-storia-del-re-anius/"
+   },
+   {
+    "id": 68,
+    "cible": "Fetonte",
+    "figure_source": "",
+    "estampe": "B28.48",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/08/la-trasformazione-di-cicno-e-delle-sorelle-di-fetonte/"
+   },
+   {
+    "id": 82,
+    "cible": "Dafne",
+    "figure_source": "",
+    "estampe": "B28.53",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/04/piatto-con-apollo-dafne-e-cupido/"
+   },
+   {
+    "id": 82,
+    "cible": "Apollo",
+    "figure_source": "",
+    "estampe": "B26.209",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/04/piatto-con-apollo-dafne-e-cupido/"
+   },
+   {
+    "id": 85,
+    "cible": "Morfeo",
+    "figure_source": "",
+    "estampe": "B28.62",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/03/la-visione-di-alcione/"
+   },
+   {
+    "id": 136,
+    "cible": "Calano",
+    "figure_source": "",
+    "estampe": "B26.10",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/23/piatto-con-calano/"
+   },
+   {
+    "id": 136,
+    "cible": "Magno",
+    "figure_source": "",
+    "estampe": "B26.209",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/23/piatto-con-calano/"
+   },
+   {
+    "id": 156,
+    "cible": "Basalte",
+    "figure_source": "",
+    "estampe": "B28.48",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/17/coppa-a-bordo-largo-con-nettuno-che-rapisce-teofane/"
+   },
+   {
+    "id": 156,
+    "cible": "Nettuno",
+    "figure_source": "",
+    "estampe": "B26.209",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/17/coppa-a-bordo-largo-con-nettuno-che-rapisce-teofane/"
+   },
+   {
+    "id": 181,
+    "cible": "Tisbe",
+    "figure_source": "",
+    "estampe": "B28.53",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/10/la-morte-di-piramo-e-tisbe/"
+   },
+   {
+    "id": 201,
+    "cible": "Diana",
+    "figure_source": "",
+    "estampe": "B28.53",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/05/atteone-tramutato-da-diana-in-cervo/"
+   },
+   {
+    "id": 217,
+    "cible": "Enea",
+    "figure_source": "",
+    "estampe": "B26.209",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/30/la-morte-di-palinuro/"
+   },
+   {
+    "id": 217,
+    "cible": "Palinuro",
+    "figure_source": "",
+    "estampe": "B28.49",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/30/la-morte-di-palinuro/"
+   },
+   {
+    "id": 237,
+    "cible": "Ero",
+    "figure_source": "",
+    "estampe": "B26.198",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/23/ero-e-leandro-2/"
+   },
+   {
+    "id": 247,
+    "cible": "Anchise",
+    "figure_source": "",
+    "estampe": "B26.103",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/18/enea-anchise-creusa-e-ascanio-con-la-fiamma-miracolosa/"
+   },
+   {
+    "id": 1245,
+    "cible": "Dafne",
+    "figure_source": "",
+    "estampe": "B28.53",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/apollo-e-dafne-2/"
+   },
+   {
+    "id": 1259,
+    "cible": "Camilla",
+    "figure_source": "",
+    "estampe": "B26.247",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-11/"
+   },
+   {
+    "id": 811,
+    "cible": "Gobrio",
+    "figure_source": "",
+    "estampe": "B27.352",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/gobrio-e-dario/"
+   },
+   {
+    "id": 811,
+    "cible": "Gobrio",
+    "figure_source": "",
+    "estampe": "B16.14",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/gobrio-e-dario/"
+   },
+   {
+    "id": 431,
+    "cible": "Piramo",
+    "figure_source": "",
+    "estampe": "B26.10",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/morte-di-piramo-e-tisbe/"
+   }
+  ],
+  "anonyme → nommée (présumée)": [
+   {
+    "id": 956,
+    "cible": "Erifile",
+    "figure_source": "",
+    "estampe": "B26.104",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/anfiarao-ed-erifile-3/"
+   },
+   {
+    "id": 718,
+    "cible": "Giove",
+    "figure_source": "",
+    "estampe": "B26.117",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/giove-e-dioniso-tiranno-di-siracusa/"
+   },
+   {
+    "id": 788,
+    "cible": "Piramo",
+    "figure_source": "",
+    "estampe": "B26.211",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/piramo-e-tisbe-2/"
+   },
+   {
+    "id": 952,
+    "cible": "Psiche",
+    "figure_source": "",
+    "estampe": "B26.104",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/cupido-scappa-da-psiche/"
+   },
+   {
+    "id": 637,
+    "cible": "Alcione",
+    "figure_source": "",
+    "estampe": "MODI",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/il-sogno-di-alcione/"
+   },
+   {
+    "id": 9,
+    "cible": "Enea",
+    "figure_source": "",
+    "estampe": "B26.21",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/13/la-storia-di-enea/"
+   },
+   {
+    "id": 15,
+    "cible": "Lica",
+    "figure_source": "",
+    "estampe": "MODI",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/12/ercole-e-lica/"
+   },
+   {
+    "id": 15,
+    "cible": "Lica",
+    "figure_source": "",
+    "estampe": "B26.226",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/12/ercole-e-lica/"
+   },
+   {
+    "id": 64,
+    "cible": "Metabo",
+    "figure_source": "",
+    "estampe": "B27.420",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/09/il-salvataggio-di-camilla/"
+   },
+   {
+    "id": 68,
+    "cible": "Cigno",
+    "figure_source": "",
+    "estampe": "B26.104",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/08/la-trasformazione-di-cicno-e-delle-sorelle-di-fetonte/"
+   },
+   {
+    "id": 85,
+    "cible": "Alcione",
+    "figure_source": "",
+    "estampe": "MODI",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/03/la-visione-di-alcione/"
+   },
+   {
+    "id": 139,
+    "cible": "Leandro",
+    "figure_source": "",
+    "estampe": "B26.211",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/22/tagliere-con-ero-e-leandro/"
+   },
+   {
+    "id": 149,
+    "cible": "Damocle",
+    "figure_source": "",
+    "estampe": "B28.57",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/19/dionisio-e-il-tiranno-la-spada-di-damocle/"
+   },
+   {
+    "id": 149,
+    "cible": "Dionigi",
+    "figure_source": "",
+    "estampe": "B26.23",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/19/dionisio-e-il-tiranno-la-spada-di-damocle/"
+   },
+   {
+    "id": 181,
+    "cible": "Piramo",
+    "figure_source": "",
+    "estampe": "MODI",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/10/la-morte-di-piramo-e-tisbe/"
+   },
+   {
+    "id": 234,
+    "cible": "Acate",
+    "figure_source": "",
+    "estampe": "B27.384",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/24/cupido-travestito-da-ascanio-condotto-a-didone-da-acante/"
+   },
+   {
+    "id": 237,
+    "cible": "Leandro",
+    "figure_source": "",
+    "estampe": "B26.211",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/23/ero-e-leandro-2/"
+   },
+   {
+    "id": 237,
+    "cible": "Cupido",
+    "figure_source": "",
+    "estampe": "B26.8",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/23/ero-e-leandro-2/"
+   },
+   {
+    "id": 244,
+    "cible": "Giove",
+    "figure_source": "",
+    "estampe": "B26.117",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/19/il-sogno-profetico-della-donna-di-imera/"
+   },
+   {
+    "id": 244,
+    "cible": "Dioniso",
+    "figure_source": "",
+    "estampe": "B26.104",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/19/il-sogno-profetico-della-donna-di-imera/"
+   },
+   {
+    "id": 254,
+    "cible": "Ruggiero",
+    "figure_source": "",
+    "estampe": "B27.420",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/17/ruggiero-sullippogrifo/"
+   },
+   {
+    "id": 257,
+    "cible": "Pan",
+    "figure_source": "",
+    "estampe": "B27.420",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/15/la-contesa-musicale-di-apollo-e-pan/"
+   },
+   {
+    "id": 1245,
+    "cible": "Apollo",
+    "figure_source": "",
+    "estampe": "B27.420",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/apollo-e-dafne-2/"
+   },
+   {
+    "id": 278,
+    "cible": "Ruggiero",
+    "figure_source": "",
+    "estampe": "B27.420",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/prova/"
+   },
+   {
+    "id": 1259,
+    "cible": "Metabo",
+    "figure_source": "",
+    "estampe": "B27.420",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/il-salvataggio-di-camilla-11/"
+   }
+  ],
+  "conservée (présumée)": [
+   {
+    "id": 910,
+    "cible": "Cupido",
+    "figure_source": "",
+    "estampe": "B26.217",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/una-scena-allegorica-con-una-donna-e-un-putto/"
+   },
+   {
+    "id": 952,
+    "cible": "Cupido",
+    "figure_source": "",
+    "estampe": "B26.313",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/cupido-scappa-da-psiche/"
+   },
+   {
+    "id": 6,
+    "cible": "Dioniso",
+    "figure_source": "",
+    "estampe": "B26.294",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/14/la-storia-del-re-anius/"
+   },
+   {
+    "id": 82,
+    "cible": "Cupido",
+    "figure_source": "",
+    "estampe": "B26.217",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/01/04/piatto-con-apollo-dafne-e-cupido/"
+   },
+   {
+    "id": 133,
+    "cible": "Ercole",
+    "figure_source": "",
+    "estampe": "B28.44",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/24/piatto-con-ercole-e-cerbero/"
+   },
+   {
+    "id": 156,
+    "cible": "Cupido",
+    "figure_source": "",
+    "estampe": "B26.217",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/17/coppa-a-bordo-largo-con-nettuno-che-rapisce-teofane/"
+   },
+   {
+    "id": 197,
+    "cible": "Cupido",
+    "figure_source": "",
+    "estampe": "B28.62",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/06/lallegoria-delle-discordie-dellitalia/"
+   },
+   {
+    "id": 201,
+    "cible": "Cupido",
+    "figure_source": "",
+    "estampe": "B26.198",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/05/atteone-tramutato-da-diana-in-cervo/"
+   },
+   {
+    "id": 209,
+    "cible": "Cupido",
+    "figure_source": "",
+    "estampe": "B26.247",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/02/scilla-e-galatea/"
+   },
+   {
+    "id": 257,
+    "cible": "Apollo",
+    "figure_source": "",
+    "estampe": "B26.247",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/15/la-contesa-musicale-di-apollo-e-pan/"
+   },
+   {
+    "id": 744,
+    "cible": "Cupido",
+    "figure_source": "",
+    "estampe": "B26.247",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/scena-allegorica-con-un-uomo-la-musa-della-musica-e-cupido/"
+   },
+   {
+    "id": 758,
+    "cible": "Cupido",
+    "figure_source": "",
+    "estampe": "B26.247",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/aurora-e-cefalo/"
+   },
+   {
+    "id": 869,
+    "cible": "Cupido",
+    "figure_source": "",
+    "estampe": "B26.198",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/esaco-ed-esperia-4/"
+   },
+   {
+    "id": 776,
+    "cible": "Giove",
+    "figure_source": "",
+    "estampe": "B26.232",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/leda-e-il-cigno-2/"
+   },
+   {
+    "id": 776,
+    "cible": "Cupido",
+    "figure_source": "",
+    "estampe": "B26.217",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/leda-e-il-cigno-2/"
+   },
+   {
+    "id": 1124,
+    "cible": "Apollo",
+    "figure_source": "",
+    "estampe": "B26.247",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ermafrodito-con-la-ninfa-salmace/"
+   },
+   {
+    "id": 1124,
+    "cible": "Cupido",
+    "figure_source": "",
+    "estampe": "B28.62",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ermafrodito-con-la-ninfa-salmace/"
+   },
+   {
+    "id": 1002,
+    "cible": "Bacco",
+    "figure_source": "",
+    "estampe": "B26.294",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/bacco-cupido-e-una-donna/"
+   },
+   {
+    "id": 1036,
+    "cible": "Cupido",
+    "figure_source": "",
+    "estampe": "B26.247",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/atteone-trasformato-in-un-cervo/"
+   },
+   {
+    "id": 511,
+    "cible": "Anchise",
+    "figure_source": "",
+    "estampe": "B28.60",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/enea-fugge-da-troia/"
+   },
+   {
+    "id": 659,
+    "cible": "Cupido",
+    "figure_source": "",
+    "estampe": "B26.217",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/piramo-e-tisbe/"
+   },
+   {
+    "id": 367,
+    "cible": "Cupido",
+    "figure_source": "",
+    "estampe": "B28.62",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/ipermnestra-guarda-liceo-che-minaccia-suo-padre-danao/"
+   },
+   {
+    "id": 875,
+    "cible": "Enea",
+    "figure_source": "",
+    "estampe": "B27.352",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/enea-e-anchise-nei-campi-elisi/"
+   },
+   {
+    "id": 1004,
+    "cible": "Cupido",
+    "figure_source": "",
+    "estampe": "B26.247",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/saturno-mercurio-e-giove/"
+   },
+   {
+    "id": 680,
+    "cible": "Apollo",
+    "figure_source": "",
+    "estampe": "B26.247",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-contesa-musicale-di-apollo-e-pan-2/"
+   }
+  ],
+  "changée (explicite)": [
+   {
+    "id": 644,
+    "cible": "Circe",
+    "figure_source": "Musa",
+    "estampe": "B26.247",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2017/11/14/ulisse-chiede-a-circe-i-suoi-compagni/"
+   },
+   {
+    "id": 194,
+    "cible": "Onfale",
+    "figure_source": "Didone",
+    "estampe": "B27.352",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/12/07/ercole-e-onfale/"
+   },
+   {
+    "id": 247,
+    "cible": "Ascanio",
+    "figure_source": "Carità",
+    "estampe": "B27.386",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/18/enea-anchise-creusa-e-ascanio-con-la-fiamma-miracolosa/"
+   },
+   {
+    "id": 935,
+    "cible": "Esaco",
+    "figure_source": "Davide",
+    "estampe": "B26.10",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/esaco-ed-esperia-5/"
+   },
+   {
+    "id": 1118,
+    "cible": "Palinuro",
+    "figure_source": "Caco",
+    "estampe": "B28.49",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/la-morte-di-palinuro-3/"
+   },
+   {
+    "id": 626,
+    "cible": "Esaco",
+    "figure_source": "Davide",
+    "estampe": "B26.10",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2014/11/14/la-morte-di-esaco/"
+   }
+  ],
+  "conservée (explicite)": [
+   {
+    "id": 331,
+    "cible": "Glauco",
+    "figure_source": "Glauco",
+    "estampe": "B26.226",
+    "link": "https://xanto.fondazionebancadelmonte.rovigo.it/2016/11/14/glauco-e-scilla/"
+   }
+  ]
+ }
+}

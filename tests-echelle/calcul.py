@@ -21,6 +21,11 @@ def main():
     cases = defaultdict(list)
     for r in csv.DictReader(open("mesures.csv")):
         cases[r["cas"]].append(r)
+    # repères d'un second annotateur (instance indépendante, sans connaître l'hypothèse ni les diamètres)
+    indep = {}
+    if __import__("os").path.exists("reperes_independants.csv"):
+        for r in csv.DictReader(open("reperes_independants.csv")):
+            indep[r["image"]] = r
     out = {"cas": []}
     for cid, rows in cases.items():
         temoins = []
@@ -34,8 +39,14 @@ def main():
                  "reperes": {p: [float(r[p + "_x"]), float(r[p + "_y"])] for p in PTS if r.get(p + "_x")},
                  "hauteur_cm": round(h * scale, 2) if h else None, "comparable": r.get("comparable", "oui") == "oui",
                  "note": r["note"]}
+            ind = indep.get(r["image_privee"].split("/")[-1])
+            if ind:
+                hi = math.hypot(float(ind["T_x"]) - float(ind["P_x"]), float(ind["T_y"]) - float(ind["P_y"])) * scale
+                t["hauteur_cm_independant"] = round(hi, 2)
+                t["reperes_independants"] = {"tete": [float(ind["T_x"]), float(ind["T_y"])], "pied_tendu": [float(ind["P_x"]), float(ind["P_y"])]}
+                t["hauteur_cm_moyenne"] = round((t["hauteur_cm"] + hi) / 2, 2) if t["hauteur_cm"] else None
             temoins.append(t)
-            print(f"  {r['objet'][:60]:60} {t['hauteur_cm']} cm")
+            print(f"  {r['objet'][:60]:60} {t['hauteur_cm']} cm ; second annotateur {t.get('hauteur_cm_independant')} cm")
         est = next((t for t in temoins if t["type"] == "estampe"), None)
         plats = [t for t in temoins if t["type"] == "plat" and t["comparable"]]
         if est and len(plats) >= 1:

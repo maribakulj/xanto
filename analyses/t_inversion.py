@@ -13,7 +13,7 @@ from collections import Counter, defaultdict
 import commun
 
 OUT = commun.ICI / "t-inversion"
-INV = re.compile(r"controparte|invertit[oaie]|inversione|in senso inverso|specular[ei]|specularmente|"
+INV = re.compile(r"contro\s?parte|invertit[oaie]|inversione|in senso inverso|specular[ei]|specularmente|"
                  r"rovesciat[oaie] (?:rispetto|specular)|a specchio(?! basculante)", re.I)
 NEG = re.compile(r"(?:non|senza|né)\W+(?:\w+\W+){0,3}(?:controparte|invert|invers|specular)", re.I)
 APRES = re.compile(r"^\W*(?:,\s*)?\b(?:da|dal|dalla|dallo|dall’|dall'|dai|dagli|dalle)\b", re.I)
@@ -89,6 +89,10 @@ def main():
                lignes, "periode", lambda r: r["inversion"] in ("gauche", "droite"), "1531-1535", "1536-1542"),
            "par_estampe": par_estampe,
            "fiches_mentions_non_rattachees": [h["id"] for h in hors]}
+    # supplément : I Modi (cités sans numéro Bartsch, absents de data/emprunts.csv)
+    _, cm, _ = commun.charger(avec_modi=True)
+    modi = [{"id": c["id"], "inversion": classer(c)} for c in cm if c["estampe"] == "MODI"]
+    res["supplement_modi"] = dict(taux(modi), ids_inversees=sorted(r["id"] for r in modi if r["inversion"]))
     commun.ecrire_json(OUT / "resultats.json", res)
     commun.ecrire_csv(OUT / "inversion_par_estampe.csv", par_estampe,
                       ["estampe", "titre", "graveur", "n_references", "n_inversees", "part", "ids_inversees"])

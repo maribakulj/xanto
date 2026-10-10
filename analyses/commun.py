@@ -166,6 +166,7 @@ ESTAMPES = {
     "B26.47": ("Madonna di Foligno", "Marcantonio", "religieux", "Maria Cristo"),
     "B27.32": ("Venere ferita da una spina", "Marco Dente", "mythologique", "Venere"),
 }
+ESTAMPES["MODI"] = ("I Modi (série, sans numéro Bartsch dans les fiches)", "Marcantonio", "érotique", "")
 CORRECTIONS_NUMERO = {("26", "11726"): ("26", "117")}  # coquille manifeste dans une fiche
 
 GRAVEURS = [("Marcantonio", r"Marcantonio|Raimondi"), ("Marco Dente", r"Marco Dente|Dente di Ravenna"),
@@ -174,6 +175,7 @@ GRAVEURS = [("Marcantonio", r"Marcantonio|Raimondi"), ("Marco Dente", r"Marco De
             ("Bonasone", r"Bonasone"), ("Beatrizet", r"Beatrizet"), ("Mantegna", r"Mantegna"),
             ("Robetta", r"Robetta")]
 
+MODI = re.compile(r"\b(?:I|i|dei|dai|de|da|serie de)\s+(?:celebri\s+|famosi\s+)?Modi\b|\bModi di Marcantonio")
 CIT = re.compile(r"Bartsch\s*(\d+)\s*(?:,\s*p\.\s*(\d+))?\s*(?:,\s*n\.\s*(\d+))?")
 
 
@@ -201,8 +203,9 @@ def _clauses(comm):
 # --------------------------------------------------------------------------- chargement
 
 
-def charger():
-    """Renvoie (fiches, citations). Les champs '_*' contiennent du texte privé : ne jamais les écrire."""
+def charger(avec_modi=False):
+    """Renvoie (fiches, citations, votes). avec_modi : ajoute une pseudo-référence « MODI » pour chaque
+    mention des Modi (jamais numérotés Bartsch dans les fiches). Les champs '_*' contiennent du texte privé : ne jamais les écrire."""
     pieces = {int(r["id"]): r for r in csv.DictReader(open(PIECES))}
     fiches, citations = [], []
     for e in json.load(open(JSON_FICHES)):
@@ -218,11 +221,16 @@ def charger():
         fiches.append(f)
         for a, b in _clauses(comm):
             seg = comm[a:b]
-            ms = list(CIT.finditer(seg))
+            ms = sorted(list(CIT.finditer(seg)) + list(MODI.finditer(seg)), key=lambda m: m.start())
             for i, m in enumerate(ms):
                 gauche = seg[(ms[i - 1].end() if i else 0):m.start()]
                 droite = seg[m.end():(ms[i + 1].start() if i + 1 < len(ms) else len(seg))]
-                k = cle(m.group(1), m.group(3) or "")
+                if m.re is MODI:
+                    if not avec_modi:
+                        continue
+                    k = "MODI"
+                else:
+                    k = cle(m.group(1), m.group(3) or "")
                 citations.append({"id": e["id"], "estampe": k, "_gauche": gauche, "_droite": droite,
                                   "_clause": seg, "graveur_phrase": graveur_dans(gauche)})
     # graveur par estampe : table ESTAMPES, sinon vote majoritaire des fiches

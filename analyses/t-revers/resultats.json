@@ -1,0 +1,638 @@
+{
+ "modi_et_sujets_politiques": {
+  "revers_nota": {
+   "pieces_total": 374,
+   "pieces_modi": 40,
+   "pieces_categorie": 13,
+   "modi_dans_categorie": 4,
+   "attendu_si_hasard": 1.39,
+   "p_hypergeometrique_unilateral": 0.0395,
+   "ids": [
+    145,
+    1328,
+    414,
+    889
+   ]
+  },
+  "commentaire_actualite_politique": {
+   "pieces_total": 374,
+   "pieces_modi": 40,
+   "pieces_categorie": 18,
+   "modi_dans_categorie": 6,
+   "attendu_si_hasard": 1.93,
+   "p_hypergeometrique_unilateral": 0.0072,
+   "ids": [
+    973,
+    145,
+    1328,
+    428,
+    889,
+    1122
+   ]
+  },
+  "nota_ou_commentaire_politique": {
+   "pieces_total": 374,
+   "pieces_modi": 40,
+   "pieces_categorie": 25,
+   "modi_dans_categorie": 7,
+   "attendu_si_hasard": 2.67,
+   "p_hypergeometrique_unilateral": 0.0106,
+   "ids": [
+    973,
+    145,
+    1328,
+    428,
+    414,
+    889,
+    1122
+   ]
+  }
+ },
+ "pieces_avec_inscription": 353,
+ "genres_comptes": {
+  "aucun": 313,
+  "sporcitia": 1,
+  "historia": 24,
+  "fabula": 21,
+  "nota": 13,
+  "plusieurs": 2
+ },
+ "sources_litteraires_comptes": {
+  "Ovidio (Metamorfosi)": 32,
+  "Virgilio (Eneide)": 9,
+  "Ariosto": 3,
+  "Petrarca": 1,
+  "Giustino": 5,
+  "Livio": 2,
+  "Turpino": 1,
+  "Apuleio": 0,
+  "Boccaccio": 0
+ },
+ "contingence_genre_x_type_estampe": [
+  {
+   "genre": "historia",
+   "pieces": 24,
+   "pieces_avec_source": 16,
+   "ids": [
+    956,
+    129,
+    181,
+    811,
+    573,
+    1022,
+    428,
+    1215,
+    461,
+    659,
+    1326,
+    1017,
+    632,
+    958,
+    640,
+    425,
+    1324,
+    1198,
+    881,
+    754,
+    586,
+    806,
+    399,
+    396
+   ],
+   "érotique": 4,
+   "religieux": 9,
+   "mythologique": 12,
+   "bataille": 1,
+   "historique": 2,
+   "autre/allégorique": 0
+  },
+  {
+   "genre": "fabula",
+   "pieces": 21,
+   "pieces_avec_source": 20,
+   "ids": [
+    952,
+    672,
+    1203,
+    257,
+    1228,
+    774,
+    776,
+    1002,
+    458,
+    680,
+    532,
+    493,
+    1122,
+    1041,
+    438,
+    780,
+    833,
+    772,
+    782,
+    784,
+    1201
+   ],
+   "érotique": 1,
+   "religieux": 12,
+   "mythologique": 15,
+   "bataille": 5,
+   "historique": 0,
+   "autre/allégorique": 0
+  },
+  {
+   "genre": "nota",
+   "pieces": 13,
+   "pieces_avec_source": 13,
+   "ids": [
+    145,
+    254,
+    278,
+    1252,
+    1328,
+    414,
+    964,
+    979,
+    977,
+    889,
+    528,
+    474,
+    496
+   ],
+   "érotique": 4,
+   "religieux": 2,
+   "mythologique": 9,
+   "bataille": 2,
+   "historique": 0,
+   "autre/allégorique": 0
+  },
+  {
+   "genre": "sporcitia",
+   "pieces": 1,
+   "pieces_avec_source": 0,
+   "ids": [
+    354
+   ],
+   "érotique": 0,
+   "religieux": 0,
+   "mythologique": 0,
+   "bataille": 0,
+   "historique": 0,
+   "autre/allégorique": 0
+  },
+  {
+   "genre": "plusieurs",
+   "pieces": 2,
+   "pieces_avec_source": 2,
+   "ids": [
+    960,
+    767
+   ],
+   "érotique": 0,
+   "religieux": 1,
+   "mythologique": 1,
+   "bataille": 1,
+   "historique": 0,
+   "autre/allégorique": 0
+  },
+  {
+   "genre": "aucun",
+   "pieces": 313,
+   "pieces_avec_source": 232,
+   "ids": "(voir CSV)",
+   "érotique": 31,
+   "religieux": 92,
+   "mythologique": 171,
+   "bataille": 38,
+   "historique": 44,
+   "autre/allégorique": 17
+  }
+ ],
+ "contingence_genre_x_source_litteraire": [
+  {
+   "genre": "historia",
+   "pieces": 24,
+   "Ovidio (Metamorfosi)": 0,
+   "Virgilio (Eneide)": 0,
+   "Ariosto": 0,
+   "Petrarca": 0,
+   "Giustino": 0,
+   "Livio": 0,
+   "Turpino": 0,
+   "Apuleio": 0,
+   "Boccaccio": 0
+  },
+  {
+   "genre": "fabula",
+   "pieces": 21,
+   "Ovidio (Metamorfosi)": 0,
+   "Virgilio (Eneide)": 0,
+   "Ariosto": 0,
+   "Petrarca": 0,
+   "Giustino": 0,
+   "Livio": 0,
+   "Turpino": 0,
+   "Apuleio": 0,
+   "Boccaccio": 0
+  },
+  {
+   "genre": "nota",
+   "pieces": 13,
+   "Ovidio (Metamorfosi)": 0,
+   "Virgilio (Eneide)": 0,
+   "Ariosto": 0,
+   "Petrarca": 0,
+   "Giustino": 0,
+   "Livio": 0,
+   "Turpino": 0,
+   "Apuleio": 0,
+   "Boccaccio": 0
+  },
+  {
+   "genre": "sporcitia",
+   "pieces": 1,
+   "Ovidio (Metamorfosi)": 0,
+   "Virgilio (Eneide)": 0,
+   "Ariosto": 0,
+   "Petrarca": 0,
+   "Giustino": 0,
+   "Livio": 0,
+   "Turpino": 0,
+   "Apuleio": 0,
+   "Boccaccio": 0
+  },
+  {
+   "genre": "plusieurs",
+   "pieces": 2,
+   "Ovidio (Metamorfosi)": 0,
+   "Virgilio (Eneide)": 0,
+   "Ariosto": 0,
+   "Petrarca": 0,
+   "Giustino": 0,
+   "Livio": 0,
+   "Turpino": 0,
+   "Apuleio": 0,
+   "Boccaccio": 0
+  },
+  {
+   "genre": "aucun",
+   "pieces": 313,
+   "Ovidio (Metamorfosi)": 32,
+   "Virgilio (Eneide)": 9,
+   "Ariosto": 3,
+   "Petrarca": 1,
+   "Giustino": 5,
+   "Livio": 2,
+   "Turpino": 1,
+   "Apuleio": 0,
+   "Boccaccio": 0
+  }
+ ],
+ "contingence_genre_x_source_selon_commentaire": [
+  {
+   "genre": "historia",
+   "pieces": 24,
+   "Ovidio": 9,
+   "Virgilio": 2,
+   "Ariosto": 1,
+   "Petrarca": 6,
+   "Giustino/Trogo": 1,
+   "Livio": 0,
+   "Bibbia": 1,
+   "Apuleio": 0,
+   "Boccaccio": 0,
+   "attualità/allegoria politica": 1
+  },
+  {
+   "genre": "fabula",
+   "pieces": 21,
+   "Ovidio": 15,
+   "Virgilio": 1,
+   "Ariosto": 0,
+   "Petrarca": 1,
+   "Giustino/Trogo": 0,
+   "Livio": 0,
+   "Bibbia": 0,
+   "Apuleio": 2,
+   "Boccaccio": 0,
+   "attualità/allegoria politica": 1
+  },
+  {
+   "genre": "nota",
+   "pieces": 13,
+   "Ovidio": 1,
+   "Virgilio": 0,
+   "Ariosto": 2,
+   "Petrarca": 0,
+   "Giustino/Trogo": 0,
+   "Livio": 0,
+   "Bibbia": 0,
+   "Apuleio": 0,
+   "Boccaccio": 0,
+   "attualità/allegoria politica": 6
+  },
+  {
+   "genre": "sporcitia",
+   "pieces": 1,
+   "Ovidio": 1,
+   "Virgilio": 0,
+   "Ariosto": 0,
+   "Petrarca": 0,
+   "Giustino/Trogo": 0,
+   "Livio": 0,
+   "Bibbia": 0,
+   "Apuleio": 0,
+   "Boccaccio": 0,
+   "attualità/allegoria politica": 0
+  },
+  {
+   "genre": "plusieurs",
+   "pieces": 2,
+   "Ovidio": 2,
+   "Virgilio": 0,
+   "Ariosto": 0,
+   "Petrarca": 0,
+   "Giustino/Trogo": 0,
+   "Livio": 0,
+   "Bibbia": 0,
+   "Apuleio": 0,
+   "Boccaccio": 0,
+   "attualità/allegoria politica": 0
+  },
+  {
+   "genre": "aucun",
+   "pieces": 313,
+   "Ovidio": 81,
+   "Virgilio": 26,
+   "Ariosto": 3,
+   "Petrarca": 18,
+   "Giustino/Trogo": 20,
+   "Livio": 5,
+   "Bibbia": 12,
+   "Apuleio": 1,
+   "Boccaccio": 0,
+   "attualità/allegoria politica": 10
+  }
+ ],
+ "genre_par_annee": [
+  {
+   "annee": 1522,
+   "historia": 0,
+   "fabula": 0,
+   "nota": 0,
+   "sporcitia": 0,
+   "plusieurs": 0,
+   "aucun": 2
+  },
+  {
+   "annee": 1524,
+   "historia": 0,
+   "fabula": 0,
+   "nota": 0,
+   "sporcitia": 0,
+   "plusieurs": 0,
+   "aucun": 4
+  },
+  {
+   "annee": 1525,
+   "historia": 0,
+   "fabula": 0,
+   "nota": 0,
+   "sporcitia": 0,
+   "plusieurs": 0,
+   "aucun": 11
+  },
+  {
+   "annee": 1526,
+   "historia": 0,
+   "fabula": 0,
+   "nota": 0,
+   "sporcitia": 0,
+   "plusieurs": 0,
+   "aucun": 7
+  },
+  {
+   "annee": 1527,
+   "historia": 0,
+   "fabula": 0,
+   "nota": 0,
+   "sporcitia": 0,
+   "plusieurs": 0,
+   "aucun": 1
+  },
+  {
+   "annee": 1528,
+   "historia": 2,
+   "fabula": 3,
+   "nota": 4,
+   "sporcitia": 1,
+   "plusieurs": 0,
+   "aucun": 18
+  },
+  {
+   "annee": 1529,
+   "historia": 3,
+   "fabula": 6,
+   "nota": 3,
+   "sporcitia": 0,
+   "plusieurs": 1,
+   "aucun": 9
+  },
+  {
+   "annee": 1530,
+   "historia": 2,
+   "fabula": 8,
+   "nota": 0,
+   "sporcitia": 0,
+   "plusieurs": 1,
+   "aucun": 11
+  },
+  {
+   "annee": 1531,
+   "historia": 14,
+   "fabula": 3,
+   "nota": 5,
+   "sporcitia": 0,
+   "plusieurs": 0,
+   "aucun": 13
+  },
+  {
+   "annee": 1532,
+   "historia": 0,
+   "fabula": 0,
+   "nota": 0,
+   "sporcitia": 0,
+   "plusieurs": 0,
+   "aucun": 54
+  },
+  {
+   "annee": 1533,
+   "historia": 0,
+   "fabula": 0,
+   "nota": 0,
+   "sporcitia": 0,
+   "plusieurs": 0,
+   "aucun": 22
+  },
+  {
+   "annee": 1534,
+   "historia": 1,
+   "fabula": 0,
+   "nota": 0,
+   "sporcitia": 0,
+   "plusieurs": 0,
+   "aucun": 26
+  },
+  {
+   "annee": 1535,
+   "historia": 0,
+   "fabula": 0,
+   "nota": 0,
+   "sporcitia": 0,
+   "plusieurs": 0,
+   "aucun": 26
+  },
+  {
+   "annee": 1536,
+   "historia": 1,
+   "fabula": 0,
+   "nota": 0,
+   "sporcitia": 0,
+   "plusieurs": 0,
+   "aucun": 24
+  },
+  {
+   "annee": 1537,
+   "historia": 0,
+   "fabula": 0,
+   "nota": 0,
+   "sporcitia": 0,
+   "plusieurs": 0,
+   "aucun": 20
+  },
+  {
+   "annee": 1538,
+   "historia": 0,
+   "fabula": 0,
+   "nota": 0,
+   "sporcitia": 0,
+   "plusieurs": 0,
+   "aucun": 18
+  },
+  {
+   "annee": 1539,
+   "historia": 0,
+   "fabula": 0,
+   "nota": 0,
+   "sporcitia": 0,
+   "plusieurs": 0,
+   "aucun": 11
+  },
+  {
+   "annee": 1540,
+   "historia": 0,
+   "fabula": 0,
+   "nota": 0,
+   "sporcitia": 0,
+   "plusieurs": 0,
+   "aucun": 13
+  },
+  {
+   "annee": 1541,
+   "historia": 0,
+   "fabula": 0,
+   "nota": 0,
+   "sporcitia": 0,
+   "plusieurs": 0,
+   "aucun": 7
+  },
+  {
+   "annee": 1542,
+   "historia": 0,
+   "fabula": 0,
+   "nota": 0,
+   "sporcitia": 0,
+   "plusieurs": 0,
+   "aucun": 6
+  },
+  {
+   "annee": null,
+   "historia": 1,
+   "fabula": 1,
+   "nota": 1,
+   "sporcitia": 0,
+   "plusieurs": 0,
+   "aucun": 10
+  }
+ ],
+ "pieces_aux_modi": {
+  "n": 40,
+  "genres": {
+   "aucun": 31,
+   "nota": 4,
+   "historia": 4,
+   "fabula": 1
+  },
+  "ids": [
+   526,
+   1350,
+   973,
+   637,
+   15,
+   85,
+   100,
+   120,
+   145,
+   163,
+   181,
+   184,
+   902,
+   925,
+   1328,
+   428,
+   877,
+   869,
+   663,
+   414,
+   484,
+   450,
+   469,
+   889,
+   863,
+   1138,
+   867,
+   798,
+   1122,
+   331,
+   871,
+   762,
+   796,
+   684,
+   746,
+   734,
+   912,
+   806,
+   399,
+   614
+  ]
+ },
+ "sporcitia": [
+  {
+   "id": 354,
+   "types_estampes": {
+    "érotique": 0,
+    "religieux": 0,
+    "mythologique": 0,
+    "bataille": 0,
+    "historique": 0,
+    "autre/allégorique": 0
+   }
+  }
+ ],
+ "marque_y_slash_et_genre": {
+  "y/Ø=True, mot de genre=False": 16,
+  "y/Ø=False, mot de genre=False": 297,
+  "y/Ø=False, mot de genre=True": 33,
+  "y/Ø=True, mot de genre=True": 28
+ }
+}

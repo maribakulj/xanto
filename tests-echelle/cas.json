@@ -4,8 +4,8 @@
    "id": "apollon-parnasse",
    "titre": "Apollon du Parnasse (Marcantonio Raimondi, Bartsch XIV 247)",
    "resume": "Xanto reprend l'Apollon assis de la gravure du Parnasse sur au moins cinq plats. Il est mesuré ici sur la gravure et sur trois plats de diamètres différents (26,0 à 29,8 cm).",
-   "conclusion": "Sur les deux plats d'Apollon et Pan, la figure mesure la même hauteur que sur la gravure, à 1 % près, alors que les plats diffèrent de 3,1 cm de diamètre. Pour ce motif, cela va dans le sens d'un report à taille fixe (calque ou poncif : Wilson 1990, Hess 1999) plutôt que d'une copie adaptée à chaque plat (Mallet 2007). Sur le Jugement de Pâris, la tête est redessinée : la mesure tête-pied n'est plus comparable.",
-   "limites": "Un seul motif ; repères relevés à la main par un seul annotateur qui connaissait l'hypothèse ; images de deux plats en basse définition (marge ± 2,5 %) ; perspective et courbure non corrigées.",
+   "conclusion": "Sur les deux plats d'Apollon et Pan, la figure a la même hauteur que sur la gravure : 9,7 à 9,9 cm selon l'annotateur, contre 9,9 à 10,1 cm sur la gravure. Les deux plats diffèrent pourtant de 3,1 cm de diamètre : adaptée au plat, la figure de Los Angeles mesurerait environ 11 cm. Un second annotateur, qui ignorait l'hypothèse et les diamètres, obtient le même résultat (écarts de 2 % entre annotateurs). Pour ce motif, cela va dans le sens d'un report à taille fixe (calque ou poncif : Wilson 1990, Hess 1999) plutôt que d'une copie adaptée à chaque plat (Mallet 2007). Sur le Jugement de Pâris, la tête est redessinée : la mesure tête-pied n'est plus comparable.",
+   "limites": "Un seul motif ; deux annotateurs, mais tous deux des modèles d'IA ; images de deux plats en basse définition (marge ± 2,5 %) ; perspective et courbure non corrigées.",
    "temoins": [
     {
      "type": "estampe",
@@ -36,7 +36,19 @@
      },
      "hauteur_cm": 9.87,
      "comparable": true,
-     "note": "largeur de la feuille selon le Met ; hauteur 35,6 cm donne 0,01334 cm/px (écart 1 %)"
+     "note": "largeur de la feuille selon le Met ; hauteur 35,6 cm donne 0,01334 cm/px (écart 1 %)",
+     "hauteur_cm_independant": 10.1,
+     "reperes_independants": {
+      "tete": [
+       1862.0,
+       1110.0
+      ],
+      "pied_tendu": [
+       1627.0,
+       1822.0
+      ]
+     },
+     "hauteur_cm_moyenne": 9.98
     },
     {
      "type": "plat",
@@ -68,6 +80,18 @@
      "hauteur_cm": 9.9,
      "comparable": true,
      "note": "image basse définition : ±3 px sur chaque repère",
+     "hauteur_cm_independant": 9.7,
+     "reperes_independants": {
+      "tete": [
+       277.0,
+       249.0
+      ],
+      "pied_tendu": [
+       224.0,
+       433.0
+      ]
+     },
+     "hauteur_cm_moyenne": 9.8,
      "prediction_proportionnelle_cm": 9.9,
      "rapport_a_l_estampe": 1.003
     },
@@ -101,6 +125,18 @@
      "hauteur_cm": 9.79,
      "comparable": true,
      "note": "image basse définition ; diamètre selon la fiche de Rovigo",
+     "hauteur_cm_independant": 9.92,
+     "reperes_independants": {
+      "tete": [
+       312.0,
+       221.0
+      ],
+      "pied_tendu": [
+       265.0,
+       389.0
+      ]
+     },
+     "hauteur_cm_moyenne": 9.86,
      "prediction_proportionnelle_cm": 11.05,
      "rapport_a_l_estampe": 0.992
     },
@@ -133,7 +169,19 @@
      },
      "hauteur_cm": 10.48,
      "comparable": false,
-     "note": "tête relevée et tournée de profil : segment tête-pied non comparable tel quel"
+     "note": "tête relevée et tournée de profil : segment tête-pied non comparable tel quel",
+     "hauteur_cm_independant": 10.68,
+     "reperes_independants": {
+      "tete": [
+       3240.0,
+       2085.0
+      ],
+      "pied_tendu": [
+       2705.0,
+       3540.0
+      ]
+     },
+     "hauteur_cm_moyenne": 10.58
     }
    ]
   }
