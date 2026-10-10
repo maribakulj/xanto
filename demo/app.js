@@ -73,6 +73,27 @@
     $("#detail-estampe").innerHTML = `<h3>${esc(nomEstampe(v, n))} — ${ps.length} pièces</h3><div class="tablewrap"><table><tr><th></th><th>Année</th><th>Titre</th><th>Lieu</th><th>Diamètre</th></tr>${ps.map((p) => ligne(p)).join("")}</table></div>`;
   }));
 
+  // Corpus : frise des estampes (Gantt)
+  if (D.reemploi) {
+    const rows = D.reemploi.filter((e) => e.n_pieces >= 4).slice(0, 22), A0 = 1522, A1 = 1543, W = 900, LW = 250, RH = 22;
+    const X = (a) => LW + ((a - A0) / (A1 - A0)) * (W - LW - 20);
+    let svg = `<svg viewBox="0 0 ${W} ${rows.length * RH + 40}" width="100%" style="max-width:1000px">`;
+    for (let a = A0; a <= A1; a += 2) svg += `<line x1="${X(a)}" x2="${X(a)}" y1="0" y2="${rows.length * RH + 8}" stroke="var(--ligne)"/><text class="axe" x="${X(a)}" y="${rows.length * RH + 24}" text-anchor="middle">${a}</text>`;
+    rows.forEach((e, i) => {
+      const y = i * RH + 14, [v, n] = e.estampe.replace("B", "").split(".");
+      svg += `<text class="axe" x="0" y="${y + 4}" style="font-size:12px;fill:var(--encre)">${esc(nomEstampe(v, n).slice(0, 44))}</text>`;
+      const ys = e.pieces.filter((p) => p.annee).map((p) => p.annee);
+      if (ys.length) svg += `<line x1="${X(Math.min(...ys))}" x2="${X(Math.max(...ys))}" y1="${y}" y2="${y}" stroke="var(--bleu)" stroke-opacity=".35" stroke-width="6" stroke-linecap="round"/>`;
+      const seen = {};
+      e.pieces.filter((p) => p.annee).forEach((p) => {
+        const k = p.annee; seen[k] = (seen[k] || 0) + 1; const dx = ((seen[k] - 1) % 3) * 4 - 4;
+        const piece = byId[String(p.id)] || {};
+        svg += `<a href="${esc(p.link)}" target="_blank"><circle cx="${X(p.annee) + dx}" cy="${y}" r="3.6" fill="${p.source_date === "inscription" ? "var(--ocre)" : "var(--blanc)"}" stroke="var(--ocre)" stroke-width="1.4"><title>${esc(piece.titolo || p.id)} (${p.annee}${p.source_date === "inscription" ? ", date inscrite" : ", date du catalogue"})</title></circle></a>`;
+      });
+    });
+    $("#gantt").innerHTML = svg + "</svg>";
+  }
+
   // Corpus : table
   const vign = D.vignettes || {};
   const ligne = (p) => `<tr><td>${vign[p.id] ? `<img loading="lazy" src="assets/${esc(vign[p.id])}" alt="">` : ""}</td><td>${esc(annee(p) || p.data)}</td><td><a href="${esc(p.link)}" target="_blank" rel="noopener">${esc(p.titolo)}</a></td><td>${esc(p.luogo)}</td><td>${p.diametro_cm ? esc(p.diametro_cm) + " cm" : ""}</td></tr>`;

@@ -28,6 +28,7 @@ def main():
         "echelle": json.load(open(ROOT / "tests-echelle/cas.json")) if (ROOT / "tests-echelle/cas.json").exists() else None,
         "estampes": read_csv(PRIVATE / "corpus-images/estampes/index.csv"),
         "titres": read_csv(ROOT / "data/titres_estampes.csv"),
+        "reemploi": json.load(open(ROOT / "analyses/resultats.json"))["t_reemploi"]["par_estampe"] if (ROOT / "analyses/resultats.json").exists() else None,
     }
     # Images : on ne copie que celles que la démo affiche (cas d'échelle, vignettes de plats).
     assets = DEMO / "assets"
