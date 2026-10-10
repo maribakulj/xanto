@@ -19,12 +19,13 @@ Le collage se complique-t-il ou se simplifie-t-il avec le temps ? On compte les 
 
 | Période | Pièces | Part avec source | Estampes par pièce (si source) |
 |---|---|---|---|
-| ≤ 1530 | 93 | 61 % | 1,74 |
-| 1531-1535 | 161 | 89 % | 2,46 |
-| 1536-1542 | 100 | 68 % | 1,93 |
+| ≤ 1530 | 101 | 62 % | 1,76 |
+| 1531-1535 | 164 | 88 % | 2,47 |
+| 1536-1542 | 101 | 68 % | 1,93 |
 
-- Avec les seules dates inscrites, on obtient 1,43, puis 2,49, puis 1,93.
-- La baisse entre 1531-1535 et 1536-1542 est de −0,54 estampe par pièce (p = 0,003).
+- Avec les seules dates inscrites, on obtient 1,31, puis 2,49, puis 1,93.
+- La baisse entre 1531-1535 et 1536-1542 est de −0,54 estampe **identifiée** par pièce (p = 0,002 ; 0,003 avant la correction des dates du 10/10/2026).
+- Sensibilité (`../t-sensibilite`) : sans les 26 pièces d'attribution débattue (Gubbio 1522-1527, F.R.), ≤ 1530 passe à 1,83 et 71 % de pièces avec source ; 1531-1535 et 1536-1542 ne changent pas (p = 0,002). Sans, en plus, les pièces y/Ø : 1,97 ; 2,46 ; 1,93 (p = 0,002). Conclusion inchangée.
 - Le collage culmine en 1532-1533 : 2,6 et 2,9 estampes par pièce (`par_annee.csv`).
 
 Données du graphique : `par_annee.csv` (moyenne et part avec source par année).

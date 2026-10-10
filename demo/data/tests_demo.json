@@ -5,7 +5,7 @@
   {
    "titre": "D'où viennent les dates ?",
    "these": "Préalable à tous les tests chronologiques.",
-   "resultat": "244 plats ont une année inscrite, 115 sont datés par le catalogue (dont 62 au milieu d'un intervalle), 13 n'ont pas de date. Avant 1531 les dates sont surtout des estimations, après surtout inscrites : comparer les périodes, c'est aussi comparer la qualité des dates.",
+   "resultat": "243 plats ont une année inscrite, les autres sont datés par le catalogue (dont 67 par un intervalle). Une date « 1522 » peinte dans la scène n'est plus comptée comme inscrite, et 26 pièces d'avant 1528 ou d'attribution débattue (groupe de Gubbio, F.R.) sont signalées ; sans elles, aucune conclusion ne change. Avant 1531 les dates sont surtout des estimations, après surtout inscrites : comparer les périodes, c'est aussi comparer la qualité des dates.",
    "verdict": "Précaution",
    "graphiques": [
     {
@@ -35,22 +35,22 @@
      "valeurs": [
       2,
       4,
-      11,
+      12,
       7,
       1,
-      28,
-      22,
-      22,
+      30,
+      25,
+      25,
       35,
-      54,
+      56,
       22,
       27,
-      26,
+      27,
       25,
       20,
       18,
       11,
-      13,
+      14,
       7,
       6
      ]
@@ -80,7 +80,7 @@
       1542
      ],
      "valeurs": [
-      1,
+      0,
       3,
       8,
       0,
@@ -108,20 +108,20 @@
   {
    "titre": "Inversion des figures : indice ou choix ?",
    "these": "Hess 1999 (n. 44) : le sens de la figure n'a pas d'importance, un carton se ponce des deux côtés. Rondot 1994 et Gallian : Xanto inverse exprès pour varier.",
-   "resultat": "63 références sur 576 (10.9 %) sont dites « in controparte » par les fiches. Un carton posé au hasard donnerait environ 50 %. La part monte de 7 % à 15 % entre les premières et les dernières années (différence non significative).",
+   "resultat": "63 références sur 576 (10.9 %) sont dites « in controparte » par les fiches. Sur les seules dates inscrites, la part ne montre pas de tendance (20 %, 11 %, 17 % ; la « hausse » vue sur toutes les dates disparaît). Hess dit seulement que l'inversion ne prouve rien ; elle ne prédit pas de taux.",
    "verdict": "Indécis",
    "graphiques": [
     {
-     "titre": "Part des références inversées par période (%)",
+     "titre": "Part des références inversées par période, dates inscrites seulement (%)",
      "labels": [
       "<=1530",
       "1531-1535",
       "1536-1542"
      ],
      "valeurs": [
-      7.4,
-      9.8,
-      15.1
+      20.0,
+      10.7,
+      16.5
      ]
     },
     {
@@ -145,7 +145,7 @@
   {
    "titre": "Réemploi : négligence, répétition ou méthode ?",
    "these": "Liverani 1962 : le réemploi trahit la hâte. Poole 1995 et Mallet 2007 : une fin de carrière répétitive. Mallet 2007 : une méthode délibérée de couper-coller.",
-   "resultat": "Trois estampes (le Parnasse, le Concours des Muses, le Martyre de saint Laurent) servent pendant toute la carrière, de 1528 à 1542. Les estampes nouvelles se raréfient après 1536, mais pas plus que le hasard ne le prévoit : c'est un effet d'accumulation. Les plats tardifs sont plus simples (moins d'estampes par plat) et répètent un peu plus souvent les mêmes assemblages.",
+   "resultat": "Trois estampes (le Parnasse, le Concours des Muses, le Martyre de saint Laurent) servent pendant toute la carrière, de 1528 à 1542. Les estampes nouvelles se raréfient après 1536, mais pas plus que le hasard ne le prévoit : c'est un effet d'accumulation. Les plats tardifs sont plus simples (moins d'estampes par plat) ; la répétition des mêmes assemblages n'est nette que sur les dates inscrites.",
    "verdict": "Mitigé : pas de répétitivité tardive au sens fort ; collages plus simples",
    "graphiques": [
     {
@@ -156,7 +156,7 @@
       "1536-1542"
      ],
      "valeurs": [
-      29,
+      30,
       18,
       6
      ]
@@ -189,7 +189,7 @@
        "Martirio di San Lorenzo",
        "Marcantonio",
        52,
-       1528,
+       1525,
        1542
       ],
       [
@@ -203,7 +203,7 @@
        "Battaglia tra Romani e Cartaginesi (Scena di battaglia)",
        "Marco Dente",
        29,
-       1528,
+       1525,
        1542
       ],
       [
@@ -308,20 +308,20 @@
       1542
      ],
      "valeurs": [
-      1.25,
-      1.65,
-      1.94,
-      2.05,
+      1.4,
+      1.58,
+      2.06,
+      2.0,
       2.34,
-      2.62,
+      2.63,
       2.9,
       2.27,
-      2.0,
+      2.05,
       2.12,
       1.57,
       2.21,
       2.14,
-      2.14,
+      2.12,
       1.4,
       1.4
      ]
@@ -332,8 +332,8 @@
   {
    "titre": "Copie entière ou découpée ?",
    "these": "Briend 1992 : Caraglio est copié en entier, Marcantonio découpé en motifs, à cause de l'échelle des figures.",
-   "resultat": "Copier une composition entière est rare (moins de 5 % des références classées). Certaines estampes narratives de Caraglio sont reprises en entier (Énée et Anchise, Alexandre et Roxane), mais son Concours des Muses est découpé comme un Marcantonio.",
-   "verdict": "Indécis, avec nuance",
+   "resultat": "Copier une composition entière est rare (moins de 5 % des références classées). Comparées estampe par estampe (l'unité dont parle Briend), les gravures de Caraglio ne sont pas plus souvent reprises en entier que celles de Marcantonio (p = 0,11). Certaines estampes narratives de Caraglio le sont (Énée et Anchise, Alexandre et Roxane), mais son Concours des Muses est découpé comme un Marcantonio. L'explication par l'échelle des figures n'est pas testée ici.",
+   "verdict": "Pas de différence détectable",
    "graphiques": [
     {
      "titre": "Type d'emprunt par graveur (nombre de références)",
@@ -382,7 +382,7 @@
    "titre": "La figure empruntée change-t-elle d'identité ?",
    "these": "Boutin Vitela 2014 : l'inscription au revers réoriente la lecture de l'image empruntée. Wilson 1990, Holcroft 1988, Lessmann 1990 : indifférence au sens d'origine.",
    "resultat": "Hors Cupidon, la figure change d'identité dans 98 cas sur 111 (88.3 %) : une Muse devient Circé, Didon devient Omphale. Renommer est la règle.",
-   "verdict": "Soutenu comme condition préalable",
+   "verdict": "Ne départage pas les thèses",
    "graphiques": [
     {
      "titre": "Identité de la figure empruntée (références à cible nommée)",
@@ -398,13 +398,13 @@
      ]
     }
    ],
-   "limites": "La « réorientation de la lecture » elle-même n'est pas mesurable ainsi ; les 36 conservations sont surtout des putti devenus Cupidon."
+   "limites": "Renommer les figures est prédit aussi bien par Boutin Vitela (l'inscription réoriente la lecture) que par le camp de l'indifférence au sens d'origine (Wilson, Lessmann) : ce taux ne les départage pas. La plupart des cas sont « présumés » d'après la phrase du catalogue (7 seulement explicites)."
   },
   {
    "titre": "Les mots du revers : recueils de modèles ou genres du récit ?",
    "these": "Jestaz 1976 : fabula, historia, sporcitia renverraient à des recueils de modèles classés par genre. Talvacchia 1994 : les emprunts aux Modi comme messages codés.",
-   "resultat": "Les mots de genre (61 plats, presque tous de 1528-1531) suivent le genre du récit (fabula pour Ovide, nota pour l'actualité politique), pas le type d'estampe utilisée. Le seul plat « sporcitia » n'a aucune estampe connue, et aucun des 40 plats aux Modi ne porte ce mot. En revanche, les figures des Modi apparaissent plus souvent que par hasard sur des sujets politiques (7 plats pour 2,7 attendus).",
-   "verdict": "Jestaz affaibli ; Talvacchia (volet politique) plutôt soutenu, sur un petit effectif",
+   "resultat": "Les mots de genre (61 plats, presque tous de 1528-1531) suivent le genre du récit (fabula pour Ovide, nota pour l'actualité politique), ce que disent déjà Mallet et Castelletti. Un seul plat porte « sporcitia » : il ne peut rien réfuter. Les figures des Modi apparaissent plus souvent que par hasard sur des sujets politiques (p corrigé 0,02 à 0,04 selon la définition de « politique »), mais trois définitions ont été essayées, les Modi ont été cherchés notamment sur les plats du Sac, et l'association s'accorde aussi bien avec la lecture de Mallet (des poses athlétiques utiles pour les scènes violentes).",
+   "verdict": "Jestaz non testable (un seul plat) ; Modi × politique fragile",
    "graphiques": [
     {
      "titre": "Mots de genre au revers (nombre de plats)",

@@ -23,10 +23,10 @@ inv = R["t_inversion"]
 tests.append({
     "titre": "Inversion des figures : indice ou choix ?",
     "these": "Hess 1999 (n. 44) : le sens de la figure n'a pas d'importance, un carton se ponce des deux côtés. Rondot 1994 et Gallian : Xanto inverse exprès pour varier.",
-    "resultat": f"{inv['global']['n_inversees']} références sur {inv['global']['n_references']} ({pct(inv['global']['part'])} %) sont dites « in controparte » par les fiches. Un carton posé au hasard donnerait environ 50 %. La part monte de 7 % à 15 % entre les premières et les dernières années (différence non significative).",
+    "resultat": f"{inv['global']['n_inversees']} références sur {inv['global']['n_references']} ({pct(inv['global']['part'])} %) sont dites « in controparte » par les fiches. Sur les seules dates inscrites, la part ne montre pas de tendance (20 %, 11 %, 17 % ; la « hausse » vue sur toutes les dates disparaît). Hess dit seulement que l'inversion ne prouve rien ; elle ne prédit pas de taux.",
     "verdict": "Indécis",
     "graphiques": [
-        barres("Part des références inversées par période (%)", PER, [pct(inv["par_periode"][p]["part"]) for p in PER]),
+        barres("Part des références inversées par période, dates inscrites seulement (%)", PER, [pct(inv["par_periode_dates_inscrites"][p]["part"]) for p in PER]),
         barres("Part des références inversées par graveur (%)", [g for g in inv["par_graveur"] if inv["par_graveur"][g]["n_references"] >= 20],
                [pct(v["part"]) for g, v in inv["par_graveur"].items() if v["n_references"] >= 20]),
     ],
@@ -37,7 +37,7 @@ vt = re["variante_toutes"]["par_periode"]
 tests.append({
     "titre": "Réemploi : négligence, répétition ou méthode ?",
     "these": "Liverani 1962 : le réemploi trahit la hâte. Poole 1995 et Mallet 2007 : une fin de carrière répétitive. Mallet 2007 : une méthode délibérée de couper-coller.",
-    "resultat": "Trois estampes (le Parnasse, le Concours des Muses, le Martyre de saint Laurent) servent pendant toute la carrière, de 1528 à 1542. Les estampes nouvelles se raréfient après 1536, mais pas plus que le hasard ne le prévoit : c'est un effet d'accumulation. Les plats tardifs sont plus simples (moins d'estampes par plat) et répètent un peu plus souvent les mêmes assemblages.",
+    "resultat": "Trois estampes (le Parnasse, le Concours des Muses, le Martyre de saint Laurent) servent pendant toute la carrière, de 1528 à 1542. Les estampes nouvelles se raréfient après 1536, mais pas plus que le hasard ne le prévoit : c'est un effet d'accumulation. Les plats tardifs sont plus simples (moins d'estampes par plat) ; la répétition des mêmes assemblages n'est nette que sur les dates inscrites.",
     "verdict": "Mitigé : pas de répétitivité tardive au sens fort ; collages plus simples",
     "graphiques": [
         barres("Estampes utilisées pour la première fois, par période", PER, [vt[p]["estampes_nouvelles"] for p in PER]),
@@ -62,8 +62,8 @@ gr = [g for g in ["Marcantonio", "Caraglio", "Marco Dente", "Agostino Veneziano"
 tests.append({
     "titre": "Copie entière ou découpée ?",
     "these": "Briend 1992 : Caraglio est copié en entier, Marcantonio découpé en motifs, à cause de l'échelle des figures.",
-    "resultat": "Copier une composition entière est rare (moins de 5 % des références classées). Certaines estampes narratives de Caraglio sont reprises en entier (Énée et Anchise, Alexandre et Roxane), mais son Concours des Muses est découpé comme un Marcantonio.",
-    "verdict": "Indécis, avec nuance",
+    "resultat": "Copier une composition entière est rare (moins de 5 % des références classées). Comparées estampe par estampe (l'unité dont parle Briend), les gravures de Caraglio ne sont pas plus souvent reprises en entier que celles de Marcantonio (p = 0,11). Certaines estampes narratives de Caraglio le sont (Énée et Anchise, Alexandre et Roxane), mais son Concours des Muses est découpé comme un Marcantonio. L'explication par l'échelle des figures n'est pas testée ici.",
+    "verdict": "Pas de différence détectable",
     "graphiques": [table("Type d'emprunt par graveur (nombre de références)", ["Graveur", "Composition entière", "Groupe", "Figure isolée", "Non classé"],
                          [[g, ent["par_graveur"][g]["composition entière"], ent["par_graveur"][g]["groupe"], ent["par_graveur"][g]["figure isolée"], ent["par_graveur"][g]["non classé"]] for g in gr])],
     "limites": "Classement par règles simples sur les phrases du catalogue ; une partie des références reste non classée.",
@@ -74,18 +74,18 @@ tests.append({
     "titre": "La figure empruntée change-t-elle d'identité ?",
     "these": "Boutin Vitela 2014 : l'inscription au revers réoriente la lecture de l'image empruntée. Wilson 1990, Holcroft 1988, Lessmann 1990 : indifférence au sens d'origine.",
     "resultat": f"Hors Cupidon, la figure change d'identité dans {rb['sans_cupido']['changees']} cas sur {rb['sans_cupido']['n']} ({pct(rb['sans_cupido']['part_changees'])} %) : une Muse devient Circé, Didon devient Omphale. Renommer est la règle.",
-    "verdict": "Soutenu comme condition préalable",
+    "verdict": "Ne départage pas les thèses",
     "graphiques": [barres("Identité de la figure empruntée (références à cible nommée)", ["changée", "anonyme → nommée", "conservée"],
                           [cl["changée (présumée)"] + cl["changée (explicite)"], cl["anonyme → nommée (présumée)"], cl["conservée (présumée)"] + cl["conservée (explicite)"]])],
-    "limites": "La « réorientation de la lecture » elle-même n'est pas mesurable ainsi ; les 36 conservations sont surtout des putti devenus Cupidon.",
+    "limites": "Renommer les figures est prédit aussi bien par Boutin Vitela (l'inscription réoriente la lecture) que par le camp de l'indifférence au sens d'origine (Wilson, Lessmann) : ce taux ne les départage pas. La plupart des cas sont « présumés » d'après la phrase du catalogue (7 seulement explicites).",
 })
 rv = R["t_revers"]
 g = rv["genres_comptes"]
 tests.append({
     "titre": "Les mots du revers : recueils de modèles ou genres du récit ?",
     "these": "Jestaz 1976 : fabula, historia, sporcitia renverraient à des recueils de modèles classés par genre. Talvacchia 1994 : les emprunts aux Modi comme messages codés.",
-    "resultat": "Les mots de genre (61 plats, presque tous de 1528-1531) suivent le genre du récit (fabula pour Ovide, nota pour l'actualité politique), pas le type d'estampe utilisée. Le seul plat « sporcitia » n'a aucune estampe connue, et aucun des 40 plats aux Modi ne porte ce mot. En revanche, les figures des Modi apparaissent plus souvent que par hasard sur des sujets politiques (7 plats pour 2,7 attendus).",
-    "verdict": "Jestaz affaibli ; Talvacchia (volet politique) plutôt soutenu, sur un petit effectif",
+    "resultat": "Les mots de genre (61 plats, presque tous de 1528-1531) suivent le genre du récit (fabula pour Ovide, nota pour l'actualité politique), ce que disent déjà Mallet et Castelletti. Un seul plat porte « sporcitia » : il ne peut rien réfuter. Les figures des Modi apparaissent plus souvent que par hasard sur des sujets politiques (p corrigé 0,02 à 0,04 selon la définition de « politique »), mais trois définitions ont été essayées, les Modi ont été cherchés notamment sur les plats du Sac, et l'association s'accorde aussi bien avec la lecture de Mallet (des poses athlétiques utiles pour les scènes violentes).",
+    "verdict": "Jestaz non testable (un seul plat) ; Modi × politique fragile",
     "graphiques": [
         barres("Mots de genre au revers (nombre de plats)", ["historia", "fabula", "nota", "sporcitia", "plusieurs"], [g["historia"], g["fabula"], g["nota"], g["sporcitia"], g["plusieurs"]]),
         table("Mot de genre et source littéraire (d'après les fiches)", ["Mot", "Plats", "Ovide", "Virgile", "Pétrarque", "Actualité politique"],
@@ -97,7 +97,7 @@ dt = R["t_dates"]
 tests.insert(0, {
     "titre": "D'où viennent les dates ?",
     "these": "Préalable à tous les tests chronologiques.",
-    "resultat": "244 plats ont une année inscrite, 115 sont datés par le catalogue (dont 62 au milieu d'un intervalle), 13 n'ont pas de date. Avant 1531 les dates sont surtout des estimations, après surtout inscrites : comparer les périodes, c'est aussi comparer la qualité des dates.",
+    "resultat": "243 plats ont une année inscrite, les autres sont datés par le catalogue (dont 67 par un intervalle). Une date « 1522 » peinte dans la scène n'est plus comptée comme inscrite, et 26 pièces d'avant 1528 ou d'attribution débattue (groupe de Gubbio, F.R.) sont signalées ; sans elles, aucune conclusion ne change. Avant 1531 les dates sont surtout des estimations, après surtout inscrites : comparer les périodes, c'est aussi comparer la qualité des dates.",
     "verdict": "Précaution",
     "graphiques": [barres("Plats par année (toutes dates)", [a["annee"] for a in dt["par_annee"]], [a["toutes"] for a in dt["par_annee"]]),
                    barres("Plats par année (dates inscrites seulement)", [a["annee"] for a in dt["par_annee"]], [a["inscrites"] for a in dt["par_annee"]])],

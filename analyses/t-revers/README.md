@@ -41,11 +41,35 @@ Mot de genre × source littéraire nommée par le commentaire :
 | nota | 13 | 1 | 0 | 0 | 6 (et Arioste : 2) |
 
 - Le seul *sporcitia* (pièce 354, Phèdre) n'a **aucune estampe identifiée**. Sur les 40 pièces aux *Modi*, 31 n'ont pas de mot de genre, et aucune ne porte *sporcitia*.
-- Les *Modi* et les sujets politiques : 7 des 40 pièces aux *Modi* ont *nota* ou un sujet politique selon le commentaire. Le hasard en donnerait 2,7 (p hypergéométrique = 0,011 ; pièces 973, 145, 1328, 428, 414, 889, 1122). Ce point concerne Talvacchia (voir `../RESULTATS.md`).
+### *Modi* et sujets politiques (Talvacchia)
+
+**Trois définitions de « politique » ont été essayées.** Seule la troisième était publiée avant le 10/10/2026. Les voici toutes, avec la correction de Holm sur les trois (p hypergéométrique unilatéral ; 374 pièces, dont 40 aux *Modi*) :
+
+| Définition de « politique » | Pièces de la catégorie | *Modi* observées | attendues | p | p Holm (3 définitions) |
+|---|---|---|---|---|---|
+| mot *nota* au revers | 13 | 4 | 1,39 | 0,040 | 0,040 |
+| actualité / allégorie politique selon le commentaire | 18 | 6 | 1,93 | 0,007 | 0,022 |
+| l'une ou l'autre (retenue avant) | 25 | 7 | 2,67 | 0,011 | 0,022 |
+
+- Pièces : 973, 145, 1328, 428, 414, 889, 1122.
+- Par période (définition combinée) : ≤ 1530, 3 observées pour 0,59 attendue ; 1531-1535, 3 pour 1,65 ; 1536-1542, 0 pour 0,18 ; sans période, 1 pour 0,25. Permutation du statut « *Modi* » à l'intérieur des périodes : p = 0,010. La date n'explique pas l'association.
+- Les trois définitions se recouvrent ; Holm est donc prudent. Mais l'effectif reste de 4 à 7 pièces, et la colonne `p_holm_toutes` de `../resultats.json` (correction sur toutes les p rapportées) dépasse 0,1.
+
+**Circularité.** Les identifications des *Modi* dans les fiches viennent en bonne partie de Talvacchia, Petruzzellis Scherer et Mallet, qui les ont cherchés précisément sur les plats du Sac de Rome et de Pavie (*Allégorie du Sac*, *Châtiment de Rome*, *Inondation du Tibre*…). Les *Modi* ont sans doute été cherchés plus attentivement sur les plats politiques. Retrouver l'association, c'est en partie retrouver le corpus d'où la thèse est partie. Les pièces 1328 et 414 (Rome tirée du neuvième *Modo*) sont d'ailleurs le cas du pilote.
+
+**L'association ne départage pas Talvacchia et Mallet.** Les scènes de violence et de désastre demandent des corps renversés et raccourcis : c'est l'explication de Mallet (« foreshortened figures in athletic poses »), que Talvacchia relève elle-même (corrélation avec les sujets de « violence and disaster »). Les deux lectures prédisent la même association.
+
+**Verdict : fragile.** Association descriptive, attendue en partie par la façon dont les *Modi* ont été identifiés, et compatible avec Mallet comme avec Talvacchia. Un vrai test de Talvacchia passerait par les mesures d'occlusion et de raccourci sur les images (rapport, Test 5).
 
 ## Ce que cela dit de la thèse
 
-**Elle est affaiblie, dans la forme testable ici.** Le mot ne suit pas le type des estampes : 12 pièces *fabula* sur 20 empruntent à une estampe religieuse (surtout le *Martirio di San Lorenzo*), et les pièces *historia* empruntent surtout à des estampes mythologiques. Le seul *sporcitia* n'a pas de source connue. Le mot suit plutôt le **genre du récit peint** : *fabula* pour Ovide, *historia* pour l'histoire et Pétrarque, *nota* pour l'actualité politique. Il occupe la place que prendra ensuite la référence au livre.
+**Non testable avec ces données ; le résultat s'accorde avec Mallet et Castelletti, en partie par construction.**
+
+- Le mot ne suit pas le type des estampes : 12 pièces *fabula* sur 20 empruntent à une estampe religieuse (surtout le *Martirio di San Lorenzo*), et les pièces *historia* empruntent surtout à des estampes mythologiques. Mais le type d'estampe est classé d'après le **sujet** de l'estampe source, alors que `../t-rebapteme` montre que les figures sont détachées de leur sujet. Un recueil de *pudenda* pouvait contenir des figures érotiques tirées d'estampes qui ne le sont pas. Ce n'est donc pas le bon indicateur pour Jestaz.
+- Le mot suit le **genre du récit peint** : *fabula* pour Ovide, *historia* pour l'histoire et Pétrarque, *nota* pour l'actualité politique. Ce lien est **en partie circulaire** : le « genre du récit » vient du commentaire de la fiche, qui s'appuie lui-même sur l'inscription du revers (sujet, source nommée).
+- Le seul *sporcitia* (pièce 354, Phèdre, 1527-1528) n'a **pas de source identifiée**. Un seul cas ne peut rien réfuter. C'est même ce que prédirait Jestaz (un recueil propre à l'atelier, hors des estampes connues). Le texte « phedra da amore et da luxuria oppresa » se lit aussi comme un jugement moral sur le sujet.
+- La lecture « le mot donne une consigne de lecture du récit » n'est pas nouvelle : c'est celle de Mallet (« it was he who set the fashion », 2007, p. 34) et de Castelletti. Le résultat les soutient, sans rien ajouter.
+- Le mot de genre occupe la place que prendra ensuite la référence au livre (« Nel … libro d'Ovidio », jamais sur la même pièce) : constat descriptif.
 
 ## Limites
 

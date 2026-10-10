@@ -4,7 +4,7 @@
 
 ## Thèse discutée
 
-Boutin Vitela 2014 : l'inscription du revers réoriente la lecture d'une image empruntée. Ce test ne mesure pas la lecture. Il mesure une condition de la thèse : la figure empruntée reçoit-elle souvent une autre identité que dans l'estampe ? Par exemple, Apollon reste Apollon, mais une Muse devient Circé.
+Boutin Vitela 2014 : l'inscription du revers réoriente la lecture d'une image empruntée. Thèse opposée sur le sens : Wilson 1990, Holcroft 1988, Lessmann (figures prises « often without any reference to their original meanings »), c'est-à-dire l'indifférence au sens d'origine. Ce test ne mesure pas la lecture. Il mesure une condition de la thèse : la figure empruntée reçoit-elle souvent une autre identité que dans l'estampe ? Par exemple, Apollon reste Apollon, mais une Muse devient Circé.
 
 ## Méthode (`../t_rebapteme.py`)
 
@@ -31,7 +31,7 @@ Classes : conservée (explicite ou présumée), changée (explicite ou présumé
 - Sur les 225 références dont la cible est nommée, **46 seulement gardent l'identité de la figure source**, et 36 de ces 46 sont des putti devenus Cupidon. Les 179 autres changent d'identité (100) ou donnent un nom à une figure anonyme (79).
 - Si l'on met Cupidon à part, l'identité change dans **98 cas sur 111 (88 %)** parmi les cibles qu'on peut comparer.
 - Les 7 cas explicites : 6 changements (644 : une Muse du *Parnaso* devient Circé ; 194 : Didone du *Quos Ego* devient Onfale ; 247 : la *Carità* devient Ascagne ; 935 et 626 : David devient Esaque ; 1118 : Cacus devient Palinure) et 1 conservation (331 : Glaucus).
-- La part des changements est la même aux trois périodes : 70 % (≤ 1530), 67 % (1531-1535), 78 % (1536-1542).
+- La part des changements est voisine aux trois périodes : 64 % (≤ 1530), 68 % (1531-1535), 78 % (1536-1542) (70 %, 67 %, 78 % avant la correction des dates du 10/10/2026).
 - Exemples d'anonyme → nommée : 956 (Ériphyle tirée du *San Lorenzo*), 637 et 85 (Alcyone tirée des *Modi*), 64 (Métabos tiré de la *Battaglia*), 139 et 237 (Léandre tiré de la *Battaglia col coltellaccio*), 1328 et 414 (Rome tirée des *Modi*).
 - Par estampe : sur 23 cibles nommées tirées de la *Contesa* de Caraglio, 23 changent d'identité (Daphné, Thisbé, Ino, Circé…). Les 8 cibles tirées de *Davide e Golia* changent toutes. Dans le *Parnaso*, ce sont surtout les putti qui sont repris comme Cupidon.
 
@@ -39,7 +39,9 @@ Données du graphique : `resultats.json` → `classes` (barres), `par_periode`, 
 
 ## Ce que cela dit de la thèse
 
-**Le résultat va dans le sens de la thèse sans la démontrer.** Pour Xanto, renommer la figure empruntée est la règle, pas l'exception : une figure garde rarement son identité, hors les putti devenus Cupidon. Cela rend plausible le rôle de l'inscription, qui dit qui est la figure. Ce test ne montre pas que l'inscription *réoriente la lecture* : c'est une question d'interprétation.
+**Condition commune aux deux lectures ; le test ne départage pas.** Renommer la figure empruntée est la règle chez Xanto (88 % des cibles comparables hors Cupidon). Mais ce taux est prédit **à la fois** par Boutin Vitela (l'inscription réoriente la lecture) et par le camp de l'indifférence au sens d'origine (Wilson 1990, Lessmann : la figure est prise pour sa forme, sans égard à son sens). Il ne soutient donc pas l'une plus que l'autre. Ce qui distinguerait les deux lectures (l'inscription change-t-elle la façon dont on lit l'image ?) n'est pas mesurable ainsi.
+
+Il faut aussi distinguer la part **explicite** (7 cas où la fiche nomme la figure source : 6 changées, 1 conservée) de la part **présumée** (94 changées sur 100, qui reposent sur les listes de figures faites à la main dans `../commun.py`). La part présumée dépend de ces listes : une Muse du *Parnaso* renommée Calliope, ou « Musa », compterait comme conservée.
 
 ## Limites
 
