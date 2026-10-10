@@ -2,8 +2,8 @@
  "id": "camille-metabus",
  "titre": "Métabus dans le Sauvetage de Camille (Marco Dente, Bataille entre Romains et Carthaginois, Bartsch XIV 420)",
  "resume": "Xanto peint le Sauvetage de Camille au moins dix fois entre 1532 et 1542, toujours avec le même Métabus tiré de la gravure de Marco Dente. Cinq plats ont une image utilisable ; deux annotateurs indépendants, qui ignoraient l'hypothèse et les diamètres, ont relevé la tête et le pied de Métabus et mesuré eux-mêmes les plats sur des images anonymisées.",
- "conclusion": "Sur les trois plats de 1538-1539 (27 à 31 cm), Métabus mesure 10,8 à 11,3 cm : sa taille ne suit pas le diamètre (une figure adaptée au plat varierait de 15 %). C'est la signature d'un même patron réutilisé à taille fixe. Sur les plats de 1533-1534, il paraît plus grand (12,2 à 12,7 cm), ce qui pourrait signaler un autre patron, mais ces deux images sont trop pauvres pour conclure.",
- "limites": "Annotateurs : deux instances d'IA (écart entre elles de 0,2 à 3 %). Images D et E de très basse qualité, sommet du casque ambigu sur D. Estampe source pas encore mesurée.",
+ "conclusion": "Sur quatre plats datés de 1533 à 1539, de 26 à 31 cm de diamètre, Métabus mesure 10,8 à 11,3 cm (moyenne des deux annotateurs) : sa taille ne suit pas le diamètre, alors qu'une figure adaptée au plat varierait de 19 %. C'est la signature d'un même patron réutilisé à taille fixe pendant au moins six ans. Une première mesure du plat du Louvre (12,2 cm) venait d'une erreur : sur une vieille photo en noir et blanc, le sommet d'un bouclier avait été pris pour celui du casque ; la photo du musée corrige l'erreur.",
+ "limites": "Annotateurs : deux instances d'IA (écart entre elles de 0,2 à 4 %). La photo du plat de Toronto est trop petite pour être utilisée. Estampe source pas encore mesurée ; quatre autres plats de la série (Venise 1534, Padoue 1542, Sèvres 1541, collection privée 1532) n'ont pas d'image accessible.",
  "temoins": [
   {
    "type": "plat",
@@ -31,6 +31,35 @@
    "hauteur_cm": 11.06,
    "hauteur_cm_independant": 11.04,
    "prediction_proportionnelle_cm": 11.9,
+   "comparable": true,
+   "note": "image de qualité haute"
+  },
+  {
+   "type": "plat",
+   "objet": "Sauvetage de Camille, 1533 (Paris Louvre (photo du musée))",
+   "fiche_rovigo": "620",
+   "image": "corpus-images/louvre/0000801027_OG.JPG",
+   "crop": [
+    251,
+    541,
+    667,
+    923
+   ],
+   "reference_cm": 26.0,
+   "cm_par_px": 0.02991944764096663,
+   "reperes": {
+    "tete": [
+     372.0,
+     554.0
+    ],
+    "pied_tendu": [
+     458.0,
+     899.0
+    ]
+   },
+   "hauteur_cm": 10.64,
+   "hauteur_cm_independant": 11.03,
+   "prediction_proportionnelle_cm": 10.42,
    "comparable": true,
    "note": "image de qualité haute"
   },
@@ -119,7 +148,7 @@
    "hauteur_cm_independant": 11.99,
    "prediction_proportionnelle_cm": 10.42,
    "comparable": false,
-   "note": "image de qualité basse (noir et blanc)"
+   "note": "ancienne photo en noir et blanc : les deux annotateurs ont pris le sommet du bouclier pour celui du casque ; remplacée par la photo du Louvre (F)"
   },
   {
    "type": "plat",
@@ -148,7 +177,7 @@
    "hauteur_cm_independant": 12.78,
    "prediction_proportionnelle_cm": 10.42,
    "comparable": false,
-   "note": "image de qualité très basse"
+   "note": "plat de 280 px seulement sur la photo : mesure non fiable"
   }
  ]
 }

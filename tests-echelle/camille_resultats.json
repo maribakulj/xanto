@@ -103,5 +103,26 @@
    }
   },
   "moyenne_cm": 12.71
+ },
+ "F": {
+  "image": "F",
+  "fiche_rovigo": "620",
+  "lieu": "Paris Louvre (photo du musée)",
+  "annee": "1533",
+  "diametre_cm": "26.0",
+  "qualite_image": "haute",
+  "mesures": {
+   "camille_annotateur1": {
+    "hauteur_cm": 10.64,
+    "diametre_px": 869.0,
+    "ratio_vertical": 1.002
+   },
+   "camille_annotateur2": {
+    "hauteur_cm": 11.03,
+    "diametre_px": 871.5,
+    "ratio_vertical": 1.002
+   }
+  },
+  "moyenne_cm": 10.84
  }
 }

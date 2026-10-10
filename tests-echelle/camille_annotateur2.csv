@@ -4,3 +4,4 @@ B,104,2227,70,2170,258,1066,501,1883,648,1738,6,bord ±3 px ; B_y presque au bor
 C,35,1810,54,1872,205,809,236,1444,386,1370,5,bord ±2 px ; pieds flous à cette résolution
 D,10,498,15,520,92,218,96,443,140,413,3,image en gris basse résolution ; T = sommet du grand cimier ovale derrière la tête (si c'est un bouclier et non un cimier : sommet du casque ≈ (72,270))
 E,161,440,151,430,202,268,239,400,268,375,4,image petite (plaque ≈ 280 px) ; casque peu lisible (sommet de la tête/coiffe) ; pieds très flous, P2 approximatif (±6 px)
+F,308,1179.5,160,1033,372,551,468,908,542,841,3,"bords plat par profil de pixels (y=596, x=744), incertitude ~1 px ; B_y inclut le liseré sombre du bord inférieur ; T = sommet du casque jaune à perles (tête penchée), hors bouclier brun ; T et pieds flous, incertitude ~3-5 px"
