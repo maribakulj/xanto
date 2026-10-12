@@ -1,0 +1,8 @@
+image,G_x_ou_left_x,D_x_ou_right_x,H_y_ou_top_y,B_y_ou_bottom_y,commentaire
+plat.jpg,40,600,38,596,"bord externe du marli ; ligne horizontale y=316, verticale x=320 ; transition fond noir/bord doré, +-1 px"
+B21.jpg,404,6120,292,4436,"feuille rognée collée sur un support : bande de marge 404-424 à gauche, 6046-6120 à droite (trait possible à 6060), 292-358 en haut, 4380-4436 en bas ; rapport L/H 1,38 contre 1,415 attendu (57,3x40,5) : bord gauche ou droit incertain de +-40 px"
+B104.jpg,58,5563,48,4155,"bord du papier net sur fond clair ; rapport 1,340 cohérent avec 58,1x43,3"
+B217.jpg,28,5578,37,3834,"bord du papier (fond plus clair au-delà) ; un trait d'encadrement noir passe à 60 / 5552 / 53 / 3808 ; rapport 1,462 cohérent avec 16,7x11,4"
+B247.jpg,87,3581,84,2751,"bord du papier net sur fond blanc ; rapport 1,311 cohérent avec 46,9x35,6"
+B352.jpg,100,4623,103,5942,"bord du papier ; à gauche une bande jaunâtre 60-100 (biseau de montage ?) exclue ; trait d'encadrement en haut à 140 ; rapport H/L 1,29 contre 1,269 attendu"
+B420.jpg,46,3902,42,2476,"limite visible feuille rognée / fond ; d'après feuilles.csv la photo ne montre pas le bord du papier d'origine : ces valeurs sont la limite de la feuille rognée (quasi au trait), rapport 1,584 contre 1,574"

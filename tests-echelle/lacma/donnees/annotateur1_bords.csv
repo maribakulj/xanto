@@ -1,0 +1,8 @@
+image,left_x(G_x),right_x(D_x),top_y(H_y),bottom_y(B_y),commentaire
+plat.jpg,40,599,38,595,"G_x,D_x,H_y,B_y : bord extérieur du marli sur l'horizontale y≈316 et la verticale x≈320 (seuil sur fond noir, ±1 px)"
+B21.jpg,403,6119,292,4433,"bords de la FEUILLE gravée, collée sur un support plus grand (bords du support : 45, 6455, 40, 4830 — à ne pas utiliser). Bord gauche légèrement oblique (≈375 en haut)"
+B104.jpg,57,5562,46,4155,"bords de la feuille sur fond blanc, nets"
+B217.jpg,28,5584,37,3833,"bord extérieur de la bande grise de la marge ; un filet d'encre court à l'intérieur (56, 5551, 53, 3807) : le bord de la feuille est probablement le bord extérieur, rapport 1,464 compatible avec 16,7/11,4"
+B247.jpg,87,3580,84,2751,"bords de la feuille sur fond blanc, nets"
+B352.jpg,101,4619,142,5938,"DOUTEUX : coin supérieur gauche et inférieur droit en biseau, c'est peut-être la fenêtre d'un passe-partout et non le bord de la feuille (rapport 1,283 contre 1,269 attendu) ; limite extérieure claire à 66 (gauche)"
+B420.jpg,,,,,"bord du papier NON visible (photo recadrée) ; limites visibles de la gravure : gauche 48, droite 3900, haut 43, bas 2475"
