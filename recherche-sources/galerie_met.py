@@ -30,11 +30,11 @@ for g in GRAVEURS:
         ids += page; off += 100
         if len(page) < 100 or off >= 1500: break
         time.sleep(0.3)
-ids = list(dict.fromkeys(ids)); print(len(ids), "identifiants", file=sys.stderr)
+ids = list(dict.fromkeys(ids)); print(len(ids), "identifiants", file=sys.stderr, flush=True)
 rows = []
 fp = out / "galerie_met.csv"
 done = {r["object_id"] for r in csv.DictReader(open(fp))} if fp.exists() else set()
-w = csv.writer(open(fp, "a", newline=""))
+fh = open(fp, "a", newline=""); w = csv.writer(fh)
 if not done: w.writerow(["object_id", "titre", "artiste", "date", "debut", "fin", "medium", "fichier"])
 for i, oid in enumerate(ids):
     if str(oid) in done: continue
@@ -51,4 +51,5 @@ for i, oid in enumerate(ids):
     except Exception:
         continue
     w.writerow([oid, o.get("title", ""), o.get("artistDisplayName", ""), o.get("objectDate", ""), o.get("objectBeginDate"), o.get("objectEndDate"), o.get("medium", ""), f"met/{oid}.jpg"])
-    if i % 50 == 0: print(i, file=sys.stderr)
+    fh.flush()
+    if i % 50 == 0: print(i, len(ids), file=sys.stderr, flush=True)
