@@ -26,7 +26,9 @@ def cls_gpu(im, mirror=False):
     g = torch.from_numpy(np.asarray(im.convert("L"), dtype=np.float32) / 255).to(dev)
     if mirror: g = torch.flip(g, dims=[1])
     x = torch.nn.functional.interpolate(g[None, None], size=(SIZE, SIZE), mode="bicubic", antialias=True, align_corners=False).clamp(0, 1).repeat(1, 3, 1, 1)
-    return torch.nn.functional.normalize(model(pixel_values=(x - MEAN_T) / STD_T).last_hidden_state[:, 0], dim=-1).cpu().numpy()
+    with torch.autocast("cuda", dtype=torch.float16, enabled=(dev == "cuda")):  # même précision que recherche.py
+        v = model(pixel_values=(x - MEAN_T) / STD_T).last_hidden_state[:, 0].float()
+    return torch.nn.functional.normalize(v, dim=-1).cpu().numpy()
 
 @torch.no_grad()
 def cls(ims):
@@ -36,7 +38,8 @@ def cls(ims):
 @torch.no_grad()
 def patches(im, side):
     s = side / max(im.size); w, h = max(P, round(im.width * s / P) * P), max(P, round(im.height * s / P) * P)
-    f = model(pixel_values=tens(im.resize((w, h), Image.BICUBIC))).last_hidden_state[0, 1:]
+    with torch.autocast("cuda", dtype=torch.float16, enabled=(dev == "cuda")):
+        f = model(pixel_values=tens(im.resize((w, h), Image.BICUBIC))).last_hidden_state[0, 1:].float()
     gw, gh = w // P, h // P
     f = torch.nn.functional.normalize(f[: gw * gh], dim=-1).cpu().numpy()
     xy = np.stack(np.meshgrid(np.arange(gw), np.arange(gh)), -1).reshape(-1, 2).astype(np.float64)

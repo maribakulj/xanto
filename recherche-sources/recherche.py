@@ -33,7 +33,8 @@ def embed_boxes(im, boxes, bs=128, mirror=False):
     for i in range(0, len(boxes), bs):
         x = torch.cat([torch.nn.functional.interpolate(g[y0:y1, x0:x1][None, None], size=(SIZE, SIZE), mode="bicubic", antialias=True, align_corners=False)
                        for (x0, y0, x1, y1) in boxes[i:i + bs]]).clamp(0, 1).repeat(1, 3, 1, 1)
-        v = embed_fn((x - MEAN_T) / STD_T)
+        with torch.autocast("cuda", dtype=torch.float16, enabled=(dev == "cuda")):  # demi-précision sur T4
+            v = embed_fn((x - MEAN_T) / STD_T).float()
         out.append(torch.nn.functional.normalize(v, dim=-1).cpu().numpy().astype(np.float16))
     return np.concatenate(out)
 
