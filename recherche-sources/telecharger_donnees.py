@@ -11,8 +11,9 @@ HERE = Path(__file__).resolve().parent; OUT = Path(sys.argv[1])
 UA = {"User-Agent": "Mozilla/5.0 (xanto research)"}
 
 def get(url, tries=5):
+    h = dict(UA, **({"AIC-User-Agent": "xanto-research"} if "artic.edu" in url else {}))  # l'Art Institute exige cet en-tête
     for i in range(tries):
-        try: return urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=90).read()
+        try: return urllib.request.urlopen(urllib.request.Request(url, headers=h), timeout=90).read()
         except Exception: time.sleep(3 * (i + 1))
     return None
 
@@ -26,6 +27,9 @@ def one(r):
         im = Image.open(io.BytesIO(b)).convert("RGB"); im.thumbnail((1200, 1200)); im.save(dst, quality=88); return "ok"
     b = get(r["url"])
     if not b: return "ÉCHEC"
+    for _ in range(3):  # le serveur d'images du Met renvoie parfois une autre version : on réessaie
+        if not r["sha256"] or hashlib.sha256(b).hexdigest() == r["sha256"]: break
+        time.sleep(5); b = get(r["url"]) or b""
     if r["sha256"] and hashlib.sha256(b).hexdigest() != r["sha256"]: return "EMPREINTE DIFFÉRENTE"
     dst.write_bytes(b); return "ok"
 
