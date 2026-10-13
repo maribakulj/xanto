@@ -47,17 +47,19 @@ def fenetres(W, H):
     return boxes
 
 gal = list(csv.DictReader(open(D / "galerie.csv")))
-cache = D / f"cache_{tag}.npz"
+cache = D / f"cache_{tag}.npz"; parts = D / f"cache_{tag}"; parts.mkdir(exist_ok=True)
 if cache.exists():
     z = np.load(cache); V, owner = z["V"], z["owner"]
 else:
-    Vs, owner = [], []
+    # une sauvegarde par estampe : le calcul reprend là où il s'est arrêté
     for gi, g in enumerate(gal):
+        fp = parts / f"{gi:05d}.npy"
+        if fp.exists(): continue
         im = Image.open(D / g["image"]); im.thumbnail((1200, 1200))
-        bx = fenetres(*im.size)
-        Vs.append(embed([im.crop(b) for b in bx])); owner += [gi] * len(bx)
+        np.save(fp, embed([im.crop(b) for b in fenetres(*im.size)]))
         if gi % 50 == 0: print(gi, len(gal), file=sys.stderr, flush=True)
-    V, owner = np.concatenate(Vs), np.array(owner)
+    Vs = [np.load(parts / f"{gi:05d}.npy") for gi in range(len(gal))]
+    V = np.concatenate(Vs); owner = np.concatenate([[gi] * len(v) for gi, v in enumerate(Vs)]).astype(int)
     np.savez(cache, V=V, owner=owner)
 print("fenêtres :", len(V), "images :", len(gal), file=sys.stderr)
 Vt = torch.from_numpy(V.astype(np.float32))
