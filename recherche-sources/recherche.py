@@ -20,16 +20,20 @@ else:
     embed_fn = lambda px: model(pixel_values=px).last_hidden_state[:, 0]
 SIZE = 224
 
-def prep(im):
-    im = im.convert("L").convert("RGB").resize((SIZE, SIZE), Image.BICUBIC)
-    a = (np.asarray(im, dtype=np.float32) / 255 - np.array(proc.image_mean)) / np.array(proc.image_std)
-    return torch.from_numpy(a.transpose(2, 0, 1).astype(np.float32))
+MEAN_T = torch.tensor(proc.image_mean, dtype=torch.float32, device=dev).view(1, 3, 1, 1)
+STD_T = torch.tensor(proc.image_std, dtype=torch.float32, device=dev).view(1, 3, 1, 1)
 
 @torch.no_grad()
-def embed(ims, bs=64):
+def embed_boxes(im, boxes, bs=128, mirror=False):
+    """Découpe, met en niveaux de gris et redimensionne à 224 px sur la carte graphique (bicubique avec anti-crénelage),
+    puis calcule les vecteurs. Même traitement pour les estampes et les figures des plats."""
+    g = torch.from_numpy(np.asarray(im.convert("L"), dtype=np.float32) / 255).to(dev)
+    if mirror: g = torch.flip(g, dims=[1])
     out = []
-    for i in range(0, len(ims), bs):
-        v = embed_fn(torch.stack([prep(x) for x in ims[i:i + bs]]).to(dev))
+    for i in range(0, len(boxes), bs):
+        x = torch.cat([torch.nn.functional.interpolate(g[y0:y1, x0:x1][None, None], size=(SIZE, SIZE), mode="bicubic", antialias=True, align_corners=False)
+                       for (x0, y0, x1, y1) in boxes[i:i + bs]]).clamp(0, 1).repeat(1, 3, 1, 1)
+        v = embed_fn((x - MEAN_T) / STD_T)
         out.append(torch.nn.functional.normalize(v, dim=-1).cpu().numpy().astype(np.float16))
     return np.concatenate(out)
 
@@ -56,7 +60,7 @@ else:
         fp = parts / f"{gi:05d}.npy"
         if fp.exists(): continue
         im = Image.open(D / g["image"]); im.thumbnail((1200, 1200))
-        np.save(fp, embed([im.crop(b) for b in fenetres(*im.size)]))
+        np.save(fp, embed_boxes(im, fenetres(*im.size)))
         if gi % 50 == 0: print(gi, len(gal), file=sys.stderr, flush=True)
     Vs = [np.load(parts / f"{gi:05d}.npy") for gi in range(len(gal))]
     V = np.concatenate(Vs); owner = np.concatenate([[gi] * len(v) for gi, v in enumerate(Vs)]).astype(int)
@@ -68,7 +72,8 @@ rows = []
 for q in csv.DictReader(open(D / "requetes_boites.csv")):
     im = Image.open(D.parent / "corpus-images" / "rovigo" / q["photo"]).convert("RGB")
     crop = im.crop(tuple(int(float(q[k])) for k in ("x0", "y0", "x1", "y1")))
-    qv = torch.from_numpy(embed([crop, ImageOps.mirror(crop)]).astype(np.float32))
+    full = [(0, 0, crop.width, crop.height)]
+    qv = torch.from_numpy(np.concatenate([embed_boxes(crop, full), embed_boxes(crop, full, mirror=True)]).astype(np.float32))
     s = (Vt @ qv.T).max(1).values.numpy()
     best = np.full(len(gal), -9.0); np.maximum.at(best, owner, s)
     order = np.argsort(-best)

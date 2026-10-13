@@ -16,6 +16,18 @@ def tens(im):
     a = (np.asarray(im.convert("L").convert("RGB"), dtype=np.float32) / 255 - MEAN) / STD
     return torch.from_numpy(a.transpose(2, 0, 1).astype(np.float32))[None].to(dev)
 
+SIZE = 224
+MEAN_T = torch.tensor(proc.image_mean, dtype=torch.float32, device=dev).view(1, 3, 1, 1)
+STD_T = torch.tensor(proc.image_std, dtype=torch.float32, device=dev).view(1, 3, 1, 1)
+
+@torch.no_grad()
+def cls_gpu(im, mirror=False):
+    """Même vecteur de requête que recherche.py (redimensionnement sur la carte graphique)."""
+    g = torch.from_numpy(np.asarray(im.convert("L"), dtype=np.float32) / 255).to(dev)
+    if mirror: g = torch.flip(g, dims=[1])
+    x = torch.nn.functional.interpolate(g[None, None], size=(SIZE, SIZE), mode="bicubic", antialias=True, align_corners=False).clamp(0, 1).repeat(1, 3, 1, 1)
+    return torch.nn.functional.normalize(model(pixel_values=(x - MEAN_T) / STD_T).last_hidden_state[:, 0], dim=-1).cpu().numpy()
+
 @torch.no_grad()
 def cls(ims):
     x = torch.cat([tens(i.resize((224, 224), Image.BICUBIC)) for i in ims])
@@ -54,7 +66,7 @@ rows = []
 for q in csv.DictReader(open(D / "requetes_boites.csv")):
     im = Image.open(D.parent / "corpus-images" / "rovigo" / q["photo"]).convert("RGB")
     crop = im.crop(tuple(int(float(q[k])) for k in ("x0", "y0", "x1", "y1")))
-    qv = torch.from_numpy(cls([crop, ImageOps.mirror(crop)]))
+    qv = torch.from_numpy(np.concatenate([cls_gpu(crop), cls_gpu(crop, mirror=True)]))
     s = (Vt @ qv.T).max(1).values.numpy(); best = np.full(len(gal), -9.0); np.maximum.at(best, owner, s)
     order1 = list(np.argsort(-best))
     rng = np.random.default_rng(13102026)
