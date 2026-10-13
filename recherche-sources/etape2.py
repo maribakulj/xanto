@@ -8,7 +8,7 @@ import numpy as np, torch
 from PIL import Image, ImageOps
 from transformers import AutoImageProcessor, AutoModel
 
-D = Path(sys.argv[1]).resolve(); dev = "mps" if torch.backends.mps.is_available() else "cpu"
+D = Path(sys.argv[1]).resolve(); dev = "cuda" if torch.cuda.is_available() else ("mps" if torch.backends.mps.is_available() else "cpu")
 model = AutoModel.from_pretrained("facebook/dinov2-base").to(dev).eval(); proc = AutoImageProcessor.from_pretrained("facebook/dinov2-base")
 MEAN, STD = np.array(proc.image_mean), np.array(proc.image_std); P = 14
 

@@ -11,7 +11,7 @@ from transformers import AutoImageProcessor, AutoModel, CLIPModel, CLIPProcessor
 
 D = Path(sys.argv[1]).resolve(); MOD = sys.argv[2] if len(sys.argv) > 2 else "facebook/dinov2-base"
 tag = MOD.split("/")[-1]
-dev = "mps" if torch.backends.mps.is_available() else "cpu"
+dev = "cuda" if torch.cuda.is_available() else ("mps" if torch.backends.mps.is_available() else "cpu")
 if "clip" in MOD:
     model = CLIPModel.from_pretrained(MOD).to(dev).eval(); proc = CLIPProcessor.from_pretrained(MOD).image_processor
     embed_fn = lambda px: model.get_image_features(pixel_values=px)
