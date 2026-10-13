@@ -1,0 +1,50 @@
+requete,photo,x0,y0,x1,y1,trouve,type,commentaire,plat_id,bartsch_vol,bartsch_n
+Q01,626__158.-01.jpg,50,30,200,255,oui,figure,Esaco precipitant tete en bas en haut a gauche,626,26,10
+Q02,387__91.-01.jpg,10,335,285,565,incertain,groupe,phrase vague (personnages de fantaisie); meilleure hypothese: soldat au bouclier enjambant le vieillard tombe au premier plan (schema David/Goliath),387,26,10
+Q04,969__279.-01.jpg,52,268,275,722,oui,groupe,les pasteurs (4 figures) a gauche,969,26,104
+Q06,244__60.-01.jpg,158,218,305,365,oui,figure,Giove assis au centre avec foudre; aigle exclu,244,26,117
+Q07,935__269.-01-scaled.jpg,1095,1155,1700,1435,oui,figure,Esperia allongee en bas a droite,935,26,198
+Q08,201__48.-01.jpg,482,180,602,333,incertain,groupe,phrase tronquee: les nymphes de Diane a droite; laquelle vient de la Cleopatra non precise,201,26,198
+Q09,167__38.-04.jpg,14,194,539,421,oui,composition,l'ensemble de la frise de figures (rapt d'Helene),167,26,209
+Q11,298__67.-01.jpg,52,168,225,350,oui,groupe,Enee et deux hommes d'equipage a gauche dans le bateau,298,26,21
+Q12,845__238.-01.jpg,1430,1245,1995,1890,oui,figure,dieu fluvial avec urne en bas a droite,845,26,21
+Q13,247__61.-01.jpg,58,248,152,420,oui,figure,Enee casque avec bouclier a gauche,247,26,211
+Q14,620__156.-01.jpg,25,218,145,448,incertain,figure,phrase tronquee; figure tiree de la Battaglia (B.211) supposee etre le guerrier Metabo a gauche (lance exclue),620,26,211
+Q15,496__118.-01.jpg,1000,1030,1400,1700,oui,figure,Cupidon debout au centre avec ailes,496,26,217
+Q16,776__208.-01.jpg,245,345,285,420,incertain,figure,phrase tronquee; figure tiree de la Danza di Cupidi deduite: le putto en bas au centre; image basse resolution,776,26,217
+Q17,15__03.-06.jpg,352,98,455,250,oui,figure,Lica transforme projete tete en bas en haut a droite,15,26,226
+Q18,396__94.-01.jpg,32,250,206,486,oui,figure,Aristee aile courant a gauche,396,26,226
+Q21,640__162.-01.jpg,34,218,238,480,incertain,figure,putto aile au manteau portant le livre a gauche; la source n'est pas nommee dans l'extrait,640,26,242
+Q22,293__66.-01.jpg,418,191,572,465,incertain,figure,Cupidon aile a droite portant la corbeille au-dessus de la tete (l'autre putto volant est l'amorino du Parnaso); attribution Cupido/amorino deduite,293,26,242
+Q23,75__09.-01.jpg,147,177,393,475,oui,groupe,Laocoon et ses deux fils avec serpents,75,26,243
+Q24,1052__307.-01.jpg,272,260,492,442,oui,figure,dieu fluvial allonge au centre (figure sombre derriere exclue),1052,26,245
+Q25,556__139.-01.jpg,1440,770,1755,1400,oui,figure,Leda assise a droite (cygne exclu); photo de faible qualite,556,26,245
+Q26,184__44.-04.jpg,205,155,528,430,incertain,groupe,photo interieure de la coupe; les deux fanciulle (femme assise a gauche tenant l'enfant et femme assise en bas a droite); boite englobe aussi la mere couchee entre elles,184,26,247
+Q27,738__191.-01-1.jpg,640,575,885,725,oui,figure,"Cupidon aile allonge/volant au centre gauche, peinture tres effacee",738,26,247
+Q28,399__95.-01.jpg,15,295,105,460,incertain,figure,Phrase tronquée au début : la figure tirée de B26 294 est celle derrière laquelle se tiennent les trois jeunes femmes (dont celle à la lyre) ; meilleure hypothèse = le vieillard barbu (Tibre) à gauche,399,26,294
+Q29,6__01.-01.jpg,362,255,445,492,oui,figure,"Dionysos = vieillard nu barbu à droite, bras levé sur la tête, devant le tonneau (pose étrange)",6,26,294
+Q30,684__175.-01-scaled.jpg,1470,960,2140,1420,oui,figure,"Vieillard allongé à droite (tiré d'Isacco che benedice Giacobbe), boîte incluant le bâton/rame qu'il tient",684,26,6
+Q31,458__108.-01.jpg,232,232,352,405,oui,figure,Figure au centre = Atteone assis en tunique bleue (d'après Isacco B26 6) ; pas l'Atteone-cerf à droite,458,26,6
+Q32,327__74.-03.jpeg,350,300,440,568,oui,figure,"Vénus nue debout sur la coquille, au centre",327,27,323
+Q33,474__112.-01.jpg,1220,410,2100,1830,oui,figure,"Vieillard assis à droite, boîte incluant le bâton à croissant de lune qu'il tient",474,27,323
+Q34,9__02.-01.jpg,337,205,410,405,incertain,figure,Phrase tronquée : Enée et compagnons viennent de la Strage ; la figure tirée du Quos Ego (B27 352) n'est pas nommée dans le texte disponible ; hypothèse = la femme en rose (Vénus) à droite,9,27,352
+Q35,811__225.-01.jpg,20,80,75,292,incertain,figure,"Gobrio sulla sinistra = le Gobrio casqué du fond à gauche (étiquette GOBR) ; photo recadrée, figure partiellement coupée ; pourrait aussi désigner le Gobrio central",811,27,352
+Q36,991__286.-01.jpg,118,262,248,605,incertain,figure,"Mandane = femme debout à demi nue à gauche tenant la vigne ; l'autre femme (bras levés, centre) est une alternative",991,27,373
+Q37,932__268.jpg,228,218,362,500,oui,figure,"Fille d'Astyage = femme debout à demi nue à gauche, bras levé",932,27,373
+Q38,408__96.-01.jpg,28,300,345,490,oui,figure,"Homme allongé (en contrepartie) à gauche, avec ses instruments (cornemuse/trompette)",408,27,420
+Q39,767__205.-01.jpg,40,225,188,497,oui,figure,"Apollon = jeune homme nu courant à gauche, avec le drapé et l'objet tenu",767,27,420
+Q40,364__85.-01.jpg,165,245,262,460,oui,figure,Hercule assis à gauche avec la peau de lion (queue exclue),364,27,442
+Q41,194__46.jpg,488,218,608,462,oui,figure,Hercule assis à droite avec quenouille et peau de lion,194,27,442
+Q42,223__54.-01.jpg,98,264,422,498,oui,composition,Composition entière (toutes les figures : Porcia et le groupe),223,28,4
+Q43,1263__371.-01.jpg,205,120,600,460,oui,composition,Composition entière de la Sainte Famille,1263,28,4
+Q44,912__262.-01.jpg,22,158,80,300,incertain,figure,"Phrase tronquée : liste de sources sans dire quelle figure vient d'Ercole e Cerbero ; hypothèse = soldat à gauche, bras levé (pose d'Hercule frappant)",912,28,44
+Q45,133__27.-01.jpg,320,85,505,508,oui,figure,"Hercule à droite, massue levée incluse",133,28,44
+Q46,68__07.-01.jpg,362,262,428,478,oui,figure,Soeur de Phaéton se changeant en arbre à droite (une seule visible ; texte au pluriel),68,28,48
+Q47,156__35.-02.jpg,420,248,515,475,incertain,figure,"Basalte = Bisaltide/Théophané (Ovide), femme nue portée par Neptune-bélier à droite ; la dérivation pourrait couvrir tout le couple",156,28,48
+Q48,217__52.-01.jpg,35,335,275,470,incertain,figure,Phrase tronquée sur Palinuro (« invec[e] ») ; Palinure = vieillard tombant du navire en bas à gauche ; source Ercole e Caco supposée,217,28,49
+Q49,431__101.-01-1.jpg,210,460,590,548,incertain,figure,Phrase tronquée : Piramo vient de Davide e Golia ; la figure tirée de la Contesa n'est pas nommée ; hypothèse = figure allongée en rouge au premier plan (Tisbe),431,28,53
+Q50,1141__335.-01.jpg,45,240,400,470,incertain,groupe,Phrase tronquée ; hypothèse = groupe des Bacchantes changées en arbres (toutes les femmes),1141,28,53
+Q51,461__109.-01.jpg,170,138,605,490,oui,composition,"Composition entière : Ascagne, Enée portant Anchise",461,28,60
+Q52,511__124.01-scaled.jpg,950,760,1720,2440,oui,groupe,Enée portant Anchise (deux figures),511,28,60
+Q53,37__04.-01.jpg,75,150,482,410,incertain,composition,Phrase tronquée mais composition entière désignée ; boîte sur toutes les figures,37,28,62
+Q54,1138__334.-01.jpg,68,176,130,212,oui,figure,"Ceice noyé, allongé dans la mer à gauche (petite figure)",1138,28,62
