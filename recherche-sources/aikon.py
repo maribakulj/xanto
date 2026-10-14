@@ -4,46 +4,72 @@
 Le calcul du score SegSwap reprend celui du dépôt d'origine (XiSHEN0220/SegSwap, licence MIT) et d'aikon-api.
 Usage : aikon.py <dossier_prive> <dossier_segswap> [lot] [modele] [taille]   (dossier_segswap : transformer.py + hard_mining_neg5.pth ;
 lot : mise_au_point par défaut ; modele : facebook/dinov2-base par défaut ; taille de la présélection : 224 par défaut)
-Écrit <dossier_prive>/resultats_aikon_<lot>.csv (ou resultats_aikon_<lot>_<modele>_<taille>.csv si modele/taille changent)."""
+[canal] : rgb (défaut), gris, flou, trait ou fusion (étape 4, PREINSCRIPTION_CANAUX.md) ; ne touche que la présélection.
+Écrit <dossier_prive>/resultats_aikon_<lot>.csv (ou resultats_aikon_<lot>_<modele>_<taille>[_<canal>].csv si modele/taille/canal changent)."""
 import csv, sys
 from pathlib import Path
+from scipy.ndimage import gaussian_filter
 import numpy as np, torch, torch.nn.functional as F, torchvision.models as tvm, torchvision.transforms as T
-from PIL import Image, ImageOps
+from PIL import Image, ImageFilter, ImageOps
 from transformers import AutoModel
 
 D = Path(sys.argv[1]).resolve(); S = Path(sys.argv[2]).resolve(); LOT = sys.argv[3] if len(sys.argv) > 3 else "mise_au_point"
 MOD = sys.argv[4] if len(sys.argv) > 4 else "facebook/dinov2-base"; SZ = int(sys.argv[5]) if len(sys.argv) > 5 else 224
-TAG = "" if (MOD, SZ) == ("facebook/dinov2-base", 224) else f"_{MOD.split('/')[-1]}_{SZ}"
+CANAL = sys.argv[6] if len(sys.argv) > 6 else "rgb"
+BASE_TAG = "" if (MOD, SZ) == ("facebook/dinov2-base", 224) else f"_{MOD.split('/')[-1]}_{SZ}"
+TAG = BASE_TAG if CANAL == "rgb" else f"_{MOD.split('/')[-1]}_{SZ}_{CANAL}"
 sys.path.insert(0, str(S)); import transformer  # noqa: E402  (SegSwap, MIT)
 dev = "cuda" if torch.cuda.is_available() else ("mps" if torch.backends.mps.is_available() else "cpu")
 HERE = Path(__file__).resolve().parent
 COS_TOPK, MAX_SIZE, STRIDE = 20, 244, 16  # aikon-api, similarity/lib/const.py
 NORM = T.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
-T_DINO = T.Compose([T.Resize((SZ, SZ), antialias=True), T.ToTensor(), NORM])
+RESIZE = T.Resize((SZ, SZ), antialias=True); TO_T = T.Compose([T.ToTensor(), NORM])
+
+def xdog(g):
+    """Dessin au trait (XDoG, Winnemöller 2012), réglages fixés d'avance : sigma = max(0,7 ; taille/512), k = 1,6, tau = 0,98, eps = 0, phi = 200."""
+    a = np.asarray(g, dtype=np.float32) / 255; s_ = max(0.7, SZ / 512)
+    d = gaussian_filter(a, s_) - 0.98 * gaussian_filter(a, 1.6 * s_)
+    e = np.where(d >= 0, 1.0, 1 + np.tanh(200 * d))
+    return Image.fromarray((np.clip(e, 0, 1) * 255).astype(np.uint8))
+
+def prep(im, canal, requete):
+    """Transformation de présélection, appliquée après le redimensionnement. flou : seules les estampes sont floutées (tailles gommées)."""
+    im = RESIZE(im)
+    if canal == "rgb": return im
+    g = ImageOps.grayscale(im)
+    if canal == "flou" and not requete: g = g.filter(ImageFilter.GaussianBlur(SZ / 256))
+    if canal == "trait": g = xdog(g)
+    return g.convert("RGB")
 T_SEG = T.Compose([T.Resize((MAX_SIZE, MAX_SIZE), antialias=True), T.ToTensor(), NORM])
 
 dino = AutoModel.from_pretrained(MOD).to(dev).eval()  # dinov2-base : mêmes poids que torch.hub dinov2_vitb14
 
 @torch.no_grad()
-def cls(ims):
+def cls(ims, canal="rgb", requete=False):
     out = []
     for i in range(0, len(ims), 32):
-        x = torch.stack([T_DINO(im) for im in ims[i:i + 32]]).to(dev)
+        x = torch.stack([TO_T(prep(im, canal, requete)) for im in ims[i:i + 32]]).to(dev)
         out.append(F.normalize(dino(pixel_values=x).last_hidden_state[:, 0], dim=-1).cpu())
     return torch.cat(out)
 
 def load(p): return Image.open(p).convert("RGB")
 def gpath(img): return D / img if (D / img).exists() else D / "connues" / img.split("/")[-1]
 
-# --- galerie : un vecteur par image (cache)
+# --- galerie : un vecteur par image et par canal (cache ; les canaux manquants sont calculés en une seule lecture des images)
 gal = list(csv.DictReader(open(D / "galerie.csv")))
-cache = D / ("cache_aikon_dinov2.pt" if not TAG else f"cache_aikon{TAG}.pt")
-if cache.exists(): G = torch.load(cache)
-else:
-    G = []
+CANAUX = ["rgb", "gris", "flou", "trait"] if CANAL == "fusion" else [CANAL]
+def cache_of(c):
+    if c == "rgb": return D / ("cache_aikon_dinov2.pt" if not BASE_TAG else f"cache_aikon{BASE_TAG}.pt")
+    return D / f"cache_aikon_{MOD.split('/')[-1]}_{SZ}_{c}.pt"
+G = {c: torch.load(cache_of(c)) for c in CANAUX if cache_of(c).exists()}
+todo = [c for c in CANAUX if c not in G]
+if todo:
+    acc = {c: [] for c in todo}
     for k in range(0, len(gal), 64):
-        G.append(cls([load(gpath(g["image"])) for g in gal[k:k + 64]])); print("galerie", k + 64, flush=True)
-    G = torch.cat(G); torch.save(G, cache)
+        ims = [load(gpath(g["image"])) for g in gal[k:k + 64]]
+        for c in todo: acc[c].append(cls(ims, c))
+        print("galerie", k + 64, flush=True)
+    for c in todo: G[c] = torch.cat(acc[c]); torch.save(G[c], cache_of(c))
 
 # --- SegSwap
 param = torch.load(S / "hard_mining_neg5.pth", map_location="cpu", weights_only=True)
@@ -84,8 +110,10 @@ for q in csv.DictReader(open(D / "requetes_boites.csv")):
     if lots.get(q["requete"]) != LOT: continue
     im = load(D.parent / "corpus-images" / "rovigo" / q["photo"]).crop(tuple(int(float(q[k])) for k in ("x0", "y0", "x1", "y1")))
     sens = [im, ImageOps.mirror(im)]
-    c = (G @ cls(sens).T).numpy()  # (n_galerie, 2)
-    best_t = c.argmax(1); cos = c.max(1)
+    C = {c: (G[c] @ cls(sens, c, requete=True).T).numpy() for c in CANAUX}  # (n_galerie, 2) par canal
+    if CANAL == "fusion":  # fusion des rangs (reciprocal rank fusion, k = 60) ; le sens vient du canal couleur
+        cos = sum(1 / (60 + np.argsort(np.argsort(-C[c].max(1))) + 1) for c in CANAUX); best_t = C["rgb"].argmax(1)
+    else: best_t = C[CANAL].argmax(1); cos = C[CANAL].max(1)
     target = f"{q['bartsch_vol']}/{q['bartsch_n']}"; vrai = comp == target
     order = np.argsort(-cos)
     top = list(order[:COS_TOPK]); top_abs = [i for i in order if not vrai[i]][:COS_TOPK]
