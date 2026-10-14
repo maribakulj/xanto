@@ -19,8 +19,9 @@ for r in csv.DictReader(open(D / "galerie_met.csv")):
 with open(D / "galerie.csv", "w", newline="") as f:
     w = csv.DictWriter(f, fieldnames=["image", "composition", "musee"]); w.writeheader(); w.writerows(rows)
 q = {r["requete"]: r for f in ("requetes.csv", "requetes2.csv") for r in csv.DictReader(open(ROOT / "recherche-sources" / f))}
-out = []  # boites_a/b : premier tirage ; n1-n4 : agrandissement (PREINSCRIPTION_PAIRES.md) ; ctrl (contrôle d'accord) n'est pas utilisé
-for p in sorted(D.glob("boites_*_boites.csv")) + sorted(D.glob("n[0-9]_boites.csv")):
+out = []  # v2_1-6 : 168 requêtes réencadrées sur le texte complet des fiches (PREINSCRIPTION_PAIRES.md, amendement) ; s'il n'y en a pas,
+# boites_a/b (premier encadrement, phrases tronquées) ; ctrl2 (contrôle d'accord) n'est jamais utilisé
+for p in sorted(D.glob("v2_[0-9]_boites.csv")) or sorted(D.glob("boites_*_boites.csv")):
     for b in csv.DictReader(open(p)):
         out.append({**b, "plat_id": q[b["requete"]]["plat_id"], "bartsch_vol": q[b["requete"]]["bartsch_vol"], "bartsch_n": q[b["requete"]]["bartsch_n"]})
 out = [o for o in out if o["trouve"] != "non"]

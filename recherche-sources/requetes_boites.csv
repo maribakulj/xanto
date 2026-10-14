@@ -1,50 +1,164 @@
 requete,photo,x0,y0,x1,y1,trouve,type,commentaire,plat_id,bartsch_vol,bartsch_n
-Q01,626__158.-01.jpg,50,30,200,255,oui,figure,Esaco precipitant tete en bas en haut a gauche,626,26,10
-Q02,387__91.-01.jpg,10,335,285,565,incertain,groupe,phrase vague (personnages de fantaisie); meilleure hypothese: soldat au bouclier enjambant le vieillard tombe au premier plan (schema David/Goliath),387,26,10
-Q04,969__279.-01.jpg,52,268,275,722,oui,groupe,les pasteurs (4 figures) a gauche,969,26,104
-Q06,244__60.-01.jpg,158,218,305,365,oui,figure,Giove assis au centre avec foudre; aigle exclu,244,26,117
-Q07,935__269.-01-scaled.jpg,1095,1155,1700,1435,oui,figure,Esperia allongee en bas a droite,935,26,198
-Q08,201__48.-01.jpg,482,180,602,333,incertain,groupe,phrase tronquee: les nymphes de Diane a droite; laquelle vient de la Cleopatra non precise,201,26,198
-Q09,167__38.-04.jpg,14,194,539,421,oui,composition,l'ensemble de la frise de figures (rapt d'Helene),167,26,209
-Q11,298__67.-01.jpg,52,168,225,350,oui,groupe,Enee et deux hommes d'equipage a gauche dans le bateau,298,26,21
-Q12,845__238.-01.jpg,1430,1245,1995,1890,oui,figure,dieu fluvial avec urne en bas a droite,845,26,21
-Q13,247__61.-01.jpg,58,248,152,420,oui,figure,Enee casque avec bouclier a gauche,247,26,211
-Q14,620__156.-01.jpg,25,218,145,448,incertain,figure,phrase tronquee; figure tiree de la Battaglia (B.211) supposee etre le guerrier Metabo a gauche (lance exclue),620,26,211
-Q15,496__118.-01.jpg,1000,1030,1400,1700,oui,figure,Cupidon debout au centre avec ailes,496,26,217
-Q16,776__208.-01.jpg,245,345,285,420,incertain,figure,phrase tronquee; figure tiree de la Danza di Cupidi deduite: le putto en bas au centre; image basse resolution,776,26,217
-Q17,15__03.-06.jpg,352,98,455,250,oui,figure,Lica transforme projete tete en bas en haut a droite,15,26,226
-Q18,396__94.-01.jpg,32,250,206,486,oui,figure,Aristee aile courant a gauche,396,26,226
-Q21,640__162.-01.jpg,34,218,238,480,incertain,figure,putto aile au manteau portant le livre a gauche; la source n'est pas nommee dans l'extrait,640,26,242
-Q22,293__66.-01.jpg,418,191,572,465,incertain,figure,Cupidon aile a droite portant la corbeille au-dessus de la tete (l'autre putto volant est l'amorino du Parnaso); attribution Cupido/amorino deduite,293,26,242
-Q23,75__09.-01.jpg,147,177,393,475,oui,groupe,Laocoon et ses deux fils avec serpents,75,26,243
-Q24,1052__307.-01.jpg,272,260,492,442,oui,figure,dieu fluvial allonge au centre (figure sombre derriere exclue),1052,26,245
-Q25,556__139.-01.jpg,1440,770,1755,1400,oui,figure,Leda assise a droite (cygne exclu); photo de faible qualite,556,26,245
-Q26,184__44.-04.jpg,205,155,528,430,incertain,groupe,photo interieure de la coupe; les deux fanciulle (femme assise a gauche tenant l'enfant et femme assise en bas a droite); boite englobe aussi la mere couchee entre elles,184,26,247
-Q27,738__191.-01-1.jpg,640,575,885,725,oui,figure,"Cupidon aile allonge/volant au centre gauche, peinture tres effacee",738,26,247
-Q28,399__95.-01.jpg,15,295,105,460,incertain,figure,Phrase tronquée au début : la figure tirée de B26 294 est celle derrière laquelle se tiennent les trois jeunes femmes (dont celle à la lyre) ; meilleure hypothèse = le vieillard barbu (Tibre) à gauche,399,26,294
-Q29,6__01.-01.jpg,362,255,445,492,oui,figure,"Dionysos = vieillard nu barbu à droite, bras levé sur la tête, devant le tonneau (pose étrange)",6,26,294
-Q30,684__175.-01-scaled.jpg,1470,960,2140,1420,oui,figure,"Vieillard allongé à droite (tiré d'Isacco che benedice Giacobbe), boîte incluant le bâton/rame qu'il tient",684,26,6
-Q31,458__108.-01.jpg,232,232,352,405,oui,figure,Figure au centre = Atteone assis en tunique bleue (d'après Isacco B26 6) ; pas l'Atteone-cerf à droite,458,26,6
-Q32,327__74.-03.jpeg,350,300,440,568,oui,figure,"Vénus nue debout sur la coquille, au centre",327,27,323
-Q33,474__112.-01.jpg,1220,410,2100,1830,oui,figure,"Vieillard assis à droite, boîte incluant le bâton à croissant de lune qu'il tient",474,27,323
-Q34,9__02.-01.jpg,337,205,410,405,incertain,figure,Phrase tronquée : Enée et compagnons viennent de la Strage ; la figure tirée du Quos Ego (B27 352) n'est pas nommée dans le texte disponible ; hypothèse = la femme en rose (Vénus) à droite,9,27,352
-Q35,811__225.-01.jpg,20,80,75,292,incertain,figure,"Gobrio sulla sinistra = le Gobrio casqué du fond à gauche (étiquette GOBR) ; photo recadrée, figure partiellement coupée ; pourrait aussi désigner le Gobrio central",811,27,352
-Q36,991__286.-01.jpg,118,262,248,605,incertain,figure,"Mandane = femme debout à demi nue à gauche tenant la vigne ; l'autre femme (bras levés, centre) est une alternative",991,27,373
-Q37,932__268.jpg,228,218,362,500,oui,figure,"Fille d'Astyage = femme debout à demi nue à gauche, bras levé",932,27,373
-Q38,408__96.-01.jpg,28,300,345,490,oui,figure,"Homme allongé (en contrepartie) à gauche, avec ses instruments (cornemuse/trompette)",408,27,420
-Q39,767__205.-01.jpg,40,225,188,497,oui,figure,"Apollon = jeune homme nu courant à gauche, avec le drapé et l'objet tenu",767,27,420
-Q40,364__85.-01.jpg,165,245,262,460,oui,figure,Hercule assis à gauche avec la peau de lion (queue exclue),364,27,442
-Q41,194__46.jpg,488,218,608,462,oui,figure,Hercule assis à droite avec quenouille et peau de lion,194,27,442
-Q42,223__54.-01.jpg,98,264,422,498,oui,composition,Composition entière (toutes les figures : Porcia et le groupe),223,28,4
-Q43,1263__371.-01.jpg,205,120,600,460,oui,composition,Composition entière de la Sainte Famille,1263,28,4
-Q44,912__262.-01.jpg,22,158,80,300,incertain,figure,"Phrase tronquée : liste de sources sans dire quelle figure vient d'Ercole e Cerbero ; hypothèse = soldat à gauche, bras levé (pose d'Hercule frappant)",912,28,44
-Q45,133__27.-01.jpg,320,85,505,508,oui,figure,"Hercule à droite, massue levée incluse",133,28,44
-Q46,68__07.-01.jpg,362,262,428,478,oui,figure,Soeur de Phaéton se changeant en arbre à droite (une seule visible ; texte au pluriel),68,28,48
-Q47,156__35.-02.jpg,420,248,515,475,incertain,figure,"Basalte = Bisaltide/Théophané (Ovide), femme nue portée par Neptune-bélier à droite ; la dérivation pourrait couvrir tout le couple",156,28,48
-Q48,217__52.-01.jpg,35,335,275,470,incertain,figure,Phrase tronquée sur Palinuro (« invec[e] ») ; Palinure = vieillard tombant du navire en bas à gauche ; source Ercole e Caco supposée,217,28,49
-Q49,431__101.-01-1.jpg,210,460,590,548,incertain,figure,Phrase tronquée : Piramo vient de Davide e Golia ; la figure tirée de la Contesa n'est pas nommée ; hypothèse = figure allongée en rouge au premier plan (Tisbe),431,28,53
-Q50,1141__335.-01.jpg,45,240,400,470,incertain,groupe,Phrase tronquée ; hypothèse = groupe des Bacchantes changées en arbres (toutes les femmes),1141,28,53
-Q51,461__109.-01.jpg,170,138,605,490,oui,composition,"Composition entière : Ascagne, Enée portant Anchise",461,28,60
-Q52,511__124.01-scaled.jpg,950,760,1720,2440,oui,groupe,Enée portant Anchise (deux figures),511,28,60
-Q53,37__04.-01.jpg,75,150,482,410,incertain,composition,Phrase tronquée mais composition entière désignée ; boîte sur toutes les figures,37,28,62
-Q54,1138__334.-01.jpg,68,176,130,212,oui,figure,"Ceice noyé, allongé dans la mer à gauche (petite figure)",1138,28,62
+Q01,626__158.-01.jpg,55,35,210,260,oui,figure,"Esaco tuffante a sinistra (da Davide); il soldato in fuga a destra (~300,240,490,400) deriva anche lui dalla stessa stampa, non incluso",626,26,10
+Q02,387__91.-01.jpg,100,360,290,575,incertain,figure,"le texte ne cite la stampa que comme source probable sans figure; meilleure hypothese : le vieil homme en orange qui tombe en avant (Goliath), en bas a gauche",387,26,10
+Q04,969__279.-01.jpg,55,268,295,722,incertain,groupe,"groupe des pasteurs à gauche, attribué à la fois au Martyre de saint Laurent et au Quos Ego : impossible de dire quel pasteur vient de quelle gravure",969,26,104
+Q05,614__155.-01.jpg,440,372,548,525,incertain,figure,Martirio di Santa Cecilia seulement listé parmi 8 sources sans figure attribuée ; meilleure hypothèse : femme agenouillée au centre-droit,614,26,117
+Q055,100__18.-04.jpg,465,180,534,310,incertain,figure,Nessuna vista completa (solo dettagli); il testo non dice quale figura; ipotesi Cefalo = figura nuda a braccio teso tagliata in alto a destra,100,26,10
+Q056,136__28.-01.jpg,215,150,445,425,oui,figure,Calano sur l'autel avec le cartiglio,136,26,10
+Q057,516__127.1-Ero-e-leandro_rifilato-fronte.jpg,345,755,842,1000,oui,figure,Léandre renversé dans l'eau en bas,516,26,10
+Q058,898__258.01.jpg,975,555,1302,1272,oui,figure,"homme en vert à droite avec arc et flèches, visant sainte Ursule",898,26,10
+Q059,455__107.-01.jpg,268,222,465,450,oui,figure,"Calano au centre sur le bûcher, bras levés",455,26,10
+Q06,244__60.-01.jpg,155,218,305,365,oui,figure,Giove al centro con fulmini (aquila esclusa in parte),244,26,117
+Q060,450__106.-01.jpg,598,195,712,405,oui,figure,uomo all'estrema destra di spalle con mantello blu,450,26,104
+Q061,952__274.-01.jpg,93,258,245,538,oui,figure,Psiche di spalle a sinistra in mantello,952,26,104
+Q062,425__99.-01.jpg,145,28,602,440,oui,groupe,deux figures eloignees : Dedalo sur la tour (145-250 x 28-178) et l'homme de dos a droite (458-602 x 200-440); boite = union,425,26,104
+Q063,667__171.-01.jpg,408,306,496,526,oui,figure,Vieillard debout à droite (tunique orange et manteau bleu),667,26,104
+Q064,895__257.-01.jpg,305,240,840,1005,oui,figure,"Ésaque plongeant tête en bas en haut à gauche ; la même gravure sert aussi pour Priam debout à droite (environ 1590,670,1835,1470) non encadré ici",895,26,104
+Q065,321__73.-02-1.jpeg,462,350,578,595,incertain,figure,"corps de l'homme à tête de grue ; figures enchevêtrées à droite, distinction avec Cerbère incertaine (figure drapée de bleu tournée vers l'extérieur)",321,26,104
+Q066,573__143.-01.jpg,1151,859,1488,1470,oui,figure,Erifile a destra di spalle con mantello vinaccia,573,26,104
+Q067,704__178.-01.jpg,122,212,286,560,oui,figure,Vecchio barbuto a sinistra,704,26,104
+Q068,450__106.-01.jpg,300,103,445,395,oui,figure,homme au centre fuyant l'epee levee,450,26,117
+Q069,701__177.-01.jpg,24,103,86,194,oui,groupe,Groupe à gauche : homme et femme voilés + putto (petite image 249 px),701,26,117
+Q07,935__269.-01-scaled.jpg,1095,1150,1745,1435,oui,figure,Esperia distesa in primo piano a destra (da Cleopatra),935,26,198
+Q070,667__171.-01.jpg,305,460,398,593,oui,figure,"putto au centre se cachant le visage dans les mains, avec son drapé jaune",667,26,198
+Q071,647__164.-01.jpg,150,372,300,490,incertain,figure,Cleopatra seulement listée ; hypothèse : guerrier couché à terre au premier plan,647,26,198
+Q072,701__177.-01.jpg,132,128,236,225,oui,groupe,Cleopatra seduta sul letto e Cupido ai suoi piedi,701,26,198
+Q073,120__23.-01.jpg,100,270,215,342,incertain,figure,Testo elenca solo la stampa; Cleopatra -> probabilmente Esperia distesa in basso vicino al serpente,120,26,198
+Q074,237__58.-01.jpg,198,18,300,125,oui,figure,Ero se jetant de la fenetre en haut,237,26,198
+Q075,516__127.1-Ero-e-leandro_rifilato-fronte.jpg,870,465,1035,770,oui,figure,Cupidon à droite se couvrant le visage (carquois au sol exclu),516,26,198
+Q076,984__284.-01.jpg,260,350,470,540,oui,figure,"Cléopâtre allongée à gauche, bras levé au-dessus de la tête, avec son drapé bleu",984,26,198
+Q077,895__257.-01.jpg,505,1210,1012,1790,oui,figure,"Esperia couchée en bas à gauche, mordue par le serpent",895,26,198
+Q078,902__259.-01.jpg,238,636,1119,1083,incertain,groupe,stampa solo elencata; scelta la nave con equipaggio (come per altri piatti dal Rapimento di Elena),902,26,209
+Q079,139__31.-01.jpg,200,245,366,357,oui,groupe,Imbarcazione con rematori al centro,139,26,209
+Q08,201__48.-01.jpg,365,195,418,282,oui,figure,Cupidon pleurant au centre sur l'altura (photo face 01),201,26,198
+Q080,308__69.-02.jpg,0,0,620,393,oui,composition,"citation quasi litterale de toute la stampa; seule photo disponible = detail du rapt, boite = image entiere",308,26,209
+Q081,594__150.-01.jpg,320,975,730,1580,oui,figure,Philistin courbé à gauche au turban bleu tirant son vêtement des décombres ; le guerrier casqué et l'homme aux bras levés (même gravure) ne sont pas inclus,594,26,209
+Q082,82__11.-01.jpg,22,190,150,443,oui,figure,"Apollon à gauche, bras levés, drapé bleu",82,26,209
+Q083,889__255.-01.jpg,1290,770,1842,1590,oui,figure,homme de dos à droite tirant le drap bleu,889,26,209
+Q084,663__170.-01.jpg,507,186,612,334,incertain,groupe,cinque stampe elencate senza figure; ipotesi: uomini che distruggono il ponte a destra,663,26,209
+Q085,136__28.-01.jpg,420,180,577,354,oui,figure,Alessandro biondo a braccia alzate a destra,136,26,209
+Q086,964__278.01.jpg,262,262,626,612,oui,groupe,couple central (homme au poignard et femme a terre),964,26,21
+Q087,550__137.-01-jpg.jpg,288,495,595,960,oui,figure,Hercule au manteau bleu luttant avec le lion,550,26,21
+Q088,653__167.-01.jpg,143,222,432,480,oui,figure,"femme (l'Italie) accroupie pleurant, avec son manteau bleu ; l'enfant mort n'est pas inclus à part ce qu'elle recouvre",653,26,21
+Q089,569__142.-01.jpg,460,600,1255,1255,oui,groupe,figures centrales : mère agenouillée et enfant mort,569,26,21
+Q09,167__38.-04.jpg,8,190,553,425,oui,composition,"Rapt d'Hélène : toute la composition de figures (cavaliers à gauche, groupe de l'enlèvement, barque à droite)",167,26,209
+Q090,580__145.-01.jpg,736,505,1046,1028,oui,figure,guerriero (Carlo V) con spada e scudo a destra,580,26,21
+Q091,1061__310.-01.jpg,195,605,560,1360,oui,figure,"Atamante nudo a sinistra (braccio fino al bambino, bambino escluso)",1061,26,21
+Q092,623__157.-01.jpg,207,18,300,128,oui,figure,"Ero penchee a la fenetre en haut, selon le texte (on attendrait plutot Leandro couche en bas pour B.26.211)",623,26,211
+Q093,170__39.-01.jpg,112,282,290,336,oui,figure,Léandre noyé dans l'eau en bas,170,26,211
+Q094,916__263.-01.jpg,150,325,385,418,oui,figure,Pyrame étendu mort au premier plan,916,26,211
+Q095,237__58.-01.jpg,140,362,350,452,oui,figure,Léandre renversé dans l'eau en bas,237,26,211
+Q096,64__06.-01.jpg,243,323,451,493,oui,figure,dio fluviale sdraiato in primo piano in basso,64,26,211
+Q098,663__170.-01.jpg,540,180,612,335,incertain,figure,stampa seulement listee parmi cinq; hypothese : homme a droite brandissant une arme pour detruire le pont; image petite,663,26,211
+Q099,139__31.-01.jpg,146,420,448,518,oui,figure,Léandre étendu dans l'eau en bas,139,26,211
+Q10,906__260.-01.jpg,278,185,335,290,incertain,figure,"homme au bonnet bleu (phrygien ?) portant une femme en orange, groupe de droite ; image petite et confuse",906,26,209
+Q100,82__11.-01.jpg,90,275,180,428,oui,figure,"Cupidon debout à côté d'Apollon, avec arc ; un autre putto volant en haut tient les armoiries",82,26,217
+Q101,647__164.-01.jpg,121,173,325,393,incertain,groupe,Ronde de Cupidons seulement listée ; hypothèse : cercle de putti au centre autour de Ciro,647,26,217
+Q102,895__257.-01.jpg,1125,715,1505,1255,oui,figure,Cupido al centro con faretra,895,26,217
+Q103,339__77.-01.jpeg,71,106,211,186,oui,composizione,Gruppo intero dei cupidi e putti danzanti,339,26,217
+Q104,659__169.-01.jpg,68,378,160,525,oui,figure,Cupido a gauche,659,26,217
+Q105,78__10.-01.jpg,178,388,262,515,incertain,figure,Le texte cite la Danse des Amours sans dire quelle figure ; le seul Cupidon est le putto ailé en bas au centre,78,26,217
+Q106,331__75.-02.jpg,75,248,265,500,oui,figure,"Glaucus à gauche courant vers la mer, manteau orange",331,26,226
+Q107,450__106.-01.jpg,460,228,700,465,oui,figure,"vieillard à longue barbe blanche à droite, en vert, chevauchant l'homme en bleu",450,26,226
+Q108,163__37.-01.jpg,288,232,449,401,incertain,figure,stampa elencata senza figura; ipotesi: vecchio barbuto con manto arancio a destra (come Q060/Q150),163,26,226
+Q109,78__10.-01.jpg,82,278,375,478,incertain,groupe,Testo non dice quale figura; ipotesi satiro->Alfeo che si slancia + ninfa in fuga a sinistra,78,26,226
+Q11,298__67.-01.jpg,55,163,220,340,oui,groupe,"Enée et deux hommes d'équipage, groupe à gauche dans la barque",298,26,21
+Q110,960__277.-01.jpg,120,360,210,530,oui,figure,"homme au turban bleu et robe orange a gauche, bras tendu; chevauche la figure en violet derriere lui",960,26,23
+Q111,227__55.-01.jpg,378,245,562,472,oui,groupe,Deux figures attribuées à la même gravure : garçon blond de dos avec le plat + homme en costume oriental à droite,227,26,23
+Q112,586__148.-02.jpg,368,205,470,426,oui,figure,"prêtre barbu au turban à droite, de profil",586,26,23
+Q113,680__174.-01.jpg,364,312,482,540,oui,figure,"vieillard au turban à droite, bras tendu",680,26,23
+Q114,149__33.-01.jpg,56,400,282,804,oui,figure,"Dionigi seduto a sinistra; dalla stessa stampa anche l'inserviente di spalle in primo piano (~400-585,625-905) e il giovane a destra (~800-870,375-650)",149,26,23
+Q115,889__255.-01.jpg,65,660,600,1605,oui,figure,Putto alato con il pallone sopra la testa a sinistra,889,26,242
+Q116,1028__300.-01.jpg,660,1100,2010,2180,oui,groupe,"deux enfants lateraux (gauche 660-1000 x 1100-2180, droite 1420-2010 x 1340-2000); boite = union",1028,26,242
+Q117,153__34.-03.jpg,188,383,368,497,oui,figure,Saul tombé à terre au premier plan au centre,153,26,245
+Q118,1045__306.-01.jpg,428,342,652,506,oui,figure,"Pâris à demi allongé à droite, tenant la pomme",1045,26,245
+Q119,1065__311-jpg.jpg,620,400,1745,1620,oui,figure,"partie supérieure de Vénus (tête, buste, bras levé) ; jambes viennent du Parnasse",1065,26,245
+Q12,845__238.-01.jpg,1436,1240,2075,1945,oui,figure,dio fluviale a destra nell'acqua con manto rosso e urna,845,26,21
+Q120,644__163.-01.jpg,309,170,451,348,oui,figure,Circe seduta in trono a destra con bastone,644,26,247
+Q121,693__176.-01-scaled.jpg,540,560,925,925,oui,figure,Cupido in alto tra le nuvole con la faretra,693,26,247
+Q122,254__64.-01.jpg,438,262,545,445,incertain,groupe,plusieurs hommes a droite; choisi le couple vieillard en jaune + jeune homme au manteau bleu,254,26,247
+Q123,220__53.-01.jpg,115,125,428,428,oui,groupe,"Jeune femme à la lyre à droite + Cupidon volant en haut (non contigus, boîte englobante)",220,26,247
+Q124,569__142.-01.jpg,240,452,610,1195,oui,groupe,les deux hommes debout à gauche qui discutent en désignant la mère,569,26,247
+Q125,469__111.-01.jpg,240,62,375,195,oui,figure,Cupidon volant en haut à gauche avec le panier de fruits,469,26,247
+Q126,370__87.-01.jpg,33,188,245,480,oui,groupe,gli uomini a sinistra (quattro visibili),370,26,247
+Q127,1024__299.-01.jpg,755,205,1815,845,oui,groupe,I due amorini in volo in alto (frecce e torcia),1024,26,247
+Q129,481__114.-01.jpg,322,245,412,405,oui,figure,Amphiaraos (vieillard barbu) caché dans la grotte au centre,481,26,6
+Q13,247__61.-01.jpg,32,248,132,424,oui,figure,"Enea con elmo, scudo e spada che varca l'uscio a sinistra",247,26,211
+Q130,116__22.-02.jpg,45,190,505,440,oui,composition,"toute la scène (Ésaü entrant à gauche, femmes, Jacob agenouillé, Isaac au lit) tirée d'Isaac bénissant Jacob",116,26,6
+Q131,952__274.-01.jpg,432,368,632,538,oui,figure,vieillard assis à droite personnifiant le fleuve (roseaux exclus),952,27,323
+Q132,952__274.-01.jpg,304,258,454,467,oui,figure,"satiro/Eco con gambe caprine al centro, con vaso",952,27,352
+Q133,919__264.02.jpg,335,290,512,738,oui,figure,Onfale in piedi in blu (metà sinistra della foto recto+verso),919,27,352
+Q134,455__107.-01.jpg,22,205,210,462,oui,groupe,Alessandro et son compagnon a gauche,455,27,352
+Q135,250__62.-01.jpeg,145,248,265,598,oui,figure,Figure de gauche aux oreilles pointues vue de dos,250,27,352
+Q136,477__113.-01.jpg,330,200,482,423,oui,groupe,"les deux compagnons d'Ulysse aux pattes animales au fond au centre, avec le plat et ce qu'ils portent",477,27,352
+Q137,573__143.-01.jpg,130,645,490,1415,oui,groupe,"deux guerriers drapés à gauche, lance comprise",573,27,352
+Q138,136__28.-01.jpg,20,228,235,489,oui,groupe,le due figure togate a sinistra,136,27,352
+Q139,149__33.-01.jpg,345,285,655,700,oui,groupe,Coppia di servitori dietro la tavola (piatto e vassoio alzato),149,27,352
+Q14,620__156.-01.jpg,208,318,445,500,oui,figure,dieu fluvial couche en bas a droite,620,26,211
+Q140,197__47.-01.jpg,315,198,405,422,oui,figure,femme debout a droite (Italia) avec lance et bouclier,197,27,373
+Q141,680__174.-01.jpg,205,435,400,552,oui,figure,Pan étendu au premier plan,680,27,420
+Q142,663__170.-01.jpg,362,185,485,330,incertain,figure,le texte liste les gravures sans dire quelle figure ; meilleur choix : Horatius sur le cheval blanc au centre (cavalier central de la Bataille),663,27,420
+Q143,321__73.-02-1.jpeg,255,485,455,625,oui,figure,homme couché de dos au premier plan (Tityos),321,27,420
+Q144,126__25.-01.jpg,57,79,364,429,incertain,groupe,stampa citata per la composizione senza figure precise; scelto il duello a cavallo Ettore-Achille,126,27,420
+Q145,659__169.-01.jpg,155,500,420,622,oui,figure,Piramo caduto in primo piano,659,27,420
+Q146,278__64.-01.jpg,310,46,405,155,oui,figure,"Ruggiero cavalier sur l'ippogrifo en haut (cavalier seul, monture exclue)",278,27,420
+Q147,64__06.-01.jpg,12,222,200,410,oui,figure,Métabus barbu à gauche avec sa lance (lance incluse),64,27,420
+Q148,254__64.-01.jpg,258,44,415,178,oui,figure,Roger sur l'hippogriffe en haut (cavalier avec sa monture),254,27,420
+Q149,919__264.02.jpg,535,560,745,802,oui,figure,"jambes d'Hercule assis à droite seulement ; photo face+revers, face à gauche",919,27,442
+Q15,496__118.-01.jpg,930,990,1365,1770,oui,figure,Cupidon debout au centre avec ailes et carquois,496,26,217
+Q150,331__75.-02.jpg,215,91,337,179,oui,figure,nessun riferimento marcato; Bartsch 28/4 = Circe seduta sullo sfondo,331,28,4
+Q151,663__170.-01.jpg,565,172,628,332,incertain,figure,Testo elenca solo la stampa; ipotesi Ercole->uomo a destra che abbatte il ponte col piccone alzato,663,28,44
+Q152,577__144.-01.jpg,685,180,980,850,oui,figure,guerrier (Carlo V) frappant de l'epee a droite,577,28,44
+Q153,597__151.-01.jpg,200,645,412,1128,oui,groupe,Les deux femmes debout à gauche,597,28,53
+Q154,227__55.-01.jpg,183,212,383,452,oui,groupe,groupe des quatre jeunes femmes nues debout à gauche,227,28,53
+Q155,335__76.-01.jpeg,56,96,124,182,oui,groupe,Tuccia au tamis et les deux femmes qui l'accompagnent à gauche ; les deux femmes à droite (même estampe) non incluses,335,28,53
+Q156,623__157.-01.jpg,30,188,142,408,oui,figure,fanciulla a sinistra,623,28,53
+Q157,82__11.-01.jpg,378,185,458,405,incertain,figure,"Dafne probabilmente la figura a destra col braccio verso l'albero, appoggiata all'urna (potrebbe essere divinità fluviale)",82,28,53
+Q158,455__107.-01.jpg,465,175,590,420,oui,groupe,deux soldats sur le piedestal a droite de l'image (le texte dit gauche par erreur),455,28,53
+Q159,672__172.-01.jpg,35,345,192,542,oui,groupe,Les trois nymphes au bain à gauche,672,28,53
+Q16,776__208.-01.jpg,243,340,298,423,oui,figure,Cupidon au centre au premier plan (photo très petite),776,26,217
+Q160,1124__329-jpg.jpg,632,348,812,640,oui,groupe,les deux nymphes debout dans l'eau à droite,1124,28,53
+Q161,1124__329-jpg.jpg,188,512,352,705,oui,figure,Cupidon à gauche avec son arc,1124,28,62
+Q162,939__270.jpg,100,130,830,740,oui,composition,composizione interamente citata,939,28,62
+Q163,85__16.-02.jpg,21,16,534,601,incertain,figure,Solo dettagli; Morfeo = probabilmente il giovane nudo con mantello nero che indica; figura tagliata ai bordi,85,28,62
+Q164,647__164.-01.jpg,310,318,395,528,incertain,figure,stampa seulement listee; hypothese : putto portant le bouclier CYRE au-dessus de la tete,647,28,62
+Q165,390__92.-01.jpg,112,105,270,322,oui,figure,Putto portant un panier de fleurs et fruits sur la tête (face au putto de l objet ; figure tête en bas sur la photo),390,28,62
+Q167,425__99.-01.jpg,65,255,170,415,oui,figure,amour en bas à gauche au pied de la tour,425,28,62
+Q168,560__140.-01.jpg,180,730,760,1095,oui,groupe,i tre angeli accanto al sepolcro,560,28,62
+Q17,15__03.-06.jpg,355,100,452,230,oui,figure,"Lica transformé, figure projetée en l'air en haut à droite (vue de face complète)",15,26,226
+Q18,396__94.-01.jpg,34,249,215,487,oui,figure,Aristeo a sinistra che corre,396,26,226
+Q19,257__65.-01.jpg,440,232,558,450,oui,figure,Anziano col turbante verde e bastone a destra,257,26,23
+Q20,177__42.-03.jpg,574,188,618,322,incertain,figure,stampa seulement listee; hypothese : vieillard barbu enturbanne en robe bleue a droite (figures a l'orientale),177,26,23
+Q21,640__162.-01.jpg,22,205,240,482,oui,figure,Putto ailé à gauche portant un livre au-dessus de la tête (ailes et manteau inclus),640,26,242
+Q22,293__66.-01.jpg,418,180,578,457,oui,figure,"Cupidon debout à droite, bras levés tenant le panier de fleurs",293,26,242
+Q23,75__09.-01.jpg,105,175,410,492,oui,composition,groupe du Laocoon entier (père et deux fils),75,26,243
+Q24,1052__307.-01.jpg,270,262,497,475,oui,figure,divinita fluviale seduta contro l'albero con palma e timone,1052,26,245
+Q25,556__139.-01.jpg,1450,775,1755,1450,oui,figure,Leda nuda seduta a destra (cigno escluso),556,26,245
+Q26,184__44.-04.jpg,204,150,537,428,oui,groupe,deux fanciulle (Calliope et Erato) : femme assise a gauche avec l'enfant + femme au premier plan a droite; boite = union,184,26,247
+Q27,738__191.-01-1.jpg,630,580,885,715,oui,figure,Cupidon ailé volant vers la droite au centre-gauche au-dessus de la pozza (pas au centre exact),738,26,247
+Q28,399__95.-01.jpg,18,298,98,440,oui,figure,"vieillard barbu et chenu à gauche, avec son manteau",399,26,294
+Q29,6__01.-01.jpg,362,250,460,485,oui,figure,"Dionysos, vieillard nu barbu à droite",6,26,294
+Q30,684__175.-01-scaled.jpg,1479,967,2105,1422,oui,figure,anziano a destra immerso nel fiume con remo,684,26,6
+Q31,458__108.-01.jpg,228,230,350,400,oui,figure,Atteone al centro dietro l'albero (da Isacco che benedice Giacobbe),458,26,6
+Q32,327__74.-03.jpeg,350,298,474,570,oui,figure,Venere de dos au centre sur la coquille,327,27,323
+Q33,474__112.-01.jpg,1260,430,2130,1850,oui,figure,Vieillard à droite assis avec la hampe surmontée du croissant,474,27,323
+Q34,9__02.-01.jpg,397,205,505,415,oui,figure,"homme barbu en manteau bleu à droite, tenant des boucliers",9,27,352
+Q35,811__225.-01.jpg,28,75,76,300,oui,figure,Gobrio casqué au visage balafré à gauche sous la porte (étiquette GOBR),811,27,352
+Q36,991__286.-01.jpg,105,260,275,598,oui,figure,Mandane in piedi a sinistra,991,27,373
+Q37,932__268.jpg,228,228,358,506,oui,figure,Figlia di Astiage a sinistra con il cerchio,932,27,373
+Q38,408__96.-01.jpg,48,318,350,490,oui,figure,homme couche de dos a gauche avec la zampogna,408,27,420
+Q39,767__205.-01.jpg,28,225,198,505,oui,figure,Apollon à gauche avec la vielle,767,27,420
+Q40,364__85.-01.jpg,175,345,265,462,oui,figure,jambes d'Hercule assis seulement (le reste du corps vient d'une autre gravure),364,27,442
+Q41,194__46.jpg,495,330,602,465,oui,figure,jambes d'Hercule assis à droite seulement (le reste du corps vient d'une autre estampe),194,27,442
+Q42,223__54.-01.jpg,79,266,429,499,oui,composition,nessun riferimento marcato; Bartsch 28/4 citato per la composizione intera (Adorazione dei pastori),223,28,4
+Q43,1263__371.-01.jpg,210,125,580,435,oui,composizione,Intera Sacra Famiglia (citazione letterale dell'Adorazione dei pastori),1263,28,4
+Q44,912__262.-01.jpg,22,138,82,292,incertain,figure,stampa seulement listee parmi cinq; hypothese basse resolution : guerrier a gauche bras leve (pose d'Ercole frappant),912,28,44
+Q45,133__27.-01.jpg,282,95,510,545,oui,groupe,Hercule avec massue + homme renversé à ses pieds (les deux attribués à la gravure Caraglio),133,28,44
+Q46,68__07.-01.jpg,355,265,412,470,oui,figure,soeur de Phaéton (Héliade) se changeant en arbre à droite ; une seule figure visible alors que le texte dit 'le sorelle',68,28,48
+Q47,156__35.-02.jpg,418,248,500,410,incertain,figure,"le texte dit Basalte (Bisalte) mais l'homme à gauche est attribué à San Lorenzo ; hypothèse : Théophane (fille de Bisalte), femme nue du couple à droite",156,28,48
+Q48,217__52.-01.jpg,48,348,276,490,oui,figure,Palinuro che cade in acqua in basso a sinistra,217,28,49
+Q50,1141__335.-01.jpg,45,232,405,468,oui,composition,tous les personnages sont tires de la Contesa,1141,28,53
+Q51,461__109.-01.jpg,165,135,620,500,oui,composition,Énée portant Anchise + Ascagne (composition entière),461,28,60
+Q52,511__124.01-scaled.jpg,870,700,1700,2430,oui,groupe,Énée portant Anchise sur ses épaules,511,28,60
+Q53,37__04.-01.jpg,145,135,482,335,oui,composition,composition Alexandre et Roxane (sans le couple de gauche ni le guerrier couché au premier plan),37,28,62
+Q54,1138__334.-01.jpg,67,179,126,211,oui,figure,Ceice annegato a sinistra (piccolo nel mare),1138,28,62
