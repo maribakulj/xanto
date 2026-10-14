@@ -26,3 +26,12 @@ Sur les **seules nouvelles requêtes de mise au point** (jamais vues par aucun e
 - comme plusieurs requêtes partagent une même estampe, on publie aussi le même test **agrégé par estampe** (une voix par estampe, signe de la somme des écarts de rang en log), à titre de contrôle ; le verdict reste celui de la règle ci-dessus.
 
 On publie aussi les chiffres sur les 59 requêtes de mise au point réunies, à titre descriptif.
+
+## Amendement du 14/10/2026 (pendant l'encadrement, avant tout calcul de rang)
+
+Les premiers annotateurs ont signalé des phrases « coupées » : la colonne `phrase` du tableau des emprunts est **tronquée à 300 caractères**. 47 des 114 nouvelles requêtes, et 23 des 54 premières, ne contenaient même pas la référence de l'estampe ; l'annotateur devait deviner la figure. Correction :
+
+- les annotateurs reçoivent désormais **tout le commentaire de la fiche** de Rovigo (fichier privé `requetes_textes.csv`, tiré du catalogue complet), la référence de l'estampe de la requête y étant balisée ; 165 des 168 références sont retrouvées automatiquement (Q42, Q43, Q150 : à chercher dans le texte) ;
+- **les 168 requêtes (anciennes et nouvelles) sont réencadrées** avec cette consigne ; les encadrements faits avec les phrases tronquées (une passe partielle sur les nouvelles) sont abandonnés et conservés à part, sans servir ;
+- **les boîtes réencadrées remplacent les anciennes pour toutes les requêtes** à partir de maintenant (dont le futur calcul unique sur le lot d'évaluation). Les résultats déjà publiés sur les 19 premières requêtes de mise au point restent tels quels ; on publiera l'accord entre anciennes et nouvelles boîtes pour les 54 premières ;
+- le contrôle d'accord porte sur les mêmes 23 requêtes ; le test DINOv3-L contre DINOv2 sur les seules nouvelles requêtes de mise au point est inchangé.
