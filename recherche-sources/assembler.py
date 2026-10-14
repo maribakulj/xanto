@@ -18,9 +18,9 @@ for r in csv.DictReader(open(D / "galerie_met.csv")):
     rows.append({"image": r["fichier"], "composition": f"met:{r['object_id']}", "musee": "Met"}); n_met += 1
 with open(D / "galerie.csv", "w", newline="") as f:
     w = csv.DictWriter(f, fieldnames=["image", "composition", "musee"]); w.writeheader(); w.writerows(rows)
-q = {r["requete"]: r for r in csv.DictReader(open(ROOT / "recherche-sources" / "requetes.csv"))}
-out = []
-for p in sorted(D.glob("boites_*_boites.csv")):
+q = {r["requete"]: r for f in ("requetes.csv", "requetes2.csv") for r in csv.DictReader(open(ROOT / "recherche-sources" / f))}
+out = []  # boites_a/b : premier tirage ; n1-n4 : agrandissement (PREINSCRIPTION_PAIRES.md) ; ctrl (contrôle d'accord) n'est pas utilisé
+for p in sorted(D.glob("boites_*_boites.csv")) + sorted(D.glob("n[0-9]_boites.csv")):
     for b in csv.DictReader(open(p)):
         out.append({**b, "plat_id": q[b["requete"]]["plat_id"], "bartsch_vol": q[b["requete"]]["bartsch_vol"], "bartsch_n": q[b["requete"]]["bartsch_n"]})
 out = [o for o in out if o["trouve"] != "non"]

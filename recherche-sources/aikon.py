@@ -3,7 +3,7 @@
 -> reclassement SegSwap (poids hard_mining_neg5, images 244 x 244), comme le module `similarity` d'aikon-api.
 Le calcul du score SegSwap reprend celui du dépôt d'origine (XiSHEN0220/SegSwap, licence MIT) et d'aikon-api.
 Usage : aikon.py <dossier_prive> <dossier_segswap> [lot] [modele] [taille]   (dossier_segswap : transformer.py + hard_mining_neg5.pth ;
-lot : mise_au_point par défaut ; modele : facebook/dinov2-base par défaut ; taille de la présélection : 224 par défaut)
+lot : mise_au_point par défaut, mise_au_point_nouvelles = seulement les requêtes de l'agrandissement Q055+ ; modele : facebook/dinov2-base par défaut ; taille de la présélection : 224 par défaut)
 [canal] : rgb (défaut), gris, flou, trait ou fusion (étape 4, PREINSCRIPTION_CANAUX.md) ; ne touche que la présélection.
 Écrit <dossier_prive>/resultats_aikon_<lot>.csv (ou resultats_aikon_<lot>_<modele>_<taille>[_<canal>].csv si modele/taille/canal changent)."""
 import csv, sys
@@ -107,7 +107,7 @@ lots = {r["requete"]: r["lot"] for r in csv.DictReader(open(HERE / "lots.csv"))}
 comp = np.array([g["composition"] for g in gal])
 rows = []
 for q in csv.DictReader(open(D / "requetes_boites.csv")):
-    if lots.get(q["requete"]) != LOT: continue
+    if lots.get(q["requete"]) != LOT.removesuffix("_nouvelles") or (LOT.endswith("_nouvelles") and len(q["requete"]) < 4): continue
     im = load(D.parent / "corpus-images" / "rovigo" / q["photo"]).crop(tuple(int(float(q[k])) for k in ("x0", "y0", "x1", "y1")))
     sens = [im, ImageOps.mirror(im)]
     C = {c: (G[c] @ cls(sens, c, requete=True).T).numpy() for c in CANAUX}  # (n_galerie, 2) par canal
