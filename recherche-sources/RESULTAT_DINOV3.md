@@ -22,4 +22,4 @@
 
 ## Écarts à signaler
 
-Aucun écart à la règle. Calcul local (Mac) : environ 15 minutes pour A, 1 h 15 pour B.
+Aucun écart à la règle. Calcul local (Mac) : moins de 30 minutes pour A (téléchargement compris), environ 50 minutes pour B.

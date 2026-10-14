@@ -23,7 +23,7 @@
 
 - Le vecteur DINOv2 est pris dans la version Hugging Face (`facebook/dinov2-base`, mêmes poids que `torch.hub dinov2_vitb14` utilisé par AIKON).
 - Comme annoncé dans la règle, SegSwap compare la requête dans le sens retenu par la présélection (AIKON l'applique sans transposition).
-- Le code de SegSwap (licence MIT) a été adapté pour tourner hors carte Nvidia (masques créés sur le processeur courant, même calcul). Calcul local sur le Mac, environ 25 minutes.
+- Le code de SegSwap (licence MIT) a été adapté pour tourner hors carte Nvidia (masques créés sur le processeur courant, même calcul). Calcul local sur le Mac, environ 5 minutes.
 
 ## Limites
 
