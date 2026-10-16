@@ -57,6 +57,7 @@ if not REG.exists():
             if min(x1 - x0, y1 - y0) >= 32: rows.append((i, "personne", round(x0), round(y0), round(x1), round(y1)))
     with open(REG, "w", newline="") as f: w = csv.writer(f); w.writerow(["image", "type", "x0", "y0", "x1", "y1"]); w.writerows(rows)
 regs = [(int(r["image"]), r["type"], *(int(r[k]) for k in ("x0", "y0", "x1", "y1"))) for r in csv.DictReader(open(REG))]
+RECLASSE = os.environ.get("RECLASSE", "entiere")  # "region" : SegSwap sur la région gagnante (PREINSCRIPTION_RECLASSEMENT_REGION.md)
 ESSAI = int(os.environ.get("ESSAI", 0))  # essai à blanc : seulement les ESSAI premières régions, caches à part, 2 requêtes
 if ESSAI: regs = regs[:ESSAI]; PAQUET = 40
 print(len(regs), "régions", flush=True)
@@ -123,10 +124,14 @@ for q in csv.DictReader(open(D / "requetes_boites.csv")):
     best_t = np.where(reg_all > base, tr[np.maximum(arg_all, 0)], cb.argmax(1))
     target = f"{q['bartsch_vol']}/{q['bartsch_n']}"; vrai = comp == target
     order = np.argsort(-score); top = list(order[:COS_TOPK]); top_abs = [i for i in order if not vrai[i]][:COS_TOPK]
+    def cand(i):
+        im_i = load(gpath(gal[i]["image"]))
+        if RECLASSE == "region" and reg_all[i] > base[i]: return carre(im_i.crop(regs[arg_all[i]][2:]), MAX_SIZE)
+        return im_i
     sc = {}
     for t in (0, 1):
         ids = [i for i in sorted(set(top) | set(top_abs)) if best_t[i] == t]
-        if ids: sc.update(zip(ids, segswap(sens[t], [load(gpath(gal[i]["image"])) for i in ids])))
+        if ids: sc.update(zip(ids, segswap(sens[t], [cand(i) for i in ids])))
     rer = sorted(top, key=lambda i: -sc[i]) + list(order[COS_TOPK:])
     rk = next(k for k, i in enumerate(rer) if vrai[i]) + 1
     jv = max(np.where(vrai[rimg])[0], key=lambda j: sr[j], default=None)
@@ -139,7 +144,7 @@ for q in csv.DictReader(open(D / "requetes_boites.csv")):
                  "score_vraie": round(float(sv), 2) if sv != "" else "", "score_premier": round(float(sc[rer[0]]), 2),
                  "score_absente": round(float(max(sc[i] for i in top_abs)), 2)})
     print(rows[-1], flush=True)
-with open(D / f"resultats_regions_{LOT}{'_essai' if ESSAI else ''}.csv", "w", newline="") as f:
+with open(D / f"resultats_regions_{LOT}{'_reclasse_region' if RECLASSE == 'region' else ''}{'_essai' if ESSAI else ''}.csv", "w", newline="") as f:
     w = csv.DictWriter(f, fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
 r = [x["rang_aikon"] for x in rows]
 for k in (1, 10, 50): print(f"rappel@{k} : {sum(x <= k for x in r)}/{len(rows)}")
