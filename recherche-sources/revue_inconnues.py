@@ -9,12 +9,19 @@ from PIL import Image, ImageDraw, ImageOps
 D = Path(sys.argv[1]).resolve(); Image.MAX_IMAGE_PIXELS = None
 cands = list(csv.DictReader(open(sys.argv[2]))); reqs = list(csv.DictReader(open(sys.argv[3])))
 meta = {f"met:{r['object_id']}": r for r in csv.DictReader(open(D / "recherche-sources" / "galerie_met.csv"))}
+pl = D / "recherche-sources" / "plus" / "galerie_plus.csv"
+if pl.exists(): meta.update({r["composition"]: r for r in csv.DictReader(open(pl))})
 OUT = Path(sys.argv[4]).resolve(); IMG = OUT.parent / (OUT.stem + "_images"); IMG.mkdir(parents=True, exist_ok=True); NIMG = [0]
 def b64(im, side):
     """Enregistre une vignette à côté de la page et renvoie son chemin relatif."""
     im = im.convert("RGB"); im.thumbnail((side, side)); NIMG[0] += 1; f = IMG / f"{NIMG[0]:05d}.jpg"; im.save(f, "JPEG", quality=80)
     return f"{IMG.name}/{f.name}"
 def gpath(img): p = D / "recherche-sources" / img; return p if p.exists() else D / "recherche-sources" / "connues" / img.split("/")[-1]
+def lien(comp):
+    src, _, i = comp.partition(":")
+    return {"met": f"https://www.metmuseum.org/art/collection/search/{i}", "rijks": f"https://id.rijksmuseum.nl/{i}",
+            "aic": f"https://www.artic.edu/artworks/{i}", "cma": f"https://www.clevelandart.org/art/{i}",
+            "nga": f"https://www.nga.gov/collection/art-object-page.{i}.html"}.get(src, "")
 data = []
 for q in reqs:
     ph = Image.open(D / "corpus-images" / "rovigo" / q["photo"])
@@ -31,7 +38,7 @@ for q in reqs:
         m = meta.get(c["composition"], {}); oid = c["composition"].split(":")[1] if c["composition"].startswith("met:") else ""
         item["cands"].append({"rang": c["rang"], "comp": c["composition"], "score": c["score_segswap"], "sens": c["sens"],
                               "titre": m.get("titre", c["image"].split("/")[-1])[:160], "artiste": m.get("artiste", ""), "date": m.get("date", ""),
-                              "lien": f"https://www.metmuseum.org/art/collection/search/{oid}" if oid else "",
+                              "lien": lien(c["composition"]), "musee": m.get("musee", "Met" if oid else ""),
                               "zoom": b64(crop, 300) if reg else "", "full": b64(full, 360)})
     data.append(item)
 page = """<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -59,7 +66,7 @@ h1{font-size:20px;margin:0 0 4px} .mut{color:var(--mut);font-size:13px}
 const DATA=__DATA__;let J={};try{J=JSON.parse(localStorage.getItem('revue_inconnues')||'{}')}catch(e){}
 function save(){try{localStorage.setItem('revue_inconnues',JSON.stringify(J))}catch(e){};document.getElementById('n').textContent=Object.keys(J).length+' jugements'}
 function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
-function draw(){const f=document.getElementById('f').value;document.getElementById('root').innerHTML=DATA.filter(r=>!f||r.groupe==f).map(r=>`<div class="req"><div><b>${r.id}</b> <span class="mut">${r.groupe} · ${r.type}</span><br><img class="fig" src="${r.fig}"></div><div class="cands">${r.cands.map(c=>{const k=r.id+'|'+c.comp;return `<div class="c"><div class="t"><b>${c.rang}.</b> ${c.lien?`<a href="${c.lien}" target="_blank" rel="noopener">${esc(c.titre)}</a>`:esc(c.titre)} <span class="mut">${esc(c.artiste)} ${esc(c.date)} · ${c.sens} · ${c.score}</span></div>${c.zoom?`<img src="${c.zoom}">`:""}<img src="${c.full}"><div class="b">${['oui','peut-etre','non'].map(v=>`<button data-k="${esc(k)}" data-v="${v}" class="${J[k]==v?'on':''}">${v.replace('-',' ')}</button>`).join('')}</div></div>`}).join('')}</div></div>`).join('');save()}
+function draw(){const f=document.getElementById('f').value;document.getElementById('root').innerHTML=DATA.filter(r=>!f||r.groupe==f).map(r=>`<div class="req"><div><b>${r.id}</b> <span class="mut">${r.groupe} · ${r.type}</span><br><img class="fig" src="${r.fig}"></div><div class="cands">${r.cands.map(c=>{const k=r.id+'|'+c.comp;return `<div class="c"><div class="t"><b>${c.rang}.</b> ${c.lien?`<a href="${c.lien}" target="_blank" rel="noopener">${esc(c.titre)}</a>`:esc(c.titre)} <span class="mut">${esc(c.artiste)} ${esc(c.date)} · ${esc(c.musee)} · ${c.sens} · ${c.score}</span></div>${c.zoom?`<img src="${c.zoom}">`:""}<img src="${c.full}"><div class="b">${['oui','peut-etre','non'].map(v=>`<button data-k="${esc(k)}" data-v="${v}" class="${J[k]==v?'on':''}">${v.replace('-',' ')}</button>`).join('')}</div></div>`}).join('')}</div></div>`).join('');save()}
 document.addEventListener('click',e=>{const b=e.target.closest('button[data-k]');if(!b)return;const k=b.dataset.k;J[k]=J[k]==b.dataset.v?undefined:b.dataset.v;if(!J[k])delete J[k];b.parentNode.querySelectorAll('button').forEach(x=>x.classList.toggle('on',J[k]==x.dataset.v));save()});
 document.getElementById('f').onchange=draw;
 document.getElementById('x').onclick=()=>{const rows=['requete,estampe,jugement',...Object.entries(J).map(([k,v])=>k.split('|').concat(v).join(','))];const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([rows.join('\\n')],{type:'text/csv'}));a.download='revue_inconnues.csv';a.click()};

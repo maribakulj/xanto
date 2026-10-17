@@ -74,6 +74,16 @@ for k in range(0, len(regs), PAQUET):
     vecs.append(torch.load(p))
 R = torch.cat(vecs); rimg = np.array([r[0] for r in regs]); rtyp = np.array([r[1] for r in regs])
 G = torch.load(D / "cache_aikon_dinov3-vitl16-pretrain-lvd1689m_512.pt")  # base : image entière écrasée à 512 px
+if os.environ.get("PLUS"):  # galerie agrandie (galerie_plus.py, galerie_plus_vecteurs.py)
+    import glob
+    PL = D / "plus"; n0 = len(gal); gp = list(csv.DictReader(open(PL / "galerie_plus.csv")))
+    gal += [{"image": g["image"], "composition": g["composition"], "musee": g["musee"]} for g in gp]
+    rp = [(n0 + int(r["image"]), r["type"], *(int(r[k]) for k in ("x0", "y0", "x1", "y1"))) for r in csv.DictReader(open(PL / "regions_plus.csv"))]
+    regs += rp; R = torch.cat([R] + [torch.load(f) for f in sorted(glob.glob(str(PL / "cache_regions_plus_384_*.pt")))])
+    G = torch.cat([G, torch.load(PL / "cache_entiere_plus_512.pt")])
+    assert len(R) == len(regs) and len(G) == len(gal)
+    rimg = np.array([r[0] for r in regs]); rtyp = np.array([r[1] for r in regs])
+    print(len(gal), "images,", len(regs), "régions avec la galerie agrandie", flush=True)
 
 def par_image(s, masque):
     """Meilleur score de région par image (et indice de la région), -inf sans région."""
@@ -136,5 +146,5 @@ for q in csv.DictReader(open(REQ)):
                     "score_segswap": round(float(sc[i]), 2), "cosinus": round(float(score[i]), 3),
                     "sens": "miroir" if best_t[i] == 1 else "endroit", "region": reg})
     print(q["requete"], [(o["composition"], o["score_segswap"]) for o in out[-3:]], flush=True)
-with open(D / f"candidats_{REQ.stem}.csv", "w", newline="") as f:
+with open(D / f"candidats_{REQ.stem}{'_plus' if os.environ.get('PLUS') else ''}.csv", "w", newline="") as f:
     w = csv.DictWriter(f, fieldnames=list(out[0])); w.writeheader(); w.writerows(out)
