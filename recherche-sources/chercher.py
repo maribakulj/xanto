@@ -14,7 +14,7 @@ from transformers import AutoModel
 
 D = Path(sys.argv[1]).resolve(); S = Path(sys.argv[2]).resolve(); REQ = Path(sys.argv[3]).resolve()
 sys.path.insert(0, str(S)); import transformer  # noqa: E402  (SegSwap, MIT)
-dev = "cuda" if torch.cuda.is_available() else ("mps" if torch.backends.mps.is_available() else "cpu")
+dev = os.environ.get("DEV") or ("cuda" if torch.cuda.is_available() else ("mps" if torch.backends.mps.is_available() else "cpu"))
 HERE = Path(__file__).resolve().parent
 MOD, SZ_BASE, SZ_REG, PAQUET = "facebook/dinov3-vitl16-pretrain-lvd1689m", 512, 384, 2000
 COS_TOPK, MAX_SIZE, STRIDE = 20, 244, 16

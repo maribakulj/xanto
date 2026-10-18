@@ -12,7 +12,8 @@ import numpy as np, torch, torch.nn.functional as F, torchvision.transforms as T
 from PIL import Image, ImageOps
 from transformers import AutoModel, AutoProcessor, AutoModelForZeroShotObjectDetection
 D = Path(sys.argv[1]).resolve(); P = D / "plus"; Image.MAX_IMAGE_PIXELS = None
-dev = "cuda" if torch.cuda.is_available() else ("mps" if torch.backends.mps.is_available() else "cpu")
+import os
+dev = os.environ.get("DEV") or ("cuda" if torch.cuda.is_available() else ("mps" if torch.backends.mps.is_available() else "cpu"))
 NORM = T.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]); TO_T = T.Compose([T.ToTensor(), NORM])
 MOD, PAQUET = "facebook/dinov3-vitl16-pretrain-lvd1689m", 2000
 
