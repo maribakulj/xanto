@@ -4,7 +4,6 @@ Travail de recherche en cours sur la transmission, la transformation et la recom
 
 **Statut, à lire avant le reste.** Ce dépôt rassemble un pilote documenté, une proposition de recherche, une analyse critique de la littérature et un petit prototype de vision par ordinateur. Rien ici n'est une théorie validée, ni un résultat historique nouveau. Les textes distinguent ce qui est observé, ce qui est publié par d'autres auteurs, et ce qui reste une hypothèse. Ils conservent aussi les hypothèses retirées.
 
-Le travail a été mené le 6 et le 7 octobre 2026 par deux assistants IA (Codex et Claude), qui ont dialogué sous la direction du porteur du projet. Les conversations elles-mêmes ne sont pas publiées.
 
 ## Organisation
 
