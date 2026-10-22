@@ -1,4 +1,4 @@
-Prototype Mnemosyne, v0.1 — 7 octobre 2026
+Prototype Xanto, v0.1 — 7 octobre 2026
 
 Périmètre immédiat : trois images du dossier A (Parnasse source / Apollon / Pâris), premières observations localisées et comparaisons inspectables. Dossier Rome présent uniquement comme suite documentaire, sans données visuelles inventées. Aucune inférence de réception, métrique scientifique ou test de G.
 
@@ -16,7 +16,7 @@ data/comparisons.json : tableau de propositions comparées.
 {id:"cmp-...", from_id, to_id, subject, observation_ids:[...], difference, operation_status:"observed_difference"|"catalogue_attribution"|"hypothesis"|"indeterminate", interpretation, limitations:[...]}
 Une différence entre témoins n'est pas automatiquement une opération de Xanto.
 
-UI sans dépendances : index.html, styles.css, app.js. Les données sont embarquées dans data/bundle.js par scripts/build_bundle.py, sous window.MNEMOSYNE_DATA={corpus,observations,comparisons,meta}; ne pas charger les JSON par fetch (doit fonctionner en fichier local autant que via serveur).
+UI sans dépendances : index.html, styles.css, app.js. Les données sont embarquées dans data/bundle.js par scripts/build_bundle.py, sous window.XANTO_DATA={corpus,observations,comparisons,meta}; ne pas charger les JSON par fetch (doit fonctionner en fichier local autant que via serveur).
 UI : français ; trois images avec choix de paire, zoom/repères ; niveaux observation/notice/interprétation et confiance affichés ; sélectionner une observation met son repère en évidence ; édition des notes/confiance et ajout d'observation, sauvegarde locale et export JSON des annotations ; remise à zéro avec confirmation. Aucun envoi réseau, mesure en pixels présentée comme échelle physique, score scientifique ou demande de validation dans le flux utilisateur.
 Export versionné avec annotations et corpus d'origine identifiable. Aucune modification automatique des JSON source par le navigateur.
 

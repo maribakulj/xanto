@@ -1,7 +1,7 @@
 # Journal de travail autonome
 
 ## 10/10/2026
-- Lancement de la boucle autonome (demande de Marcel : affiner, explorer les autres tests, démo). Plan dans `PLAN.md`.
+- Lancement de la boucle autonome (demande de Marcel : affiner, explorer les autres tests, démo). (Plan initial retiré du dépôt le 22/10.)
 - Point de départ : table pièce ↔ estampe (374 fiches, 576 références Bartsch) ; test d'échelle pilote sur l'Apollon du *Parnasse* (estampe 9,87 cm ; plats 9,90 et 9,79 cm).
 - Démo v0 (`demo/`) : accueil, corpus (frise, estampes les plus reprises, table filtrable), test d'échelle à échelle réelle avec repères ; titres des 28 estampes les plus citées (`data/titres_estampes.csv`). Vérifiée dans Chrome sans erreur.
 - Carte de la littérature (`demo/data/litterature.json`) : 39 textes, 11 questions, 81 positions ; intégrée à la démo (onglet « Les débats »), vérifiée sans erreur.
@@ -23,7 +23,7 @@
 - Fin de la boucle autonome (10/10/2026), à la demande de Marcel, après intégration du travail des derniers agents.
 
 ## 12/10/2026
-- Généalogie critique des *Modi* (privé, `~/Documents/Codex/2026-10-08-continuation-claude/modi/`) : Turner 2004, 2009, 2017, Talvacchia 1997, 1999, Duggan, images Commons ; circularité confirmée (la date du jeu de remplacement dépend de Xanto) ; 111 attributions inventoriées.
+- Relecture critique des *Modi* (privé, `~/Documents/Codex/2026-10-08-continuation-claude/modi/`) : Turner 2004, 2009, 2017, Talvacchia 1997, 1999, Duggan, images Commons ; circularité confirmée (la date du jeu de remplacement dépend de Xanto) ; 111 attributions inventoriées.
 - Témoin positif LACMA (règle écrite avant mesure, `tests-echelle/lacma/`) : **indécis**. Contrôles « même taille » confirmés (rapports 0,98-1,08, deux annotateurs) ; vieillard recomposé à 0,87 ; figure du *Quos Ego* non identifiée de façon sûre (1 oui moyen, 1 probable, 1 non, 1 non trouvée). L'axe « reconstitution par la taille » reste suspendu.
 - Témoin positif n° 2 (*Astolphe*, BM, règle écrite avant mesure) : **échec**. Contrôles à 0,93-1,06 ; la figure du *Martyre de saint Laurent* que Wilson dit agrandie ressort à 1,01 et 0,87 (deux figures différentes choisies sur la gravure). Sur deux témoins positifs, aucun agrandissement signalé par Wilson n'est confirmé ; la règle « même taille » est confirmée sur une douzaine de figures et trois plats.
 - 13/10/2026, recherche automatique de sources (règles préinscrites, `recherche-sources/`) : étape 1 (DINOv2, vecteur par fenêtre) 5/49 dans les 10 premières → **voie fermée pour cette méthode** ; étape 2 (détails cohérents) 8/49 → **partiel**, gain non significatif (3 requêtes), mais la bonne estampe passe au 1er rang dans 5 cas sur 8 quand elle est parmi les 50 premières. Goulot : la première étape (38/49 hors des 50 premières).

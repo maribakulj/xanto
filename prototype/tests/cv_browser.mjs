@@ -23,7 +23,7 @@ const candidateGeometry=()=>page.locator('#cvCandidateMarkers [data-cv-rank="1"]
 
 try {
   await fs.mkdir(output,{recursive:true});
-  await page.goto(process.env.MNEMOSYNE_TEST_URL||'http://127.0.0.1:8767/',{waitUntil:'networkidle'});
+  await page.goto(process.env.XANTO_TEST_URL||'http://127.0.0.1:8767/',{waitUntil:'networkidle'});
   await imagesReady();
   check('Cinq propositions calculées dès le chargement',await page.locator('#cvCandidates [data-cv-rank]').count()===5);
   check('Scores affichés issus des résultats DINOv2',JSON.stringify(await page.locator('#cvCandidates .cv-candidate-score').allTextContents())===JSON.stringify(row(dino,'apollo').proposals.map(p=>scoreText(p.score))));

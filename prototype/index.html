@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mnemosyne — Atelier des transformations</title>
+  <title>Xanto — prototype v0.2</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="cv.css">
   <script src="data/bundle.js" defer></script>
@@ -13,7 +13,7 @@
 </head>
 <body>
   <header class="site-header">
-    <a class="wordmark" href="#main">mnemosyne<span>Atelier des transformations</span></a>
+    <a class="wordmark" href="#main">xanto<span>prototype v0.2</span></a>
     <div class="header-actions"><span class="local-badge"><i></i>Dossier local<span class="local-scope">Notes propres à ce navigateur et à cette adresse</span></span><button id="exportButton" class="button button-dark">Exporter les annotations <span aria-hidden="true">↗</span></button></div>
   </header>
   <main id="main">
@@ -69,7 +69,7 @@
     </section>
     <section class="provenance-section"><div class="section-toolbar"><div><span class="section-number">D</span><h2>Les objets et leurs sources</h2></div><span class="quiet">Exemplaires, attributions, limites</span></div><div id="provenanceList" class="provenance-grid"></div></section>
     <section class="next-dossier"><span class="eyebrow">Dossier suivant / Rome et le Modo 9</span><p>La configuration reprise et le sens réactivé demandent des preuves distinctes.</p><span class="quiet">Hess propose une lecture de l’allusion politique avec des réserves sur l’intention. Cette question reste documentaire : aucune mesure ni comparaison visuelle de Rome n’est renseignée ici.</span></section>
-    <footer><p>Mnemosyne · Un atelier d’examen, pas un verdict.<span>Les modifications restent dans ce navigateur. L’export conserve une copie transportable.</span></p><button id="resetButton" class="text-button">Réinitialiser mes annotations</button></footer>
+    <footer><p>Xanto · Un atelier d’examen, pas un verdict.<span>Les modifications restent dans ce navigateur. L’export conserve une copie transportable.</span></p><button id="resetButton" class="text-button">Réinitialiser mes annotations</button></footer>
   </main>
   <dialog id="addDialog"><form id="addForm"><div class="dialog-heading"><div><p class="eyebrow">Le carnet</p><h2>Ajouter une observation</h2></div><button type="button" id="closeDialog" class="icon-button" aria-label="Fermer">×</button></div><label>Témoin<select id="newObject" name="object_id" required></select></label><div class="form-grid"><label>Type<select name="type"><option value="POSE">Configuration corporelle</option><option value="ATTRIBUTE">Attribut</option><option value="RELATION">Rapport visible</option><option value="ACTION">Action interprétée</option><option value="INSCRIPTION">Inscription</option></select></label><label>Niveau de preuve<select name="evidence_kind"><option value="image">Image</option><option value="catalogue">Notice</option><option value="interpretation">Interprétation</option></select></label></div><label>Observation<textarea name="statement" rows="3" required maxlength="5000" placeholder="Décrire précisément ce qui est observable ou attribué."></textarea></label><div class="form-grid"><label>Confiance<select name="certainty"><option value="clear">Claire</option><option value="probable" selected>Probable</option><option value="indeterminate">Indéterminée</option></select></label><label>Entité repérée<input name="entity_id" value="E1" maxlength="100"></label></div><label>Source <span class="optional">facultative</span><input name="source_url" type="url" placeholder="https://…"></label><details class="bbox-details"><summary>Localisation approximative, facultative</summary><p>Pourcentages de l’image entière, depuis son coin supérieur gauche. Laisser les quatre champs vides pour une observation sans repère.</p><div class="bbox-inputs"><label>Gauche %<input name="bbox_x" type="number" min="0" max="100" step="0.1"></label><label>Haut %<input name="bbox_y" type="number" min="0" max="100" step="0.1"></label><label>Largeur %<input name="bbox_w" type="number" min="0.1" max="100" step="0.1"></label><label>Hauteur %<input name="bbox_h" type="number" min="0.1" max="100" step="0.1"></label></div></details><label>Note de travail<textarea name="note" rows="2" maxlength="10000"></textarea></label><p id="formError" class="form-error" role="alert"></p><div class="dialog-actions"><button type="button" id="cancelDialog" class="button">Annuler</button><button type="submit" class="button button-dark">Ajouter au carnet</button></div></form></dialog>
 </body>

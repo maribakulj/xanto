@@ -76,7 +76,7 @@ def build():
     payload = {"inputs": inputs, "dino": dino, "baseline": baseline, "evaluation": evaluation, "controls": controls}
     target = ROOT / "data" / "cv_bundle.js"
     temporary = target.with_suffix(".js.tmp")
-    temporary.write_text("// Calculated CV results, separate from historical annotations.\nwindow.MNEMOSYNE_CV = " + json.dumps(payload, ensure_ascii=True, indent=2) + ";\n")
+    temporary.write_text("// Calculated CV results, separate from historical annotations.\nwindow.XANTO_CV = " + json.dumps(payload, ensure_ascii=True, indent=2) + ";\n")
     temporary.replace(target)
     print(f"Calculs vérifiés : {len(dino['results'])} recherches DINOv2, {len(baseline['results'])} recherches de référence.")
     return payload

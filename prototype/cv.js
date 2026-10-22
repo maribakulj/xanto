@@ -1,8 +1,8 @@
 (() => {
   'use strict';
-  const bundle=window.MNEMOSYNE_CV||{}, inputs=bundle.inputs||{};
+  const bundle=window.XANTO_CV||{}, inputs=bundle.inputs||{};
   const images=Array.isArray(inputs.images)?inputs.images:[];
-  const catalogue=Array.isArray(window.MNEMOSYNE_DATA?.corpus)?window.MNEMOSYNE_DATA.corpus:[];
+  const catalogue=Array.isArray(window.XANTO_DATA?.corpus)?window.XANTO_DATA.corpus:[];
   const $=id=>document.getElementById(id);
   if(!$('cvSection'))return;
   const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));

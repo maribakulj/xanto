@@ -8,9 +8,9 @@
   "reference_results_sha256": "2430b4f943375ad0c07a113490fa8c31b3e866cad5fdb4309742069c8c64f5ee",
   "command": [
     "~/caypollard/.venv/bin/python",
-    "~/mnemosyne-prototype/scripts/run_cv.py",
+    "~/xanto-prototype/scripts/run_cv.py",
     "--root",
-    "/var/folders/vv/rl23nqvj4wx8mxpmvtj_gjfh0000gn/T/mnemosyne-cv-isolation-fgkkh6hc"
+    "/var/folders/vv/rl23nqvj4wx8mxpmvtj_gjfh0000gn/T/xanto-cv-isolation-fgkkh6hc"
   ],
   "isolated_input_files": [
     {

@@ -9,7 +9,7 @@ const output = path.join(root, 'tests/output');
 const seed = JSON.parse(await fs.readFile(path.join(root,'data/observations.json'),'utf8'));
 const initialPairCount = seed.filter(o=>['parnassus','apollo'].includes(o.object_id)).length;
 await fs.mkdir(output, {recursive:true});
-const url = process.env.MNEMOSYNE_TEST_URL || 'http://127.0.0.1:8767/';
+const url = process.env.XANTO_TEST_URL || 'http://127.0.0.1:8767/';
 const browser = await chromium.launch({channel:'chrome',headless:true});
 const results = [];
 const errors = [];
@@ -68,7 +68,7 @@ try {
   const note = 'Vérification locale <img src=x onerror="window.bad=true"> — contact à discuter.';
   await page.locator('#editNote').fill(note);
   await page.locator('#editCertainty').selectOption('probable');
-  const draftSnapshot=await page.evaluate(()=>JSON.parse(localStorage.getItem('mnemosyne.annotations.v1')).source_snapshot);
+  const draftSnapshot=await page.evaluate(()=>JSON.parse(localStorage.getItem('xanto.annotations.v1')).source_snapshot);
   check('Brouillon conserve son état source',draftSnapshot.observations.length===seed.length && draftSnapshot.observations.find(o=>o.id==='obs-paris-hands').note!==note);
   await page.reload({waitUntil:'networkidle'});
   await page.locator('#rightChoice').selectOption('paris');
@@ -128,8 +128,8 @@ try {
   await noStorage.close();
 
   const legacyContext = await browser.newContext({acceptDownloads:true});
-  const incompatibleDraft={version:1,dataset_id:'mnemosyne-xanto-a-v0.1',dataset_hash:'old-version',overrides:{'obs-source-pose':{note:'Ancienne note à préserver.'}},added:[],changes:[]};
-  await legacyContext.addInitScript(draft=>localStorage.setItem('mnemosyne.annotations.v1',JSON.stringify(draft)),incompatibleDraft);
+  const incompatibleDraft={version:1,dataset_id:'xanto-a-v0.1',dataset_hash:'old-version',overrides:{'obs-source-pose':{note:'Ancienne note à préserver.'}},added:[],changes:[]};
+  await legacyContext.addInitScript(draft=>localStorage.setItem('xanto.annotations.v1',JSON.stringify(draft)),incompatibleDraft);
   const legacy=await legacyContext.newPage();
   await legacy.goto(url,{waitUntil:'networkidle'});
   const legacyExport=await downloadExport(legacy);
@@ -142,7 +142,7 @@ try {
 
   const corruptedContext = await browser.newContext({acceptDownloads:true});
   const broken='{"version":1,"overrides":{"obs-source-pose":{"note":"note sauvegardée tronquée';
-  await corruptedContext.addInitScript(raw=>localStorage.setItem('mnemosyne.annotations.v1',raw),broken);
+  await corruptedContext.addInitScript(raw=>localStorage.setItem('xanto.annotations.v1',raw),broken);
   const corrupted=await corruptedContext.newPage();
   await corrupted.goto(url,{waitUntil:'networkidle'});
   await corrupted.locator('.observation-card[data-observation="obs-source-pose"]').click();

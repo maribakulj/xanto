@@ -1,15 +1,15 @@
 (() => {
   'use strict';
-  const data = window.MNEMOSYNE_DATA || {};
+  const data = window.XANTO_DATA || {};
   const corpus = Array.isArray(data.corpus) ? data.corpus : [];
   const original = Array.isArray(data.observations) ? data.observations : [];
   const comparisons = Array.isArray(data.comparisons) ? data.comparisons : [];
   const $ = id => document.getElementById(id);
   const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const labels = {evidence:{image:'Image',catalogue:'Notice',interpretation:'Interprétation'}, certainty:{clear:'Claire',probable:'Probable',indeterminate:'Indéterminée'}, type:{POSE:'Configuration corporelle',ATTRIBUTE:'Attribut',RELATION:'Rapport visible',ACTION:'Action interprétée',INSCRIPTION:'Inscription'}, status:{observed_difference:'Différence observée',catalogue_attribution:'Attribution de catalogue',hypothesis:'Hypothèse',indeterminate:'Indéterminé'}};
-  const storeKey = 'mnemosyne.annotations.v1';
+  const storeKey = 'xanto.annotations.v1';
   let overrides = {}, added = [], changes = [], previousDraft = null, selected = null, evidence = 'all', certainty = 'all';
-  const datasetId=data.meta?.dataset_id||'mnemosyne-xanto-a-v0.1',datasetHash=data.meta?.dataset_hash||null;
+  const datasetId=data.meta?.dataset_id||'xanto-a-v0.1',datasetHash=data.meta?.dataset_hash||null;
   const sides = {left:{id:corpus[0]?.id || '',zoom:1,mirrored:false},right:{id:corpus[1]?.id || corpus[0]?.id || '',zoom:1,mirrored:false}};
   const object = id => corpus.find(item => item.id === id);
   const observations = () => [...original.map(item => ({...item,...overrides[item.id]})),...added];
@@ -147,12 +147,12 @@
     save();$('addDialog').close();selectObservation(id);
   });
   $('exportButton').addEventListener('click',()=>{
-    const payload={schema_version:'1.0',exported_at:new Date().toISOString(),project:'mnemosyne-xanto',dataset_id:datasetId,dataset_hash:datasetHash,source_original:{meta:data.meta||{},corpus,observations:original,comparisons},observations:observations(),comparisons,changes,local_changes:{overrides,added_ids:added.map(item=>item.id)},unapplied_previous_draft:previousDraft,scope_note:'Observations et interprétations de travail ; localisations approximatives, aucune mesure physique ni validation scientifique. Le miroir et le zoom sont des états d’affichage, pas des opérations historiques.'};
-    try{const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json;charset=utf-8'});const url=URL.createObjectURL(blob);const anchor=document.createElement('a');anchor.href=url;anchor.download='mnemosyne-annotations-'+new Date().toISOString().slice(0,10)+'.json';document.body.append(anchor);anchor.click();anchor.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}catch{status('L’export n’a pas pu être créé par ce navigateur. Vos observations restent affichées.',true);}
+    const payload={schema_version:'1.0',exported_at:new Date().toISOString(),project:'xanto',dataset_id:datasetId,dataset_hash:datasetHash,source_original:{meta:data.meta||{},corpus,observations:original,comparisons},observations:observations(),comparisons,changes,local_changes:{overrides,added_ids:added.map(item=>item.id)},unapplied_previous_draft:previousDraft,scope_note:'Observations et interprétations de travail ; localisations approximatives, aucune mesure physique ni validation scientifique. Le miroir et le zoom sont des états d’affichage, pas des opérations historiques.'};
+    try{const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json;charset=utf-8'});const url=URL.createObjectURL(blob);const anchor=document.createElement('a');anchor.href=url;anchor.download='xanto-annotations-'+new Date().toISOString().slice(0,10)+'.json';document.body.append(anchor);anchor.click();anchor.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}catch{status('L’export n’a pas pu être créé par ce navigateur. Vos observations restent affichées.',true);}
   });
   $('exportPreviousDraft').addEventListener('click',()=>{
     if(!previousDraft)return;
-    try{const raw=typeof previousDraft.raw==='string'?previousDraft.raw:JSON.stringify(previousDraft,null,2);const isRaw=typeof previousDraft.raw==='string';const blob=new Blob([raw],{type:isRaw?'text/plain;charset=utf-8':'application/json;charset=utf-8'});const url=URL.createObjectURL(blob);const anchor=document.createElement('a');anchor.href=url;anchor.download='mnemosyne-ancien-brouillon-'+new Date().toISOString().slice(0,10)+(isRaw?'.txt':'.json');document.body.append(anchor);anchor.click();anchor.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}catch{status('L’ancien brouillon reste conservé, mais son téléchargement a échoué dans ce navigateur.',true);}
+    try{const raw=typeof previousDraft.raw==='string'?previousDraft.raw:JSON.stringify(previousDraft,null,2);const isRaw=typeof previousDraft.raw==='string';const blob=new Blob([raw],{type:isRaw?'text/plain;charset=utf-8':'application/json;charset=utf-8'});const url=URL.createObjectURL(blob);const anchor=document.createElement('a');anchor.href=url;anchor.download='xanto-ancien-brouillon-'+new Date().toISOString().slice(0,10)+(isRaw?'.txt':'.json');document.body.append(anchor);anchor.click();anchor.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}catch{status('L’ancien brouillon reste conservé, mais son téléchargement a échoué dans ce navigateur.',true);}
   });
   $('resetButton').addEventListener('click',()=>{if(!window.confirm('Supprimer vos notes, changements de confiance, observations ajoutées et anciens brouillons dans ce navigateur ? Le dossier d’origine sera conservé. Exportez d’abord si vous souhaitez garder une copie.'))return;try{localStorage.removeItem(storeKey);overrides={};added=[];changes=[];previousDraft=null;selected=null;status('Le carnet d’origine a été restauré.');renderList();renderEditor();renderComparisons();}catch{status('La remise à zéro du stockage a échoué. Vos annotations sont conservées.',true);}});
   renderList();renderComparisons();renderProvenance();

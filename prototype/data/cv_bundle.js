@@ -1,5 +1,5 @@
 // Calculated CV results, separate from historical annotations.
-window.MNEMOSYNE_CV = {
+window.XANTO_CV = {
   "inputs": {
     "images": [
       {
