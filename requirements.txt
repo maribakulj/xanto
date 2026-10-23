@@ -1,0 +1,10 @@
+# Versions exactes de l'environnement qui a produit les résultats publiés (Python 3.12.13, macOS, puces Apple).
+# Seuls les paquets importés directement par les scripts du dépôt sont listés ; pip installe leurs dépendances
+# (huggingface_hub, safetensors, tokenizers, etc.). Les scripts de vérification (verifier_*.py) n'ont besoin
+# d'aucun de ces paquets, sauf Pillow pour verifier_donnees.py avec un dossier d'images.
+numpy==2.5.3
+scipy==1.18.1
+Pillow==12.3.0
+torch==2.14.0
+torchvision==0.29.0
+transformers==5.17.0

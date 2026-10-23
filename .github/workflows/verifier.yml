@@ -1,0 +1,17 @@
+name: verifier-resultats
+on:
+  push:
+  pull_request:
+jobs:
+  verifier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      # Aucun modèle, aucune donnée privée, aucun paquet à installer : bibliothèque standard seulement.
+      - name: Chiffres publiés et manifestes
+        run: |
+          python recherche-sources/verifier_resultats.py
+          python recherche-sources/verifier_donnees.py

@@ -1,0 +1,42 @@
+--- a/transformer.py
++++ b/transformer.py
+@@ -88,8 +88,8 @@
+         ## input of transformer should be : seq_len * batch_size * feat_dim 
+         featx = featx.flatten(2).permute(2, 0, 1) 
+         featy = featy.flatten(2).permute(2, 0, 1)
+-        x_mask = x_mask.flatten(2).squeeze(1) if x_mask is not None else torch.cuda.BoolTensor(bx, hx * wx).fill_(False)
+-        y_mask = y_mask.flatten(2).squeeze(1) if y_mask is not None else torch.cuda.BoolTensor(by, hy * wy).fill_(False)
++        x_mask = x_mask.flatten(2).squeeze(1) if x_mask is not None else torch.full((bx, hx * wx), False, dtype=torch.bool, device=featx.device)
++        y_mask = y_mask.flatten(2).squeeze(1) if y_mask is not None else torch.full((by, hy * wy), False, dtype=torch.bool, device=featx.device)
+         
+         ## input of transformer: (seq_len*2) * batch_size * feat_dim
+         len_seq_x, len_seq_y = featx.size()[0], featy.size()[0]
+@@ -97,7 +97,7 @@
+         output = torch.cat([featx, featy], dim=0)
+         src_key_padding_mask = torch.cat((x_mask, y_mask), dim=1)
+         with torch.no_grad() : 
+-            src_mask = torch.cuda.BoolTensor(hx * wx + hy * wy, hx * wx + hy * wy).fill_(True)
++            src_mask = torch.full((hx * wx + hy * wy, hx * wx + hy * wy), True, dtype=torch.bool, device=featx.device)
+             src_mask[:hx * wx, :hx * wx] = False
+             src_mask[hx * wx :, hx * wx:] = False
+             
+@@ -138,8 +138,8 @@
+         ## input of transformer should be : seq_len * batch_size * feat_dim 
+         featx = featx.flatten(2).permute(2, 0, 1) 
+         featy = featy.flatten(2).permute(2, 0, 1)
+-        x_mask = x_mask.flatten(2).squeeze(1) if x_mask is not None else torch.cuda.BoolTensor(bx, hx * wx).fill_(False)
+-        y_mask = y_mask.flatten(2).squeeze(1) if y_mask is not None else torch.cuda.BoolTensor(by, hy * wy).fill_(False)
++        x_mask = x_mask.flatten(2).squeeze(1) if x_mask is not None else torch.full((bx, hx * wx), False, dtype=torch.bool, device=featx.device)
++        y_mask = y_mask.flatten(2).squeeze(1) if y_mask is not None else torch.full((by, hy * wy), False, dtype=torch.bool, device=featx.device)
+         
+         ## input of transformer: (seq_len*2) * batch_size * feat_dim
+         len_seq_x, len_seq_y = featx.size()[0], featy.size()[0]
+@@ -147,7 +147,7 @@
+         output = torch.cat([featx, featy], dim=0)
+         src_key_padding_mask = torch.cat((x_mask, y_mask), dim=1)
+         with torch.no_grad() : 
+-            src_mask = torch.cuda.BoolTensor(hx * wx + hy * wy, hx * wx + hy * wy).fill_(False)
++            src_mask = torch.full((hx * wx + hy * wy, hx * wx + hy * wy), False, dtype=torch.bool, device=featx.device)
+             src_mask[:hx * wx, :hx * wx] = True
+             src_mask[hx * wx :, hx * wx:] = True
+             

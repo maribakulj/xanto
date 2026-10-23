@@ -16,7 +16,7 @@ sys.path.insert(0, str(S)); import transformer  # noqa: E402  (SegSwap, MIT)
 dev = "cuda" if torch.cuda.is_available() else ("mps" if torch.backends.mps.is_available() else "cpu")
 HERE = Path(__file__).resolve().parent
 MOD, SZ_BASE, SZ_REG, PAQUET = "facebook/dinov3-vitl16-pretrain-lvd1689m", 512, 384, 2000
-COS_TOPK, MAX_SIZE, STRIDE = 20, 244, 16
+COS_TOPK, MAX_SIZE, STRIDE = int(os.environ.get("TOPK", 20)), 244, 16  # TOPK : PREINSCRIPTION_ORACLE_DINOV3_TOP100.md
 NORM = T.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]); TO_T = T.Compose([T.ToTensor(), NORM])
 Image.MAX_IMAGE_PIXELS = None
 
@@ -144,7 +144,7 @@ for q in csv.DictReader(open(D / "requetes_boites.csv")):
                  "score_vraie": round(float(sv), 2) if sv != "" else "", "score_premier": round(float(sc[rer[0]]), 2),
                  "score_absente": round(float(max(sc[i] for i in top_abs)), 2)})
     print(rows[-1], flush=True)
-with open(D / f"resultats_regions_{LOT}{'_reclasse_region' if RECLASSE == 'region' else ''}{'_essai' if ESSAI else ''}.csv", "w", newline="") as f:
+with open(D / f"resultats_regions_{LOT}{'_reclasse_region' if RECLASSE == 'region' else ''}{f'_top{COS_TOPK}' if COS_TOPK != 20 else ''}{'_essai' if ESSAI else ''}.csv", "w", newline="") as f:
     w = csv.DictWriter(f, fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
 r = [x["rang_aikon"] for x in rows]
 for k in (1, 10, 50): print(f"rappel@{k} : {sum(x <= k for x in r)}/{len(rows)}")

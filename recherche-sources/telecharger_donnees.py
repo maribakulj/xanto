@@ -2,7 +2,7 @@
 """Reconstitue les données de l'essai à partir des sources publiques (manifeste_images.csv) :
 épreuves des musées (empreinte SHA-256 vérifiée), estampes du Met (API, réduites à 1200 px comme galerie_met.py),
 photographies des plats (site du catalogue de Rovigo, empreinte vérifiée).
-Usage : telecharger_donnees.py <dossier_sortie>"""
+Usage : telecharger_donnees.py <dossier_sortie>   (le dossier de sortie sert ensuite de $XANTO_PRIVE)"""
 import csv, hashlib, io, json, shutil, sys, time, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
@@ -34,6 +34,14 @@ def one(r):
     dst.write_bytes(b); return "ok"
 
 rows = list(csv.DictReader(open(HERE / "manifeste_images.csv")))
+# photographies des plats : manifeste_plats.csv (295 photos, dont les 49 déjà listées ci-dessus)
+vus = {r["chemin"] for r in rows}
+for r in csv.DictReader(open(HERE / "manifeste_plats.csv")):
+    ch = f"corpus-images/rovigo/{r['fichier']}"
+    if ch not in vus:
+        rows.append({"chemin": ch, "source": "url", "url": r["url_image"], "sha256": r["sha256"], "composition": "", "musee": "Rovigo", "url_image": ""})
+# La galerie agrandie (manifeste_estampes.csv, partie « plus », 1 285 images) n'est pas téléchargée ici : galerie_plus.py
+# l'interroge auprès des musées (voir REPRODUIRE.md) ; ses empreintes ne sont qu'indicatives.
 with ThreadPoolExecutor(6) as ex: res = list(ex.map(one, rows))
 for f in ("galerie.csv", "requetes_boites.csv"):
     (OUT / "recherche-sources").mkdir(parents=True, exist_ok=True); shutil.copy(HERE / f, OUT / "recherche-sources" / f)

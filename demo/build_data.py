@@ -7,12 +7,17 @@ Copie aussi, depuis le dossier privé, les images utiles dans demo/assets/ (non 
 """
 import csv
 import json
+import os
 import shutil
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DEMO = ROOT / "demo"
-PRIVATE = Path.home() / "Documents/Codex/2026-10-08-continuation-claude"
+# Dossier privé des photos (facultatif : sans XANTO_PRIVE, la démo est construite sans images, voir REPRODUIRE.md).
+PRIVATE = Path(os.environ.get("XANTO_PRIVE", "/nonexistent-xanto-prive")).expanduser()
+if not os.environ.get("XANTO_PRIVE"):
+    print("XANTO_PRIVE absente : démo construite sans les photos privées.", file=sys.stderr)
 
 
 def read_csv(path):

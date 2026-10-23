@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Annotation Xanto</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="ligne1">
+    <b class="titre">Annotation Xanto</b>
+    <nav id="onglets">
+      <button data-t="paires">1 · Paires connues</button>
+      <button data-t="sources">2 · Sources proposées</button>
+      <button data-t="absences">3 · Absences</button>
+    </nav>
+    <span class="espace"></span>
+    <button id="b-nom" title="Changer d'annotateur"></button>
+    <button id="b-json">Exporter (JSON)</button>
+    <button id="b-csv">Exporter (CSV)</button>
+    <button id="b-imp">Importer…</button>
+    <input type="file" id="f-imp" accept=".json,application/json" hidden>
+    <button id="b-aide" title="Aide et raccourcis">?</button>
+  </div>
+  <div class="ligne2">
+    <label>Afficher <select id="f-etat"><option value="">tout</option><option value="non">non faits</option><option value="fait">faits</option></select></label>
+    <label id="l-lot"><span id="t-lot">Lot</span> <select id="f-lot"></select></label>
+    <label>Plat <input id="f-plat" size="5" placeholder="n°"></label>
+    <label>Aller à <select id="f-aller"></select></label>
+    <span id="progression"></span>
+    <span class="espace"></span>
+    <span id="etat" class="mut"></span>
+  </div>
+</header>
+<main id="vue"></main>
+<div id="bas" class="mut"></div>
+<dialog id="d-nom">
+  <form method="dialog">
+    <h2>Qui annote ?</h2>
+    <p>Votre nom (ou initiales) sera inscrit, avec la date, dans chacune de vos réponses.</p>
+    <input id="i-nom" list="l-noms" autocomplete="off" placeholder="Nom de l'annotateur">
+    <datalist id="l-noms"></datalist>
+    <p><button id="ok-nom" value="ok">Commencer</button></p>
+  </form>
+</dialog>
+<dialog id="d-aide">
+  <h2>Aide</h2>
+  <div id="aide-texte"></div>
+  <p><button id="ok-aide">Fermer</button></p>
+</dialog>
+<noscript>Cette page demande JavaScript.</noscript>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

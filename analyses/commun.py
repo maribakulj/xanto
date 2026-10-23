@@ -10,14 +10,30 @@ Tout est extrait par expressions régulières : chaque ligne est À VÉRIFIER su
 import csv
 import html
 import json
+import os
 import re
+import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
 ICI = Path(__file__).resolve().parent
 DEPOT = ICI.parent
-PRIVE = Path("/Users/marcel/Documents/Codex/2026-10-08-continuation-claude/sources-libres")
+
+
+def dossier_prive():
+    """Dossier privé des fiches : $XANTO_PRIVE/sources-libres (voir REPRODUIRE.md). Erreur claire s'il manque."""
+    v = os.environ.get("XANTO_PRIVE")
+    if not v:
+        sys.exit("Variable d'environnement XANTO_PRIVE absente. Elle doit désigner le dossier privé qui contient "
+                 "sources-libres/Rovigo_Xanto_catalogo_374_schede.json (fiches complètes, non publiées). "
+                 "Exemple : export XANTO_PRIVE=/chemin/vers/dossier_prive. Voir REPRODUIRE.md.")
+    return Path(v).expanduser() / "sources-libres"
+
+
+PRIVE = dossier_prive()
 JSON_FICHES = PRIVE / "Rovigo_Xanto_catalogo_374_schede.json"
+if not JSON_FICHES.exists():
+    sys.exit(f"Fiches introuvables : {JSON_FICHES} (vérifier XANTO_PRIVE, voir REPRODUIRE.md).")
 PIECES = DEPOT / "data" / "pieces.csv"
 
 PERIODES = [("<=1530", 1400, 1530), ("1531-1535", 1531, 1535), ("1536-1542", 1536, 1545)]

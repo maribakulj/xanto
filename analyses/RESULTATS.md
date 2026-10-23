@@ -6,7 +6,7 @@
 - Périodes : ≤ 1530 (101 pièces), 1531-1535 (164), 1536-1542 (101). 8 pièces n'ont pas de période (intervalle à cheval sur deux périodes).
 - Tests statistiques : permutations **entre pièces** quand la variable est une propriété du plat (période) ; bootstrap en grappes ou permutation **entre estampes** quand c'est une propriété de l'estampe (graveur). Le hasard sert de point de comparaison.
 
-Pour relancer les calculs : `python3 analyses/tout.py`. Il faut les sources privées dans `~/Documents/Codex/2026-10-08-continuation-claude/sources-libres/`.
+Pour relancer les calculs : `python3 analyses/tout.py`. Il faut les fiches privées dans `$XANTO_PRIVE/sources-libres/` (voir `REPRODUIRE.md`).
 
 ## Corrections du 10/10/2026 (après la revue critique n° 1)
 

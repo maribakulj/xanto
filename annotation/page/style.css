@@ -1,0 +1,62 @@
+:root{--bg:#faf8f4;--fg:#1f1f1f;--mut:#666;--card:#fff;--line:#d8d4cc;--a:#1a4fa0;--ia:#d97a00;--box:#d11a2a;
+--oui:#2e7d32;--pe:#b26a00;--non:#777;--viewer:#2b2a28}
+@media (prefers-color-scheme:dark){:root{--bg:#1b1a18;--fg:#ecebe8;--mut:#a5a39d;--card:#262522;--line:#47453f;--a:#8ab4ff;--ia:#ffb347;--box:#ff5a6a;--viewer:#0f0f0e}}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.4 system-ui,sans-serif;display:flex;flex-direction:column}
+a{color:var(--a)}
+.mut{color:var(--mut)}
+button,select,input,textarea{font:inherit;color:var(--fg);background:var(--card);border:1px solid var(--line);border-radius:4px;padding:3px 8px}
+button{cursor:pointer}
+button:hover{border-color:var(--a)}
+button.on{background:var(--a);color:#fff;border-color:var(--a)}
+header{padding:6px 10px;border-bottom:1px solid var(--line);background:var(--card)}
+.ligne1,.ligne2{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.ligne2{margin-top:5px;font-size:13px}
+.titre{font-size:16px}
+.espace{flex:1}
+#onglets button{padding:4px 12px}
+#progression{font-weight:600}
+main{flex:1;min-height:0;display:flex;flex-direction:column;padding:6px 10px;gap:6px;overflow:auto}
+#bas{padding:3px 10px;font-size:12px;border-top:1px solid var(--line)}
+.entete{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.entete .id{font-size:17px;font-weight:700}
+.phrase{max-height:4.4em;overflow:auto;background:var(--card);border:1px solid var(--line);border-radius:4px;padding:3px 8px;font-style:italic}
+.duo{flex:1;min-height:280px;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.pane{display:flex;flex-direction:column;min-width:0;min-height:0}
+.pane h3{margin:0 0 3px;font-size:13px;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.pane .viewer{flex:1}
+.viewer{position:relative;overflow:hidden;background:var(--viewer);border:1px solid var(--line);border-radius:4px;touch-action:none;user-select:none;min-height:200px}
+.stage{position:absolute;left:0;top:0;transform-origin:0 0}
+.flip{position:relative}
+.flip img{display:block;pointer-events:none}
+.flip svg{position:absolute;left:0;top:0;overflow:visible}
+.ov rect{vector-effect:non-scaling-stroke;fill:none}
+.ov .main{stroke:var(--box);stroke-width:2.5;fill:rgba(209,26,42,.12)}
+.ov .ia{stroke:var(--ia);stroke-width:2.5;stroke-dasharray:7 5}
+.ov .h{fill:#fff;stroke:var(--box);stroke-width:1.5}
+.tb{position:absolute;right:6px;top:6px;display:flex;gap:4px;z-index:3;flex-wrap:wrap;justify-content:flex-end;max-width:95%}
+.tb button{padding:1px 7px;font-size:12px;opacity:.88}
+.eps{display:flex;gap:4px;flex-wrap:wrap}
+.eps button{padding:1px 8px;font-size:12px}
+.form{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:6px 10px;display:flex;gap:6px 16px;flex-wrap:wrap;align-items:flex-start}
+.form fieldset{border:0;padding:0;margin:0;display:flex;gap:4px;align-items:center;flex-wrap:wrap}
+.form legend{float:left;margin-right:6px;color:var(--mut)}
+.form textarea{width:26em;height:3.2em}
+.form input[type=text]{width:14em}
+.choix button.on[data-v=trouve],.choix button.on[data-v=oui],.choix button.on[data-v=absence]{background:var(--oui);border-color:var(--oui)}
+.choix button.on[data-v=incertain],.choix button.on[data-v=peut-etre]{background:var(--pe);border-color:var(--pe)}
+.choix button.on[data-v=introuvable],.choix button.on[data-v=non],.choix button.on[data-v=ailleurs]{background:var(--non);border-color:var(--non)}
+.strip{display:flex;gap:6px;overflow-x:auto;padding:2px 0}
+.card{flex:0 0 auto;width:112px;border:2px solid var(--line);border-radius:5px;background:var(--card);cursor:pointer;padding:2px;font-size:11px;text-align:center}
+.card img{width:100%;height:84px;object-fit:contain;background:var(--viewer);display:block}
+.card.sel{border-color:var(--a)}
+.card .v{font-weight:700}
+.card .v.oui{color:var(--oui)}.card .v.peut-etre{color:var(--pe)}.card .v.non{color:var(--non)}
+.sig{font-size:12px;color:var(--mut)}
+dialog{border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);max-width:640px}
+dialog::backdrop{background:rgba(0,0,0,.5)}
+dialog input{width:100%;padding:6px}
+#aide-texte{font-size:13px}
+#aide-texte kbd{border:1px solid var(--line);border-radius:3px;padding:0 4px;background:var(--bg)}
+@media (max-width:900px){.duo{grid-template-columns:1fr}.form textarea{width:100%}}
