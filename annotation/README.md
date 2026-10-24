@@ -26,6 +26,20 @@ flèches gauche/droite pour naviguer, touches 1 2 3 pour répondre (le bouton «
 Dans l'onglet 1 la proposition de l'IA est masquée par défaut (annotation indépendante) ; la rendre visible est signalé dans la réponse.
 La sauvegarde est automatique dans le navigateur, mais elle dépend de ce navigateur et de cet ordinateur : **exporter régulièrement**.
 
+## Mode assistant (facultatif)
+
+```
+~/caypollard/.venv/bin/python annotation/assistant.py <dossier_du_paquet>
+```
+
+puis ouvrir http://127.0.0.1:8765/ . Un panneau « Assistant » apparaît dans les onglets 1 et 2 :
+- **Où est la figure ?** : carte des zones de l'estampe qui ressemblent le plus à la figure tracée sur le plat (DINOv3-B, calcul local), avec un rectangle proposé ;
+- **Encadrer d'un clic** : cliquer sur une figure, un rectangle est proposé (SlimSAM, calcul local) ;
+- **Demander à Claude** : envoie les deux découpes et la phrase de la fiche à Claude par la commande `claude -p` (compte déjà connecté dans le terminal, aucune clé). Ces images partent chez Anthropic.
+
+Chaque usage est inscrit dans la réponse (champ `aides`, colonne `aides` du CSV), pour pouvoir séparer les annotations faites sans aide.
+Le serveur n'écoute que sur la machine (127.0.0.1) ; la page sans serveur fonctionne comme avant.
+
 ## Renvoyer son travail
 
 Bouton « Exporter (JSON) » : le fichier `annotations_<nom>_<date>.json` contient toutes les réponses (rectangles en pixels

@@ -34,7 +34,7 @@ class Viewer {
     this.img = new Image(); this.img.draggable = false;
     this.svg = document.createElementNS(NS, 'svg'); this.svg.setAttribute('class', 'ov');
     this.flip.append(this.img, this.svg); this.stage.append(this.flip); el.append(this.stage);
-    this.s = 1; this.tx = 0; this.ty = 0; this.mir = false; this.box = null; this.hints = []; this.tool = 'draw'; this.drag = null; this.inf = null;
+    this.s = 1; this.tx = 0; this.ty = 0; this.mir = false; this.box = null; this.hints = []; this.heat = null; this.pick = null; this.tool = 'draw'; this.drag = null; this.inf = null;
     const tb = document.createElement('div'); tb.className = 'tb';
     const mk = (t, title, f) => { const b = document.createElement('button'); b.textContent = t; b.title = title; b.onclick = f; b.onpointerdown = e => e.stopPropagation(); tb.append(b); return b; };
     mk('Miroir', 'Retourner l\'image (touche M). N\'affecte pas les coordonnées enregistrées.', () => this.setMirror(!this.mir));
@@ -58,7 +58,7 @@ class Viewer {
   }
   setTool(t) { this.tool = t; if (this.bTool) { this.bTool.textContent = t === 'draw' ? 'Tracer' : 'Déplacer'; this.bTool.classList.toggle('on', t === 'pan'); } this.el.style.cursor = t === 'draw' && this.opt.editable ? 'crosshair' : 'grab'; }
   setImage(inf, mirror) {
-    this.inf = inf; this.mir = !!mirror; this.box = null;
+    this.inf = inf; this.mir = !!mirror; this.box = null; this.heat = null; this.hints = [];
     this.img.src = inf.src; this.img.width = inf.tw; this.img.height = inf.th;
     for (const e of [this.stage, this.flip]) { e.style.width = inf.tw + 'px'; e.style.height = inf.th + 'px'; }
     this.svg.setAttribute('width', inf.tw); this.svg.setAttribute('height', inf.th); this.svg.setAttribute('viewBox', `0 0 ${inf.tw} ${inf.th}`);
@@ -84,8 +84,11 @@ class Viewer {
   norm(b) { return [Math.min(b[0], b[2]), Math.min(b[1], b[3]), Math.max(b[0], b[2]), Math.max(b[1], b[3])]; }
   emit() { if (this.opt.onbox) this.opt.onbox(this.getBox()); }
   rect(b, cls) { const r = document.createElementNS(NS, 'rect'); r.setAttribute('class', cls); const n = this.norm(b); r.setAttribute('x', n[0]); r.setAttribute('y', n[1]); r.setAttribute('width', n[2] - n[0]); r.setAttribute('height', n[3] - n[1]); this.svg.append(r); return r; }
+  setHeat(url) { this.heat = url; this.draw(); }
+  pickOnce(cb) { this.pick = cb; this.el.style.cursor = 'cell'; }
   draw() {
     this.svg.textContent = '';
+    if (this.heat) { const h = document.createElementNS(NS, 'image'); h.setAttribute('href', this.heat); h.setAttribute('width', this.inf.tw); h.setAttribute('height', this.inf.th); h.setAttribute('preserveAspectRatio', 'none'); h.setAttribute('class', 'heat'); this.svg.append(h); }
     for (const h of this.hints) this.rect(h, 'ia');
     if (!this.box) return;
     const b = this.norm(this.box); this.rect(b, 'main');
@@ -105,6 +108,10 @@ class Viewer {
   down(e) {
     if (!this.inf) return;
     try { this.el.setPointerCapture(e.pointerId); } catch (_) {}
+    if (this.pick && e.button === 0 && !e.shiftKey) {
+      const [x, y] = this.clamp(...this.loc(e)), i = this.inf, cb = this.pick; this.pick = null; this.setTool(this.tool);
+      cb([Math.round(x * i.ow / i.tw), Math.round(y * i.oh / i.th)]); return;
+    }
     const pan = e.button === 1 || e.button === 2 || e.shiftKey || this.tool === 'pan' || !this.opt.editable;
     if (pan) { this.drag = {k: 'pan', sx: e.clientX, sy: e.clientY, tx: this.tx, ty: this.ty}; this.el.style.cursor = 'grabbing'; return; }
     const [x, y] = this.loc(e), h = e.target.dataset && e.target.dataset.h;
@@ -201,6 +208,58 @@ function boutons(vals, cur, attr) {
 }
 function relie(m, attr, f) { m.querySelectorAll(`button[data-${attr}]`).forEach(b => b.onclick = () => f(b.dataset[attr])); }
 
+/* ---------- mode assistant (seulement si la page est servie par annotation/assistant.py) ---------- */
+let AIDE = null;
+async function api(nom, corps) {
+  const r = await fetch('api/' + nom, {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(corps)});
+  const o = await r.json(); if (!r.ok) throw new Error(o.erreur || r.status); return o;
+}
+/* c = {vp, ve, plat, estampe(), boxPlat(), boxEst(), phrase, noter(type, detail)} */
+function panneauAide(m, c) {
+  if (!AIDE) return;
+  const d = document.createElement('div'); d.className = 'aide';
+  d.innerHTML = `<b>Assistant</b> <span class="mut">chaque usage est inscrit dans votre réponse</span>
+   <button data-a="carte" title="Calcul local : où la figure tracée sur le plat apparaît probablement dans l'estampe">Où est la figure ?</button>
+   <button data-a="clic-plat" title="Calcul local : cliquez ensuite sur la figure dans le plat">Encadrer d'un clic (plat)</button>
+   <button data-a="clic-est" title="Calcul local : cliquez ensuite sur la figure dans l'estampe">Encadrer d'un clic (estampe)</button>
+   <input type="text" id="q-claude" placeholder="Question à Claude (facultatif)">
+   <button data-a="claude" title="Envoie les deux découpes et la phrase de la fiche à Claude (Anthropic)">Demander à Claude</button>
+   <div id="aide-sortie" class="mut"></div>`;
+  m.querySelector('.form').before(d);
+  const out = d.querySelector('#aide-sortie'), dire = (t, err) => { out.innerHTML = t; out.classList.toggle('err', !!err); };
+  const occupe = async (t, f) => { d.querySelectorAll('button').forEach(b => b.disabled = true); dire(t + '…'); try { await f(); } catch (e) { dire('Échec : ' + esc(e.message), true); } d.querySelectorAll('button').forEach(b => b.disabled = false); };
+  const proposer = (v, props, quoi) => {
+    if (!props.length) { dire('Aucun objet trouvé à cet endroit.'); return; }
+    let i = 0; const mettre = () => { v.setBox(props[i].box); v.emit(); };
+    mettre();
+    dire(`Rectangle proposé sur ${quoi} (à corriger si besoin). ` + (props.length > 1 ? props.map((p, k) => `<button data-p="${k}">${k === 0 ? 'proposition' : 'autre'} ${k + 1}</button>`).join(' ') : ''));
+    out.querySelectorAll('button[data-p]').forEach(b => b.onclick = () => { i = +b.dataset.p; mettre(); });
+  };
+  const clic = (v, inf, quoi) => { dire(`Cliquez sur la figure dans ${quoi}.`); v.pickOnce(pt => occupe('Découpe en cours', async () => {
+    const o = await api('encadrer', {image: inf, point: pt}); c.noter('encadrer_' + (quoi === 'le plat' ? 'plat' : 'estampe'));
+    proposer(v, o.propositions, quoi); })); };
+  d.querySelector('[data-a=clic-plat]').onclick = () => clic(c.vp, c.plat, 'le plat');
+  d.querySelector('[data-a=clic-est]').onclick = () => { if (c.estampe()) clic(c.ve, c.estampe(), "l'estampe"); };
+  d.querySelector('[data-a=carte]').onclick = () => {
+    const b = c.boxPlat(); if (!b) { dire("Tracez d'abord la figure sur le plat."); return; }
+    occupe('Calcul de la carte (quelques secondes, plus au premier appel)', async () => {
+      const o = await api('carte', {plat: c.plat, estampe: c.estampe(), box_plat: b}); c.noter('carte', o.sens);
+      c.ve.setHeat(o.carte); c.ve.setHints([o.box]);
+      dire(`Zones chaudes = parties de l'estampe qui ressemblent le plus à la figure (meilleur sens : ${esc(o.sens)}). Pointillé : ${esc(o.note)}. <button id="b-prendre">Utiliser ce rectangle</button> <button id="b-sans">Masquer la carte</button>`);
+      $('#b-prendre').onclick = () => { c.ve.setBox(o.box); c.ve.emit(); };
+      $('#b-sans').onclick = () => { c.ve.setHeat(null); c.ve.setHints([]); };
+    });
+  };
+  d.querySelector('[data-a=claude]').onclick = () => occupe('Claude réfléchit (de 20 s à 1 min)', async () => {
+    const question = $('#q-claude').value.trim();
+    const o = await api('claude', {plat: c.plat, estampe: c.estampe(), box_plat: c.boxPlat(), box_estampe: c.boxEst(), phrase: c.phrase || '', question});
+    c.noter('claude', question); dire('<div class="claude">' + esc(o.texte).replace(/\n/g, '<br>') + '</div>');
+  });
+}
+function noterAide(k, base, type, detail) {
+  const r = rec(k) || {}; maj(k, Object.assign({}, base(), {aides: (r.aides || []).concat([{type, detail: detail || '', date: new Date().toISOString()}])}));
+}
+
 /* --- onglet 1 --- */
 function vuePaires(p, m) {
   const k = 'P|' + p.id, r0 = rec(k) || {};
@@ -253,6 +312,8 @@ function vuePaires(p, m) {
   }
   function montrerSig(r) { $('#sig').textContent = r && r.date ? `Enregistré par ${r.annotateur} le ${r.date.slice(0, 16).replace('T', ' ')}` : 'Pas encore de réponse'; }
   montrerSig(r0);
+  panneauAide(m, {vp, ve, plat: p.photo, estampe: () => ep, boxPlat: () => vp.getBox(), boxEst: () => ve.getBox(), phrase: p.phrase,
+    noter: (t, d) => { noterAide(k, () => ({}), t, d); sauver({}); }});
   relie(m, 'st', v => { const r = rec(k) || {}; sauver({statut: r.statut === v ? '' : v}); vue(); });
   relie(m, 'inv', v => { const r = rec(k) || {}; sauver({inverse: r.inverse === v ? '' : v}); vue(); });
   $('#f-type').onchange = e => sauver({type: e.target.value});
@@ -298,6 +359,8 @@ function vueSources(q, m) {
     vue();
   };
   relie(m, 'j', v => window.__jugerCandidat(v));
+  panneauAide(m, {vp, ve, plat: q.photo, estampe: () => c, boxPlat: () => q.box, boxEst: () => ve.getBox(), phrase: '',
+    noter: (t, d) => { noterAide(kc, () => ({}), t, d); sauver({}); }});
   $('#f-com').oninput = e => sauver({commentaire: e.target.value});
   m.querySelectorAll('.card').forEach(el => el.onclick = () => { ui.cand = +el.dataset.i; vue(); });
   const s = $('.card.sel'); if (s) s.scrollIntoView({inline: 'center', block: 'nearest'});
@@ -343,13 +406,13 @@ function exporterJSON() {
   const o = {format: 'xanto-annotation', version: 1, annotateur: store.courant, exporte_le: new Date().toISOString(), reponses: bucket().rep};
   telecharger(`annotations_${nomSur()}_${horodatage()}.json`, JSON.stringify(o, null, 1), 'application/json');
 }
-const COLS = ['tache', 'cle', 'requete', 'plat', 'estampe', 'statut_ou_jugement', 'inverse', 'type', 'parties', 'x0_plat', 'y0_plat', 'x1_plat', 'y1_plat', 'x0_estampe', 'y0_estampe', 'x1_estampe', 'y1_estampe', 'commentaire', 'ia_vue', 'annotateur', 'date'];
+const COLS = ['tache', 'cle', 'requete', 'plat', 'estampe', 'statut_ou_jugement', 'inverse', 'type', 'parties', 'x0_plat', 'y0_plat', 'x1_plat', 'y1_plat', 'x0_estampe', 'y0_estampe', 'x1_estampe', 'y1_estampe', 'commentaire', 'ia_vue', 'aides', 'annotateur', 'date'];
 function exporterCSV() {
   const q = v => { v = v == null ? '' : String(v); return /[",\n;]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; };
   const rows = [COLS.join(',')];
   for (const [k, r] of Object.entries(bucket().rep)) {
     const t = k[0] === 'P' ? 'paires' : k[0] === 'S' ? 'sources' : 'absences', bp = r.box_plat || [], be = r.box_estampe || [];
-    rows.push([t, k, r.requete, r.plat, r.estampe || r.epreuve || '', r.statut || r.jugement || r.verdict || '', r.inverse, r.type, r.parties, bp[0], bp[1], bp[2], bp[3], be[0], be[1], be[2], be[3], r.commentaire, r.ia_vue, r.annotateur, r.date].map(q).join(','));
+    rows.push([t, k, r.requete, r.plat, r.estampe || r.epreuve || '', r.statut || r.jugement || r.verdict || '', r.inverse, r.type, r.parties, bp[0], bp[1], bp[2], bp[3], be[0], be[1], be[2], be[3], r.commentaire, r.ia_vue, (r.aides || []).map(a => a.type).join(' '), r.annotateur, r.date].map(q).join(','));
   }
   telecharger(`annotations_${nomSur()}_${horodatage()}.csv`, '﻿' + rows.join('\n'), 'text/csv');
 }
@@ -387,6 +450,7 @@ $('#aide-texte').innerHTML = `
 <li><kbd>←</kbd> <kbd>→</kbd> : élément précédent / suivant. <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> : réponse (onglet 1 : trouvée / incertaine / introuvable ; onglet 2 : oui / peut-être / non ; onglet 3 : absence / ailleurs / incertain).</li>
 <li><kbd>↑</kbd> <kbd>↓</kbd> : épreuve suivante (onglet 1) ou estampe proposée suivante (onglet 2). <kbd>M</kbd> : miroir.</li>
 <li>Onglet 1 : la case « ne pas voir la proposition de l'IA » est cochée par défaut, pour une annotation indépendante ; la décocher affiche la boîte de l'IA en pointillé orange (et le signale dans la réponse).</li>
+<li>Mode assistant (page ouverte par <code>annotation/assistant.py</code>) : carte « où est la figure », encadrement d'un clic, question à Claude. Chaque usage est inscrit dans la réponse (champ <code>aides</code>).</li>
 <li>Importer un export précédent permet de reprendre le travail ou de rassembler deux annotateurs (chaque annotateur reste distinct).</li>
 </ul>`;
 $('#ok-aide').onclick = () => $('#d-aide').close();
@@ -423,4 +487,5 @@ document.addEventListener('keydown', e => {
 });
 $('#bas').textContent = 'Raccourcis : ← → naviguer · 1 2 3 répondre · ↑ ↓ épreuve / estampe · M miroir · molette zoom · Maj+glisser déplacer · ? aide';
 peindreFiltres(); peindreEntete(); vue(); persist();
+if (location.protocol.startsWith('http')) fetch('api/etat').then(r => r.ok ? r.json() : null).then(o => { if (o) { AIDE = o; vue(); } }).catch(() => {});
 if (!store.courant) demanderNom();

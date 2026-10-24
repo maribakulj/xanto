@@ -60,3 +60,9 @@ dialog input{width:100%;padding:6px}
 #aide-texte{font-size:13px}
 #aide-texte kbd{border:1px solid var(--line);border-radius:3px;padding:0 4px;background:var(--bg)}
 @media (max-width:900px){.duo{grid-template-columns:1fr}.form textarea{width:100%}}
+.ov .heat{opacity:.75;pointer-events:none}
+.aide{background:var(--card);border:1px dashed var(--ia);border-radius:6px;padding:5px 10px;display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.aide input{width:18em}
+#aide-sortie{flex-basis:100%;font-size:13px}
+#aide-sortie.err{color:var(--box)}
+#aide-sortie .claude{color:var(--fg);white-space:normal}
